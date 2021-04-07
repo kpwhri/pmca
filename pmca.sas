@@ -1,23 +1,28 @@
 /*  
 
-    'PEDIATRIC MEDICAL COMPLEXITY ALGORITHM v2.0.sas'
+    'PEDIATRIC MEDICAL COMPLEXITY ALGORITHM v3.1'
 
-    Programmer(s):  Dorothy Lyons, Peter Woodcox
+    Programmer(s):  Wren Haaland, Kathryn Whitlock
+					Center for Child Health, Behavior, and Development
+					Seattle Children's Research Institute
+
+					Dorothy Lyons, Peter Woodcox
                     First Steps Database
                     Research and Data Analysis Division
                     Washington State Department of Social and Health Services
 
-    Date:           May 2015
-					Revision from v1.0
+    Date:           July 2019
+					Revision from v3.0
 
     
      Description:
 
         This program implements the Pediatric Medical Complexity Algorithm to identify children with 
-		complex and non-complex chronic conditions using Medicaid claims data and to distinguish them
-		from children with neither chronic nor chronic complex conditions (healthy children). 
+		complex and non-complex chronic conditions using commercial or public administrative claims data 
+		or other sources of diagnostic coding data (e.g. electronic medical records; hospital discharge data) 
+		and to distinguish them from children with neither chronic nor chronic complex conditions (healthy children). 
 		'Complex' and 'Non-Complex' designations are assigned based on whether a child's
-		condition(s) identified by ICD-9 code(s) can be considered chronic, malignant, or progressive, 
+		condition(s) identified by ICD-9 and ICD-10 code(s) can be considered chronic, malignant, or progressive, 
 		and whether multiple body systems are involved.  
 
 		The AHRQ-funded Center of Excellence on Quality of Care Measures for Children with Complex Needs 
@@ -39,41 +44,45 @@
 
 		1) Person ID unique to a person
 		2) Claim ID unique to a claim
-		3) ICD-9 diagnosis code(s)
+		3) ICD-9 or ICD-10 diagnosis code(s)
 		
 		In the source data for which this program was designed, a single claim may have multiple lines, 
-		and a single record/line contains 25 fields for icd-9 codes. 
-		The program rolls up assignments by claim and sets an array for icd-9 codes, 
+		and a single record/line may contain a single field or multiple fields for diagnosis codes.
+		ICD-9 and ICD-10 codes may be intermixed within a single patient but not within a single encounter. 
+		The program identifies whether an encounter's codes are ICD-9 or ICD-10 format. Then the program 
+		rolls up assignments by claim and sets an array for ICD-9 or ICD-10 codes, 
 		so that it accommodates source files that have a different number of possible diagnosis code fields,
 		or source files that have one row for each diagnosis code.
 
-		Format for ICD-9 codes:
+		Format for ICD-9 or ICD-10 codes:
 
-		This program assumes that incoming icd-9 codes (as the variable called 'icdvar') are in xxx.xx character format 
-        with leading zeros for codes that do not have 3 digits before the decimal. The program then
+		This program assumes that incoming ICD-9 or ICD-10 codes (as the variable called 'icdvar') are in xxx.xx character format 
+        with leading zeros for codes that do not have 3 characters before the decimal. The program then
         strips out the decimals.  If original source data do not have decimals, the stripping command can be
         deleted from the processing.
 
-        The program is designed to process records with 25 diagnosis code fields.
+        The program is designed to process records with a single diagnosis code field or diagnosis code fields.
 		A macro statement has been provided at the start of the code to set the number of fields. 
         To change the number of diagnosis fields processed, change 'icdnum' in the SET VALUES FOR VARIABLES section
 		to the number of fields in a single record of the source data.
 
    The Process:
 
-		1) 'Claims' dataset:  claims are read in and the decimals are stripped from the ICD-9 codes.  
+		1) 'Claims' dataset:  claims are read in and the decimals are stripped from the ICD-9 or ICD-10 codes. 
 			If incoming data do not have decimals, the do-end 'compress' segment can be commented out.
-			ICD-9 codes with or without decimals are thus accommodated.
+			ICD-9 or ICD-10 codes with or without decimals are thus accommodated.
 
-		2)	Claims are sorted by person ID and claim ID.
+		2) 	The program identifies whether the codes provided are from the ICD-9 or ICD-10 codeset.
 
-		3)  'Flagclaims' processing steps through the multiple lines (or single line) of individual claims for a person,
+		3)	Claims are sorted by person ID and claim ID.
+
+		4)  'Flagclaims' processing steps through the multiple lines (or single line) of individual claims for a person,
 			identifying body systems involved, progressive status of a condition, and malignancy.  
 			The final result is a dataset where identifications of body system, progressivity, and malignancy
 			have been rolled up to a single record per claim, with a single indication of
 			any specified occurrence (i.e. once per claim).
 
-		4)  'Results' processing rolls up to one record per child, with  
+		5)  'Results' processing rolls up to one record per child, with  
 				a) a single indication whether each body type is identified as affected, 
 				b) a sum across claims for each body type affected 
 						(i.e. how many claims for this child have this kind of indication?), 
@@ -161,73 +170,146 @@
         Macro statements have been provided to more easily adapt the program to different data sources
         (see directions below).
 
-        Created December 2012, revised May 2015.  Future revisions to the ICD-9 classification system 
-        may result in the need for revisions to this program.
+        Created December 2012; revised May 2015, April 2017, July 2019.  Future revisions to the ICD         
+		classification system may result in the need for revisions to this program.
 
     Inputs:
-        INDATA.CLAIMS           (Source file with claims data)
+        https://urldefense.proofpoint.com/v2/url?u=http-3A__INDATA.CLAIMS&d=DwIGAg&c=V-WiB07a9ZG9AUogGPqIYBXfVnjryhYX1W_SjITv1Oo&r=DO63JWwSXRka-_SAHewWEi2FkRVY93crJvk17Z5zD6I&m=tdnOJySfVz4belnqhgfCq2lKCIy-Y1HLS8zYic7CvIw&s=kFdqU3Qn0kty7WctkWGpsdTA0B0B5HOeDAH65iumNaI&e=            (Source file with claims data)
 
     Outputs:
-        OPUT.RESULTS_PMCA_v2_0    (Output file with 1 record per person and condition classifications)
+        OPUT.RESULTS_PMCA_v3_1    (Output file with 1 record per person and condition classifications)
        
     DIRECTIONS:
     1) SET INCOMING DATA LOCATION
-    2) SET NUMBER OF ICD-9 CODE FIELDS (i.e. 9 for dx1-dx9)
+    2) SET NUMBER OF DIAGNOSIS CODE FIELDS (i.e. 9 for dx1-dx9)
     3) SET NAME OF INCOMING CLAIMS SOURCE DATASET
     4) SET NAME OF UNIQUE PERSON ID
-    5) SET NAME OF VARIABLES CONTAINING ICD-9 CODES
+    5) SET NAME OF VARIABLES CONTAINING DIAGNOSIS CODES
     6) SET NAME OF UNIQUE CLAIM CODE
     7) SET OUTPUT LOCATION
-
-
-Modified 11/16 by Scott Ashwood to run on MAX data
-
+        
  */
 
 *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SET VALUES FOR VARIABLES ETC
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
 
-%macro doit;
+libname indata "path to location of data";  	   * !!!  <---- 1) SET LOCATION OF CLAIMS DATA TO BE USED;
 
-libname indata "path to location of data";  					* !!!  <---- 1) SET LOCATION OF CLAIMS DATA TO BE USED;
-
-%let icdnum=9;                                     * !!!  <---- 2) SET NUMBER OF ICD9 FIELDS IN YOUR DATA;
-%let sdata=pmca_claims_;                              * !!!  <---- 3) SET NAME OF SOURCE DATASET;
-%let sid=MSIS_ID;                                      * !!!  <---- 4) SET NAME OF SOURCE UNIQUE PERSON ID;
-%let icdvar=DIAG_CD_;                                    	* !!!  <---- 5) SET NAME OF VARIABLES CONTAINING ICD-9 CODES
+%let icdnum=1;                                     * !!!  <---- 2) SET NUMBER OF ICD9 FIELDS IN YOUR DATA;
+%let sdata=pmca_diagnosis_data;                    * !!!  <---- 3) SET NAME OF SOURCE DATASET;
+%let sid=mrn;                                      * !!!  <---- 4) SET NAME OF SOURCE UNIQUE PERSON ID;
+%let icdvar=Dx;                                    * !!!  <---- 5) SET NAME OF VARIABLES CONTAINING DIAGNOSIS CODES
                                                                         Assumes that multiple fields have the same root 
                                                                         name plus numbers 1-?  i.e. dx1 to dx25); 
 
-%let claimid=claim_id;                                   * !!!  <---- 6) SET NAME OF UNIQUE CLAIM CODE;
-libname oput "path to location of data";						* !!! <---- 7) SET OUTPUT LOCATION FOR FINAL PROCESSED DATA; 
+%let claimid=claim_id;                             * !!!  <---- 6) SET NAME OF UNIQUE CLAIM CODE;
+
+libname oput "path to location of data";		   * !!!  <---- 7) SET OUTPUT LOCATION FOR FINAL PROCESSED DATA; 
+
 
 *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PROCESS DATA
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
 
-*Read in the claims data.  Keep client ID, date of service, and diagnosis codes, and strip out the ICD-9 decimal.
-If incoming ICD-9 data do not have decimals, the processing within this data step can be commented out;
+*Read in the claims data.  Keep client ID, date of service, and diagnosis codes, and strip out the diagnosis code decimal.
+If incoming diagnosis data do not have decimals, the processing within this data step can be commented out;
 
-%do yr = 2005 %to 2007; 
-
-/* no need for following code since .'s already removed from dx codes in MAX data
-data claims(keep=&sid STATE_CD &claimid &icdvar.1-&icdvar.&icdnum); 
-    set indata.&&sdata.&yr; 
+data claims(keep=&sid &claimid &icdvar.1-&icdvar.&icdnum); 
+    set indata.&sdata; 
     array   &icdvar(&icdnum) &icdvar.1-&icdvar.&icdnum;
     do i = 1 to &icdnum;
         &icdvar{i} = compress(&icdvar{i},".");
     end;
     run;
-*/
+
+/*	Determine whether codes are from ICD-9 codeset or ICD-10 codeset	*/
+
+data icdcoded;
+	set claims;
+
+	array   &icdvar(&icdnum) &icdvar.1-&icdvar.&icdnum;
+	array   firstchar(&icdnum) $ firstchar1-firstchar&icdnum;
+	array   icd(&icdnum) icd1-icd&icdnum;
+	array   icdold(&icdnum) icdold1-icdold&icdnum;
+	array 	ecode(&icdnum) ecode1-ecode&icdnum;
+	array	vcode(&icdnum) vcode1-vcode&icdnum;
+
+	do i = 1 to &icdnum;
+	firstchar{i} = SUBSTR(&icdvar{i}, 1, 1);
+	if firstchar{i} in: ('A' 'B' 'C' 'D' 'F' 'G' 'H' 'I' 'J' 'K' 'L' 'M' 'N'
+									 'O' 'P' 'Q' 'R' 'S' 'T' 'U' 'W' 'X' 'Y' 'Z')
+	then do; icdold{i}=0; icd{i}=1; end;
+	else if firstchar{i} in: ('0' '1' '2' '3' '4' '5' '6' '7' '8' '9')
+	then do; icdold{i}=1; icd{i}=0; end;
+
+	if firstchar{i} in: ('E')							
+	then ecode{i}=1; 										 
+    else ecode{i}=0;
+ 	if firstchar{i} in: ('V')
+	then vcode{i}=1; 										 
+    else vcode{i}=0;
+
+	end;
+
+	if &icdnum=1 then do;									 
+	  countw=icd1;
+	  count09=icdold1;
+	  totalwide=1;
+	  ecodewide=ecode1;										 
+	  vcodewide=vcode1;										 
+    end;
+
+    else if &icdnum>1 then do;
+	  countw=0;
+	  count09=0;
+	  totalwide=0;
+	  ecodewide=0;											 	
+	  vcodewide=0;											 
+	  do i = 1 to &icdnum;
+		if icd{i}=1 then countw=countw+1;
+		if icdold{i}=1 then count09=count09+1;
+		if not missing(firstchar{i}) then totalwide=totalwide+1;
+		if ecode{i}=1 then ecodewide=ecodewide+1;			 	
+		if vcode{i}=1 then vcodewide=vcodewide+1;			 
+	  end;
+	end;
+
+run;
+
+proc sort data=icdcoded; by &sid &claimid; run;
+proc means data=icdcoded noprint;
+  by &sid &claimid;
+  var count09 countw totalwide ecodewide vcodewide;
+  output out=counts sum=countw09 countw1 totalwl ecodewl vcodewl; 
+run;
+data counts2; set counts; keep &sid &claimid totalwl countw09 countw1 ecodewl vcodewl; run;
+
+proc sort data=claims; by &sid &claimid; run;
+proc sort data=counts2; by &sid &claimid; run;
+data icdcoded2; 
+	merge claims counts2; 
+	by &sid &claimid; 
+
+	if countw1>0 then icd10codeset=1;									*if at least one ICD-10 code then mark entire claim;
+	else if countw09>=1 then icd10codeset=0;							*if at least one ICD-9 code then mark entire claim;
+	else do;
+	  if ecodewl>=1 then icd10codeset=1;										*if E-code only;
+	  if vcodewl>=1 then icd10codeset=0;										*if V-code only;
+	end;
+
+	if missing(&sid) then delete;
+run;
+
 
 /*  Sort records by client id and claim id in order to roll up designations by claim.   */
 
-proc sort data=indata.&&sdata.&yr out=claims2; by &sid STATE_CD &claimid; run;
+proc sort data=icdcoded2 out=claims2; by &sid &claimid; run;
+
 
 /*  Assign values to the appropriate flags based on conditions found and roll up by claim. */
 
-data flagclaims&yr (keep=&sid STATE_CD &claimid 
+data flagclaims(keep=&sid &claimid 
               cardiac cranio derm endo gastro genito hemato immuno malign mh metab musculo neuro genetic opthal 
               otol otolar pulresp renal progressive);
     set claims2;
@@ -236,7 +318,7 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
     retain cardiac cranio derm endo gastro genetic genito hemato immuno  malign mh 
            metab musculo neuro opthal otol otolar pulresp renal progressive;    
 
-* preset all the flags to 0 for rollup to one record with designations per claim;
+	* preset all the flags to 0 for rollup to one record with designations per claim;
 
     if first.&claimid then 
         do;
@@ -247,7 +329,9 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
         end;
 
     array   &icdvar(&icdnum) &icdvar.1-&icdvar.&icdnum;
-        
+     
+	if icd10codeset=0 then 
+
     do i = 1 to &icdnum;
         if &icdvar{i} in: ('010' '011' '012' '013' '014' '015' '016' '017' '018') then pulresp=1; 
 
@@ -307,7 +391,9 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
 
         if &icdvar{i} =:'2810'   then hemato=1;  
 
-        if (&icdvar{i} =:'282' and &icdvar{i} ^=:'2825') then do; hemato=1; if &icdvar{i} in: ('2824' '2826') then progressive=1;   end;
+        if (&icdvar{i} =:'282' and &icdvar{i} ^=:'2825') then hemato=1; 
+
+		if &icdvar{i} in: ('2824' '2826') then do; hemato=1; progressive=1;   end;
 
         if &icdvar{i} =:'283'    then hemato=1;  
 
@@ -479,17 +565,11 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
 
         if &icdvar{i} in:('447') then cardiac=1; 
 
-        if &icdvar{i} =:'452' then do; cardiac=1; progressive=1; end;
+        if &icdvar{i} in:('452' '4530') then do; cardiac=1; progressive=1; end;
 
-        if &icdvar{i} in:('4530' '45350' '45351' '45352'
-						  '45371' '45372' '45373' '45374' '45375' '45376' '45377' '45379'
-						  '4570' '4571' '4572')  then cardiac=1; 
-
-        if &icdvar{i} in:('4760' '4761')    then pulresp=1; 
-
-        if &icdvar{i} =:'491'    then pulresp=1; 
-
-        if &icdvar{i} =:'492'    then do;  pulresp=1; progressive=1; end;
+        if &icdvar{i} in:('45350' '45351' '45352'
+				  '45371' '45372' '45373' '45374' '45375' '45376' '45377' '45379'
+				  '4570' '4571' '4572')  then cardiac=1; 
 
         if &icdvar{i} =:'493'    then pulresp=1;   
 
@@ -498,8 +578,6 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
         if &icdvar{i} =:'495'    then pulresp=1;  
 
         if &icdvar{i} =:'496'    then do;  pulresp=1; progressive=1; end;
-
-        if &icdvar{i} in:('501' '502' '503' '504' '505')     then pulresp=1;  
 
         if &icdvar{i} in:('515' '516') then do;  pulresp=1; progressive=1; end;
 
@@ -513,22 +591,19 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
 
         if &icdvar{i} in: ('531' '532' '533' '534' '5362' '5363')  then gastro=1; 
 
-        if &icdvar{i} in:('555' '556' '562' '5651'
-                     '5690' '5691' '5692' '56944' 
-                     '56981' '56984' '56986' '56987')     then gastro=1;  
+        if &icdvar{i} in:('555' '556' '5651'
+                     '5690' '5691' '5692' '56944' '56981' )   then gastro=1;  
 
-        if &icdvar{i} =:'571'   then do; gastro=1; progressive=1; end;
+        if &icdvar{i} in:('5714' '5715' '5716' '5718' '5719')   then do; gastro=1; progressive=1; end;
 
         if &icdvar{i} in:('5723' '5724' '5730')  then do; gastro=1; progressive=1; end;
 
         if &icdvar{i} in:('5732' '5734' '5738' '5739'
                      '57511' '5755' '5756' '5758'
                      '5760' '5761' '5764' '5765' '5768'
-                     '5772' '5778'
+                     '5771' '5772' '5778'
                      '5790' '5791' '5792' '5794')  then gastro=1;
-                             
-        if &icdvar{i} =:'5771' then do; gastro=1;progressive=1; end;
-
+                            
         if &icdvar{i} =:'581'    then renal=1;  
 
         if &icdvar{i} in:('582' '583' '585' '586')    then do; renal=1; progressive=1; end;
@@ -540,8 +615,8 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
 		if &icdvar{i} =:'591'    				then genito=1;  
 
         if &icdvar{i} in:('59371' '59372' '59373' '59382'
-                     '5960'  '5961'  '5962'  '5963'  '5964' 
-                     '59651' '59652' '59653' '59654' '59655'
+                     '5960'  '5961'  '5962'   '5964' 
+                     '59652' '59653' '59654' '59655'
                      '598'
                      '5991' '5992' '5993' '5994' '5995' 
                      '59981' '59982' '59983') 	then renal=1;
@@ -559,7 +634,7 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
 
         if &icdvar{i} =:'6954'   then do; immuno=1; progressive=1; end;
 
-        if &icdvar{i} in:('7010' '7018' '702' '7050' '707')  then derm=1; 
+        if &icdvar{i} in:('7010' '7018' '7050' '707')  then derm=1; 
 
         if &icdvar{i} =:'710'    then 
                                 do; 
@@ -591,7 +666,7 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
 						  '73681') then musculo=1;  
 
         if &icdvar{i} in:('7370' '7371' '7373' '7378' '7379'
-                     '7384' '7385' '7386' '7387' )  then musculo=1;  
+                     '7384' '7385' '7386' )  then musculo=1;  
 
         if &icdvar{i} in:('7400' '7401' '7402' '741')  then do; neuro=1; progressive=1; end;
 
@@ -647,10 +722,12 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
                             '7547'
                             '7552' '7553' '7554' '75553' '75554' '75558') then musculo=1; 
 
-        if &icdvar{i} in:('7560' '7561' '7562' '7563' '7564' '7565' '75683' '75689' '7569') then musculo=1;
+        if &icdvar{i} in:('7560' '7561' '7563' '7564' '7565' '75683' '75689' '7569') then musculo=1;
         if &icdvar{i} in:('7566' '7567') then do; musculo=1; progressive=1; end;
 
-        if &icdvar{i} in:('7570' '7571' '75731') then derm=1; 
+        if &icdvar{i} =:'7570' then derm=1; 
+
+        if  &icdvar{i} in:('7571' '75731') then do; derm=1; progressive=1;  end;
 
         if &icdvar{i} in:('7580' '7581' '7582' '7583' '7585' '7586' '7587' '7588' '7589') then 
 								do;
@@ -669,7 +746,7 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
         if &icdvar{i} in:('78001' '78003')   then do;  neuro=1; progressive=1; end;
         if &icdvar{i} in:('78051' '78053' '78057')   then neuro=1;
 
-		if &icdvar{i} in:('78830' '78833' '78834' '78837' '78838' '78839')   then genito=1;
+		if &icdvar{i} in:('78833' '78834' '78837' '78838' '78839')   then genito=1;
 
         if &icdvar{i} in:('887' '896' '897')   	then musculo=1; 
 
@@ -677,7 +754,7 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
 
         if &icdvar{i} =:'952'    then do;  neuro   =1; progressive=1; end;
 
-        if &icdvar{i} =:'V08'    then do;  immuno  =1; progressive=1; end;
+        if &icdvar{i} =:'V08'    then immuno  =1;
 
         if &icdvar{i} =:'V151'   then cardiac=1;  
 
@@ -707,8 +784,473 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
 
 		if &icdvar{i} in:('V5781' 'V5789') 	then musculo=1;   
 
+	end;
+	
 
-    end;
+	else if icd10codeset=1 then 
+
+	do i = 1 to &icdnum;
+        if &icdvar{i} =:'A15'    then pulresp=1; 
+
+        if &icdvar{i} in: ('A171' 'A1781' 'A1783')  then neuro=1;
+
+        if &icdvar{i} in: ('A170' 'A1782' 'A1789' 'A179')  then do; neuro=1; progressive=1; end;
+
+        if &icdvar{i} =:'A180'   then musculo=1;  
+
+        if &icdvar{i} =:'A181'   then genito=1; 
+
+	if &icdvar{i} in:('A182' 'A1885')   then immuno=1;
+        
+	if &icdvar{i} =:'A183'   then gastro=1;       
+	
+	if &icdvar{i} =:'A184'   then derm=1;       
+
+	if &icdvar{i} =:'A185'   then opthal=1;
+
+	if &icdvar{i} =:'A186'   then otol=1;
+
+	if &icdvar{i} in: ('A187' 'A1881' 'A1882')  then endo=1;
+
+	if &icdvar{i} in: ('A1889' 'A19')   then pulresp=1;
+
+	if &icdvar{i} =:'A30'   then neuro=1;
+
+	if &icdvar{i} in: ('A50' 'A521' 'A522' 'A523' 'A527' 'A528' 
+			'A529' 'A53' 'A81' 'B100' 'B900' 'B91' ) 
+			then do; neuro=1; progressive=1; end;
+
+	if &icdvar{i} =:'B20'	 then do; immuno=1; progressive=1; end;
+
+	if &icdvar{i} =:'B901'   then genito=1;
+
+	if &icdvar{i} =:'B902'   then musculo=1;
+
+	if &icdvar{i} in:('B908' 'B909')   then pulresp=1;
+
+	if &icdvar{i} =:'B9735'   then do; immuno=1; progressive=1; end;
+ 
+	if &icdvar{i} in: ('C0' 'C1' 'C2' 'C3' 'C40' 'C41' 
+			'C43' 'C4A' 'C44' 'C46' 'C47' 'C48' 
+			'C49' 'C5' 'C6' 'C7' 'C8' 'C90' 
+			'C910' 'C911' 'C913' 'C914' 'C916'
+			'C919' 'C91Z' 'C92' 'C93' 'C940' 
+			'C942' 'C943' 'C948' 'C95' 'C96'
+			'D03' 'D45' 'D474' 'D47Z1')   then malign=1;
+        
+        if &icdvar{i} in: ('D510' 'D511' 'D55' 'D565' 'D568' 
+			'D569' 'D58' 'D591' 'D594' 'D599' 'D600' 
+			'D608' 'D609' 'D63' 'D640' 'D641' 'D642' 'D643'
+			'D6489' 'D680' 'D681' 'D682' 'D68312'
+			'D68318' 'D685' 'D6861' 'D6862' 'D688'
+			'D689' 'D691' 'D693' 'D6941' 'D6949' 'D7589' ) then hemato=1; 
+
+        if &icdvar{i} in: ('D560' 'D561' 'D570' 'D571' 'D572' 
+			'D574' 'D578' 'D610' 'D61818' 'D6182' 
+			'D6189' 'D619' 'D644' 'D66' 'D67'
+			'D68311' 'D6942' 'D7581') then do; hemato=1; progressive=1; end;
+
+        if &icdvar{i} in: ('D704' 'D720' 'D763' 'D802' 'D803'
+			'D804' 'D805' 'D808' 'D838' 'D839'
+			'D841' 'D849' 'D86' 'D890' 'D891'
+			'D892' 'D8989' 'D899') then immuno=1; 
+
+        if &icdvar{i} in: ('D700' 'D71' 'D761' 'D800' 'D801'
+			'D810' 'D811' 'D812' 'D814' 'D8189' 'D819'
+			'D831' 'D89811' 'D89813') then do; immuno=1; progressive=1; end;
+
+        if &icdvar{i} in: ('D820' 'D8982')   then genetic=1;  
+
+        if &icdvar(i) =:'D821' then do; genetic=1; progressive=1; end;
+
+        if &icdvar{i} in: ('E018' 'E030' 'E031' 'E032' 'E034' 
+			'E038' 'E039' 'E04' 'E062' 'E063' 'E064' 'E065'
+			'E069' 'E070' 'E071' 'E0789' 'E079' 'E08'
+			'E09' 'E10' 'E11' 'E13' 'E209' 'E21' 
+			'E220' 'E228' 'E229' 'E232' 'E236' 'E243'
+			'E248' 'E249' 'E25' 'E260' 'E261' 'E2681'
+			'E269' 'E270' 'E271' 'E274' 'E275' 'E278'
+			'E279' 'E28' 'E29' 'E310' 'E318' 'E319' 
+			'E45')   then endo=1;  
+
+        if &icdvar(i) in: ('E00' 'E230') then do; endo=1; progressive=1; end;
+
+        if &icdvar{i} =: 'E312'   then malign=1;       
+
+	if &icdvar{i} in: ('E40' 'E43' 'E440' 'E50' 'E52' 'E53' 'E54'
+			'E550' 'E643' 'E6601' 'E800' 'E8020'
+			'E8029' 'E805' 'E880' 'E888')   then metab=1;  
+
+        if &icdvar{i} =: 'E45'   then neuro=1;       
+	
+        if &icdvar(i) in: ('E700' 'E7021' 'E7029' 'E7040' 'E705'
+			'E708' 'E710' 'E71120' 'E7119' 'E712'
+			'E7131' 'E7141' 'E7142' 'E7144' 'E7150'
+			'E71510' 'E71511' 'E71522' 'E71529' 
+			'E71548' 'E7200' 'E7203' 'E7204' 'E7209'
+			'E7210' 'E7211' 'E7219' 'E7220' 'E7222'
+			'E7223' 'E7229' 'E723' 'E728' 'E729' 'E7400'
+			'E7401' 'E7404' 'E7409' 'E7421' 'E7439'
+			'E744' 'E748' 'E749' 'E7502' 'E7519' 'E7521'
+			'E7522' 'E7523' 'E75249' 'E7525' 'E7529'
+			'E754' 'E7601' 'E7603' 'E761' 'E76219'
+			'E7622' 'E7629' 'E763' 'E770' 'E771'
+			'E786' 'E7870' 'E7871' 'E7872' 'E788' 'E789'
+			'E791' 'E798' 'E83' 'E85' 'E881' 'E884') then do; metab=1; progressive=1; end;
+
+        if &icdvar{i} in: ('E84') then do; pulresp=1; progressive=1; end;
+
+        if &icdvar{i} in: ('E890' 'E894' 'E895')   then endo=1;  
+
+        if &icdvar{i} in: ('F04' 'F070' 'F1020' 'F1021' 'F1096'
+			'F1120' 'F1121' 'F1320' 'F1321' 'F1420'
+			'F1421' 'F1520' 'F1521' 'F1620' 'F1621'
+			'F1820' 'F1821' 'F1920' 'F1921' 'F21' 
+			'F22' 'F24' 'F31' 'F32' 
+			'F33' 'F340' 'F341' 'F39' 'F429'
+			'F444' 'F445' 'F446' 'F447' 'F448' 
+			'F449' 'F450' 'F4521' 'F4522' 'F60'
+			'F63' 'F6812'
+			'F840' 'F843' 'F845' 'F848' 'F849'
+			'F88' 'F89' 'F90' 'F911' 'F912'
+			'F913' 'F918' 'F919' 'F951' 'F952'
+			'F981' 'F984' )   then mh=1;  
+
+ 	if &icdvar{i} in: ('F200' 'F201' 'F202' 'F203' 'F205' 'F208' 'F25'
+			'F50' ) then do; mh=1; progressive=1; end;
+
+        if &icdvar{i} in: ('F7' 'F801' 'F802' 'F804' 'F81' 'F82' 
+			'G110' 'G255' 'G371' 'G372' 'G400'
+			'G401' 'G402' 'G403' 'G404' 'G405'
+			'G4080' 'G4082' 'G409' 'G40A' 'G40B'
+			'G474' 'G50' 'G510' 'G511' 'G512'
+			'G518' 'G519' 'G52' 'G54' 'G56' 'G57'
+			'G587' 'G588' 'G589' 'G600' 'G603'
+			'G608' 'G609' 'G6181' 'G6189' 'G619'
+			'G620' 'G621' 'G622' 'G63' 'G7000'
+			'G701' 'G702' 'G7080' 'G7089' 'G709'
+			'G7114' 'G7119' 'G712' 'G722' 'G723'
+			'G7289' 'G729' 'G733' 'G737' 'G801'
+			'G802' 'G803' 'G804' 'G81' 'G822' 
+			'G825' 'G830' 'G831' 'G832' 'G833'
+			'G834' 'G835' 'G8381' 'G8389' 'G839'
+			'G900' 'G904' 'G905' 'G908' 'G909'
+			'G910' 'G911' 'G932' 'G9389' 'G939'
+			'G969' 'G990' )   then neuro=1; 
+
+        if &icdvar{i} in: ('F842' 'G09' 'G10' 'G111' 'G113'
+			'G114' 'G118' 'G119' 'G12' 
+			'G14' 'G23' 'G241' 'G253' 'G2582'
+			'G3181' 'G3182' 'G319' 'G320'
+			'G3281' 'G35' 'G360' 'G370' 'G375'
+			'G378' 'G379' 'G4081' 'G601' 'G710'
+			'G7111' 'G7112' 'G7113' 'G800' 'G808'
+			'G809' 'G901' 'G931' 'G950' 'G9519'
+			'G9589' 'G959' 'G992'  ) then do; neuro=1; progressive=1; end;
+
+        if &icdvar{i} in: ('G4730' 'G4731' 'G4733' 'G4734' 'G4736'
+			'G4737' 'G4739' )   then pulresp=1; 
+
+        if &icdvar{i} in: ('G4735' ) then do; pulresp=1; progressive=1; end;
+
+        if &icdvar{i} in: ('H150' 'H158' 'H201' 'H202'
+			'H208' 'H209' 'H212' 'H2150' 'H2151'
+			'H2152' 'H2154' 'H2155' 'H2156'
+			'H218' 'H270' 'H2711' 'H2712' 'H2713'
+			'H278' 'H300' 'H301' 'H302' 'H3081'
+			'H309' 'H310' 'H3110' 'H3112' 'H312'
+			'H313' 'H314' 'H318' 'H319' 'H330' 
+			'H3310' 'H3319' 'H332' 'H333' 'H334'
+			'H338' 'H34' 'H350' 'H3515' 'H3516' 'H3517'
+			'H352' 'H3530' 'H3533' 'H3534' 'H3535' 'H3536'
+			'H3537' 'H3538' 'H3540' 'H3541' 'H3542'
+			'H3543' 'H3545' 'H3546' 'H355' 'H357'
+			'H3589' 'H36' 'H401' 'H402' 'H403'
+			'H404' 'H405' 'H406' 'H408' 'H409' 'H42'
+			'H430' 'H432' 'H433' 'H4381' 'H4389'
+			'H4430' 'H4440' 'H4450' 'H46' 'H4701'
+			'H4703' 'H4709' 'H4714' 'H472' 'H4731'
+			'H4732' 'H4739' 'H474' 'H475' 'H476'
+			'H479' 'H490' 'H491' 'H492' 'H493'
+			'H494' )   then opthal=1; 
+
+	if &icdvar{i} in: ('H4981' ) then do; metab=1; progressive=1; end;
+
+        if &icdvar{i} in: ('H4988' 'H5000' 'H5005' 'H5006'
+			'H5007' 'H5008' 'H5010' 'H5015' 'H5016'
+			'H5017' 'H5018' 'H5030' 'H5032' 'H5034'
+			'H5040' 'H5042' 'H5043' 'H505' 'H5060' 
+			'H5069' 'H5089' 'H51' 'H540' 'H541' 
+			'H542' 'H543' 'H548' 'H550' 'H57')   then opthal=1; 
+
+
+        if &icdvar{i} in: ('H71' 'H74' 'H80' 'H81' 'H83'
+			'H903' 'H905' 'H906' 'H908'
+			'H913' 'H918X3' 'H918X9' 'H9190'
+			'H9193' 'H93093' 'H93099' 'H9313' 
+			'H9319' 'H9325' 'H933X3' 'H933X9')   then otol=1; 
+
+        if &icdvar{i} in: ('I00' 'I05' 'I06' 'I07'
+			'I080' 'I088' 'I089' 'I09'
+			'I10' 'I119' 'I340' 'I348' 'I35'
+			'I370' 'I378' 'I44' 'I4510' 'I4519' 'I452'
+			'I453' 'I454' 'I455' 'I456' 'I458'
+			'I459' 'I471' 'I472' 'I48' 'I4901'
+			'I517' 'I720' 'I721' 'I722' 'I723'
+			'I724' 'I728' 'I729' 'I7300' 'I7301'
+			'I7381' 'I7389' 'I739' 'I770' 'I771'
+			'I773' 'I774' 'I775' 'I776' 'I778' 
+			'I779' 'I798' 'I822' 'I825' 
+			'I82709' 'I82719' 'I82729' 'I82891'
+			'I82A29' 'I82B29' 'I82C29' 'I890')   then cardiac=1; 
+
+        if &icdvar{i} in: ('I110' 'I200' 'I21' 'I24' 
+			'I2510' 'I252' 'I253' 'I254' 'I255'
+			'I258' 'I259' 'I270' 'I271' 'I272'
+			'I278' 'I279' 'I280' 'I281' 'I288' 'I289'
+			'I421' 'I422' 'I423' 'I424'
+			'I425' 'I426' 'I428' 'I43' 'I4902'
+			'I50' 'I515' 'I712' 'I714' 'I716'
+			'I719' 'I81' 'I820') then do; cardiac=1; progressive=1; end;
+
+
+        if &icdvar{i} in: ('I150' 'I158' )   then renal=1; 
+
+        if &icdvar{i} in: ('I12' 'I13' ) then do; renal=1; progressive=1; end;
+
+
+        if &icdvar{i} in: ('I69898' 'I699')   then neuro=1; 
+
+        if &icdvar{i} in: ('I630' 'I631' 'I632' 'I65' 'I671'
+			'I674' 'I675' 'I676' 'I677' ) then do; neuro=1; progressive=1; end;
+
+
+        if &icdvar{i} in: ('J45' 'J47' 'J84842' 'J950'
+			'J985' 'J986' )   then pulresp=1; 
+
+        if &icdvar{i} in: ('J840' 'J8410' 'J84111' 'J84112'
+			'J84117' 'J842' 'J8483' 'J84841' 'J84843'
+			'J84848' 'J8489' 'J849') then do; pulresp=1; progressive=1; end;
+
+
+        if &icdvar{i} in: ('K110' 'K111' 'K117' 'K200' 'K220'
+			'K224' 'K225' 'K227' 'K228' 'K254'
+			'K255' 'K256' 'K257' 'K264' 'K265'
+			'K266' 'K267' 'K274' 'K275' 'K276'
+			'K277' 'K284' 'K285' 'K286' 'K287'
+			'K3184' 'K50' 'K510' 'K512' 'K513'
+			'K518' 'K519' 'K624' 'K6282' 'K632'
+			'K763' 'K7689' 'K769' 'K77' 'K811'
+			'K823' 'K824' 'K828' 'K830' 'K833'
+			'K834' 'K835' 'K838' 'K861' 'K862'
+			'K863' 'K868' 'K900' 'K901' 'K902'
+			'K903' 'K9081' 'K915')   then gastro=1; 
+
+        if &icdvar{i} in: ('K73' 'K74' 'K754' 'K761' 'K766'
+			'K767' ) then do; gastro=1; progressive=1; end;
+
+
+
+        if &icdvar{i} in: ('L100' 'L101' 'L102' 'L104' 'L109'
+			'L120' 'L121' 'L122' 'L128' 'L13'
+			'L574' 'L744' 'L89' 'L904' 'L940' 
+			'L943' 'L97' 'L984' 'L988')   then derm=1; 
+
+
+        if &icdvar{i} in: ('M050' 'M051' 'M0530' 'M0560' 'M060'
+			'M062' 'M063' 'M068' 'M069' 'M08' 'M111'
+			'M112' 'M118' 'M119' 'M120'
+			'M303' 'M311' 'M313' 'M314' 'M316'
+			'M33' 'M3500' 'M3501' 'M353' 'M45'
+			'M461' 'M468' 'M469' 'M481')   then immuno=1; 
+
+        if &icdvar{i} in: ('L930' 'L932' 'M300' 'M310' 'M312'
+			'M321' 'M340' 'M341' 'M349' 'M355'
+			'M358' 'M359') then do; immuno=1; progressive=1; end;
+
+        if &icdvar{i} in: ('M100' 'M103' 'M104' 'M109'
+			'M1A0' 'M1A3' 'M1A4' 'M1A9')   then metab=1; 
+
+        if &icdvar{i} in: ('M2105' 'M2115' 'M2133' 'M2137' 'M215'
+			'M216X' 'M2175' 'M2176' 'M232' 'M233'
+			'M241' 'M242' 'M243' 'M244' 'M245'
+			'M246' 'M247' 'M248' 'M278' 'M400' 
+			'M4020' 'M41' 'M420' 'M430' 'M431'
+			'M438' 'M460' 'M471' 'M4781' 'M482'
+			'M483' 'M489' 'M498' 'M500' 'M502' 
+			'M503' 'M5106' 'M513' 'M514' 'M519'
+			'M61' 'M625' 'M6289' 'M720' 'M722'
+			'M816' 'M818' 'M852' 'M863' 'M864' 
+			'M865' 'M866' 'M870' 'M88'
+			'M890' 'M894' 'M897' 'M908'
+			'M918' 'M955' 'M961' 'M998')   then musculo=1; 
+ 
+       if &icdvar{i} in: ('M623' 'M906' 'N250') then do; musculo=1; progressive=1; end;
+
+
+       if &icdvar{i} in: ('N02' 'N04' 'N05' 'N08' 'N13' 'N1372' 'N251'
+			'N2889' 'N312' 'N318' 'N319' 'N320'
+			'N321' 'N322' 'N3501' 'N35028' 'N351'
+			'N358' 'N359' 'N360' 'N361' 'N362'
+			'N364' 'N365' 'N368' 'N37' 'N3942'
+			'N3945' 'N3946' 'N39490' 'N39498')   then renal=1; 
+ 
+       if &icdvar{i} in: ('N03' 'N18' 'N19') then do; renal=1; progressive=1; end;
+
+
+       if &icdvar{i} in: ('N500' 'N80' 'N810' 'N811' 'N812'
+			'N813' 'N814' 'N815' 'N816' 'N8181'
+			'N8182' 'N8183' 'N8184' 'N8189' 'N819'
+			'N820' 'N821' 'N824' 'N825' 'N828'
+			'N829' 'N87' 'N880' 'N893' 'N894' 'N900' 'N901'
+			'N904' 'N9081' 'N99110' 'N99111'
+			'N99112' 'N99113' 'N99114' )   then genito=1; 
+ 
+       if &icdvar{i} in: ('P270' 'P271' 'P278' )   then pulresp=1;
+
+       if &icdvar{i} in: ('P293')   then cardiac=1;
+
+       if &icdvar{i} in: ('Q030' 'Q031' 'Q038' 'Q0702')   then neuro=1; 
+ 
+       if &icdvar{i} in: ('Q00' 'Q01' 'Q02' 'Q041' 'Q042'
+			'Q043' 'Q045' 'Q048' 'Q05' 'Q060'
+			'Q061' 'Q062' 'Q063' 'Q064' 'Q068'
+			'Q0701' 'Q0703' 'Q078' 'Q079') then do; neuro=1; progressive=1; end;
+
+       if &icdvar{i} in: ('Q100' 'Q103' 'Q107' 'Q110' 'Q111'
+			'Q112' 'Q130' 'Q131' 'Q132' 'Q133'
+			'Q134' 'Q135' 'Q1381' 'Q1389' 'Q140'
+			'Q141' 'Q142' 'Q143' 'Q148' 'Q150')   then opthal=1; 
+
+
+       if &icdvar{i} in: ('Q16' 'Q171' 'Q172' 'Q174' 'Q178'
+			'Q179' 'Q180' 'Q181' 'Q182' 'Q189')   then otol=1; 
+
+
+       if &icdvar{i} in: ('Q210' 'Q211' 'Q220' 'Q221' 'Q222'
+			'Q223' 'Q229' 'Q230' 'Q231' 'Q232'
+			'Q233' 'Q238' 'Q242' 'Q243' 'Q244'
+			'Q245' 'Q246' 'Q248' 'Q251' 'Q252'
+			'Q253' 'Q254' 'Q255' 'Q256' 'Q257'
+			'Q269' 'Q282' 'Q283' 'Q288')   then cardiac=1; 
+ 
+       if &icdvar{i} in: ('Q200' 'Q201' 'Q202' 'Q203' 'Q204' 'Q205'
+			'Q208' 'Q212' 'Q213' 'Q218' 'Q219'
+			'Q225' 'Q234') then do; cardiac=1; progressive=1; end;
+
+
+       if &icdvar{i} in: ('Q300' 'Q301' 'Q308' 'Q310' 'Q311'
+			'Q318' 'Q321' 'Q324' 'Q332' 'Q338'
+			'Q339' 'Q34')   then pulresp=1; 
+ 
+       if &icdvar{i} in: ('Q330' 'Q333' 'Q334' 'Q336' ) then do; pulresp=1; progressive=1; end;
+
+       if &icdvar{i} in: ('Q351' 'Q353' 'Q355' 'Q359' 'Q36'
+			'Q37' 'Q385')   then cranio=1; 
+
+       if &icdvar{i} in: ('Q382' 'Q383' 'Q384' 'Q388' 'Q390'
+			'Q391' 'Q392' 'Q393' 'Q394' 'Q395'
+			'Q396' 'Q398' 'Q402' 'Q409' 'Q41'
+			'Q42' 'Q431' 'Q433' 'Q437' 'Q438'
+			'Q441' 'Q458' 'Q459')   then gastro=1; 
+
+       if &icdvar{i} in: ('Q442' 'Q443' 'Q445' 'Q446' 'Q447'
+			'Q450') then do; gastro=1; progressive=1; end;
+
+       if &icdvar{i} in: ('Q540' 'Q541' 'Q542' 'Q543' 'Q548'
+			'Q549' 'Q563' 'Q564' 'Q6101' 'Q6210'
+			'Q6211' 'Q6212' 'Q6231' 'Q6239' 'Q624'
+			'Q625' 'Q6261' 'Q6262' 'Q6263' 'Q628'
+			'Q640' 'Q6410' 'Q6419' 'Q6431' 'Q644'
+			'Q645' 'Q646' 'Q6471' 'Q6473' 'Q6474'
+			'Q6475' 'Q6479' 'Q649')   then genito=1; 
+
+       if &icdvar{i} in: ('Q600' 'Q601' 'Q602' 'Q603' 'Q604'
+			'Q605' 'Q6100' 'Q6102' 'Q6119'
+			'Q612' 'Q613' 'Q614' 'Q615' 'Q618'
+			'Q619') then do; genito=1; progressive=1; end;
+
+       if &icdvar{i} in: ('Q650' 'Q651' 'Q652' 'Q653' 'Q654'
+			'Q655' 'Q667' 'Q6689' 'Q670' 'Q671'
+			'Q672' 'Q673' 'Q674' 'Q675' 'Q688'
+			'Q710' 'Q711' 'Q712' 'Q713' 'Q714'
+			'Q715' 'Q716' 'Q7189' 'Q719' 'Q720'
+			'Q721' 'Q722' 'Q723' 'Q724' 'Q725'
+			'Q726' 'Q727' 'Q7289' 'Q73' 'Q740'
+			'Q760' 'Q761' 'Q762' 'Q763' 'Q764'
+			'Q774' 'Q776' 'Q778' 'Q780'
+			'Q781' 'Q782' 'Q783' 'Q784' 'Q788'
+			'Q789' 'Q796' 'Q798' 'Q799')   then musculo=1; 
+
+       if &icdvar{i} in: ('Q771' 'Q790' 'Q791' 'Q792' 'Q793'
+			'Q794' 'Q7959') then do; musculo=1; progressive=1; end;
+ 
+      if &icdvar{i} in: ('Q750' 'Q759') then cranio=1;
+
+      if &icdvar{i} in: ('Q7951') then genito=1;
+
+      if &icdvar{i} in: ('Q803' 'Q804' 'Q809' 'Q824') then do; derm=1; progressive=1; end;
+
+      if &icdvar{i} in: ('Q820') then derm=1;
+
+      if &icdvar{i} in: ('Q850') then neuro=1;
+
+      if &icdvar{i} in: ('Q851' 'Q858' 'Q871' 'Q872' 'Q873'
+			'Q8740' 'Q875' 'Q8789' 'Q897' 'Q898'
+			'Q899' 'Q90' 'Q933' 'Q937' 'Q9381'
+			'Q9389' 'Q96' 'Q970' 'Q971' 'Q972' 'Q978'
+			'Q980' 'Q981' 'Q984' 'Q985' 'Q987'
+			'Q988' 'Q992' 'Q998' 'Q999') then genetic=1;
+
+      if &icdvar{i} in: ('Q8781' 'Q8901' 'Q891' 'Q892' 'Q893'
+			'Q894' 'Q913' 'Q917' 'Q928' 'Q934'
+			'Q9388') then do; genetic=1; progressive=1; end;
+
+
+      if &icdvar{i} in: ('R4020' 'R403' 'S1410' 'S1411' 'S1412'
+			'S1413' 'S1415' 'S2410' 'S2411' 'S2413'
+			'S2415'	'S3410' 'S3411' 'S3412' 'S3413'
+			'S343') then do; neuro=1; progressive=1; end;
+
+      if &icdvar{i} in: ('S4801' 'S4802' 'S4811' 'S4812'
+			'S4891' 'S4892' 'S5801' 'S5802'
+			'S5811' 'S5812' 'S5891' 'S5892'
+			'S6841' 'S6842' 'S6871' 'S6872'
+			'S7801' 'S7802' 'S7811' 'S7812'
+			'S7891' 'S7892' 'S8801' 'S8802'
+			'S8811' 'S8812' 'S8891' 'S8892'
+			'S9801' 'S9802'	'S9831' 'S9832' 
+			'S9891' 'S9892') then musculo=1;
+
+      if &icdvar{i} in: ('Z21') then immuno=1;
+
+      if &icdvar{i} in: ('Z430') then pulresp=1;
+
+      if &icdvar{i} in: ('Z431' 'Z432' 'Z433' 'Z434' 'Z465') then gastro=1;
+
+      if &icdvar{i} in: ('Z435' 'Z436' 'Z437') then genito=1;
+
+      if &icdvar{i} in: ('Z440' 'Z441') then musculo=1;
+
+      if &icdvar{i} in: ('Z450' 'Z953') then cardiac=1;
+
+      if &icdvar{i} in: ('Z4531') then opthal=1;
+ 
+      if &icdvar{i} in: ('Z45328' 'Z454' 'Z461' 'Z462') then neuro=1;
+
+      if &icdvar{i} in: ('Z49' 'Z940') then do; renal=1; progressive=1; end;
+
+      if &icdvar{i} in: ('Z941' 'Z95812') then do; cardiac=1; progressive=1; end;
+
+      if &icdvar{i} in: ('Z942') then do; pulresp=1; progressive=1; end;
+
+      if &icdvar{i} in: ('Z944' 'Z9481' 'Z9482') then do; gastro=1; progressive=1; end;
+
+      if &icdvar{i} in: ('Z9483') then do; endo=1; progressive=1; end;
+   
+	end;
+
+
     if last.&claimid then output;        
     run;
 
@@ -716,14 +1258,15 @@ data flagclaims&yr (keep=&sid STATE_CD &claimid
 /*  Roll up to one record per child, with a single flag for each body type, a sum across claims for
     each body type, and presence of a progressive condition or malignancy. 
 	Calculate final condition determinations. */   
-
-%end;
-
-data oput.results_pmca_v2_0(keep=&sid STATE_CD
+ 
+data oput.results_pmca_v3_1(keep=&sid  
+								/*anycardiac anycranio anyderm anyendo anygastro anygenetic anygenito anyhemato anyimmuno anymalign 
+            					anymetab anymusculo anyneuro anyopthal anyotol anyotolar anypulresp anyrenal anymh  
+            					anyprogressive*/
                            cond_less 
                            cond_more);
-    set %do yr = 2005 %to 2007; flagclaims&yr %end;;
-    by &sid STATE_CD;
+    set flagclaims;
+    by &sid;
     retain  anycardiac anycranio anyderm anyendo anygastro anygenetic anygenito anyhemato anyimmuno anymalign 
             anymetab anymusculo anyneuro anyopthal anyotol anyotolar anypulresp anyrenal anymh  
             anyprogressive 
@@ -734,7 +1277,7 @@ data oput.results_pmca_v2_0(keep=&sid STATE_CD
              cardiac2h  cranio2h  derm2h  endo2h  gastro2h  genetic2h  genito2h  hemato2h  immuno2h  malign2h 
              metab2h  musculo2h  neuro2h  opthal2h  otol2h  otolar2h  pulresp2h  renal2h  mh2h  ;
 
-    if first.STATE_CD then 
+    if first.&sid then 
         do;
             anycardiac = 0; anycranio      = 0; anyderm          = 0; anyendo    = 0; anygastro  = 0; anygenetic = 0; 
             anygenito  = 0; anyhemato      = 0; anyimmuno        = 0; anymalign  = 0; anymetab   = 0; anymusculo = 0; 
@@ -781,7 +1324,7 @@ data oput.results_pmca_v2_0(keep=&sid STATE_CD
     
 *roll up to last observation;
  
-if last.STATE_CD then 
+if last.&sid then 
     do;
 
     length cond_less cond_more  $24.;
@@ -873,6 +1416,4 @@ if last.STATE_CD then
         end;
     run;
 
-%mend doit;
-
-%doit;
+	
