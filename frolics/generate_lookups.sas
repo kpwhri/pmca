@@ -58,17 +58,6 @@ quit ;
 %include "&GHRIDW_ROOT/Sasdata/CRN_VDW/lib/StdVars.sas" ;
 %include "&GHRIDW_ROOT/Sasdata/CRN_VDW/lib/StdVars_RCMandCNTRS.sas" ;
 
-/*
-%let td_goo = user              = "&nuid@LDAP"
-              password          = "&cspassword"
-              server            = "&td_prod"
-              schema            = "sb_ghri"
-              connection        = global
-              mode              = teradata
-;
-
-libname td teradata &td_goo multi_datasrc_opt = in_clause ;
- */
 %macro get_raw(outset = ) ;
 
   proc sql ;
@@ -867,22 +856,6 @@ ods html5 path = "&out_folder" (URL=NONE)
     where c.in_webxl = 'yes' and c.in_omop = 'no'
     ;
 
-  quit ;
-/*
-  title2 "Are there substantive disagreements on the body system?" ;
-  proc freq data = s.icd_10_compare order = freq ;
-    tables web_body_system * code_body_system / list missing format = comma9.0 ;
-    where in_webxl = 'yes' and in_omop = 'yes' and web_body_system ne code_body_system ;
-  run ;
-
-  title2 "Are there substantive disagreements on progressive-ness?" ;
-  proc freq data = s.icd_10_compare order = freq ;
-    tables web_progressive * code_progressive / list missing format = comma9.0 ;
-    where in_webxl = 'yes' and in_omop = 'yes' and web_progressive ne code_progressive ;
-  run ;
-*/
-
-  proc sql number ;
     title2 "These Codes are in the Web Download but not OMOP (as selected by the PMCA code)" ;
     select *
     from missing_from_omop
@@ -904,7 +877,7 @@ ods html5 path = "&out_folder" (URL=NONE)
     ;
 
     title2 "These Codes are in OMOP (as selected by the PMCA code) but not the Web Download" ;
-    * create table s.possibly_missing_10s as
+    create table s.possibly_missing_10s as
     select i.dx, i.code_body_system, i.code_desc, count(distinct d.enc_id) as num_encounters format = comma9.0 label = "No. encounters in KPWA featuring this dx (over all time)"
     from s.icd_10_compare as i
       LEFT JOIN &_vdw_dx as d on i.dx = d.dx and d.dx_codetype = '10'
