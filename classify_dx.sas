@@ -348,21 +348,23 @@
         'C942' 'C943' 'C948' 'C95' 'C96'
         'D03' 'D45' 'D474' 'D47Z1')   then malign=1;
     if &dx_varname in: ('D510' 'D511' 'D55' 'D565' 'D568'
-      'D569' 'D58' 'D591' 'D594' 'D599' 'D600'
+      'D569' 'D58'
+      'D5910' 'D5911' 'D5913' 'D5919'
+      'D594' 'D599' 'D600'
       'D608' 'D609' 'D63' 'D640' 'D641' 'D642' 'D643'
       'D6489' 'D680' 'D681' 'D682' 'D68312'
       'D68318' 'D685' 'D6861' 'D6862' 'D688'
-      'D689' 'D691' 'D693' 'D6941' 'D6949' 'D7589' ) then hemato=1;
+      'D689' 'D691' 'D693' 'D6941' 'D6949' 'D75A' 'D7589' ) then hemato=1;
     if &dx_varname in: ('D560' 'D561' 'D570' 'D571' 'D572'
       'D574' 'D578' 'D610' 'D61818' 'D6182'
       'D6189' 'D619' 'D644' 'D66' 'D67'
       'D68311' 'D6942' 'D7581') then do; hemato=1; progressive=1; end;
     if &dx_varname in: ('D704' 'D720' 'D763' 'D802' 'D803'
       'D804' 'D805' 'D808' 'D838' 'D839'
-      'D841' 'D849' 'D86' 'D890' 'D891'
+      'D841' 'D842' 'D849' 'D86' 'D890' 'D891'
       'D892' 'D8989' 'D899') then immuno=1;
     if &dx_varname in: ('D700' 'D71' 'D761' 'D800' 'D801'
-      'D810' 'D811' 'D812' 'D814' 'D8189' 'D819'
+      'D810' 'D811' 'D812' 'D813' 'D814' 'D8189' 'D819'
       'D831' 'D89811' 'D89813') then do; immuno=1; progressive=1; end;
     if &dx_varname in: ('D820' 'D8982')   then genetic=1;
     if &dx_varname =:'D821' then do; genetic=1; progressive=1; end;
@@ -390,7 +392,7 @@
       'E7223' 'E7229' 'E723' 'E728' 'E729' 'E7400'
       'E7401' 'E7404' 'E7409' 'E7421' 'E7439'
       'E744' 'E748' 'E749' 'E7502' 'E7519' 'E7521'
-      'E7522' 'E7523' 'E75249' 'E7525' 'E7529'
+      'E7522' 'E7523' 'E75249' 'E7525' 'E7526' 'E7529'
       'E754' 'E7601' 'E7603' 'E761' 'E76219'
       'E7622' 'E7629' 'E763' 'E770' 'E771'
       'E786' 'E7870' 'E7871' 'E7872' 'E788' 'E789'
@@ -435,7 +437,7 @@
       'G14' 'G23' 'G241' 'G253' 'G2582'
       'G3181' 'G3182' 'G319' 'G320'
       'G3281' 'G35' 'G360' 'G370' 'G375'
-      'G378' 'G379' 'G4081' 'G601' 'G710'
+      'G378' 'G379' 'G4081' 'G4083' 'G601' 'G710'
       'G7111' 'G7112' 'G7113' 'G800' 'G808'
       'G809' 'G901' 'G931' 'G950' 'G9519'
       'G9589' 'G959' 'G992'  ) then do; neuro=1; progressive=1; end;
@@ -468,7 +470,7 @@
       'H5017' 'H5018' 'H5030' 'H5032' 'H5034'
       'H5040' 'H5042' 'H5043' 'H505' 'H5060'
       'H5069' 'H5089' 'H51' 'H540' 'H541'
-      'H542' 'H543' 'H548' 'H550' 'H57')   then opthal=1;
+      'H542' 'H543' 'H548' 'H550' 'H578' 'H579')   then opthal=1;
     if &dx_varname in: ('H71' 'H74' 'H80' 'H81' 'H83'
       'H903' 'H905' 'H906' 'H908'
       'H913' 'H918X3' 'H918X9' 'H9190'
@@ -484,7 +486,7 @@
       'I724' 'I728' 'I729' 'I7300' 'I7301'
       'I7381' 'I7389' 'I739' 'I770' 'I771'
       'I773' 'I774' 'I775' 'I776' 'I778'
-      'I779' 'I798' 'I822' 'I825'
+      'I779' 'I798' 'I825' 'I82211' 'I82221' 'I82291'
       'I82709' 'I82719' 'I82729' 'I82891'
       'I82A29' 'I82B29' 'I82C29' 'I890')   then cardiac=1;
     if &dx_varname in: ('I110' 'I200' 'I21' 'I24'
@@ -498,11 +500,11 @@
     if &dx_varname in: ('I150' 'I158' )   then renal=1;
     if &dx_varname in: ('I12' 'I13' ) then do; renal=1; progressive=1; end;
     if &dx_varname in: ('I69898' 'I699')   then neuro=1;
-    if &dx_varname in: ('I630' 'I631' 'I632' 'I65' 'I671'
+    if &dx_varname in: ('I630' 'I631' 'I632' 'I638' 'I65' 'I671'
       'I674' 'I675' 'I676' 'I677' ) then do; neuro=1; progressive=1; end;
     if &dx_varname in: ('J45' 'J47' 'J84842' 'J950'
       'J985' 'J986' )   then pulresp=1;
-    if &dx_varname in: ('J840' 'J8410' 'J84111' 'J84112'
+    if &dx_varname in: ('J840' 'J8410' 'J84111' 'J84112' 'J8417'
       'J84117' 'J842' 'J8483' 'J84841' 'J84843'
       'J84848' 'J8489' 'J849') then do; pulresp=1; progressive=1; end;
     if &dx_varname in: ('K110' 'K111' 'K117' 'K200' 'K220'
@@ -513,12 +515,12 @@
       'K3184' 'K50' 'K510' 'K512' 'K513'
       'K518' 'K519' 'K624' 'K6282' 'K632'
       'K763' 'K7689' 'K769' 'K77' 'K811'
-      'K823' 'K824' 'K828' 'K830' 'K833'
+      'K823' 'K824' 'K828' 'K833'
       'K834' 'K835' 'K838' 'K861' 'K862'
       'K863' 'K868' 'K900' 'K901' 'K902'
       'K903' 'K9081' 'K915')   then gastro=1;
     if &dx_varname in: ('K73' 'K74' 'K754' 'K761' 'K766'
-      'K767' ) then do; gastro=1; progressive=1; end;
+      'K767' 'K8301') then do; gastro=1; progressive=1; end;
     if &dx_varname in: ('L100' 'L101' 'L102' 'L104' 'L109'
       'L120' 'L121' 'L122' 'L128' 'L13'
       'L574' 'L744' 'L89' 'L904' 'L940'
@@ -529,14 +531,15 @@
       'M303' 'M311' 'M313' 'M314' 'M316'
       'M33' 'M3500' 'M3501' 'M353' 'M45'
       'M461' 'M468' 'M469' 'M481')   then immuno=1;
+    * [RP] Adding a space at the end of M358 b/c we *do* want M35.8 but we dont want M35.81 ;
     if &dx_varname in: ('L930' 'L932' 'M300' 'M310' 'M312'
       'M321' 'M340' 'M341' 'M349' 'M355'
-      'M358' 'M359') then do; immuno=1; progressive=1; end;
+      'M358 ' 'M359') then do; immuno=1; progressive=1; end;
     if &dx_varname in: ('M100' 'M103' 'M104' 'M109'
       'M1A0' 'M1A3' 'M1A4' 'M1A9')   then metab=1;
     if &dx_varname in: ('M2105' 'M2115' 'M2133' 'M2137' 'M215'
       'M216X' 'M2175' 'M2176' 'M232' 'M233'
-      'M241' 'M242' 'M243' 'M244' 'M245'
+      'M241' 'M242' 'M243' 'M2449' 'M245'
       'M246' 'M247' 'M248' 'M278' 'M400'
       'M4020' 'M41' 'M420' 'M430' 'M431'
       'M438' 'M460' 'M471' 'M4781' 'M482'
@@ -628,13 +631,13 @@
     if &dx_varname in: ('Q850') then neuro=1;
     if &dx_varname in: ('Q851' 'Q858' 'Q871' 'Q872' 'Q873'
       'Q8740' 'Q875' 'Q8789' 'Q897' 'Q898'
-      'Q899' 'Q90' 'Q933' 'Q937' 'Q9381'
+      'Q899' 'Q90' 'Q933' 'Q935' 'Q937' 'Q9381'
       'Q9389' 'Q96' 'Q970' 'Q971' 'Q972' 'Q978'
       'Q980' 'Q981' 'Q984' 'Q985' 'Q987'
       'Q988' 'Q992' 'Q998' 'Q999') then genetic=1;
     if &dx_varname in: ('Q8781' 'Q8901' 'Q891' 'Q892' 'Q893'
       'Q894' 'Q913' 'Q917' 'Q928' 'Q934'
-      'Q9388') then do; genetic=1; progressive=1; end;
+      'Q9382' 'Q9388') then do; genetic=1; progressive=1; end;
     if &dx_varname in: ('R4020' 'R403' 'S1410' 'S1411' 'S1412'
       'S1413' 'S1415' 'S2410' 'S2411' 'S2413'
       'S2415' 'S3410' 'S3411' 'S3412' 'S3413'

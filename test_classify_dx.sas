@@ -33,7 +33,7 @@ libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
 
 * These are diagnoses that currently get flagged for inclusion, but should not. ;
 * Also, diags that were considered for adding, but decided against. ;
-data s.false_positives ;
+data s.dont_want ;
   input
     @1    dx          $char8.
     @11   bs_wanted   $char21.
@@ -74,7 +74,7 @@ U07.1     pulmonary/respiratory COVID-19
 run ;
 
 * These are the new codes we are adding ;
-data s.false_negatives ;
+data s.do_want ;
   input
     @1    dx          $char8.
     @11   bs_wanted   $char21.
@@ -399,8 +399,8 @@ Q93.82    genetic               yes Williams syndrome
 run ;
 
 proc sql ;
-  alter table s.false_positives add primary key (dx) ;
-  alter table s.false_negatives add primary key (dx) ;
+  alter table s.dont_want add primary key (dx) ;
+  alter table s.do_want add primary key (dx) ;
 quit ;
 
 %macro do_it(dset) ;
@@ -434,14 +434,15 @@ quit ;
   run ;
 %mend do_it ;
 
-%do_it(dset = s.false_positives) ;
-%do_it(dset = s.false_negatives) ;
+%do_it(dset = s.dont_want) ;
+%do_it(dset = s.do_want) ;
 
 proc sql ;
   create table s.to_be_added as
   select n.*, (not t.dx is null) as already_included
-  from s.false_negatives as n
-    left join s.false_negatives_test as t on n.dx = t.dx
+  from s.do_want as n
+    left join s.do_want_test as t on n.dx = t.dx
+  where t.dx is null
   order by n.dx
   ;
 quit ;
