@@ -58,16 +58,31 @@ proc sort data = out.vdw_mac_output ;
   by mrn ;
 run ;
 
-proc sort data = out.results_pmca ;
+proc sort data = out.results_pmca_32 ;
+  by mrn ;
+run ;
+
+proc sort data = out.results_pmca_v3_1 ;
   by mrn ;
 run ;
 
 data out.comparison ;
   merge
-    out.vdw_mac_output(rename = (cond_less = vdw_cond_less cond_more = vdw_cond_more))
-    out.results_pmca (rename = (cond_less = claims_cond_less cond_more = claims_cond_more))
+    out.vdw_mac_output    (rename = (cond_less = vdw_cond_less cond_more = vdw_cond_more))
+    out.results_pmca_v3_1 (rename = (cond_less = pmca_31_cond_less cond_more = pmca_31_cond_more))
+    out.results_pmca_32   (rename = (cond_less = pmca_32_cond_less cond_more = pmca_32_cond_more))
   ;
   by mrn ;
+
+  label
+    vdw_cond_less    = "VDW-macro PMCA score using the LESS conservative algorithm"
+    vdw_cond_more    = "VDW-macro PMCA score using the MORE conservative algorithm"
+    pmca_31_cond_less = "Version 31 PMCA score using the LESS conservative algorithm"
+    pmca_31_cond_more = "Version 31 PMCA score using the MORE conservative algorithm"
+    pmca_32_cond_less = "Version 32 PMCA score using the LESS conservative algorithm"
+    pmca_32_cond_more = "Version 32 PMCA score using the MORE conservative algorithm"
+  ;
+
 run ;
 
 options orientation = landscape ;
@@ -85,8 +100,8 @@ ods html5 path = "&out_folder" (URL=NONE)
           ;
 
   proc freq data = out.comparison order = freq ;
-    tables vdw_cond_less * claims_cond_less / missing format = comma9.0 ;
-    tables vdw_cond_more * claims_cond_more / missing format = comma9.0 ;
+    tables pmca_31_cond_less * pmca_32_cond_less / missing format = comma9.0 ;
+    tables pmca_31_cond_more * pmca_32_cond_more / missing format = comma9.0 ;
   run ;
 
 run ;
