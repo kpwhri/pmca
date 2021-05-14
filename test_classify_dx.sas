@@ -445,4 +445,38 @@ proc sql ;
   where t.dx is null
   order by n.dx
   ;
+
+  create table s.added_codes as
+  select n.*, t.body_system, t.progressive
+  from s.do_want as n
+    left join s.do_want_test as t on n.dx = t.dx
+  ;
 quit ;
+
+options orientation = landscape ;
+ods graphics / height = 8in width = 10in ;
+
+%let out_folder = %sysfunc(pathname(s)) ;
+
+ods html5 path = "&out_folder" (URL=NONE)
+         body   = "test_classify_dx.html"
+         (title = "test_classify_dx output")
+         style = magnify
+         nogfootnote
+         device = svg
+         /* options(svg_mode="embed") */
+          ;
+
+  proc freq data = s.added_codes  ;
+    tables body_system * bs_wanted / missing format = comma9.0 ;
+    where body_system ne bs_wanted ;
+  run ;
+
+  proc freq data = s.added_codes  ;
+    tables progressive * prog_wanted / missing format = comma9.0 ;
+  run ;
+
+run ;
+
+ods _all_ close ;
+

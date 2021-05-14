@@ -348,7 +348,7 @@
         'C942' 'C943' 'C948' 'C95' 'C96'
         'D03' 'D45' 'D474' 'D47Z1')   then malign=1;
     if &dx_varname in: ('D510' 'D511' 'D55' 'D565' 'D568'
-      'D569' 'D58'
+      'D569' 'D5744' 'D5745' 'D58'
       'D5910' 'D5911' 'D5913' 'D5919'
       'D594' 'D599' 'D600'
       'D608' 'D609' 'D63' 'D640' 'D641' 'D642' 'D643'
@@ -356,7 +356,8 @@
       'D68318' 'D685' 'D6861' 'D6862' 'D688'
       'D689' 'D691' 'D693' 'D6941' 'D6949' 'D75A' 'D7589' ) then hemato=1;
     if &dx_varname in: ('D560' 'D561' 'D570' 'D571' 'D572'
-      'D574' 'D578' 'D610' 'D61818' 'D6182'
+      'D5741' 'D5742' 'D5743'
+      'D578' 'D610' 'D61818' 'D6182'
       'D6189' 'D619' 'D644' 'D66' 'D67'
       'D68311' 'D6942' 'D7581') then do; hemato=1; progressive=1; end;
     if &dx_varname in: ('D704' 'D720' 'D763' 'D802' 'D803'
@@ -422,9 +423,9 @@
       'G518' 'G519' 'G52' 'G54' 'G56' 'G57'
       'G587' 'G588' 'G589' 'G600' 'G603'
       'G608' 'G609' 'G6181' 'G6189' 'G619'
-      'G620' 'G621' 'G622' 'G63' 'G7000'
+      'G620' 'G621' 'G622' 'G63'  'G7000'
       'G701' 'G702' 'G7080' 'G7089' 'G709'
-      'G7114' 'G7119' 'G712' 'G722' 'G723'
+      'G7114' 'G7119' 'G7102' 'G722' 'G723'
       'G7289' 'G729' 'G733' 'G737' 'G801'
       'G802' 'G803' 'G804' 'G81' 'G822'
       'G825' 'G830' 'G831' 'G832' 'G833'
@@ -437,8 +438,8 @@
       'G14' 'G23' 'G241' 'G253' 'G2582'
       'G3181' 'G3182' 'G319' 'G320'
       'G3281' 'G35' 'G360' 'G370' 'G375'
-      'G378' 'G379' 'G4081' 'G4083' 'G601' 'G710'
-      'G7111' 'G7112' 'G7113' 'G800' 'G808'
+      'G378' 'G379' 'G4081' 'G4083' 'G601' 'G7100' 'G7101' 'G7109'
+      'G7111' 'G7112' 'G7113' 'G712' 'G800' 'G808'
       'G809' 'G901' 'G931' 'G950' 'G9519'
       'G9589' 'G959' 'G992'  ) then do; neuro=1; progressive=1; end;
     if &dx_varname in: ('G4730' 'G4731' 'G4733' 'G4734' 'G4736'
@@ -551,13 +552,13 @@
       'M890' 'M894' 'M897' 'M908'
       'M918' 'M955' 'M961' 'M998')   then musculo=1;
     if &dx_varname in: ('M623' 'M906' 'N250') then do; musculo=1; progressive=1; end;
-    if &dx_varname in: ('N02' 'N04' 'N05' 'N08' 'N13' 'N1372' 'N251'
+    if &dx_varname in: ('N08' 'N13' 'N1372' 'N251'
       'N2889' 'N312' 'N318' 'N319' 'N320'
       'N321' 'N322' 'N3501' 'N35028' 'N351'
       'N358' 'N359' 'N360' 'N361' 'N362'
       'N364' 'N365' 'N368' 'N37' 'N3942'
       'N3945' 'N3946' 'N39490' 'N39498')   then renal=1;
-    if &dx_varname in: ('N03' 'N18' 'N19') then do; renal=1; progressive=1; end;
+    if &dx_varname in: ('N02' 'N03' 'N04' 'N05' 'N18' 'N19') then do; renal=1; progressive=1; end;
     if &dx_varname in: ('N500' 'N80' 'N810' 'N811' 'N812'
       'N813' 'N814' 'N815' 'N816' 'N8181'
       'N8182' 'N8183' 'N8184' 'N8189' 'N819'
@@ -623,7 +624,7 @@
       'Q781' 'Q782' 'Q783' 'Q784' 'Q788'
       'Q789' 'Q796' 'Q798' 'Q799')   then musculo=1;
     if &dx_varname in: ('Q771' 'Q790' 'Q791' 'Q792' 'Q793'
-      'Q794' 'Q7959') then do; musculo=1; progressive=1; end;
+      'Q794' 'Q7959' 'Q7963') then do; musculo=1; progressive=1; end;
     if &dx_varname in: ('Q750' 'Q759') then cranio=1;
     if &dx_varname in: ('Q7951') then genito=1;
     if &dx_varname in: ('Q803' 'Q804' 'Q809' 'Q824') then do; derm=1; progressive=1; end;
@@ -635,7 +636,7 @@
       'Q9389' 'Q96' 'Q970' 'Q971' 'Q972' 'Q978'
       'Q980' 'Q981' 'Q984' 'Q985' 'Q987'
       'Q988' 'Q992' 'Q998' 'Q999') then genetic=1;
-    if &dx_varname in: ('Q8781' 'Q8901' 'Q891' 'Q892' 'Q893'
+    if &dx_varname in: ('Q8711' 'Q8781' 'Q8901' 'Q891' 'Q892' 'Q893'
       'Q894' 'Q913' 'Q917' 'Q928' 'Q934'
       'Q9382' 'Q9388') then do; genetic=1; progressive=1; end;
     if &dx_varname in: ('R4020' 'R403' 'S1410' 'S1411' 'S1412'
