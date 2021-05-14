@@ -25,27 +25,21 @@ options
 ;
 
 * For detailed database traffic: ;
-options sastrace=',,,d' sastraceloc=saslog no$stsuffix ;
+* options sastrace=',,,d' sastraceloc=saslog no$stsuffix ;
 
 ods listing close ;
 
 %include "&GHRIDW_ROOT/Sasdata/CRN_VDW/lib/StdVars.sas" ;
 libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
+libname out "\\home.ghc.org\home$\pardre1\workingdata\pmca\output" ;
 /*
-proc sql outobs = 3000 ;
-  create table s.raw_dx as
-  select d.*
-  from &_vdw_dx as d INNER JOIN
-    &_vdw_demographic as dem on d.mrn = dem.mrn
-  where year(d.adate) - year(dem.birth_date) le 18
-  order by d.enc_id, d.dx
-  ;
-quit ;
-*/
+%pmca(inset = s.test_kids, index_date = index_date, outset = out.vdw_mac_output, days_lookback = 365) ;
 
+* Interim dset of diags created by the vdw pmca macro ;
 data dx ;
-  set s.raw_dx ;
+  set dxes ;
   txt_enc_id = put(enc_id, $hex32.) ;
+  drop enc_id ;
 run ;
 
 proc sort nodupkey data = dx ;
@@ -56,4 +50,46 @@ proc transpose data = dx out = s.fake_claims (drop = _:) prefix = dx_ ;
   var dx ;
   by mrn txt_enc_id ;
 run ;
+
+endsas ;
+*/
+
+proc sort data = out.vdw_mac_output ;
+  by mrn ;
+run ;
+
+proc sort data = out.results_pmca ;
+  by mrn ;
+run ;
+
+data out.comparison ;
+  merge
+    out.vdw_mac_output(rename = (cond_less = vdw_cond_less cond_more = vdw_cond_more))
+    out.results_pmca (rename = (cond_less = claims_cond_less cond_more = claims_cond_more))
+  ;
+  by mrn ;
+run ;
+
+options orientation = landscape ;
+ods graphics / height = 8in width = 10in ;
+
+%let out_folder = %sysfunc(pathname(out)) ;
+
+ods html5 path = "&out_folder" (URL=NONE)
+         body   = "make_test_data.html"
+         (title = "make_test_data output")
+         style = magnify
+         nogfootnote
+         device = svg
+         /* options(svg_mode="embed") */
+          ;
+
+  proc freq data = out.comparison order = freq ;
+    tables vdw_cond_less * claims_cond_less / missing format = comma9.0 ;
+    tables vdw_cond_more * claims_cond_more / missing format = comma9.0 ;
+  run ;
+
+run ;
+
+ods _all_ close ;
 
