@@ -26,7 +26,6 @@ options
 
 libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
 
-%include "\\wampeam6546558\c$\users\o578092\documents\vdw\pmca\classify_dx.sas" ;
 
 %macro get_raw(outset = ) ;
   %include "&GHRIDW_ROOT/Sasdata/CRN_VDW/lib/StdVars.sas" ;
@@ -67,8 +66,29 @@ libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
 %macro generate_lookup(inset = , outset = , dx_varname = code, dx_codetype = 09) ;
   data &outset ;
     set &inset ;
-    body_system = put(whichn(1, cardiac, cranio, derm, endo, gastro, genetic, genito, hemato, immuno, malign, mh, metab, musculo, neuro, opthal, otol, otolar, pulresp, renal), bodsys.) ;
     %classify_dx(dx_varname = &dx_varname, dx_codetype = &dx_codetype) ;
+    which_flag = whichn(1
+            , cardiac
+            , cranio
+            , derm
+            , endo
+            , gastro
+            , genetic
+            , genito
+            , hemato
+            , immuno
+            , malign
+            , mh
+            , metab
+            , musculo
+            , neuro
+            , opthal
+            , otol
+            , otolar
+            , pulresp
+            , renal) ;
+
+    body_system = put(which_flag, bodsys.) ;
     num_systems = sum(0
                     , cardiac
                     , cranio
@@ -116,12 +136,44 @@ proc sql ;
   ;
 quit ;
 
-
 %get_raw ;
+endsas ;
 */
 
-%generate_lookup(inset = s.raw_dx_codes (where = (dx_codetype = '09')), dx_varname = dx_nodecimal, dx_codetype = 09, outset = s.icd09_lookup) ;
-%generate_lookup(inset = s.raw_dx_codes (where = (dx_codetype = '10')), dx_varname = dx_nodecimal, dx_codetype = 10, outset = s.icd10_lookup) ;
+%include "\\wampeam6546558\c$\users\o578092\documents\vdw\pmca\classify_dx.sas" ;
+* %generate_lookup(inset = s.raw_dx_codes (where = (dx_codetype = '09')), dx_varname = dx_nodecimal, dx_codetype = 09, outset = s.icd09_lookup) ;
+* %generate_lookup(inset = s.raw_dx_codes (where = (dx_codetype = '10')), dx_varname = dx_nodecimal, dx_codetype = 10, outset = s.icd10_lookup) ;
+
+
+ods excel file="%sysfunc(pathname(s))/pmca_dx_code_lists.xlsx"
+    style=htmlblue
+    options(orientation         = 'landscape'
+            SHEET_NAME          = 'icd-9'
+            embedded_titles     = 'no'
+            frozen_headers      = 'yes'
+            gridlines           = 'yes'
+            page_order_across   = 'yes'
+            contents            = 'no'
+            gridlines           = 'yes'
+            sheet_interval      = 'proc'
+            )
+  ;
+
+  proc print data = s.icd09_lookup ;
+    var dx_nodecimal code_desc body_system progressive ;
+    format dx $12. progressive bin. ;
+    id dx ;
+  run ;
+
+  ods excel options(sheet_name="icd-10");
+
+  proc print data = s.icd10_lookup ;
+    var dx_nodecimal code_desc body_system progressive ;
+    format dx $12. progressive bin. ;
+    id dx ;
+  run ;
+
+ods excel close ;
 
 endsas ;
 /*

@@ -693,7 +693,7 @@ proc format ;
     other = 'zah?'
   ;
   value bin
-    0 = 'no'
+    ., 0 = 'no'
     1 = 'yes'
   ;
 quit ;
