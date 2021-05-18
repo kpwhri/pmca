@@ -1,6 +1,6 @@
 /*
 
-    'PEDIATRIC MEDICAL COMPLEXITY ALGORITHM v3.1'
+    'PEDIATRIC MEDICAL COMPLEXITY ALGORITHM v3.2'
 
     Programmer(s):  Wren Haaland, Kathryn Whitlock
           Center for Child Health, Behavior, and Development
@@ -15,7 +15,10 @@
           Revision from v3.0
 
 
-     Description:
+    Repository:
+      https://github.com/kpwhri/pmca
+
+    Description:
 
     This program implements the Pediatric Medical Complexity Algorithm to
     identify children with complex and non-complex chronic conditions using
@@ -186,11 +189,14 @@
   Macro statements have been provided to more easily adapt the program to different data sources
   (see directions below).
 
-  Created December 2012; revised May 2015, April 2017, July 2019.  Future revisions to the ICD
-  classification system may result in the need for revisions to this program.
+  Created December 2012; revised May 2015, April 2017, July 2019, May 2021.
+  Future revisions to the ICD classification system may result in the need for
+  revisions to this program.
+
+  Please see https://github.com/kpwhri/pmca for the recent revision history of this code.
 
   Inputs:
-      https://urldefense.proofpoint.com/v2/url?u=http-3A__INDATA.CLAIMS&d=DwIGAg&c=V-WiB07a9ZG9AUogGPqIYBXfVnjryhYX1W_SjITv1Oo&r=DO63JWwSXRka-_SAHewWEi2FkRVY93crJvk17Z5zD6I&m=tdnOJySfVz4belnqhgfCq2lKCIy-Y1HLS8zYic7CvIw&s=kFdqU3Qn0kty7WctkWGpsdTA0B0B5HOeDAH65iumNaI&e=            (Source file with claims data)
+      named in &sdata var below        (Source file with claims data)
 
   Outputs:
       OPUT.RESULTS_PMCA    (Output file with 1 record per person and condition classifications)
