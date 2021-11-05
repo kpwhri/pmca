@@ -71,6 +71,7 @@ K83.09    gastrointestinal      Other cholangitis
 M35.81    immunological         Multisystem inflammatory syndrome (MIS)
 U07.0     pulmonary/respiratory Vaping-related disorder
 U07.1     pulmonary/respiratory COVID-19
+D89.44    immunological         Hereditary alpha tryptasemia
 run ;
 
 * These are the new codes we are adding ;
@@ -395,6 +396,48 @@ Q87.19    genetic               no  Other congenital malformation syndromes pred
 Q93.51    genetic               no  Angelman syndrome
 Q93.59    genetic               no  Other deletions of part of a chromosome
 Q93.82    genetic               yes Williams syndrome
+C56.3     malignancy            yes Malignant neoplasm of bilateral ovaries
+C79.63    malignancy            yes Secondary malignant neoplasm of bilateral ovaries
+C84.7A    malignancy            yes Anaplastic large cell lymphoma, ALK-negative, breast
+D55.21    hematological         no  Anemia due to pyruvate kinase deficiency
+D55.29    hematological         no  Anemia due to other disorders of glycolytic enzymes
+E75.240   metabolic             yes Niemann-Pick disease type A
+E75.241   metabolic             yes Niemann-Pick disease type B
+E75.242   metabolic             yes Niemann-Pick disease type C
+E75.243   metabolic             yes Niemann-Pick disease type D
+E75.244   metabolic             yes Niemann-Pick disease type A/B
+F32.A     mental health         no  Depression, unspecified
+F78.A1    neurological          yes SYNGAP1-related intellectual disability
+F78.A9    neurological          yes Other genetic related intellectual disability
+K22.81    gastrointestinal      no  Esophageal polyp
+K22.82    gastrointestinal      no  Esophagogastric junction polyp
+K22.89    gastrointestinal      no  Other specified disease of esophagus
+K31.A0    gastrointestinal      yes Gastric intestinal metaplasia, unspecified
+K31.A11   gastrointestinal      yes Gastric intestinal metaplasia without dysplasia, involving the antrum
+K31.A12   gastrointestinal      yes Gastric intestinal metaplasia without dysplasia, involving the body (corpus)
+K31.A13   gastrointestinal      yes Gastric intestinal metaplasia without dysplasia, involving the fundus
+K31.A14   gastrointestinal      yes Gastric intestinal metaplasia without dysplasia, involving the cardia
+K31.A15   gastrointestinal      yes Gastric intestinal metaplasia without dysplasia, involving multiple sites
+K31.A19   gastrointestinal      yes Gastric intestinal metaplasia without dysplasia, unspecified site
+K31.A21   gastrointestinal      yes Gastric intestinal metaplasia with low grade dysplasia
+K31.A22   gastrointestinal      yes Gastric intestinal metaplasia with high grade dysplasia
+K31.A29   gastrointestinal      yes Gastric intestinal metaplasia with dysplasia, unspecified
+M31.10    hematological         yes Thrombotic microangiopathy, unspecified
+M31.11    hematological         yes Hematopoietic stem cell transplantation-associated thrombotic microangiopathy [HSCT-TMA]
+M31.19    hematological         yes Other thrombotic microangiopathy
+M35.01    immunological         no  Sjogren syndrome with keratoconjunctivitis
+M35.02    immunological         no  Sjogren syndrome with lung involvement
+M35.03    immunological         no  Sjogren syndrome with myopathy
+M35.04    immunological         no  Sjogren syndrome with tubulo-interstitial nephropathy
+M35.05    immunological         no  Sjogren syndrome with inflammatory arthritis
+M35.06    immunological         no  Sjogren syndrome with peripheral nervous system involvement
+M35.07    immunological         no  Sjogren syndrome with central nervous system involvement
+M35.08    immunological         no  Sjogren syndrome with gastrointestinal involvement
+M35.09    immunological         no  Sjogren syndrome with other organ involvement
+M35.0A    immunological         no  Sjogren syndrome with glomerular disease
+M35.0B    immunological         no  Sjogren syndrome with vasculitis
+M35.0C    immunological         no  Sjogren syndrome with dental involvement
+U09.9     immunological         no  Post COVID-19 condition, unspecified
 ;
 run ;
 
@@ -439,7 +482,7 @@ quit ;
 
 proc sql ;
   create table s.to_be_added as
-  select n.*, (not t.dx is null) as already_included
+  select n.*, t.body_system, t.progressive, (not t.dx is null) as already_included
   from s.do_want as n
     left join s.do_want_test as t on n.dx = t.dx
   where t.dx is null
@@ -466,6 +509,28 @@ ods html5 path = "&out_folder" (URL=NONE)
          device = svg
          /* options(svg_mode="embed") */
           ;
+
+  title1 "These codes are not currently detected, and so need to be added" ;
+  proc sql number ;
+    select dx, bs_wanted, prog_wanted, description
+    from s.to_be_added
+    where not already_included
+    ;
+
+    title1 "These codes are detected, but are being assigned to the wrong body system" ;
+    select dx, body_system as bs_assigned, bs_wanted as bs_should_be, prog_wanted, description
+    from s.added_codes
+    where body_system is not null and body_system ne bs_wanted
+    ;
+
+    title1 "These codes are currently detected, but are getting a bad progressive value " ;
+    select dx, body_system as bs_assigned, bs_wanted as bs_should_be, progressive, prog_wanted, description
+    from s.added_codes
+    where progressive is not null and progressive ne (prog_wanted = 'yes')
+    ;
+
+  quit ;
+
 
   proc freq data = s.added_codes  ;
     tables body_system * bs_wanted / missing format = comma9.0 ;
