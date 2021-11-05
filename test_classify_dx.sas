@@ -422,9 +422,9 @@ K31.A19   gastrointestinal      yes Gastric intestinal metaplasia without dyspla
 K31.A21   gastrointestinal      yes Gastric intestinal metaplasia with low grade dysplasia
 K31.A22   gastrointestinal      yes Gastric intestinal metaplasia with high grade dysplasia
 K31.A29   gastrointestinal      yes Gastric intestinal metaplasia with dysplasia, unspecified
-M31.10    hematological         yes Thrombotic microangiopathy, unspecified
-M31.11    hematological         yes Hematopoietic stem cell transplantation-associated thrombotic microangiopathy [HSCT-TMA]
-M31.19    hematological         yes Other thrombotic microangiopathy
+M31.10    immunological         yes Thrombotic microangiopathy, unspecified
+M31.11    immunological         yes Hematopoietic stem cell transplantation-associated thrombotic microangiopathy [HSCT-TMA]
+M31.19    immunological         yes Other thrombotic microangiopathy
 M35.01    immunological         no  Sjogren syndrome with keratoconjunctivitis
 M35.02    immunological         no  Sjogren syndrome with lung involvement
 M35.03    immunological         no  Sjogren syndrome with myopathy
@@ -510,11 +510,16 @@ ods html5 path = "&out_folder" (URL=NONE)
          /* options(svg_mode="embed") */
           ;
 
-  title1 "These codes are not currently detected, and so need to be added" ;
   proc sql number ;
+    title1 "These codes are not currently detected, and so need to be added" ;
     select dx, bs_wanted, prog_wanted, description
     from s.to_be_added
     where not already_included
+    ;
+
+    title1 "These codes are NOT wanted but ARE being detected, so need to be removed" ;
+    select dx, bs_wanted, body_system, progressive, description
+    from s.dont_want_test
     ;
 
     title1 "These codes are detected, but are being assigned to the wrong body system" ;
@@ -531,10 +536,11 @@ ods html5 path = "&out_folder" (URL=NONE)
 
   quit ;
 
+  title1 "Older freqs on added_codes" ;
 
   proc freq data = s.added_codes  ;
-    tables body_system * bs_wanted / missing format = comma9.0 ;
-    where body_system ne bs_wanted ;
+    tables body_system * bs_wanted / list missing format = comma9.0 ;
+    * where body_system ne bs_wanted ;
   run ;
 
   proc freq data = s.added_codes  ;

@@ -138,12 +138,12 @@ quit ;
 
 %get_raw ;
 endsas ;
-*/
 
+*/
 %include "\\wampeam6546558\c$\users\o578092\documents\vdw\pmca\classify_dx.sas" ;
 * %generate_lookup(inset = s.raw_dx_codes (where = (dx_codetype = '09')), dx_varname = dx_nodecimal, dx_codetype = 09, outset = s.icd09_lookup) ;
 * %generate_lookup(inset = s.raw_dx_codes (where = (dx_codetype = '10')), dx_varname = dx_nodecimal, dx_codetype = 10, outset = s.icd10_lookup) ;
-
+* endsas ;
 
 ods excel file="%sysfunc(pathname(s))/pmca_dx_code_lists.xlsx"
     style=htmlblue
