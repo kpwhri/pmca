@@ -1,6 +1,6 @@
 Build up dsets of:
   1 not currently selected but should be
-  2 currently selected by should NOT be
+  2 currently selected but should NOT be
   3 mistaken progressive
   4 mistaken body system
 I'm done when

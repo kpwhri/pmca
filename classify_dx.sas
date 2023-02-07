@@ -393,7 +393,7 @@
       'E7223' 'E7229' 'E723' 'E728' 'E729' 'E7400'
       'E7401' 'E7404' 'E7409' 'E7421' 'E7439'
       'E744' 'E748' 'E749' 'E7502' 'E7519' 'E7521'
-      'E7522' 'E7523' 'E7524' 'E7525' 'E7526' 'E7529'
+      'E7522' 'E7523' 'E75249' 'E7525' 'E7526' 'E7529'
       'E754' 'E7601' 'E7603' 'E761' 'E76219'
       'E7622' 'E7629' 'E763' 'E770' 'E771'
       'E786' 'E7870' 'E7871' 'E7872' 'E788' 'E789'
@@ -520,7 +520,7 @@
       'K834' 'K835' 'K838' 'K861' 'K862'
       'K863' 'K868' 'K900' 'K901' 'K902'
       'K903' 'K9081' 'K915')   then gastro=1;
-    if &dx_varname in: ('K31A' 'K73' 'K74' 'K754' 'K761' 'K766'
+    if &dx_varname in: ('K73' 'K74' 'K754' 'K761' 'K766'
       'K767' 'K8301') then do; gastro=1; progressive=1; end;
     if &dx_varname in: ('L100' 'L101' 'L102' 'L104' 'L109'
       'L120' 'L121' 'L122' 'L128' 'L13'
@@ -529,10 +529,9 @@
     if &dx_varname in: ('M050' 'M051' 'M0530' 'M0560' 'M060'
       'M062' 'M063' 'M068' 'M069' 'M08' 'M111'
       'M112' 'M118' 'M119' 'M120'
-      'M303' 'M313' 'M314' 'M316'
-      'M33' 'M350' 'M353' 'M45'
-      'M461' 'M468' 'M469' 'M481', 'U099')   then immuno=1;
-    if &dx_varname in: ('M311') then do immuno = 1 ; progressive = 1 ; end ;
+      'M303' 'M311' 'M313' 'M314' 'M316'
+      'M33' 'M3500' 'M3501' 'M353' 'M45'
+      'M461' 'M468' 'M469' 'M481')   then immuno=1;
     * [RP] Adding a space at the end of M358 b/c we *do* want M35.8 but we dont want M35.81 ;
     if &dx_varname in: ('L930' 'L932' 'M300' 'M310' 'M312'
       'M321' 'M340' 'M341' 'M349' 'M355'
@@ -668,6 +667,7 @@
     if &dx_varname in: ('Z9483') then do; endo=1; progressive=1; end;
   end; * <- icd-10 branch ;
 %mend classify_dx ;
+
 
 proc format ;
   * ind = whichn(1, cardiac, cranio, derm, endo, gastro, genetic, genito, hemato, immuno, malign, mh, metab, musculo, neuro, opthal, otol, otolar, pulresp, renal) ;
