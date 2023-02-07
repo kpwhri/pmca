@@ -1094,15 +1094,15 @@ G12.25    neurological          yes Progressive spinal muscle atrophy
 G40.42    neurological          no  Cyclin-Dependent Kinase-Like 5 Deficiency Disorder
 G40.833   neurological          yes Dravet syndrome, intractable, with status epilepticus
 G40.834   neurological          yes Dravet syndrome, intractable, without status epilepticus
-G71.00    neurological          yes Muscular dystrophy, unspecified
-G71.01    neurological          yes Duchenne or Becker muscular dystrophy
-G71.02    neurological          no  Facioscapulohumeral muscular dystrophy
-G71.09    neurological          yes Other specified muscular dystrophies
-G71.20    neurological          yes Congenital myopathy, unspecifed
-G71.21    neurological          yes Nemaline myopathy
-G71.220   neurological          yes X-linked myotubular myopathy
-G71.228   neurological          yes Other centronuclear myopathy
-G71.29    neurological          yes Other congenital myopathy
+G71.00    musculoskeletal       yes Muscular dystrophy, unspecified
+G71.01    musculoskeletal       yes Duchenne or Becker muscular dystrophy
+G71.02    musculoskeletal       no  Facioscapulohumeral muscular dystrophy
+G71.09    musculoskeletal       yes Other specified muscular dystrophies
+G71.20    musculoskeletal       yes Congenital myopathy, unspecifed
+G71.21    musculoskeletal       yes Nemaline myopathy
+G71.220   musculoskeletal       yes X-linked myotubular myopathy
+G71.228   musculoskeletal       yes Other centronuclear myopathy
+G71.29    musculoskeletal       yes Other congenital myopathy
 H54.0X33  ophthalmological      no  Blindness right eye category 3, blindness left eye category 3
 H54.0X34  ophthalmological      no  Blindness right eye category 3, blindness left eye category 4
 H54.0X35  ophthalmological      no  Blindness right eye category 3, blindness left eye category 5
@@ -1421,16 +1421,16 @@ F03.C4    neurological          yes Unspecified dementia, severe, with anxiety
 F06.70    neurological          no  Mild neurocognitive disorder due to known physiological condition without behavioral disturbance
 F06.71    neurological          no  Mild neurocognitive disorder due to known physiological condition with behavioral disturbance
 F43.81    mental health         no  Prolonged grief disorder
-G71.031   musculoskelatal       yes Autosomal dominant limb girdle muscular dystrophy
-G71.032   musculoskelatal       yes Autosomal recessive limb girdle muscular dystrophy due to calpain-3 dysfunction
-G71.033   musculoskelatal       yes Limb girdle muscular dystrophy due to dysferlin dysfunction
-G71.0340  musculoskelatal       yes Limb girdle muscular dystrophy due to sarcoglycan dysfunction, unspecified
-G71.0341  musculoskelatal       yes Limb girdle muscular dystrophy due to alpha sarcoglycan dysfunction
-G71.0342  musculoskelatal       yes Limb girdle muscular dystrophy due to beta sarcoglycan dysfunction
-G71.0349  musculoskelatal       yes Limb girdle muscular dystrophy due to other sarcoglycan dysfunction
-G71.035   musculoskelatal       yes Limb girdle muscular dystrophy due to anoctamin-5 dysfunction
-G71.038   musculoskelatal       yes Other limb girdle muscular dystrophy
-G71.039   musculoskelatal       yes Limb girdle muscular dystrophy, unspecified
+G71.031   musculoskeletal       yes Autosomal dominant limb girdle muscular dystrophy
+G71.032   musculoskeletal       yes Autosomal recessive limb girdle muscular dystrophy due to calpain-3 dysfunction
+G71.033   musculoskeletal       yes Limb girdle muscular dystrophy due to dysferlin dysfunction
+G71.0340  musculoskeletal       yes Limb girdle muscular dystrophy due to sarcoglycan dysfunction, unspecified
+G71.0341  musculoskeletal       yes Limb girdle muscular dystrophy due to alpha sarcoglycan dysfunction
+G71.0342  musculoskeletal       yes Limb girdle muscular dystrophy due to beta sarcoglycan dysfunction
+G71.0349  musculoskeletal       yes Limb girdle muscular dystrophy due to other sarcoglycan dysfunction
+G71.035   musculoskeletal       yes Limb girdle muscular dystrophy due to anoctamin-5 dysfunction
+G71.038   musculoskeletal       yes Other limb girdle muscular dystrophy
+G71.039   musculoskeletal       yes Limb girdle muscular dystrophy, unspecified
 G90.A     cardiac               no  Postural orthostatic tachycardia syndrome [POTS]
 G93.32    neurological          no  Myalgic encephalomyelitis/chronic fatigue syndrome
 I34.89    cardiac               no  Other nonrheumatic mitral valve disorders
@@ -1459,142 +1459,142 @@ M62.5A1   musculoskeletal       no  Muscle wasting and atrophy, not elsewhere cl
 M62.5A2   musculoskeletal       no  Muscle wasting and atrophy, not elsewhere classified, back, lumbosacral
 M62.5A9   musculoskeletal       no  Muscle wasting and atrophy, not elsewhere classified, back, unspecified level
 M93.024   musculoskeletal       no  Chronic slipped upper femoral epiphysis, stable (nontraumatic), bilateral hips
-N80.00    gynecological         no  Endometriosis of the uterus, unspecified
-N80.01    gynecological         no  Superficial endometriosis of the uterus
-N80.02    gynecological         no  Deep endometriosis of the uterus
-N80.03    gynecological         no  Adenomyosis of the uterus
-N80.101   gynecological         no  Endometriosis of right ovary, unspecified depth
-N80.102   gynecological         no  Endometriosis of left ovary, unspecified depth
-N80.103   gynecological         no  Endometriosis of bilateral ovaries, unspecified depth
-N80.109   gynecological         no  Endometriosis of ovary, unspecified side, unspecified depth
-N80.111   gynecological         no  Superficial endometriosis of right ovary
-N80.112   gynecological         no  Superficial endometriosis of left ovary
-N80.113   gynecological         no  Superficial endometriosis of bilateral ovaries
-N80.119   gynecological         no  Superficial endometriosis of ovary, unspecified ovary
-N80.121   gynecological         no  Deep endometriosis of right ovary
-N80.122   gynecological         no  Deep endometriosis of left ovary
-N80.123   gynecological         no  Deep endometriosis of bilateral ovaries
-N80.129   gynecological         no  Deep endometriosis of ovary, unspecified ovary
-N80.201   gynecological         no  Endometriosis of right fallopian tube, unspecified depth
-N80.202   gynecological         no  Endometriosis of left fallopian tube, unspecified depth
-N80.203   gynecological         no  Endometriosis of bilateral fallopian tubes, unspecified depth
-N80.209   gynecological         no  Endometriosis of unspecified fallopian tube, unspecified depth
-N80.211   gynecological         no  Superficial endometriosis of right fallopian tube
-N80.212   gynecological         no  Superficial endometriosis of left fallopian tube
-N80.213   gynecological         no  Superficial endometriosis of bilateral fallopian tubes
-N80.219   gynecological         no  Superficial endometriosis of unspecified fallopian tube
-N80.221   gynecological         no  Deep endometriosis of right fallopian tube
-N80.222   gynecological         no  Deep endometriosis of left fallopian tube
-N80.223   gynecological         no  Deep endometriosis of bilateral fallopian tubes
-N80.229   gynecological         no  Deep endometriosis of unspecified fallopian tube
-N80.30    gynecological         no  Endometriosis of pelvic peritoneum, unspecified
-N80.311   gynecological         no  Superficial endometriosis of the anterior cul-de-sac
-N80.312   gynecological         no  Deep endometriosis of the anterior cul-de-sac
-N80.319   gynecological         no  Endometriosis of the anterior cul-de-sac, unspecified depth
-N80.321   gynecological         no  Superficial endometriosis of the posterior cul-de-sac
-N80.322   gynecological         no  Deep endometriosis of the posterior cul-de-sac
-N80.329   gynecological         no  Endometriosis of the posterior cul-de-sac, unspecified depth
-N80.331   gynecological         no  Superficial endometriosis of the right pelvic sidewall
-N80.332   gynecological         no  Superficial endometriosis of the left pelvic sidewall
-N80.333   gynecological         no  Superficial endometriosis of bilateral pelvic sidewall
-N80.339   gynecological         no  Superficial endometriosis of pelvic sidewall, unspecified side
-N80.341   gynecological         no  Deep endometriosis of the right pelvic sidewall
-N80.342   gynecological         no  Deep endometriosis of the left pelvic sidewall
-N80.343   gynecological         no  Deep endometriosis of the bilateral pelvic sidewall
-N80.349   gynecological         no  Deep endometriosis of the pelvic sidewall, unspecified side
-N80.351   gynecological         no  Endometriosis of the right pelvic sidewall, unspecified depth
-N80.352   gynecological         no  Endometriosis of the left pelvic sidewall, unspecified depth
-N80.353   gynecological         no  Endometriosis of bilateral pelvic sidewall, unspecified depth
-N80.359   gynecological         no  Endometriosis of pelvic sidewall, unspecified side, unspecified depth
-N80.361   gynecological         no  Superficial endometriosis of the right pelvic brim
-N80.362   gynecological         no  Superficial endometriosis of the left pelvic brim
-N80.363   gynecological         no  Superficial endometriosis of bilateral pelvic brim
-N80.369   gynecological         no  Superficial endometriosis of the pelvic brim, unspecified side
-N80.371   gynecological         no  Deep endometriosis of the right pelvic brim
-N80.372   gynecological         no  Deep endometriosis of the left pelvic brim
-N80.373   gynecological         no  Deep endometriosis of bilateral pelvic brim
-N80.379   gynecological         no  Deep endometriosis of the pelvic brim, unspecified side
-N80.381   gynecological         no  Endometriosis of the right pelvic brim, unspecified depth
-N80.382   gynecological         no  Endometriosis of the left pelvic brim, unspecified depth
-N80.383   gynecological         no  Endometriosis of bilateral pelvic brim, unspecified depth
-N80.389   gynecological         no  Endometriosis of the pelvic brim, unspecified side, unspecified depth
-N80.391   gynecological         no  Superficial endometriosis of the pelvic peritoneum, other specified sites
-N80.392   gynecological         no  Deep endometriosis of the pelvic peritoneum, other specified sites
-N80.399   gynecological         no  Endometriosis of the pelvic peritoneum, other specified sites, unspecified depth
-N80.3A1   gynecological         no  Superficial endometriosis of the right uterosacral ligament
-N80.3A2   gynecological         no  Superficial endometriosis of the left uterosacral ligament
-N80.3A3   gynecological         no  Superficial endometriosis of the bilateral uterosacral ligament(s)
-N80.3A9   gynecological         no  Superficial endometriosis of the uterosacral ligament(s), unspecified side
-N80.3B1   gynecological         no  Deep endometriosis of the right uterosacral ligament
-N80.3B2   gynecological         no  Deep endometriosis of the left uterosacral ligament
-N80.3B3   gynecological         no  Deep endometriosis of bilateral uterosacral ligament(s)
-N80.3B9   gynecological         no  Deep endometriosis of the uterosacral ligament(s), unspecified side
-N80.3C1   gynecological         no  Endometriosis of the right uterosacral ligament, unspecified depth
-N80.3C2   gynecological         no  Endometriosis of the left uterosacral ligament, unspecified depth
-N80.3C3   gynecological         no  Endometriosis of bilateral uterosacral ligament(s), unspecified depth
-N80.3C9   gynecological         no  Endometriosis of the uterosacral ligament(s), unspecified side, unspecified depth
-N80.40    gynecological         no  Endometriosis of rectovaginal septum, unspecified involvement of vagina
-N80.41    gynecological         no  Endometriosis of rectovaginal septum without involvement of vagina
-N80.42    gynecological         no  Endometriosis of rectovaginal septum with involvement of vagina
-N80.50    gynecological         no  Endometriosis of intestine, unspecified
-N80.511   gynecological         no  Superficial endometriosis of the rectum
-N80.512   gynecological         no  Deep endometriosis of the rectum
-N80.519   gynecological         no  Endometriosis of the rectum, unspecified depth
-N80.521   gynecological         no  Superficial endometriosis of the sigmoid colon
-N80.522   gynecological         no  Deep endometriosis of the sigmoid colon
-N80.529   gynecological         no  Endometriosis of the sigmoid colon, unspecified depth
-N80.531   gynecological         no  Superficial endometriosis of the cecum
-N80.532   gynecological         no  Deep endometriosis of the cecum
-N80.539   gynecological         no  Endometriosis of the cecum, unspecified depth
-N80.541   gynecological         no  Superficial endometriosis of the appendix
-N80.542   gynecological         no  Deep endometriosis of the appendix
-N80.549   gynecological         no  Endometriosis of the appendix, unspecified depth
-N80.551   gynecological         no  Superficial endometriosis of other parts of the colon
-N80.552   gynecological         no  Deep endometriosis of other parts of the colon
-N80.559   gynecological         no  Endometriosis of other parts of the colon, unspecified depth
-N80.561   gynecological         no  Superficial endometriosis of the small intestine
-N80.562   gynecological         no  Deep endometriosis of the small intestine
-N80.569   gynecological         no  Endometriosis of the small intestine, unspecified depth
-N80.A0    gynecological         no  Endometriosis of bladder, unspecified depth
-N80.A1    gynecological         no  Superficial endometriosis of bladder
-N80.A2    gynecological         no  Deep endometriosis of bladder
-N80.A41   gynecological         no  Superficial endometriosis of right ureter
-N80.A42   gynecological         no  Superficial endometriosis of left ureter
-N80.A43   gynecological         no  Superficial endometriosis of bilateral ureters
-N80.A49   gynecological         no  Superficial endometriosis of unspecified ureter
-N80.A51   gynecological         no  Deep endometriosis of right ureter
-N80.A52   gynecological         no  Deep endometriosis of left ureter
-N80.A53   gynecological         no  Deep endometriosis of bilateral ureters
-N80.A59   gynecological         no  Deep endometriosis of unspecified ureter
-N80.A61   gynecological         no  Endometriosis of right ureter, unspecified depth
-N80.A62   gynecological         no  Endometriosis of left ureter, unspecified depth
-N80.A63   gynecological         no  Endometriosis of bilateral ureters, unspecified depth
-N80.A69   gynecological         no  Endometriosis of unspecified ureter, unspecified depth
-N80.B1    gynecological         no  Endometriosis of pleura
-N80.B2    gynecological         no  Endometriosis of lung
-N80.B31   gynecological         no  Superficial endometriosis of diaphragm
-N80.B32   gynecological         no  Deep endometriosis of diaphragm
-N80.B39   gynecological         no  Endometriosis of diaphragm, unspecified depth
-N80.B4    gynecological         no  Endometriosis of the pericardial space
-N80.B5    gynecological         no  Endometriosis of the mediastinal space
-N80.B6    gynecological         no  Endometriosis of cardiothoracic space
-N80.C0    gynecological         no  Endometriosis of the abdomen, unspecified
-N80.C10   gynecological         no  Endometriosis of the anterior abdominal wall, subcutaneous tissue
-N80.C11   gynecological         no  Endometriosis of the anterior abdominal wall, fascia and muscular layers
-N80.C19   gynecological         no  Endometriosis of the anterior abdominal wall, unspecified depth
-N80.C2    gynecological         no  Endometriosis of the umbilicus
-N80.C3    gynecological         no  Endometriosis of the inguinal canal
-N80.C4    gynecological         no  Endometriosis of extra-pelvic abdominal peritoneum
-N80.C9    gynecological         no  Endometriosis of other site of abdomen
-N80.D0    gynecological         no  Endometriosis of the pelvic nerves, unspecified
-N80.D1    gynecological         no  Endometriosis of the sacral splanchnic nerves
-N80.D2    gynecological         no  Endometriosis of the sacral nerve roots
-N80.D3    gynecological         no  Endometriosis of the obturator nerve
-N80.D4    gynecological         no  Endometriosis of the sciatic nerve
-N80.D5    gynecological         no  Endometriosis of the pudendal nerve
-N80.D6    gynecological         no  Endometriosis of the femoral nerve
-N80.D9    gynecological         no  Endometriosis of other pelvic nerve
-N85.A     gynecological         no  Isthmocele
+N80.00    genitourinary         no  Endometriosis of the uterus, unspecified
+N80.01    genitourinary         no  Superficial endometriosis of the uterus
+N80.02    genitourinary         no  Deep endometriosis of the uterus
+N80.03    genitourinary         no  Adenomyosis of the uterus
+N80.101   genitourinary         no  Endometriosis of right ovary, unspecified depth
+N80.102   genitourinary         no  Endometriosis of left ovary, unspecified depth
+N80.103   genitourinary         no  Endometriosis of bilateral ovaries, unspecified depth
+N80.109   genitourinary         no  Endometriosis of ovary, unspecified side, unspecified depth
+N80.111   genitourinary         no  Superficial endometriosis of right ovary
+N80.112   genitourinary         no  Superficial endometriosis of left ovary
+N80.113   genitourinary         no  Superficial endometriosis of bilateral ovaries
+N80.119   genitourinary         no  Superficial endometriosis of ovary, unspecified ovary
+N80.121   genitourinary         no  Deep endometriosis of right ovary
+N80.122   genitourinary         no  Deep endometriosis of left ovary
+N80.123   genitourinary         no  Deep endometriosis of bilateral ovaries
+N80.129   genitourinary         no  Deep endometriosis of ovary, unspecified ovary
+N80.201   genitourinary         no  Endometriosis of right fallopian tube, unspecified depth
+N80.202   genitourinary         no  Endometriosis of left fallopian tube, unspecified depth
+N80.203   genitourinary         no  Endometriosis of bilateral fallopian tubes, unspecified depth
+N80.209   genitourinary         no  Endometriosis of unspecified fallopian tube, unspecified depth
+N80.211   genitourinary         no  Superficial endometriosis of right fallopian tube
+N80.212   genitourinary         no  Superficial endometriosis of left fallopian tube
+N80.213   genitourinary         no  Superficial endometriosis of bilateral fallopian tubes
+N80.219   genitourinary         no  Superficial endometriosis of unspecified fallopian tube
+N80.221   genitourinary         no  Deep endometriosis of right fallopian tube
+N80.222   genitourinary         no  Deep endometriosis of left fallopian tube
+N80.223   genitourinary         no  Deep endometriosis of bilateral fallopian tubes
+N80.229   genitourinary         no  Deep endometriosis of unspecified fallopian tube
+N80.30    genitourinary         no  Endometriosis of pelvic peritoneum, unspecified
+N80.311   genitourinary         no  Superficial endometriosis of the anterior cul-de-sac
+N80.312   genitourinary         no  Deep endometriosis of the anterior cul-de-sac
+N80.319   genitourinary         no  Endometriosis of the anterior cul-de-sac, unspecified depth
+N80.321   genitourinary         no  Superficial endometriosis of the posterior cul-de-sac
+N80.322   genitourinary         no  Deep endometriosis of the posterior cul-de-sac
+N80.329   genitourinary         no  Endometriosis of the posterior cul-de-sac, unspecified depth
+N80.331   genitourinary         no  Superficial endometriosis of the right pelvic sidewall
+N80.332   genitourinary         no  Superficial endometriosis of the left pelvic sidewall
+N80.333   genitourinary         no  Superficial endometriosis of bilateral pelvic sidewall
+N80.339   genitourinary         no  Superficial endometriosis of pelvic sidewall, unspecified side
+N80.341   genitourinary         no  Deep endometriosis of the right pelvic sidewall
+N80.342   genitourinary         no  Deep endometriosis of the left pelvic sidewall
+N80.343   genitourinary         no  Deep endometriosis of the bilateral pelvic sidewall
+N80.349   genitourinary         no  Deep endometriosis of the pelvic sidewall, unspecified side
+N80.351   genitourinary         no  Endometriosis of the right pelvic sidewall, unspecified depth
+N80.352   genitourinary         no  Endometriosis of the left pelvic sidewall, unspecified depth
+N80.353   genitourinary         no  Endometriosis of bilateral pelvic sidewall, unspecified depth
+N80.359   genitourinary         no  Endometriosis of pelvic sidewall, unspecified side, unspecified depth
+N80.361   genitourinary         no  Superficial endometriosis of the right pelvic brim
+N80.362   genitourinary         no  Superficial endometriosis of the left pelvic brim
+N80.363   genitourinary         no  Superficial endometriosis of bilateral pelvic brim
+N80.369   genitourinary         no  Superficial endometriosis of the pelvic brim, unspecified side
+N80.371   genitourinary         no  Deep endometriosis of the right pelvic brim
+N80.372   genitourinary         no  Deep endometriosis of the left pelvic brim
+N80.373   genitourinary         no  Deep endometriosis of bilateral pelvic brim
+N80.379   genitourinary         no  Deep endometriosis of the pelvic brim, unspecified side
+N80.381   genitourinary         no  Endometriosis of the right pelvic brim, unspecified depth
+N80.382   genitourinary         no  Endometriosis of the left pelvic brim, unspecified depth
+N80.383   genitourinary         no  Endometriosis of bilateral pelvic brim, unspecified depth
+N80.389   genitourinary         no  Endometriosis of the pelvic brim, unspecified side, unspecified depth
+N80.391   genitourinary         no  Superficial endometriosis of the pelvic peritoneum, other specified sites
+N80.392   genitourinary         no  Deep endometriosis of the pelvic peritoneum, other specified sites
+N80.399   genitourinary         no  Endometriosis of the pelvic peritoneum, other specified sites, unspecified depth
+N80.3A1   genitourinary         no  Superficial endometriosis of the right uterosacral ligament
+N80.3A2   genitourinary         no  Superficial endometriosis of the left uterosacral ligament
+N80.3A3   genitourinary         no  Superficial endometriosis of the bilateral uterosacral ligament(s)
+N80.3A9   genitourinary         no  Superficial endometriosis of the uterosacral ligament(s), unspecified side
+N80.3B1   genitourinary         no  Deep endometriosis of the right uterosacral ligament
+N80.3B2   genitourinary         no  Deep endometriosis of the left uterosacral ligament
+N80.3B3   genitourinary         no  Deep endometriosis of bilateral uterosacral ligament(s)
+N80.3B9   genitourinary         no  Deep endometriosis of the uterosacral ligament(s), unspecified side
+N80.3C1   genitourinary         no  Endometriosis of the right uterosacral ligament, unspecified depth
+N80.3C2   genitourinary         no  Endometriosis of the left uterosacral ligament, unspecified depth
+N80.3C3   genitourinary         no  Endometriosis of bilateral uterosacral ligament(s), unspecified depth
+N80.3C9   genitourinary         no  Endometriosis of the uterosacral ligament(s), unspecified side, unspecified depth
+N80.40    genitourinary         no  Endometriosis of rectovaginal septum, unspecified involvement of vagina
+N80.41    genitourinary         no  Endometriosis of rectovaginal septum without involvement of vagina
+N80.42    genitourinary         no  Endometriosis of rectovaginal septum with involvement of vagina
+N80.50    genitourinary         no  Endometriosis of intestine, unspecified
+N80.511   genitourinary         no  Superficial endometriosis of the rectum
+N80.512   genitourinary         no  Deep endometriosis of the rectum
+N80.519   genitourinary         no  Endometriosis of the rectum, unspecified depth
+N80.521   genitourinary         no  Superficial endometriosis of the sigmoid colon
+N80.522   genitourinary         no  Deep endometriosis of the sigmoid colon
+N80.529   genitourinary         no  Endometriosis of the sigmoid colon, unspecified depth
+N80.531   genitourinary         no  Superficial endometriosis of the cecum
+N80.532   genitourinary         no  Deep endometriosis of the cecum
+N80.539   genitourinary         no  Endometriosis of the cecum, unspecified depth
+N80.541   genitourinary         no  Superficial endometriosis of the appendix
+N80.542   genitourinary         no  Deep endometriosis of the appendix
+N80.549   genitourinary         no  Endometriosis of the appendix, unspecified depth
+N80.551   genitourinary         no  Superficial endometriosis of other parts of the colon
+N80.552   genitourinary         no  Deep endometriosis of other parts of the colon
+N80.559   genitourinary         no  Endometriosis of other parts of the colon, unspecified depth
+N80.561   genitourinary         no  Superficial endometriosis of the small intestine
+N80.562   genitourinary         no  Deep endometriosis of the small intestine
+N80.569   genitourinary         no  Endometriosis of the small intestine, unspecified depth
+N80.A0    genitourinary         no  Endometriosis of bladder, unspecified depth
+N80.A1    genitourinary         no  Superficial endometriosis of bladder
+N80.A2    genitourinary         no  Deep endometriosis of bladder
+N80.A41   genitourinary         no  Superficial endometriosis of right ureter
+N80.A42   genitourinary         no  Superficial endometriosis of left ureter
+N80.A43   genitourinary         no  Superficial endometriosis of bilateral ureters
+N80.A49   genitourinary         no  Superficial endometriosis of unspecified ureter
+N80.A51   genitourinary         no  Deep endometriosis of right ureter
+N80.A52   genitourinary         no  Deep endometriosis of left ureter
+N80.A53   genitourinary         no  Deep endometriosis of bilateral ureters
+N80.A59   genitourinary         no  Deep endometriosis of unspecified ureter
+N80.A61   genitourinary         no  Endometriosis of right ureter, unspecified depth
+N80.A62   genitourinary         no  Endometriosis of left ureter, unspecified depth
+N80.A63   genitourinary         no  Endometriosis of bilateral ureters, unspecified depth
+N80.A69   genitourinary         no  Endometriosis of unspecified ureter, unspecified depth
+N80.B1    genitourinary         no  Endometriosis of pleura
+N80.B2    genitourinary         no  Endometriosis of lung
+N80.B31   genitourinary         no  Superficial endometriosis of diaphragm
+N80.B32   genitourinary         no  Deep endometriosis of diaphragm
+N80.B39   genitourinary         no  Endometriosis of diaphragm, unspecified depth
+N80.B4    genitourinary         no  Endometriosis of the pericardial space
+N80.B5    genitourinary         no  Endometriosis of the mediastinal space
+N80.B6    genitourinary         no  Endometriosis of cardiothoracic space
+N80.C0    genitourinary         no  Endometriosis of the abdomen, unspecified
+N80.C10   genitourinary         no  Endometriosis of the anterior abdominal wall, subcutaneous tissue
+N80.C11   genitourinary         no  Endometriosis of the anterior abdominal wall, fascia and muscular layers
+N80.C19   genitourinary         no  Endometriosis of the anterior abdominal wall, unspecified depth
+N80.C2    genitourinary         no  Endometriosis of the umbilicus
+N80.C3    genitourinary         no  Endometriosis of the inguinal canal
+N80.C4    genitourinary         no  Endometriosis of extra-pelvic abdominal peritoneum
+N80.C9    genitourinary         no  Endometriosis of other site of abdomen
+N80.D0    genitourinary         no  Endometriosis of the pelvic nerves, unspecified
+N80.D1    genitourinary         no  Endometriosis of the sacral splanchnic nerves
+N80.D2    genitourinary         no  Endometriosis of the sacral nerve roots
+N80.D3    genitourinary         no  Endometriosis of the obturator nerve
+N80.D4    genitourinary         no  Endometriosis of the sciatic nerve
+N80.D5    genitourinary         no  Endometriosis of the pudendal nerve
+N80.D6    genitourinary         no  Endometriosis of the femoral nerve
+N80.D9    genitourinary         no  Endometriosis of other pelvic nerve
+N85.A     genitourinary         no  Isthmocele
 P28.32    pulmonary/respiratory no  Primary obstructive sleep apnea of newborn
 P28.42    pulmonary/respiratory no  Obstructive apnea of newborn
 P28.43    pulmonary/respiratory no  Mixed neonatal apnea of newborn
