@@ -1432,7 +1432,7 @@ G71.035   musculoskelatal       yes Limb girdle muscular dystrophy due to anocta
 G71.038   musculoskelatal       yes Other limb girdle muscular dystrophy
 G71.039   musculoskelatal       yes Limb girdle muscular dystrophy, unspecified
 G90.A     cardiac               no  Postural orthostatic tachycardia syndrome [POTS]
-G93.32    neuroloigical         no  Myalgic encephalomyelitis/chronic fatigue syndrome
+G93.32    neurological          no  Myalgic encephalomyelitis/chronic fatigue syndrome
 I34.89    cardiac               no  Other nonrheumatic mitral valve disorders
 I47.20    cardiac               no  Ventricular tachycardia, unspecified
 I47.21    cardiac               no  Torsades de pointes
@@ -1595,9 +1595,9 @@ N80.D5    gynecological         no  Endometriosis of the pudendal nerve
 N80.D6    gynecological         no  Endometriosis of the femoral nerve
 N80.D9    gynecological         no  Endometriosis of other pelvic nerve
 N85.A     gynecological         no  Isthmocele
-P28.32    pulmonary             no  Primary obstructive sleep apnea of newborn
-P28.42    pulmonary             no  Obstructive apnea of newborn
-P28.43    pulmonary             no  Mixed neonatal apnea of newborn
+P28.32    pulmonary/respiratory no  Primary obstructive sleep apnea of newborn
+P28.42    pulmonary/respiratory no  Obstructive apnea of newborn
+P28.43    pulmonary/respiratory no  Mixed neonatal apnea of newborn
 Q21.10    cardiac               no  Atrial septal defect, unspecified
 Q21.11    cardiac               no  Secundum atrial septal defect
 Q21.12    cardiac               no  Patent foramen ovale
