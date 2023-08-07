@@ -10,7 +10,7 @@
 * lookup dataset of dx codes from OMOP-distributed reference data.
 *********************************************/
 
-* %include "h:/SAS/Scripts/remoteactivate.sas" ;
+%include "h:/SAS/Scripts/remoteactivate.sas" ;
 
 options
   linesize  = 150
@@ -23,30 +23,30 @@ options
   nosqlremerge
   extendobscounter = no
 ;
+%include "\\ghcmaster.ghc.org\ghri\Warehouse\management\Workspace\pardre1\pmca\classify_dx.sas" ;
 
 libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
 
 
 %macro get_raw(outset = ) ;
   %include "&GHRIDW_ROOT/Sasdata/CRN_VDW/lib/StdVars.sas" ;
-  %include "&GHRIDW_ROOT/Sasdata/CRN_VDW/lib/StdVars_RCMandCNTRS.sas" ;
 
   proc sql ;
     * w/out distinct n=113,202. Same with distinct. ;
-    create table s.raw_dx_codes as
+    create table &outset as
     select upcase(code) as dx length = 12
       , upcase(compress(code, '.')) as dx_nodecimal length = 12
       , case code_type when 'ICD10CM' then '10' when 'ICD9CM' then '09' else '??' end as dx_codetype
-      , code_source length = 12
-      , code_desc length = 300
+      , code_source length = 12 format = $12.
+      , code_desc length = 300 format = $300.
     from &_rcm_vdw_codebucket
     where code_type in ('ICD10CM', 'ICD9CM')
     order by code, code_type
     ;
     create table s.duped_dx_codes as
     select r.*
-    from s.raw_dx_codes as r INNER JOIN
-        (select dx, dx_codetype from s.raw_dx_codes
+    from &outset as r INNER JOIN
+        (select dx, dx_codetype from &outset
           group by dx, dx_codetype
           having count(*) > 1) as d on r.dx = d.dx and r.dx_codetype = d.dx_codetype
     order by r.dx
@@ -54,7 +54,7 @@ libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
   quit ;
 
   * Found some dupes in the icd10 diags--differences in casing & description. Lets ditch those ;
-  proc sort nodupkey data = s.raw_dx_codes ;
+  proc sort nodupkey data = &outset ;
     by dx dx_codetype ;
   run ;
   proc sql ;
@@ -140,10 +140,14 @@ quit ;
 endsas ;
 
 */
-%include "\\wampeam6546558\c$\users\o578092\documents\vdw\pmca\classify_dx.sas" ;
-* %generate_lookup(inset = s.raw_dx_codes (where = (dx_codetype = '09')), dx_varname = dx_nodecimal, dx_codetype = 09, outset = s.icd09_lookup) ;
-* %generate_lookup(inset = s.raw_dx_codes (where = (dx_codetype = '10')), dx_varname = dx_nodecimal, dx_codetype = 10, outset = s.icd10_lookup) ;
-* endsas ;
+
+/*
+%get_raw(outset = s.raw_dx_codes) ;
+
+%generate_lookup(inset = s.raw_dx_codes (where = (dx_codetype = '09')), dx_varname = dx_nodecimal, dx_codetype = 09, outset = s.icd09_lookup) ;
+%generate_lookup(inset = s.raw_dx_codes (where = (dx_codetype = '10')), dx_varname = dx_nodecimal, dx_codetype = 10, outset = s.icd10_lookup) ;
+endsas ;
+*/
 
 ods excel file="%sysfunc(pathname(s))/pmca_dx_code_lists.xlsx"
     style=htmlblue
