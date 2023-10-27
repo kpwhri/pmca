@@ -29,7 +29,7 @@ options
 ods listing close ;
 
 libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
-%include "C:\users\o578092\documents\vdw\pmca\classify_dx.sas" ;
+%include "\\ghcmaster.ghc.org\ghri\Warehouse\management\Workspace\pardre1\pmca\classify_dx.sas" ;
 
 * These are diagnoses that currently get flagged for inclusion, but should not. ;
 * Also, diags that were considered for adding, but decided against. ;
@@ -987,6 +987,307 @@ Z91.A3                          Caregivers unintentional underdosing of patients
 Z91.A4                          Caregivers other noncompliance with patients medication regimen
 Z91.A5                          Caregivers noncompliance with patients renal dialysis
 Z91.A9                          Caregivers noncompliance with patients other medical treatment and regimen
+F43.11                          Post-Traumatic Stress Disorder, Acute
+G43.001                         Migraine Without Aura and With Status Migrainosus, Not Intractable
+P07.03                          Extremely low birth weight
+P07.1                           Low Birth Weight
+P07.25                          Extreme prematurity, 26 completed weeks
+P07.30                          History of prematurity
+V61.20                          Parent-Child Relational Problem
+V61.8                           Sibling Relational Problem
+Z62.810                         History of physical abuse in childhood
+Z62.812                         Personal history of neglect in early childhood
+A41.54                          Sepsis due to Acinetobacter baumannii
+B96.83                          Acinetobacter baumannii as the cause of diseases classified elsewhere
+D13.9                           Benign neoplasm of ill-defined sites within the digestive system
+G20                             Parkinsons disease
+H36                             Retinal disorders in diseases classified elsewhere
+G20.A1                          Parkinsons disease without dyskinesia, without mention of fluctuations
+G20.A2                          Parkinsons disease without dyskinesia, with fluctuations
+G20.B1                          Parkinsons disease with dyskinesia, without mention of fluctuations
+G20.B2                          Parkinsons disease with dyskinesia, with fluctuations
+G20.C                           Parkinsonism, unspecified
+G93.44                          Adult-onset leukodystrophy with axonal spheroids
+H50.621                         Inferior oblique muscle entrapment, right eye
+H50.622                         Inferior oblique muscle entrapment, left eye
+H50.629                         Inferior oblique muscle entrapment, unspecified eye
+H50.631                         Inferior rectus muscle entrapment, right eye
+H50.632                         Inferior rectus muscle entrapment, left eye
+H50.639                         Inferior rectus muscle entrapment, unspecified eye
+H50.641                         Lateral rectus muscle entrapment, right eye
+H50.642                         Lateral rectus muscle entrapment, left eye
+H50.649                         Lateral rectus muscle entrapment, unspecified eye
+H50.651                         Medial rectus muscle entrapment, right eye
+H50.652                         Medial rectus muscle entrapment, left eye
+H50.659                         Medial rectus muscle entrapment, unspecified eye
+H50.661                         Superior oblique muscle entrapment, right eye
+H50.662                         Superior oblique muscle entrapment, left eye
+H50.669                         Superior oblique muscle entrapment, unspecified eye
+H50.671                         Superior rectus muscle entrapment, right eye
+H50.672                         Superior rectus muscle entrapment, left eye
+H50.679                         Superior rectus muscle entrapment, unspecified eye
+H50.681                         Extraocular muscle entrapment, unspecified, right eye
+H50.682                         Extraocular muscle entrapment, unspecified, left eye
+H50.689                         Extraocular muscle entrapment, unspecified, unspecified eye
+H57.8A1                         Foreign body sensation, right eye
+H57.8A2                         Foreign body sensation, left eye
+H57.8A3                         Foreign body sensation, bilateral eyes
+H57.8A9                         Foreign body sensation, unspecified eye
+I20.8                           Other forms of angina pectoris
+I20.81                          Angina pectoris with coronary microvascular dysfunction
+I20.89                          Other forms of angina pectoris
+I21.B                           Myocardial infarction with coronary microvascular dysfunction
+I24.8                           Other forms of acute ischemic heart disease
+I24.81                          Acute coronary microvascular dysfunction
+I24.89                          Other forms of acute ischemic heart disease
+J15.6                           Pneumonia due to other Gram-negative bacteria
+J15.61                          Pneumonia due to Acinetobacter baumannii
+J15.69                          Pneumonia due to other Gram-negative bacteria
+J44.81                          Bronchiolitis obliterans and bronchiolitis obliterans syndrome
+J44.89                          Other specified chronic obstructive pulmonary disease
+K35.20                          Acute appendicitis with generalized peritonitis, without abscess
+K35.200                         Acute appendicitis with generalized peritonitis, without perforation or abscess
+K35.201                         Acute appendicitis with generalized peritonitis, with perforation, without abscess
+K35.209                         Acute appendicitis with generalized peritonitis, without abscess, unspecified as to perforation
+K35.21                          Acute appendicitis with generalized peritonitis, with abscess
+K35.210                         Acute appendicitis with generalized peritonitis, without perforation, with abscess
+K35.211                         Acute appendicitis with generalized peritonitis, with perforation and abscess
+K35.219                         Acute appendicitis with generalized peritonitis, with abscess, unspecified as to perforation
+K63.8211                        Small intestinal bacterial overgrowth, hydrogen-subtype
+K63.8212                        Small intestinal bacterial overgrowth, hydrogen sulfide-subtype
+K63.8219                        Small intestinal bacterial overgrowth, unspecified
+K63.822                         Small intestinal fungal overgrowth
+K63.829                         Intestinal methanogen overgrowth, unspecified
+K68.2                           Retroperitoneal fibrosis
+K68.3                           Retroperitoneal hematoma
+M80.0B1A                        Age-related osteoporosis with current pathological fracture, right pelvis, initial encounter for fracture
+M80.0B1D                        Age-related osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with routine healing
+M80.0B1G                        Age-related osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with delayed healing
+M80.0B1K                        Age-related osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with nonunion
+M80.0B1P                        Age-related osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with malunion
+M80.0B1S                        Age-related osteoporosis with current pathological fracture, right pelvis, sequela
+M80.0B2A                        Age-related osteoporosis with current pathological fracture, left pelvis, initial encounter for fracture
+M80.0B2D                        Age-related osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with routine healing
+M80.0B2G                        Age-related osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with delayed healing
+M80.0B2K                        Age-related osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with nonunion
+M80.0B2P                        Age-related osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with malunion
+M80.0B2S                        Age-related osteoporosis with current pathological fracture, left pelvis, sequela
+M80.0B9A                        Age-related osteoporosis with current pathological fracture, unspecified pelvis, initial encounter for fracture
+M80.0B9D                        Age-related osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with routine healing
+M80.0B9G                        Age-related osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with delayed healing
+M80.0B9K                        Age-related osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with nonunion
+M80.0B9P                        Age-related osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with malunion
+M80.0B9S                        Age-related osteoporosis with current pathological fracture, unspecified pelvis, sequela
+M80.8B1A                        Other osteoporosis with current pathological fracture, right pelvis, initial encounter for fracture
+M80.8B1D                        Other osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with routine healing
+M80.8B1G                        Other osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with delayed healing
+M80.8B1K                        Other osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with nonunion
+M80.8B1P                        Other osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with malunion
+M80.8B1S                        Other osteoporosis with current pathological fracture, right pelvis, sequela
+M80.8B2A                        Other osteoporosis with current pathological fracture, left pelvis, initial encounter for fracture
+M80.8B2D                        Other osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with routine healing
+M80.8B2G                        Other osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with delayed healing
+M80.8B2K                        Other osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with nonunion
+M80.8B2P                        Other osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with malunion
+M80.8B2S                        Other osteoporosis with current pathological fracture, left pelvis, sequela
+M80.8B9A                        Other osteoporosis with current pathological fracture, unspecified pelvis, initial encounter for fracture
+M80.8B9D                        Other osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with routine healing
+M80.8B9G                        Other osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with delayed healing
+M80.8B9K                        Other osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with nonunion
+M80.8B9P                        Other osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with malunion
+M80.8B9S                        Other osteoporosis with current pathological fracture, unspecified pelvis, sequela
+O26.641                         Intrahepatic cholestasis of pregnancy, first trimester
+O26.642                         Intrahepatic cholestasis of pregnancy, second trimester
+O26.643                         Intrahepatic cholestasis of pregnancy, third trimester
+O26.649                         Intrahepatic cholestasis of pregnancy, unspecified trimester
+O90.4                           Postpartum acute kidney failure
+O90.41                          Hepatorenal syndrome following labor and delivery
+O90.49                          Other postpartum acute kidney failure
+R09.A0                          Foreign body sensation, unspecified
+R09.A1                          Foreign body sensation, nose
+R09.A2                          Foreign body sensation, throat
+R09.A9                          Foreign body sensation, other site
+R92.30                          Dense breasts, unspecified
+R92.311                         Mammographic fatty tissue density, right breast
+R92.312                         Mammographic fatty tissue density, left breast
+R92.313                         Mammographic fatty tissue density, bilateral breasts
+R92.321                         Mammographic fibroglandular density, right breast
+R92.322                         Mammographic fibroglandular density, left breast
+R92.323                         Mammographic fibroglandular density, bilateral breasts
+R92.331                         Mammographic heterogeneous density, right breast
+R92.332                         Mammographic heterogeneous density, left breast
+R92.333                         Mammographic heterogeneous density, bilateral breasts
+R92.341                         Mammographic extreme density, right breast
+R92.342                         Mammographic extreme density, left breast
+R92.343                         Mammographic extreme density, bilateral breasts
+T56.821A                        Toxic effect of gadolinium, accidental (unintentional), initial encounter
+T56.821D                        Toxic effect of gadolinium, accidental (unintentional), subsequent encounter
+T56.821S                        Toxic effect of gadolinium, accidental (unintentional), sequela
+T56.822A                        Toxic effect of gadolinium, intentional self-harm, initial encounter
+T56.822D                        Toxic effect of gadolinium, intentional self-harm, subsequent encounter
+T56.822S                        Toxic effect of gadolinium, intentional self-harm, sequela
+T56.823A                        Toxic effect of gadolinium, assault, initial encounter
+T56.823D                        Toxic effect of gadolinium, assault, subsequent encounter
+T56.823S                        Toxic effect of gadolinium, assault, sequela
+T56.824A                        Toxic effect of gadolinium, undetermined, initial encounter
+T56.824D                        Toxic effect of gadolinium, undetermined, subsequent encounter
+T56.824S                        Toxic effect of gadolinium, undetermined, sequela
+W44.8XXA                        Other foreign body entering into or through a natural orifice, initial encounter
+W44.8XXD                        Other foreign body entering into or through a natural orifice, subsequent encounter
+W44.8XXS                        Other foreign body entering into or through a natural orifice, sequela
+W44.9XXA                        Unspecified foreign body entering into or through a natural orifice, initial encounter
+W44.9XXD                        Unspecified foreign body entering into or through a natural orifice, subsequent encounter
+W44.9XXS                        Unspecified foreign body entering into or through a natural orifice, sequela
+W44.A0XA                        Battery unspecified, entering into or through a natural orifice, initial encounter
+W44.A0XD                        Battery unspecified, entering into or through a natural orifice, subsequent encounter
+W44.A0XS                        Battery unspecified, entering into or through a natural orifice, sequela
+W44.A1XA                        Button battery entering into or through a natural orifice, initial encounter
+W44.A1XD                        Button battery entering into or through a natural orifice, subsequent encounter
+W44.A1XS                        Button battery entering into or through a natural orifice, sequela
+W44.A9XA                        Other batteries entering into or through a natural orifice, initial encounter
+W44.A9XD                        Other batteries entering into or through a natural orifice, subsequent encounter
+W44.A9XS                        Other batteries entering into or through a natural orifice, sequela
+W44.B0XA                        Plastic object unspecified, entering into or through a natural orifice, initial encounter
+W44.B0XD                        Plastic object unspecified, entering into or through a natural orifice, subsequent encounter
+W44.B0XS                        Plastic object unspecified, entering into or through a natural orifice, sequela
+W44.B1XA                        Plastic bead entering into or through a natural orifice, initial encounter
+W44.B1XD                        Plastic bead entering into or through a natural orifice, subsequent encounter
+W44.B1XS                        Plastic bead entering into or through a natural orifice, sequela
+W44.B2XA                        Plastic coin entering into or through a natural orifice, initial encounter
+W44.B2XD                        Plastic coin entering into or through a natural orifice, subsequent encounter
+W44.B2XS                        Plastic coin entering into or through a natural orifice, sequela
+W44.B3XA                        Plastic toy and toy part entering into or through a natural orifice, initial encounter
+W44.B3XD                        Plastic toy and toy part entering into or through a natural orifice, subsequent encounter
+W44.B3XS                        Plastic toy and toy part entering into or through a natural orifice, sequela
+W44.B4XA                        Plastic jewelry entering into or through a natural orifice, initial encounter
+W44.B4XD                        Plastic jewelry entering into or through a natural orifice, subsequent encounter
+W44.B4XS                        Plastic jewelry entering into or through a natural orifice, sequela
+W44.B5XA                        Plastic bottle entering into or through a natural orifice, initial encounter
+W44.B5XD                        Plastic bottle entering into or through a natural orifice, subsequent encounter
+W44.B5XS                        Plastic bottle entering into or through a natural orifice, sequela
+W44.B9XA                        Other plastic object entering into or through a natural orifice, initial encounter
+W44.B9XD                        Other plastic object entering into or through a natural orifice, subsequent encounter
+W44.B9XS                        Other plastic object entering into or through a natural orifice, sequela
+W44.C0XA                        Glass unspecified, entering into or through a natural orifice, initial encounter
+W44.C0XD                        Glass unspecified, entering into or through a natural orifice, subsequent encounter
+W44.C0XS                        Glass unspecified, entering into or through a natural orifice, sequela
+W44.C1XA                        Sharp glass entering into or through a natural orifice, initial encounter
+W44.C1XD                        Sharp glass entering into or through a natural orifice, subsequent encounter
+W44.C1XS                        Sharp glass entering into or through a natural orifice, sequela
+W44.C2XA                        Intact glass entering into or through a natural orifice, initial encounter
+W44.C2XD                        Intact glass entering into or through a natural orifice, subsequent encounter
+W44.C2XS                        Intact glass entering into or through a natural orifice, sequela
+W44.D0XA                        Magnetic metal object unspecified, entering into or through a natural orifice, initial encounter
+W44.D0XD                        Magnetic metal object unspecified, entering into or through a natural orifice, subsequent encounter
+W44.D0XS                        Magnetic metal object unspecified, entering into or through a natural orifice, sequela
+W44.D1XA                        Magnetic metal bead entering into or through a natural orifice, initial encounter
+W44.D1XD                        Magnetic metal bead entering into or through a natural orifice, subsequent encounter
+W44.D1XS                        Magnetic metal bead entering into or through a natural orifice, sequela
+W44.D2XA                        Magnetic metal coin entering into or through a natural orifice, initial encounter
+W44.D2XD                        Magnetic metal coin entering into or through a natural orifice, subsequent encounter
+W44.D2XS                        Magnetic metal coin entering into or through a natural orifice, sequela
+W44.D3XA                        Magnetic metal toy entering into or through a natural orifice, initial encounter
+W44.D3XD                        Magnetic metal toy entering into or through a natural orifice, subsequent encounter
+W44.D3XS                        Magnetic metal toy entering into or through a natural orifice, sequela
+W44.D4XA                        Magnetic metal jewelry entering into or through a natural orifice, initial encounter
+W44.D4XD                        Magnetic metal jewelry entering into or through a natural orifice, subsequent encounter
+W44.D4XS                        Magnetic metal jewelry entering into or through a natural orifice, sequela
+W44.D9XA                        Other magnetic metal objects entering into or through a natural orifice, initial encounter
+W44.D9XD                        Other magnetic metal objects entering into or through a natural orifice, subsequent encounter
+W44.D9XS                        Other magnetic metal objects entering into or through a natural orifice, sequela
+W44.E0XA                        Non-magnetic metal object unspecified, entering into or through a natural orifice, initial encounter
+W44.E0XD                        Non-magnetic metal object unspecified, entering into or through a natural orifice, subsequent encounter
+W44.E0XS                        Non-magnetic metal object unspecified, entering into or through a natural orifice, sequela
+W44.E1XA                        Non-magnetic metal bead entering into or through a natural orifice, initial encounter
+W44.E1XD                        Non-magnetic metal bead entering into or through a natural orifice, subsequent encounter
+W44.E1XS                        Non-magnetic metal bead entering into or through a natural orifice, sequela
+W44.E2XA                        Non-magnetic metal coin entering into or through a natural orifice, initial encounter
+W44.E2XD                        Non-magnetic metal coin entering into or through a natural orifice, subsequent encounter
+W44.E2XS                        Non-magnetic metal coin entering into or through a natural orifice, sequela
+W44.E3XA                        Non-magnetic metal toy entering into or through a natural orifice, initial encounter
+W44.E3XD                        Non-magnetic metal toy entering into or through a natural orifice, subsequent encounter
+W44.E3XS                        Non-magnetic metal toy entering into or through a natural orifice, sequela
+W44.E4XA                        Non-magnetic metal jewelry entering into or through a natural orifice, initial encounter
+W44.E4XD                        Non-magnetic metal jewelry entering into or through a natural orifice, subsequent encounter
+W44.E4XS                        Non-magnetic metal jewelry entering into or through a natural orifice, sequela
+W44.E9XA                        Other non-magnetic metal objects entering into or through a natural orifice, initial encounter
+W44.E9XD                        Other non-magnetic metal objects entering into or through a natural orifice, subsequent encounter
+W44.E9XS                        Other non-magnetic metal objects entering into or through a natural orifice, sequela
+W44.F0XA                        Objects of natural or organic material unspecified, entering into or through a natural orifice, initial encounter
+W44.F0XD                        Objects of natural or organic material unspecified, entering into or through a natural orifice, subsequent encounter
+W44.F0XS                        Objects of natural or organic material unspecified, entering into or through a natural orifice, sequela
+W44.F1XA                        Bezoar entering into or through a natural orifice, initial encounter
+W44.F1XD                        Bezoar entering into or through a natural orifice, subsequent encounter
+W44.F1XS                        Bezoar entering into or through a natural orifice, sequela
+W44.F2XA                        Rubber band entering into or through a natural orifice, initial encounter
+W44.F2XD                        Rubber band entering into or through a natural orifice, subsequent encounter
+W44.F2XS                        Rubber band entering into or through a natural orifice, sequela
+W44.F3XA                        Food entering into or through a natural orifice, initial encounter
+W44.F3XD                        Food entering into or through a natural orifice, subsequent encounter
+W44.F3XS                        Food entering into or through a natural orifice, sequela
+W44.F4XA                        Insect entering into or through a natural orifice, initial encounter
+W44.F4XD                        Insect entering into or through a natural orifice, subsequent encounter
+W44.F4XS                        Insect entering into or through a natural orifice, sequela
+W44.F9XA                        Other object of natural or organic material, entering into or through a natural orifice, initial encounter
+W44.F9XD                        Other object of natural or organic material, entering into or through a natural orifice, subsequent encounter
+W44.F9XS                        Other object of natural or organic material, entering into or through a natural orifice, sequela
+W44.G0XA                        Other non-organic objects unspecified, entering into or through a natural orifice, initial encounter
+W44.G0XD                        Other non-organic objects unspecified, entering into or through a natural orifice, subsequent encounter
+W44.G0XS                        Other non-organic objects unspecified, entering into or through a natural orifice, sequela
+W44.G1XA                        Audio device entering into or through a natural orifice, initial encounter
+W44.G1XD                        Audio device entering into or through a natural orifice, subsequent encounter
+W44.G1XS                        Audio device entering into or through a natural orifice, sequela
+W44.G2XA                        Combination metal and plastic toy and toy part entering into or through natural orifice, initial encounter
+W44.G2XD                        Combination metal and plastic toy and toy part entering into or through natural orifice, subsequent encounter
+W44.G2XS                        Combination metal and plastic toy and toy part entering into or through natural orifice, sequela
+W44.G3XA                        Combination metal and plastic jewelry entering into or through a natural orifice, initial encounter
+W44.G3XD                        Combination metal and plastic jewelry entering into or through a natural orifice, subsequent encounter
+W44.G3XS                        Combination metal and plastic jewelry entering into or through a natural orifice, sequela
+W44.G9XA                        Other non-organic objects entering into or through a natural orifice, initial encounter
+W44.G9XD                        Other non-organic objects entering into or through a natural orifice, subsequent encounter
+W44.G9XS                        Other non-organic objects entering into or through a natural orifice, sequela
+W44.H0XA                        Other sharp object unspecified, entering into or through a natural orifice, initial encounter
+W44.H0XD                        Other sharp object unspecified, entering into or through a natural orifice, subsequent encounter
+W44.H0XS                        Other sharp object unspecified, entering into or through a natural orifice, sequela
+W44.H1XA                        Needle entering into or through a natural orifice, initial encounter
+W44.H1XD                        Needle entering into or through a natural orifice, subsequent encounter
+W44.H1XS                        Needle entering into or through a natural orifice, sequela
+W44.H2XA                        Knife, sword or dagger entering into or through a natural orifice, initial encounter
+W44.H2XD                        Knife, sword or dagger entering into or through a natural orifice, subsequent encounter
+W44.H2XS                        Knife, sword or dagger entering into or through a natural orifice, sequela
+Z02.84                          Encounter for child welfare exam
+Z05.8                           Observation and evaluation of newborn for other specified suspected condition ruled out
+Z05.81                          Observation and evaluation of newborn for suspected condition related to home physiologic monitoring device ruled out
+Z05.89                          Observation and evaluation of newborn for other specified suspected condition ruled out
+Z16.13                          Resistance to carbapenem
+Z22.340                         Carrier of carbapenem-resistant Acinetobacter baumannii
+Z22.341                         Carrier of carbapenem-sensitive Acinetobacter baumannii
+Z22.349                         Carrier of Acinetobacter baumannii, unspecified
+Z22.350                         Carrier of carbapenem-resistant Enterobacterales
+Z22.358                         Carrier of other Enterobacterales
+Z22.359                         Carrier of Enterobacterales, unspecified
+Z29.8                           Encounter for other specified prophylactic measures
+Z29.81                          Encounter for HIV pre-exposure prophylaxis
+Z29.89                          Encounter for other specified prophylactic measures
+Z62.23                          Child in custody of non-parental relative
+Z62.24                          Child in custody of non-relative guardian
+Z62.823                         Parent-step child conflict
+Z62.831                         Non-parental relative-child conflict
+Z62.832                         Non-relative guardian-child conflict
+Z62.833                         Group home staff-child conflict
+Z62.892                         Runaway [from current living environment]
+Z83.71                          Family history of colonic polyps
+Z83.710                         Family history of adenomatous and serrated polyps
+Z83.711                         Family history of hyperplastic colon polyps
+Z83.718                         Other family history of colon polyps
+Z83.719                         Family history of colon polyps, unspecified
+Z91.85                          Personal history of military service
+Z91.A41                         Caregivers other noncompliance with patients medication regimen due to financial hardship
+Z91.A48                         Caregivers other noncompliance with patients medication regimen for other reason
+Z91.A51                         Caregivers noncompliance with patients renal dialysis due to financial hardship
+Z91.A58                         Caregivers noncompliance with patients renal dialysis for other reason
+Z91.A91                         Caregivers noncompliance with patients other medical treatment and regimen due to financial hardship
+Z91.A98                         Caregivers noncompliance with patients other medical treatment and regimen for other reason
 run ;
 
 * These are the new codes we are adding ;
@@ -1614,12 +1915,206 @@ Q85.81    malignancy            yes PTEN tumor syndrome
 Q85.82    malignancy            yes Other Cowden syndrome
 Q85.83    malignancy            yes Von Hippel-Lindau syndrome
 Q85.89    neurological          yes Other phakomatoses, not elsewhere classified
+F34.8     mental health         no  Disruptive Mood Dysregulation Disorder
+F34.81    mental health         no  Disruptive mood dysregulation disorder
+F40.10    mental health         no  Social anxiety disorder
+F41.1     mental health         no  Generalized anxiety disorder (by history)
+F41.8     mental health         no  Mixed Anxiety and Depressive Disorder
+F41.9     mental health         no  Unspecified Anxiety Disorder
+F43.10    mental health         no  Posttraumatic Stress Disorder, Chronic
+F43.22    mental health         no  Adjustment disorder with anxiety
+F43.23    mental health         no  Adjustment Disorder, with Mixed Anxiety and Depressed Mood
+F64.2     mental health         no  Gender dysphoria in pediatric patient
+F80       mental health         no  Articulation disorder
+F80.9     mental health         no  Unspecified Communication Disorder
+F93.0     mental health         no  Separation Anxiety Disorder
+F98.9     mental health         no  Unspecified, Disruptive, Impulse Control, and Conduct Disorder
+G31.84    mental health         no  Mild Neurocognitive Disorder Due To Another Medical Condition
+G93.0     neurological          no  Arachnoid Cyst
+G93.40    neurological          yes Encephalopathy, Unspecified
+G93.49    neurological          yes Static Encephalopathy
+Q86.0     neurological          yes Fetal alcohol spectrum disorder: alcohol-related neurodevelopmental disorder (FASD:ARND)
+R41.844   neurological          yes Frontal lobe and executive function deficit
+R41.9     neurological          no  Neurocognitive Disorder associated with medical condition (myotonic dystrophy)
+R47.02    neurological          no  Language disorder
+R48.0     neurological          no  Acquired Dyslexia
+R62.51    metabolic             no  Failure to thrive
+S06.309S  neurological          yes Late Effects of Intracranial Injury, Left Parietal Skull Fracture
+T50.901S  malignancy            n/a Late Effects of Chemotherapy
+T66.XXXS  malignancy            n/a Late Effects of Radiation
+Z86.73    neurological          yes History of CVA (cerebrovascular accident)
+Z87.730   craniofacial          no  History of corrected cleft lip and palate
+Z87.82    neurological          yes History of Multiple Concussions
+Z92.21    malignancy            n/a Status Post-Chemotherapy
+D13.91    gastrointestinal      no   Familial adenomatous polyposis
+D13.99    gastrointestinal      no   Benign neoplasm of ill-defined sites within the digestive system
+D48.1     malignancy            yes  Neoplasm of uncertain behavior of connective and other soft tissue
+D48.110   malignancy            yes  Desmoid tumor of head and neck
+D48.111   malignancy            yes  Desmoid tumor of chest wall
+D48.112   malignancy            yes  Desmoid tumor, intrathoracic
+D48.113   malignancy            yes  Desmoid tumor of abdominal wall
+D48.114   malignancy            yes  Desmoid tumor, intraabdominal
+D48.115   malignancy            yes  Desmoid tumor of upper extremity and shoulder girdle
+D48.116   malignancy            yes  Desmoid tumor of lower extremity and pelvic girdle
+D48.117   malignancy            yes  Desmoid tumor of back
+D48.118   malignancy            yes  Desmoid tumor of other site
+D48.119   malignancy            yes  Desmoid tumor of unspecified site
+D48.19    malignancy            yes  Other specified neoplasm of uncertain behavior of connective and other soft tissue
+D57.04    hematological         yes  Hb-SS disease with dactylitis
+D57.214   hematological         yes  Sickle-cell/Hb-C disease with dactylitis
+D57.414   hematological         yes  Sickle-cell thalassemia, unspecified, with dactylitis
+D57.434   hematological         yes  Sickle-cell thalassemia beta zero with dactylitis
+D57.454   hematological         yes  Sickle-cell thalassemia beta plus with dactylitis
+D57.814   hematological         yes  Other sickle-cell disorders with dactylitis
+D61.02    hematological         yes  Shwachman-Diamond syndrome
+D89.84    immunological         yes  IgG4-related disease
+E20.8     endocrinological      no   Other hypoparathyroidism
+E20.810   endocrinological      no   Autosomal dominant hypocalcemia
+E20.811   endocrinological      no   Secondary hypoparathyroidism in diseases classified elsewhere
+E20.812   endocrinological      no   Autoimmune hypoparathyroidism
+E20.818   endocrinological      no   Other specified hypoparathyroidism due to impaired parathyroid hormone secretion
+E20.819   endocrinological      no   Hypoparathyroidism due to impaired parathyroid hormone secretion, unspecified
+E20.89    endocrinological      no   Other specified hypoparathyroidism
+E74.05    metabolic             yes  Lysosome-associated membrane protein 2 [LAMP2] deficiency
+E79.8     metabolic             yes  Other disorders of purine and pyrimidine metabolism
+E79.82    metabolic             no   Hereditary xanthinuria
+E79.89    metabolic             yes  Other specified disorders of purine and pyrimidine metabolism
+E88.43    metabolic             yes  Disorders of mitochondrial tRNA synthetases
+E88.81    metabolic             no   Metabolic syndrome
+E88.810   metabolic             no   Metabolic syndrome
+E88.811   metabolic             no   Insulin resistance syndrome, Type A
+E88.818   metabolic             no   Other insulin resistance
+E88.819   metabolic             no   Insulin resistance, unspecified
+E79.81    immunological         yes  Aicardi-Goutieres syndrome
+G37.81    immunological         no   Myelin oligodendrocyte glycoprotein antibody disease
+E88.A     metabolic             no   Wasting disease (syndrome) due to underlying condition
+G11.5     neurological          yes  Hypomyelination - hypogonadotropic hypogonadism - hypodontia
+G11.6     neurological          yes  Leukodystrophy with vanishing white matter disease
+G23.3     neurological          yes  Hypomyelination with atrophy of the basal ganglia and cerebellum
+G31.80    neurological          yes  Leukodystrophy, unspecified
+G31.86    neurological          yes  Alexander disease
+G37.8     neurological          yes  Other specified demyelinating diseases of central nervous system
+E75.27    neurological          yes  Pelizaeus-Merzbacher disease
+E75.28    neurological          yes  Canavan disease
+G37.89    neurological          yes  Other specified demyelinating diseases of central nervous system
+G40.C01   neurological          yes  Lafora progressive myoclonus epilepsy, not intractable, with status epilepticus
+G40.C09   neurological          yes  Lafora progressive myoclonus epilepsy, not intractable, without status epilepticus
+G40.C11   neurological          yes  Lafora progressive myoclonus epilepsy, intractable, with status epilepticus
+G40.C19   neurological          yes  Lafora progressive myoclonus epilepsy, intractable, without status epilepticus
+G43.E01   neurological          no   Chronic migraine with aura, not intractable, with status migrainosus
+G43.E09   neurological          no   Chronic migraine with aura, not intractable, without status migrainosus
+G43.E11   neurological          no   Chronic migraine with aura, intractable, with status migrainosus
+G43.E19   neurological          no   Chronic migraine with aura, intractable, without status migrainosus
+G90.B     neurological          yes  LMNB1-related autosomal dominant leukodystrophy
+G93.42    neurological          yes  Megaloencephalic leukoencephalopathy with subcortical cysts
+G93.43    neurological          yes  Leukoencephalopathy with calcifications and cysts
+H36.811   ophthalmological      no   Nonproliferative sickle-cell retinopathy, right eye
+H36.812   ophthalmological      no   Nonproliferative sickle-cell retinopathy, left eye
+H36.813   ophthalmological      no   Nonproliferative sickle-cell retinopathy, bilateral
+H36.819   ophthalmological      no   Nonproliferative sickle-cell retinopathy, unspecified eye
+H36.821   ophthalmological      no   Proliferative sickle-cell retinopathy, right eye
+H36.822   ophthalmological      no   Proliferative sickle-cell retinopathy, left eye
+H36.823   ophthalmological      no   Proliferative sickle-cell retinopathy, bilateral
+H36.829   ophthalmological      no   Proliferative sickle-cell retinopathy, unspecified eye
+H36.89    ophthalmological      no   Other retinal disorders in diseases classified elsewhere
+I1A.0     cardiac               no   Resistant hypertension
+I25.85    cardiac               yes  Chronic coronary microvascular dysfunction
+I47.1     cardiac               no   Supraventricular tachycardia
+I47.10    cardiac               no   Supraventricular tachycardia, unspecified
+I47.11    cardiac               no   Inappropriate sinus tachycardia, so stated
+I47.19    cardiac               no   Other supraventricular tachycardia
+J4A.0     pulmonary/respiratory yes  Restrictive allograft syndrome
+J4A.8     pulmonary/respiratory yes  Other chronic lung allograft dysfunction
+J4A.9     pulmonary/respiratory yes  Chronic lung allograft dysfunction, unspecified
+N02.B1    renal                 yes  Recurrent and persistent immunoglobulin A nephropathy with glomerular lesion
+N02.B2    renal                 yes  Recurrent and persistent immunoglobulin A nephropathy with focal and segmental glomerular lesion
+N02.B3    renal                 yes  Recurrent and persistent immunoglobulin A nephropathy with diffuse membranoproliferative glomerulonephritis
+N02.B4    renal                 yes  Recurrent and persistent immunoglobulin A nephropathy with diffuse membranous glomerulonephritis
+N02.B5    renal                 yes  Recurrent and persistent immunoglobulin A nephropathy with diffuse mesangial proliferative glomerulonephritis
+N02.B6    renal                 yes  Recurrent and persistent immunoglobulin A nephropathy with diffuse mesangiocapillary glomerulonephritis
+N02.B9    renal                 yes  Other recurrent and persistent immunoglobulin A nephropathy
+N04.2     renal                 yes  Nephrotic syndrome with diffuse membranous glomerulonephritis
+N04.20    renal                 yes  Nephrotic syndrome with diffuse membranous glomerulonephritis, unspecified
+N04.21    renal                 yes  Primary membranous nephropathy with nephrotic syndrome
+N04.22    renal                 yes  Secondary membranous nephropathy with nephrotic syndrome
+N04.29    renal                 yes  Other nephrotic syndrome with diffuse membranous glomerulonephritis
+N06.2     renal                 yes  Isolated proteinuria with diffuse membranous glomerulonephritis
+N06.20    renal                 yes  Isolated proteinuria with diffuse membranous glomerulonephritis, unspecified
+N06.21    renal                 yes  Primary membranous nephropathy with isolated proteinuria
+N06.22    renal                 yes  Secondary membranous nephropathy with isolated proteinuria
+N06.29    renal                 yes  Other isolated proteinuria with diffuse membranous glomerulonephritis
+Q87.83    renal                 yes  Bardet-Biedl syndrome
+Q87.84    renal                 yes  Laurence-Moon syndrome
+K90.821   gastrointestinal      yes  Short bowel syndrome with colon in continuity
+K90.822   gastrointestinal      yes  Short bowel syndrome without colon in continuity
+K90.829   gastrointestinal      yes  Short bowel syndrome, unspecified
+K90.83    gastrointestinal      yes  Intestinal failure
+Q44.7     gastrointestinal      yes  Other congenital malformations of liver
+Q44.70    gastrointestinal      yes  Other congenital malformation of liver, unspecified
+Q44.71    gastrointestinal      yes  Alagille syndrome
+Q44.79    gastrointestinal      yes  Other congenital malformations of liver
+Q75.0     craniofacial          no   Craniosynostosis
+Q75.001   craniofacial          no   Craniosynostosis unspecified, unilateral
+Q75.002   craniofacial          no   Craniosynostosis unspecified, bilateral
+Q75.009   craniofacial          no   Craniosynostosis unspecified
+Q75.01    craniofacial          no   Sagittal craniosynostosis
+Q75.021   craniofacial          no   Coronal craniosynostosis unilateral
+Q75.022   craniofacial          no   Coronal craniosynostosis bilateral
+Q75.029   craniofacial          no   Coronal craniosynostosis unspecified
+Q75.03    craniofacial          no   Metopic craniosynostosis
+Q75.041   craniofacial          no   Lambdoid craniosynostosis, unilateral
+Q75.042   craniofacial          no   Lambdoid craniosynostosis, bilateral
+Q75.049   craniofacial          no   Lambdoid craniosynostosis, unspecified
+Q75.051   craniofacial          yes  Cloverleaf skull
+Q75.052   craniofacial          no   Pansynostosis
+Q75.058   craniofacial          no   Other multi-suture craniosynostosis
+Q75.08    craniofacial          no   Other single-suture craniosynostosis
+Q87.85    neurological          yes  MED13L syndrome
+Q93.52    neurological          no   Phelan-McDermid syndrome
+R40.2A    neurological          yes  Nontraumatic coma due to underlying condition
 ;
 run ;
 
+%let allowed_bodysys = %str('cardiac'
+                , 'craniofacial'
+                , 'dermatological'
+                , 'endocrinological'
+                , 'gastrointestinal'
+                , 'genetic'
+                , 'genitourinary'
+                , 'hematological'
+                , 'immunological'
+                , 'malignancy'
+                , 'mental health'
+                , 'metabolic'
+                , 'musculoskeletal'
+                , 'neurological'
+                , 'ophthalmological'
+                , 'otologic'
+                , 'otolaryngological'
+                , 'pulmonary/respiratory'
+                , 'renal') ;
+
 proc sql ;
+  create table s.duped_dont_wants as
+  select d.*
+  from s.dont_want as d
+    inner join (select dx from s.dont_want group by dx having count(*) > 1) as dd on d.dx = dd.dx
+  order by d.dx
+  ;
+
+  create table s.bad_body_sys as
+  select *
+  from s.do_want
+  where bs_wanted not in (&allowed_bodysys)
+  ;
+
   alter table s.dont_want add primary key (dx) ;
   alter table s.do_want add primary key (dx) ;
+  alter table s.do_want add constraint body_sys
+    check (bs_wanted in (&allowed_bodysys)
+          )
+  ;
 
   create table s.forbidden_overlap as
   select n.*
@@ -1700,11 +2195,13 @@ ods html5 path = "&out_folder" (URL=NONE)
     select dx, bs_wanted, prog_wanted, description
     from s.to_be_added
     where not already_included
+    order by bs_wanted, dx
     ;
 
     title1 "These codes are NOT wanted but ARE being detected, so need to be removed" ;
     select dx, bs_wanted, body_system, progressive, description
     from s.dont_want_test
+    order by bs_wanted, dx
     ;
 
     title1 "These codes are detected, but are being assigned to the wrong body system" ;
