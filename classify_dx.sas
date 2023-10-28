@@ -384,7 +384,7 @@
     * we want E87.22 but not E872.2x ;
     if &dx_varname in: ('E40' 'E43' 'E440' 'E50' 'E52' 'E53' 'E54'
         'E550' 'E643' 'E6601' 'E800' 'E8020'
-        'E8029' 'E805' 'E8722' 'E880' 'E888')   then metab=1;
+        'E8029' 'E805' 'E8722' 'E880' 'E888' 'E88A' 'E798')   then metab=1;
     if &dx_varname in: ('E45' 'E7527' 'E7528')   then neuro=1;
     if &dx_varname in: ('E700' 'E7021' 'E7029' 'E7040' 'E705'
       'E708' 'E710' 'E71120' 'E7119' 'E712'
@@ -399,7 +399,7 @@
       'E754' 'E7601' 'E7603' 'E761' 'E76219'
       'E7622' 'E7629' 'E763' 'E770' 'E771'
       'E786' 'E7870' 'E7871' 'E7872' 'E788' 'E789'
-      'E791' 'E798' 'E83' 'E85' 'E88') then do; metab=1; progressive=1; end;
+      'E791' /* 'E798' */ 'E83' 'E85' 'E8843') then do; metab=1; progressive=1; end;
     if &dx_varname in: ('E84') then do; pulresp=1; progressive=1; end;
     if &dx_varname in: ('E890' 'E894' 'E895')   then endo=1;
     * we want F43.81 but not F43.89 ;
