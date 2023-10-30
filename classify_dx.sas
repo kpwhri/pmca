@@ -418,7 +418,7 @@
       'F913' 'F918' 'F919' 'F951' 'F952'
       'F981' 'F98' 'F93' 'F80' 'F809' 'G3184')   then mh=1;
     if &dx_varname in: ('F200' 'F201' 'F202' 'F203' 'F205' 'F208' 'F25'
-      'F50' ) then do; mh=1; progressive=1; end;
+      'F50') then do; mh=1; progressive=1; end;
     if &dx_varname =: 'G90A' then cardiac = 1 ;
     if &dx_varname in: ('G7102') then musculo = 1 ;
     if &dx_varname in: ('G7103' 'G7100' 'G7101' 'G7109' 'G712') then do ; musculo = 1 ; progressive = 1 ; end ;
@@ -444,13 +444,15 @@
       'G969' 'G990' )   then neuro=1;
     if &dx_varname in: ('F02' 'F03' 'F842' 'G09' 'G10' 'G111' 'G113'
       'G114' 'G115' 'G116' 'G118' 'G119' 'G12'
-      'G14' 'G23' 'G241' 'G253' 'G2582' 'G318'
+      'G14' 'G23' 'G241' 'G253' 'G2582' 'G3180' 'G3186'
       'G319' 'G320'
       'G3281' 'G35' 'G360' 'G370' 'G375'
-      'G378' 'G379' 'G4081' 'G4083' 'G601'
+      'G379' 'G4081' 'G4083' 'G601'
       'G7111' 'G7112' 'G7113' 'G800' 'G808'
       'G809' 'G901' 'G931' 'G950' 'G9519'
-      'G9589' 'G959' 'G992'  ) then do; neuro=1; progressive=1; end;
+      'G9589' 'G959' 'G992'  )
+        OR &dx_varname in ('G378' 'G3789')
+        then do; neuro=1; progressive=1; end;
     if &dx_varname in: ('G4730' 'G4731' 'G4733' 'G4734' 'G4736'
       'G4737' 'G4739' )   then pulresp=1;
     if &dx_varname in: ('G4735' ) then do; pulresp=1; progressive=1; end;
