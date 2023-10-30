@@ -37,8 +37,8 @@ libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
     select upcase(code) as dx length = 12
       , upcase(compress(code, '.')) as dx_nodecimal length = 12
       , case code_type when 'ICD10CM' then '10' when 'ICD9CM' then '09' else '??' end as dx_codetype
-      , code_source length = 12 format = $12.
-      , code_desc length = 300 format = $300.
+      , code_source length = 12 format = $12. informat = $12.
+      , code_desc length = 300 format = $300. informat = $300.
     from &_rcm_vdw_codebucket
     where code_type in ('ICD10CM', 'ICD9CM')
     order by code, code_type
@@ -115,39 +115,13 @@ libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
 
 %mend generate_lookup ;
 
-/*
-%let xls_file = C:\Users\o578092\Documents\vdw\pmca\docs\pmca-icd10-code-list.xlsx ;
-libname xl excel "&xls_file" ;
-proc datasets library = xl ;
-run ;
 
-data s.web_icd10_list ;
-  set xl.'PMCA ICD10 Code List$'n ;
-  where icd_10_code ne ' ' ;
-  format _all_ ;
-  informat _all_ ;
-run ;
-proc sql ;
-  create table s.web_10_dupes as
-  select w.*
-  from s.web_icd10_list as w
-    inner join (select icd_10_code from s.web_icd10_list group by icd_10_code having count(*) > 1) as d on w.icd_10_code = d.icd_10_code
-  order by w.icd_10_code
-  ;
-quit ;
-
-%get_raw ;
-endsas ;
-
-*/
-
-/*
 %get_raw(outset = s.raw_dx_codes) ;
 
 %generate_lookup(inset = s.raw_dx_codes (where = (dx_codetype = '09')), dx_varname = dx_nodecimal, dx_codetype = 09, outset = s.icd09_lookup) ;
 %generate_lookup(inset = s.raw_dx_codes (where = (dx_codetype = '10')), dx_varname = dx_nodecimal, dx_codetype = 10, outset = s.icd10_lookup) ;
-endsas ;
-*/
+
+ods _all_ close ;
 
 ods excel file="%sysfunc(pathname(s))/pmca_dx_code_lists.xlsx"
     style=htmlblue

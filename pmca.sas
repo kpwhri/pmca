@@ -544,7 +544,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
     if &dx_varname =:'A180'   then musculo=1;
     if &dx_varname =:'A181'   then genito=1;
     if &dx_varname in:('A182' 'A1885')   then immuno=1;
-    if &dx_varname =:'A183'   then gastro=1;
+    if &dx_varname in:('A183' 'D1391' 'D1399')   then gastro=1;
     if &dx_varname =:'A184'   then derm=1;
     if &dx_varname =:'A185'   then opthal=1;
     if &dx_varname =:'A186'   then otol=1;
@@ -565,7 +565,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
         'C910' 'C911' 'C913' 'C914' 'C916'
         'C919' 'C91Z' 'C92' 'C93' 'C940'
         'C942' 'C943' 'C948' 'C95' 'C96'
-        'D03' 'D45' 'D474' 'D47Z1')   then malign=1;
+        'D03' 'D45' 'D474' 'D47Z1' 'D48' 'T509' 'T66X' 'Z922')   then malign=1;
     if &dx_varname in: ('D510' 'D511' 'D55' 'D565' 'D568'
       'D569' 'D5744' 'D5745' 'D58'
       'D5910' 'D5911' 'D5913' 'D5919'
@@ -579,19 +579,20 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'D578' 'D610' 'D61818' 'D6182'
       'D6189' 'D619' 'D644' 'D66' 'D67'
       'D68311' 'D6942' 'D7581') then do; hemato=1; progressive=1; end;
+    * We want D8984, but not D8983[123459] ;
     if &dx_varname in: ('D704' 'D720' 'D763' 'D802' 'D803'
       'D804' 'D805' 'D808' 'D838' 'D839'
       'D841' 'D842' 'D849' 'D86' 'D890' 'D891'
-      'D892' 'D8989' 'D899') then immuno=1;
+      'D892' 'D8984' 'D899') then immuno=1;
     if &dx_varname in: ('D5932' 'D700' 'D71' 'D761' 'D800' 'D801'
       'D810' 'D811' 'D812' 'D813' 'D814' 'D818' 'D819'
-      'D831' 'D89811' 'D89813') then do; immuno=1; progressive=1; end;
+      'D831' 'D89811' 'D89813' 'E7981') then do; immuno=1; progressive=1; end;
     if &dx_varname in: ('D820' 'D8982')   then genetic=1;
     if &dx_varname =:'D821' then do; genetic=1; progressive=1; end;
     if &dx_varname in: ('E018' 'E030' 'E031' 'E032' 'E034'
       'E038' 'E039' 'E04' 'E062' 'E063' 'E064' 'E065'
       'E069' 'E070' 'E071' 'E0789' 'E079' 'E08'
-      'E09' 'E10' 'E11' 'E13' 'E209' 'E21'
+      'E09' 'E10' 'E11' 'E13' 'E208' 'E209' 'E21'
       'E220' 'E228' 'E229' 'E232' 'E236' 'E243'
       'E248' 'E249' 'E25' 'E260' 'E261' 'E2681'
       'E269' 'E270' 'E271' 'E274' 'E275' 'E278'
@@ -602,8 +603,8 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
     * we want E87.22 but not E872.2x ;
     if &dx_varname in: ('E40' 'E43' 'E440' 'E50' 'E52' 'E53' 'E54'
         'E550' 'E643' 'E6601' 'E800' 'E8020'
-        'E8029' 'E805' 'E8722' 'E880' 'E888')   then metab=1;
-    if &dx_varname =: 'E45'   then neuro=1;
+        'E8029' 'E805' 'E8722' 'E880' 'E888' 'E88A' 'E798')   then metab=1;
+    if &dx_varname in: ('E45' 'E7527' 'E7528')   then neuro=1;
     if &dx_varname in: ('E700' 'E7021' 'E7029' 'E7040' 'E705'
       'E708' 'E710' 'E71120' 'E7119' 'E712'
       'E7131' 'E7141' 'E7142' 'E7144' 'E7150'
@@ -611,37 +612,40 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'E71548' 'E7200' 'E7203' 'E7204' 'E7209'
       'E7210' 'E7211' 'E7219' 'E7220' 'E7222'
       'E7223' 'E7229' 'E723' 'E728' 'E729' 'E7400'
-      'E7401' 'E7404' 'E7409' 'E7421' 'E7439'
+      'E7401' 'E7404' 'E7405' 'E7409' 'E7421' 'E7439'
       'E744' 'E748' 'E749' 'E7502' 'E7519' 'E7521'
       'E7522' 'E7523' 'E7524' 'E7525' 'E7526' 'E7529'
       'E754' 'E7601' 'E7603' 'E761' 'E76219'
       'E7622' 'E7629' 'E763' 'E770' 'E771'
       'E786' 'E7870' 'E7871' 'E7872' 'E788' 'E789'
-      'E791' 'E798' 'E83' 'E85' 'E881' 'E884') then do; metab=1; progressive=1; end;
+      'E791' 'E83' 'E85' 'E8843') then do; metab=1; progressive=1; end;
     if &dx_varname in: ('E84') then do; pulresp=1; progressive=1; end;
     if &dx_varname in: ('E890' 'E894' 'E895')   then endo=1;
-    * we want f43.81 but not F43.89 ;
+    * we want F43.81 but not F43.89 ;
+    * we want F43.10 but not F43.11 ;
     if &dx_varname in: ('F04' 'F070' 'F1020' 'F1021' 'F1096'
       'F1120' 'F1121' 'F1320' 'F1321' 'F1420'
       'F1421' 'F1520' 'F1521' 'F1620' 'F1621'
       'F1820' 'F1821' 'F1920' 'F1921' 'F21'
-      'F22' 'F24' 'F31' 'F32' 'F4381'
-      'F33' 'F340' 'F341' 'F39' 'F429'
+      'F22' 'F24' 'F31' 'F32' 'F40' 'F41' 'F4310' 'F4381' 'F432'
+      'F33' 'F340' 'F34' 'F39' 'F429'
       'F444' 'F445' 'F446' 'F447' 'F448'
       'F449' 'F450' 'F4521' 'F4522' 'F60'
-      'F63' 'F6812'
+      'F63' 'F64' 'F6812'
       'F840' 'F843' 'F845' 'F848' 'F849'
       'F88' 'F89' 'F90' 'F911' 'F912'
       'F913' 'F918' 'F919' 'F951' 'F952'
-      'F981' 'F984' )   then mh=1;
+      'F981' 'F98' 'F93' 'F80' 'F809' 'G3184')   then mh=1;
     if &dx_varname in: ('F200' 'F201' 'F202' 'F203' 'F205' 'F208' 'F25'
-      'F50' ) then do; mh=1; progressive=1; end;
+      'F50') then do; mh=1; progressive=1; end;
     if &dx_varname =: 'G90A' then cardiac = 1 ;
     if &dx_varname in: ('G7102') then musculo = 1 ;
     if &dx_varname in: ('G7103' 'G7100' 'G7101' 'G7109' 'G712') then do ; musculo = 1 ; progressive = 1 ; end ;
-    if &dx_varname in: ('F06' 'F7' 'F801' 'F802' 'F804' 'F81' 'F82'
+    * we want G93.4[0239] but not G93.44 ;
+    if &dx_varname in: ('F06' 'F7' 'F802' 'F804' 'F81' 'F82'
       'G110' 'G255' 'G371' 'G372' 'G400'
-      'G401' 'G402' 'G403' 'G404' 'G405'
+      'G40' 'G402' 'G403' 'G404' 'G405'
+      'G43E'
       'G4080' 'G4082' 'G409' 'G40A' 'G40B'
       'G474' 'G50' 'G510' 'G511' 'G512'
       'G518' 'G519' 'G52' 'G54' 'G56' 'G57'
@@ -654,21 +658,24 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'G802' 'G803' 'G804' 'G81' 'G822'
       'G825' 'G830' 'G831' 'G832' 'G833'
       'G834' 'G835' 'G8381' 'G8389' 'G839'
-      'G900' 'G904' 'G905' 'G908' 'G909'
-      'G910' 'G911' 'G932' 'G9332' 'G9389' 'G939'
+      'G90' 'G900' 'G904' 'G905' 'G908' 'G909'
+      'G910' 'G911' 'G930' 'G932' 'G9332' 'G9340' 'G9342' 'G9343' 'G9349' 'G9389' 'G939'
       'G969' 'G990' )   then neuro=1;
     if &dx_varname in: ('F02' 'F03' 'F842' 'G09' 'G10' 'G111' 'G113'
-      'G114' 'G118' 'G119' 'G12'
-      'G14' 'G23' 'G241' 'G253' 'G2582'
-      'G3181' 'G3182' 'G319' 'G320'
+      'G114' 'G115' 'G116' 'G118' 'G119' 'G12'
+      'G14' 'G23' 'G241' 'G253' 'G2582' 'G3180' 'G3186'
+      'G319' 'G320'
       'G3281' 'G35' 'G360' 'G370' 'G375'
-      'G378' 'G379' 'G4081' 'G4083' 'G601'
+      'G379' 'G4081' 'G4083' 'G601'
       'G7111' 'G7112' 'G7113' 'G800' 'G808'
       'G809' 'G901' 'G931' 'G950' 'G9519'
-      'G9589' 'G959' 'G992'  ) then do; neuro=1; progressive=1; end;
+      'G9589' 'G959' 'G992'  )
+        OR &dx_varname in ('G378' 'G3789')
+        then do; neuro=1; progressive=1; end;
     if &dx_varname in: ('G4730' 'G4731' 'G4733' 'G4734' 'G4736'
       'G4737' 'G4739' )   then pulresp=1;
     if &dx_varname in: ('G4735' ) then do; pulresp=1; progressive=1; end;
+    * we want X but not H36 ;
     if &dx_varname in: ('H150' 'H158' 'H201' 'H202'
       'H208' 'H209' 'H212' 'H2150' 'H2151'
       'H2152' 'H2154' 'H2155' 'H2156'
@@ -681,7 +688,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'H352' 'H3530' 'H3533' 'H3534' 'H3535' 'H3536'
       'H3537' 'H3538' 'H3540' 'H3541' 'H3542'
       'H3543' 'H3545' 'H3546' 'H355' 'H357'
-      'H3589' 'H36' 'H401' 'H402' 'H403'
+      'H3589' 'H368' 'H401' 'H402' 'H403'
       'H404' 'H405' 'H406' 'H408' 'H409' 'H42'
       'H430' 'H432' 'H433' 'H4381' 'H4389'
       'H4430' 'H4440' 'H4450' 'H46' 'H4701'
@@ -690,12 +697,13 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'H479' 'H490' 'H491' 'H492' 'H493'
       'H494' )   then opthal=1;
     if &dx_varname in: ('H4981' ) then do; metab=1; progressive=1; end;
+    * we want X but not H57.8A[1239] ;
     if &dx_varname in: ('H4988' 'H5000' 'H5005' 'H5006'
       'H5007' 'H5008' 'H5010' 'H5015' 'H5016'
       'H5017' 'H5018' 'H5030' 'H5032' 'H5034'
       'H5040' 'H5042' 'H5043' 'H505' 'H5060'
       'H5069' 'H5089' 'H51' 'H540' 'H541'
-      'H542' 'H543' 'H548' 'H550' 'H578' 'H579')   then opthal=1;
+      'H542' 'H543' 'H548' 'H550' 'H579')   then opthal=1;
     if &dx_varname in: ('H71' 'H74' 'H80' 'H81' 'H83'
       'H903' 'H905' 'H906' 'H908'
       'H913' 'H918X3' 'H918X9' 'H9190'
@@ -704,7 +712,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
     * we want I34.89, but not I34.81  ;
     if &dx_varname in: ('I00' 'I05' 'I06' 'I07'
       'I080' 'I088' 'I089' 'I09'
-      'I10' 'I119' 'I340' 'I3489' 'I35'
+      'I10' 'I1A' 'I119' 'I340' 'I3489' 'I35'
       'I370' 'I378' 'I44' 'I4510' 'I4519' 'I452'
       'I453' 'I454' 'I455' 'I456' 'I458'
       'I459' 'I471' 'I472' 'I48' 'I4901'
@@ -717,7 +725,8 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'I82A29' 'I82B29' 'I82C29' 'I890')   then cardiac=1;
     * we want I71.61 & I71.62 but not I71.60 ;
     if &dx_varname in: ('I712' 'I714' 'I7161' 'I7162') then cardiac = 1 ;
-    if &dx_varname in: ('I110' 'I200' 'I21' 'I24'
+    * We want I21.9, I21.A[19] but not I21.B, I24.8* ;
+    if &dx_varname in: ('I110' 'I200' 'I219' 'I21A'
       'I2510' 'I252' 'I253' 'I254' 'I255'
       'I258' 'I259' 'I270' 'I271' 'I272'
       'I278' 'I279' 'I280' 'I281' 'I288' 'I289'
@@ -734,7 +743,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'J985' 'J986' )   then pulresp=1;
     if &dx_varname in: ('J840' 'J8410' 'J84111' 'J84112' 'J8417'
       'J84117' 'J842' 'J8483' 'J84841' 'J84843'
-      'J84848' 'J8489' 'J849') then do; pulresp=1; progressive=1; end;
+      'J84848' 'J8489' 'J849' 'J4A') then do; pulresp=1; progressive=1; end;
     if &dx_varname in: ('K110' 'K111' 'K117' 'K200' 'K220'
       'K224' 'K225' 'K227' 'K228' 'K254'
       'K255' 'K256' 'K257' 'K264' 'K265'
@@ -746,14 +755,14 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'K823' 'K824' 'K828' 'K833'
       'K834' 'K835' 'K838' 'K861' 'K862'
       'K863' 'K868' 'K900' 'K901' 'K902'
-      'K903' 'K9081' 'K915')   then gastro=1;
+      'K903' 'K908' 'K915')   then gastro=1;
     if &dx_varname in: ('K73' 'K74' 'K754' 'K761' 'K766'
       'K767' 'K8301') then do; gastro=1; progressive=1; end;
     if &dx_varname in: ('L100' 'L101' 'L102' 'L104' 'L109'
       'L120' 'L121' 'L122' 'L128' 'L13'
       'L574' 'L744' 'L89' 'L904' 'L940'
       'L943' 'L97' 'L984' 'L988')   then derm=1;
-    if &dx_varname in: ('M050' 'M051' 'M0530' 'M0560' 'M060'
+    if &dx_varname in: ('G3781' 'M050' 'M051' 'M0530' 'M0560' 'M060'
       'M062' 'M063' 'M068' 'M069' 'M08' 'M111'
       'M112' 'M118' 'M119' 'M120'
       'M303' 'M311' 'M313' 'M314' 'M316'
@@ -764,7 +773,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'M321' 'M340' 'M341' 'M349' 'M355'
       'M358 ' 'M359') then do; immuno=1; progressive=1; end;
     if &dx_varname in: ('M100' 'M103' 'M104' 'M109'
-      'M1A0' 'M1A3' 'M1A4' 'M1A9')   then metab=1;
+      'M1A0' 'M1A3' 'M1A4' 'M1A9' 'R625')   then metab=1;
     if &dx_varname in: ('M2105' 'M2115' 'M2133' 'M2137' 'M215'
       'M216X' 'M2175' 'M2176' 'M232' 'M233'
       'M241' 'M242' 'M243' 'M2449' 'M245'
@@ -785,7 +794,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'N358' 'N359' 'N360' 'N361' 'N362'
       'N364' 'N365' 'N368' 'N37' 'N3942'
       'N3945' 'N3946' 'N39490' 'N39498')   then renal=1;
-    if &dx_varname in: ('N02' 'N03' 'N04' 'N05' 'N18' 'N19') then do; renal=1; progressive=1; end;
+    if &dx_varname in: ('N02' 'N03' 'N04' 'N05' 'N06' 'N18' 'N19' 'Q8783' 'Q8784') then do; renal=1; progressive=1; end;
     if &dx_varname in: ('N500' 'N80' 'N810' 'N811' 'N812'
       'N813' 'N814' 'N815' 'N816' 'N8181'
       'N8182' 'N8183' 'N8184' 'N8189' 'N819'
@@ -797,10 +806,11 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
     if &dx_varname in: ('P270' 'P271' 'P278' 'P2832' 'P2842' 'P2843')   then pulresp=1;
     if &dx_varname in: ('P293')   then cardiac=1;
     if &dx_varname in: ('Q030' 'Q031' 'Q038' 'Q0702')   then neuro=1;
+    * We want z878 but not  Z87.[67] ;
     if &dx_varname in: ('Q00' 'Q01' 'Q02' 'Q041' 'Q042'
       'Q043' 'Q045' 'Q048' 'Q05' 'Q060'
       'Q061' 'Q062' 'Q063' 'Q064' 'Q068'
-      'Q0701' 'Q0703' 'Q078' 'Q079') then do; neuro=1; progressive=1; end;
+      'Q0701' 'Q0703' 'Q078' 'Q079' 'Z86' 'Z878') then do; neuro=1; progressive=1; end;
     if &dx_varname in: ('Q100' 'Q103' 'Q107' 'Q110' 'Q111'
       'Q112' 'Q130' 'Q131' 'Q132' 'Q133'
       'Q134' 'Q135' 'Q1381' 'Q1389' 'Q140'
@@ -821,7 +831,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'Q339' 'Q34')   then pulresp=1;
     if &dx_varname in: ('Q330' 'Q333' 'Q334' 'Q336' ) then do; pulresp=1; progressive=1; end;
     if &dx_varname in: ('Q351' 'Q353' 'Q355' 'Q359' 'Q36'
-      'Q37' 'Q385')   then cranio=1;
+      'Q37' 'Q385' 'Z87730')   then cranio=1;
     if &dx_varname in: ('Q382' 'Q383' 'Q384' 'Q388' 'Q390'
       'Q391' 'Q392' 'Q393' 'Q394' 'Q395'
       'Q396' 'Q398' 'Q402' 'Q409' 'Q41'
@@ -857,19 +867,20 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
     if &dx_varname in: ('Q7951') then genito=1;
     if &dx_varname in: ('Q803' 'Q804' 'Q809' 'Q824') then do; derm=1; progressive=1; end;
     if &dx_varname in: ('Q820') then derm=1;
-    if &dx_varname in: ('Q850') then neuro=1;
-    if &dx_varname in: ('Q8589') then do ; neuro = 1; progressive = 1 ; end ;
+    if &dx_varname in: ('Q850' 'Q860' 'Q9352' 'R419' 'R4702' 'R480') then neuro=1;
+    if &dx_varname in: ('Q8589' 'Q8785') then do ; neuro = 1; progressive = 1 ; end ;
     if &dx_varname in: ('Q8581' 'Q8582' 'Q8583') then do ; malign = 1; progressive = 1 ; end ;
     if &dx_varname in: ('Q851' 'Q871' 'Q872' 'Q873'
       'Q8740' 'Q875' 'Q8789' 'Q897' 'Q898'
-      'Q899' 'Q90' 'Q933' 'Q935' 'Q937' 'Q9381'
+      'Q899' 'Q90' 'Q933' 'Q9351' 'Q9359' 'Q937' 'Q9381'
       'Q9389' 'Q96' 'Q970' 'Q971' 'Q972' 'Q978'
       'Q980' 'Q981' 'Q984' 'Q985' 'Q987'
       'Q988' 'Q992' 'Q998' 'Q999') then genetic=1;
     if &dx_varname in: ('Q8711' 'Q8781' 'Q8901' 'Q891' 'Q892' 'Q893'
       'Q894' 'Q913' 'Q917' 'Q928' 'Q934'
       'Q9382' 'Q9388') then do; genetic=1; progressive=1; end;
-    if &dx_varname in: ('R4020' 'R403' 'S1410' 'S1411' 'S1412'
+    * we want S06.309S but not S06.31AS ;
+    if &dx_varname in: ('R4020' 'R402A' 'R403' 'R418' 'S06309' 'S1410' 'S1411' 'S1412'
       'S1413' 'S1415' 'S2410' 'S2411' 'S2413'
       'S2415' 'S3410' 'S3411' 'S3412' 'S3413'
       'S343') then do; neuro=1; progressive=1; end;
