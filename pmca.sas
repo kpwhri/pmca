@@ -604,7 +604,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
     if &dx_varname in: ('E40' 'E43' 'E440' 'E50' 'E52' 'E53' 'E54'
         'E550' 'E643' 'E6601' 'E800' 'E8020'
         'E8029' 'E805' 'E8722' 'E880' 'E888' 'E88A' 'E798')   then metab=1;
-    if &dx_varname in: ('E45' 'E7527' 'E7528')   then neuro=1;
+    if &dx_varname in: ('E7527' 'E7528')   then neuro=1;
     if &dx_varname in: ('E700' 'E7021' 'E7029' 'E7040' 'E705'
       'E708' 'E710' 'E71120' 'E7119' 'E712'
       'E7131' 'E7141' 'E7142' 'E7144' 'E7150'

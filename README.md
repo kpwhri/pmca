@@ -26,4 +26,5 @@ Rita will occasionally send an xlsx of new dx codes, along with yes-or-no includ
 4. Run test_classify_dx.sas and note the deficiencies listed in the test_classify_dx.html output.
 5. Edit classify_dx.sas until there are no more deficiencies
 6. Copy `%classify_dx` out of classify_dx.sas and paste it over top of the one in pmca.sas
+6. Re-run /frolics/generate_lookups.sas. Copy xlsx from scratch over to /docs.
 7. Commit/tag/push & inform Rita the update is done.
