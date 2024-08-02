@@ -1926,6 +1926,8 @@ F43.22    mental health         no  Adjustment disorder with anxiety
 F43.23    mental health         no  Adjustment Disorder, with Mixed Anxiety and Depressed Mood
 F64.2     mental health         no  Gender dysphoria in pediatric patient
 F80       mental health         no  Articulation disorder
+F80.2     neurological          no  Mixed receptive-expressive language disorder
+F80.4     neurological          no  Speech and language development delay due to hearing loss
 F80.9     mental health         no  Unspecified Communication Disorder
 F93.0     mental health         no  Separation Anxiety Disorder
 F98.9     mental health         no  Unspecified, Disruptive, Impulse Control, and Conduct Disorder
@@ -1946,132 +1948,132 @@ Z86.73    neurological          yes History of CVA (cerebrovascular accident)
 Z87.730   craniofacial          no  History of corrected cleft lip and palate
 Z87.82    neurological          yes History of Multiple Concussions
 Z92.21    malignancy            n/a Status Post-Chemotherapy
-D13.91    gastrointestinal      no   Familial adenomatous polyposis
-D13.99    gastrointestinal      no   Benign neoplasm of ill-defined sites within the digestive system
-D48.1     malignancy            yes  Neoplasm of uncertain behavior of connective and other soft tissue
-D48.110   malignancy            yes  Desmoid tumor of head and neck
-D48.111   malignancy            yes  Desmoid tumor of chest wall
-D48.112   malignancy            yes  Desmoid tumor, intrathoracic
-D48.113   malignancy            yes  Desmoid tumor of abdominal wall
-D48.114   malignancy            yes  Desmoid tumor, intraabdominal
-D48.115   malignancy            yes  Desmoid tumor of upper extremity and shoulder girdle
-D48.116   malignancy            yes  Desmoid tumor of lower extremity and pelvic girdle
-D48.117   malignancy            yes  Desmoid tumor of back
-D48.118   malignancy            yes  Desmoid tumor of other site
-D48.119   malignancy            yes  Desmoid tumor of unspecified site
-D48.19    malignancy            yes  Other specified neoplasm of uncertain behavior of connective and other soft tissue
-D57.04    hematological         yes  Hb-SS disease with dactylitis
-D57.214   hematological         yes  Sickle-cell/Hb-C disease with dactylitis
-D57.414   hematological         yes  Sickle-cell thalassemia, unspecified, with dactylitis
-D57.434   hematological         yes  Sickle-cell thalassemia beta zero with dactylitis
-D57.454   hematological         yes  Sickle-cell thalassemia beta plus with dactylitis
-D57.814   hematological         yes  Other sickle-cell disorders with dactylitis
-D61.02    hematological         yes  Shwachman-Diamond syndrome
-D89.84    immunological         yes  IgG4-related disease
-E20.8     endocrinological      no   Other hypoparathyroidism
-E20.810   endocrinological      no   Autosomal dominant hypocalcemia
-E20.811   endocrinological      no   Secondary hypoparathyroidism in diseases classified elsewhere
-E20.812   endocrinological      no   Autoimmune hypoparathyroidism
-E20.818   endocrinological      no   Other specified hypoparathyroidism due to impaired parathyroid hormone secretion
-E20.819   endocrinological      no   Hypoparathyroidism due to impaired parathyroid hormone secretion, unspecified
-E20.89    endocrinological      no   Other specified hypoparathyroidism
-E74.05    metabolic             yes  Lysosome-associated membrane protein 2 [LAMP2] deficiency
-E79.8     metabolic             yes  Other disorders of purine and pyrimidine metabolism
-E79.82    metabolic             no   Hereditary xanthinuria
-E79.89    metabolic             yes  Other specified disorders of purine and pyrimidine metabolism
-E88.43    metabolic             yes  Disorders of mitochondrial tRNA synthetases
-E88.81    metabolic             no   Metabolic syndrome
-E88.810   metabolic             no   Metabolic syndrome
-E88.811   metabolic             no   Insulin resistance syndrome, Type A
-E88.818   metabolic             no   Other insulin resistance
-E88.819   metabolic             no   Insulin resistance, unspecified
-E79.81    immunological         yes  Aicardi-Goutieres syndrome
-G37.81    immunological         no   Myelin oligodendrocyte glycoprotein antibody disease
-E88.A     metabolic             no   Wasting disease (syndrome) due to underlying condition
-G11.5     neurological          yes  Hypomyelination - hypogonadotropic hypogonadism - hypodontia
-G11.6     neurological          yes  Leukodystrophy with vanishing white matter disease
-G23.3     neurological          yes  Hypomyelination with atrophy of the basal ganglia and cerebellum
-G31.80    neurological          yes  Leukodystrophy, unspecified
-G31.86    neurological          yes  Alexander disease
-G37.8     neurological          yes  Other specified demyelinating diseases of central nervous system
-E75.27    neurological          yes  Pelizaeus-Merzbacher disease
-E75.28    neurological          yes  Canavan disease
-G37.89    neurological          yes  Other specified demyelinating diseases of central nervous system
-G40.C01   neurological          yes  Lafora progressive myoclonus epilepsy, not intractable, with status epilepticus
-G40.C09   neurological          yes  Lafora progressive myoclonus epilepsy, not intractable, without status epilepticus
-G40.C11   neurological          yes  Lafora progressive myoclonus epilepsy, intractable, with status epilepticus
-G40.C19   neurological          yes  Lafora progressive myoclonus epilepsy, intractable, without status epilepticus
-G43.E01   neurological          no   Chronic migraine with aura, not intractable, with status migrainosus
-G43.E09   neurological          no   Chronic migraine with aura, not intractable, without status migrainosus
-G43.E11   neurological          no   Chronic migraine with aura, intractable, with status migrainosus
-G43.E19   neurological          no   Chronic migraine with aura, intractable, without status migrainosus
-G90.B     neurological          yes  LMNB1-related autosomal dominant leukodystrophy
-G93.42    neurological          yes  Megaloencephalic leukoencephalopathy with subcortical cysts
-G93.43    neurological          yes  Leukoencephalopathy with calcifications and cysts
-H36.811   ophthalmological      no   Nonproliferative sickle-cell retinopathy, right eye
-H36.812   ophthalmological      no   Nonproliferative sickle-cell retinopathy, left eye
-H36.813   ophthalmological      no   Nonproliferative sickle-cell retinopathy, bilateral
-H36.819   ophthalmological      no   Nonproliferative sickle-cell retinopathy, unspecified eye
-H36.821   ophthalmological      no   Proliferative sickle-cell retinopathy, right eye
-H36.822   ophthalmological      no   Proliferative sickle-cell retinopathy, left eye
-H36.823   ophthalmological      no   Proliferative sickle-cell retinopathy, bilateral
-H36.829   ophthalmological      no   Proliferative sickle-cell retinopathy, unspecified eye
-H36.89    ophthalmological      no   Other retinal disorders in diseases classified elsewhere
-I1A.0     cardiac               no   Resistant hypertension
-I25.85    cardiac               yes  Chronic coronary microvascular dysfunction
-I47.1     cardiac               no   Supraventricular tachycardia
-I47.10    cardiac               no   Supraventricular tachycardia, unspecified
-I47.11    cardiac               no   Inappropriate sinus tachycardia, so stated
-I47.19    cardiac               no   Other supraventricular tachycardia
-J4A.0     pulmonary/respiratory yes  Restrictive allograft syndrome
-J4A.8     pulmonary/respiratory yes  Other chronic lung allograft dysfunction
-J4A.9     pulmonary/respiratory yes  Chronic lung allograft dysfunction, unspecified
-N02.B1    renal                 yes  Recurrent and persistent immunoglobulin A nephropathy with glomerular lesion
-N02.B2    renal                 yes  Recurrent and persistent immunoglobulin A nephropathy with focal and segmental glomerular lesion
-N02.B3    renal                 yes  Recurrent and persistent immunoglobulin A nephropathy with diffuse membranoproliferative glomerulonephritis
-N02.B4    renal                 yes  Recurrent and persistent immunoglobulin A nephropathy with diffuse membranous glomerulonephritis
-N02.B5    renal                 yes  Recurrent and persistent immunoglobulin A nephropathy with diffuse mesangial proliferative glomerulonephritis
-N02.B6    renal                 yes  Recurrent and persistent immunoglobulin A nephropathy with diffuse mesangiocapillary glomerulonephritis
-N02.B9    renal                 yes  Other recurrent and persistent immunoglobulin A nephropathy
-N04.2     renal                 yes  Nephrotic syndrome with diffuse membranous glomerulonephritis
-N04.20    renal                 yes  Nephrotic syndrome with diffuse membranous glomerulonephritis, unspecified
-N04.21    renal                 yes  Primary membranous nephropathy with nephrotic syndrome
-N04.22    renal                 yes  Secondary membranous nephropathy with nephrotic syndrome
-N04.29    renal                 yes  Other nephrotic syndrome with diffuse membranous glomerulonephritis
-N06.2     renal                 yes  Isolated proteinuria with diffuse membranous glomerulonephritis
-N06.20    renal                 yes  Isolated proteinuria with diffuse membranous glomerulonephritis, unspecified
-N06.21    renal                 yes  Primary membranous nephropathy with isolated proteinuria
-N06.22    renal                 yes  Secondary membranous nephropathy with isolated proteinuria
-N06.29    renal                 yes  Other isolated proteinuria with diffuse membranous glomerulonephritis
-Q87.83    renal                 yes  Bardet-Biedl syndrome
-Q87.84    renal                 yes  Laurence-Moon syndrome
-K90.821   gastrointestinal      yes  Short bowel syndrome with colon in continuity
-K90.822   gastrointestinal      yes  Short bowel syndrome without colon in continuity
-K90.829   gastrointestinal      yes  Short bowel syndrome, unspecified
-K90.83    gastrointestinal      yes  Intestinal failure
-Q44.7     gastrointestinal      yes  Other congenital malformations of liver
-Q44.70    gastrointestinal      yes  Other congenital malformation of liver, unspecified
-Q44.71    gastrointestinal      yes  Alagille syndrome
-Q44.79    gastrointestinal      yes  Other congenital malformations of liver
-Q75.0     craniofacial          no   Craniosynostosis
-Q75.001   craniofacial          no   Craniosynostosis unspecified, unilateral
-Q75.002   craniofacial          no   Craniosynostosis unspecified, bilateral
-Q75.009   craniofacial          no   Craniosynostosis unspecified
-Q75.01    craniofacial          no   Sagittal craniosynostosis
-Q75.021   craniofacial          no   Coronal craniosynostosis unilateral
-Q75.022   craniofacial          no   Coronal craniosynostosis bilateral
-Q75.029   craniofacial          no   Coronal craniosynostosis unspecified
-Q75.03    craniofacial          no   Metopic craniosynostosis
-Q75.041   craniofacial          no   Lambdoid craniosynostosis, unilateral
-Q75.042   craniofacial          no   Lambdoid craniosynostosis, bilateral
-Q75.049   craniofacial          no   Lambdoid craniosynostosis, unspecified
-Q75.051   craniofacial          yes  Cloverleaf skull
-Q75.052   craniofacial          no   Pansynostosis
-Q75.058   craniofacial          no   Other multi-suture craniosynostosis
-Q75.08    craniofacial          no   Other single-suture craniosynostosis
-Q87.85    neurological          yes  MED13L syndrome
-Q93.52    neurological          no   Phelan-McDermid syndrome
-R40.2A    neurological          yes  Nontraumatic coma due to underlying condition
+D13.91    gastrointestinal      no  Familial adenomatous polyposis
+D13.99    gastrointestinal      no  Benign neoplasm of ill-defined sites within the digestive system
+D48.1     malignancy            yes Neoplasm of uncertain behavior of connective and other soft tissue
+D48.110   malignancy            yes Desmoid tumor of head and neck
+D48.111   malignancy            yes Desmoid tumor of chest wall
+D48.112   malignancy            yes Desmoid tumor, intrathoracic
+D48.113   malignancy            yes Desmoid tumor of abdominal wall
+D48.114   malignancy            yes Desmoid tumor, intraabdominal
+D48.115   malignancy            yes Desmoid tumor of upper extremity and shoulder girdle
+D48.116   malignancy            yes Desmoid tumor of lower extremity and pelvic girdle
+D48.117   malignancy            yes Desmoid tumor of back
+D48.118   malignancy            yes Desmoid tumor of other site
+D48.119   malignancy            yes Desmoid tumor of unspecified site
+D48.19    malignancy            yes Other specified neoplasm of uncertain behavior of connective and other soft tissue
+D57.04    hematological         yes Hb-SS disease with dactylitis
+D57.214   hematological         yes Sickle-cell/Hb-C disease with dactylitis
+D57.414   hematological         yes Sickle-cell thalassemia, unspecified, with dactylitis
+D57.434   hematological         yes Sickle-cell thalassemia beta zero with dactylitis
+D57.454   hematological         yes Sickle-cell thalassemia beta plus with dactylitis
+D57.814   hematological         yes Other sickle-cell disorders with dactylitis
+D61.02    hematological         yes Shwachman-Diamond syndrome
+D89.84    immunological         yes IgG4-related disease
+E20.8     endocrinological      no  Other hypoparathyroidism
+E20.810   endocrinological      no  Autosomal dominant hypocalcemia
+E20.811   endocrinological      no  Secondary hypoparathyroidism in diseases classified elsewhere
+E20.812   endocrinological      no  Autoimmune hypoparathyroidism
+E20.818   endocrinological      no  Other specified hypoparathyroidism due to impaired parathyroid hormone secretion
+E20.819   endocrinological      no  Hypoparathyroidism due to impaired parathyroid hormone secretion, unspecified
+E20.89    endocrinological      no  Other specified hypoparathyroidism
+E74.05    metabolic             yes Lysosome-associated membrane protein 2 [LAMP2] deficiency
+E79.8     metabolic             yes Other disorders of purine and pyrimidine metabolism
+E79.82    metabolic             no  Hereditary xanthinuria
+E79.89    metabolic             yes Other specified disorders of purine and pyrimidine metabolism
+E88.43    metabolic             yes Disorders of mitochondrial tRNA synthetases
+E88.81    metabolic             no  Metabolic syndrome
+E88.810   metabolic             no  Metabolic syndrome
+E88.811   metabolic             no  Insulin resistance syndrome, Type A
+E88.818   metabolic             no  Other insulin resistance
+E88.819   metabolic             no  Insulin resistance, unspecified
+E79.81    immunological         yes Aicardi-Goutieres syndrome
+G37.81    immunological         no  Myelin oligodendrocyte glycoprotein antibody disease
+E88.A     metabolic             no  Wasting disease (syndrome) due to underlying condition
+G11.5     neurological          yes Hypomyelination - hypogonadotropic hypogonadism - hypodontia
+G11.6     neurological          yes Leukodystrophy with vanishing white matter disease
+G23.3     neurological          yes Hypomyelination with atrophy of the basal ganglia and cerebellum
+G31.80    neurological          yes Leukodystrophy, unspecified
+G31.86    neurological          yes Alexander disease
+G37.8     neurological          yes Other specified demyelinating diseases of central nervous system
+E75.27    neurological          yes Pelizaeus-Merzbacher disease
+E75.28    neurological          yes Canavan disease
+G37.89    neurological          yes Other specified demyelinating diseases of central nervous system
+G40.C01   neurological          yes Lafora progressive myoclonus epilepsy, not intractable, with status epilepticus
+G40.C09   neurological          yes Lafora progressive myoclonus epilepsy, not intractable, without status epilepticus
+G40.C11   neurological          yes Lafora progressive myoclonus epilepsy, intractable, with status epilepticus
+G40.C19   neurological          yes Lafora progressive myoclonus epilepsy, intractable, without status epilepticus
+G43.E01   neurological          no  Chronic migraine with aura, not intractable, with status migrainosus
+G43.E09   neurological          no  Chronic migraine with aura, not intractable, without status migrainosus
+G43.E11   neurological          no  Chronic migraine with aura, intractable, with status migrainosus
+G43.E19   neurological          no  Chronic migraine with aura, intractable, without status migrainosus
+G90.B     neurological          yes LMNB1-related autosomal dominant leukodystrophy
+G93.42    neurological          yes Megaloencephalic leukoencephalopathy with subcortical cysts
+G93.43    neurological          yes Leukoencephalopathy with calcifications and cysts
+H36.811   ophthalmological      no  Nonproliferative sickle-cell retinopathy, right eye
+H36.812   ophthalmological      no  Nonproliferative sickle-cell retinopathy, left eye
+H36.813   ophthalmological      no  Nonproliferative sickle-cell retinopathy, bilateral
+H36.819   ophthalmological      no  Nonproliferative sickle-cell retinopathy, unspecified eye
+H36.821   ophthalmological      no  Proliferative sickle-cell retinopathy, right eye
+H36.822   ophthalmological      no  Proliferative sickle-cell retinopathy, left eye
+H36.823   ophthalmological      no  Proliferative sickle-cell retinopathy, bilateral
+H36.829   ophthalmological      no  Proliferative sickle-cell retinopathy, unspecified eye
+H36.89    ophthalmological      no  Other retinal disorders in diseases classified elsewhere
+I1A.0     cardiac               no  Resistant hypertension
+I25.85    cardiac               yes Chronic coronary microvascular dysfunction
+I47.1     cardiac               no  Supraventricular tachycardia
+I47.10    cardiac               no  Supraventricular tachycardia, unspecified
+I47.11    cardiac               no  Inappropriate sinus tachycardia, so stated
+I47.19    cardiac               no  Other supraventricular tachycardia
+J4A.0     pulmonary/respiratory yes Restrictive allograft syndrome
+J4A.8     pulmonary/respiratory yes Other chronic lung allograft dysfunction
+J4A.9     pulmonary/respiratory yes Chronic lung allograft dysfunction, unspecified
+N02.B1    renal                 yes Recurrent and persistent immunoglobulin A nephropathy with glomerular lesion
+N02.B2    renal                 yes Recurrent and persistent immunoglobulin A nephropathy with focal and segmental glomerular lesion
+N02.B3    renal                 yes Recurrent and persistent immunoglobulin A nephropathy with diffuse membranoproliferative glomerulonephritis
+N02.B4    renal                 yes Recurrent and persistent immunoglobulin A nephropathy with diffuse membranous glomerulonephritis
+N02.B5    renal                 yes Recurrent and persistent immunoglobulin A nephropathy with diffuse mesangial proliferative glomerulonephritis
+N02.B6    renal                 yes Recurrent and persistent immunoglobulin A nephropathy with diffuse mesangiocapillary glomerulonephritis
+N02.B9    renal                 yes Other recurrent and persistent immunoglobulin A nephropathy
+N04.2     renal                 yes Nephrotic syndrome with diffuse membranous glomerulonephritis
+N04.20    renal                 yes Nephrotic syndrome with diffuse membranous glomerulonephritis, unspecified
+N04.21    renal                 yes Primary membranous nephropathy with nephrotic syndrome
+N04.22    renal                 yes Secondary membranous nephropathy with nephrotic syndrome
+N04.29    renal                 yes Other nephrotic syndrome with diffuse membranous glomerulonephritis
+N06.2     renal                 yes Isolated proteinuria with diffuse membranous glomerulonephritis
+N06.20    renal                 yes Isolated proteinuria with diffuse membranous glomerulonephritis, unspecified
+N06.21    renal                 yes Primary membranous nephropathy with isolated proteinuria
+N06.22    renal                 yes Secondary membranous nephropathy with isolated proteinuria
+N06.29    renal                 yes Other isolated proteinuria with diffuse membranous glomerulonephritis
+Q87.83    renal                 yes Bardet-Biedl syndrome
+Q87.84    renal                 yes Laurence-Moon syndrome
+K90.821   gastrointestinal      yes Short bowel syndrome with colon in continuity
+K90.822   gastrointestinal      yes Short bowel syndrome without colon in continuity
+K90.829   gastrointestinal      yes Short bowel syndrome, unspecified
+K90.83    gastrointestinal      yes Intestinal failure
+Q44.7     gastrointestinal      yes Other congenital malformations of liver
+Q44.70    gastrointestinal      yes Other congenital malformation of liver, unspecified
+Q44.71    gastrointestinal      yes Alagille syndrome
+Q44.79    gastrointestinal      yes Other congenital malformations of liver
+Q75.0     craniofacial          no  Craniosynostosis
+Q75.001   craniofacial          no  Craniosynostosis unspecified, unilateral
+Q75.002   craniofacial          no  Craniosynostosis unspecified, bilateral
+Q75.009   craniofacial          no  Craniosynostosis unspecified
+Q75.01    craniofacial          no  Sagittal craniosynostosis
+Q75.021   craniofacial          no  Coronal craniosynostosis unilateral
+Q75.022   craniofacial          no  Coronal craniosynostosis bilateral
+Q75.029   craniofacial          no  Coronal craniosynostosis unspecified
+Q75.03    craniofacial          no  Metopic craniosynostosis
+Q75.041   craniofacial          no  Lambdoid craniosynostosis, unilateral
+Q75.042   craniofacial          no  Lambdoid craniosynostosis, bilateral
+Q75.049   craniofacial          no  Lambdoid craniosynostosis, unspecified
+Q75.051   craniofacial          yes Cloverleaf skull
+Q75.052   craniofacial          no  Pansynostosis
+Q75.058   craniofacial          no  Other multi-suture craniosynostosis
+Q75.08    craniofacial          no  Other single-suture craniosynostosis
+Q87.85    neurological          yes MED13L syndrome
+Q93.52    neurological          no  Phelan-McDermid syndrome
+R40.2A    neurological          yes Nontraumatic coma due to underlying condition
 ;
 run ;
 

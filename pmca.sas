@@ -603,7 +603,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
     * we want E87.22 but not E872.2x ;
     if &dx_varname in: ('E40' 'E43' 'E440' 'E50' 'E52' 'E53' 'E54'
         'E550' 'E643' 'E6601' 'E800' 'E8020'
-        'E8029' 'E805' 'E8722' 'E880' 'E888' 'E88A' 'E798')   then metab=1;
+        'E8029' 'E805' 'E8722' 'E880' 'E888' 'E88A' 'E7982' 'E7989') or &dx_varname = 'E798'  then metab=1;
     if &dx_varname in: ('E7527' 'E7528')   then neuro=1;
     if &dx_varname in: ('E700' 'E7021' 'E7029' 'E7040' 'E705'
       'E708' 'E710' 'E71120' 'E7119' 'E712'
@@ -635,7 +635,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'F840' 'F843' 'F845' 'F848' 'F849'
       'F88' 'F89' 'F90' 'F911' 'F912'
       'F913' 'F918' 'F919' 'F951' 'F952'
-      'F981' 'F98' 'F93' 'F80' 'F809' 'G3184')   then mh=1;
+      'F981' 'F98' 'F93' 'F809' 'G3184') or &dx_varname = 'F80'  then mh=1;
     if &dx_varname in: ('F200' 'F201' 'F202' 'F203' 'F205' 'F208' 'F25'
       'F50') then do; mh=1; progressive=1; end;
     if &dx_varname =: 'G90A' then cardiac = 1 ;
@@ -658,7 +658,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
       'G802' 'G803' 'G804' 'G81' 'G822'
       'G825' 'G830' 'G831' 'G832' 'G833'
       'G834' 'G835' 'G8381' 'G8389' 'G839'
-      'G90' 'G900' 'G904' 'G905' 'G908' 'G909'
+      'G90B' 'G900' 'G904' 'G905' 'G908' 'G909'
       'G910' 'G911' 'G930' 'G932' 'G9332' 'G9340' 'G9342' 'G9343' 'G9349' 'G9389' 'G939'
       'G969' 'G990' )   then neuro=1;
     if &dx_varname in: ('F02' 'F03' 'F842' 'G09' 'G10' 'G111' 'G113'
