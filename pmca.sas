@@ -178,6 +178,12 @@
     otologic                   otol
     otolaryngological          otolar
 
+  (note that these last 2 are equivalent--otologic is used
+  in the ICD-9 era and otolaryngological is used for
+  ICD-10.  See issue #1 for details:
+  https://github.com/kpwhri/pmca/issues/1 )
+
+
   Datasets Created:
 
     The FLAGCLAIMS dataset contains 1 record for each claim record, with the condition flags added.
