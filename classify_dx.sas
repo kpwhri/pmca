@@ -511,8 +511,8 @@
       'I2510' 'I252' 'I253' 'I254' 'I255'
       'I258' 'I259' 'I270' 'I271' 'I272'
       'I278' 'I279' 'I280' 'I281' 'I288' 'I289'
-      'I421' 'I422' 'I423' 'I424'
-      'I425' 'I426' 'I428' 'I43' 'I4902'
+      'I42'
+      'I43' 'I4902'
       'I50' 'I515'
       'I719' 'I81' 'I820') then do; cardiac=1; progressive=1; end;
     if &dx_varname in: ('I150' 'I158' )   then renal=1;
@@ -598,15 +598,17 @@
       'Q141' 'Q142' 'Q143' 'Q148' 'Q150')   then opthal=1;
     if &dx_varname in: ('Q16' 'Q171' 'Q172' 'Q174' 'Q178'
       'Q179' 'Q180' 'Q181' 'Q182' 'Q189')   then otol=1;
+    if &dx_varname in: ('Q20'
+      'Q213' 'Q218' 'Q219'
+      'Q225' 'Q234'
+      'Q258' 'Q259'
+      'Q260' 'Q262' 'Q263' 'Q264' 'Q266' 'Q268' 'Q8782') or &dx_varname in ('Q25') then do; cardiac=1; progressive=1; end;
     if &dx_varname in: ('Q210' 'Q211' 'Q212' 'Q220' 'Q221' 'Q222'
-      'Q223' 'Q229' 'Q230' 'Q231' 'Q232'
-      'Q233' 'Q238' 'Q242' 'Q243' 'Q244'
-      'Q245' 'Q246' 'Q248' 'Q251' 'Q252'
-      'Q253' 'Q254' 'Q255' 'Q256' 'Q257'
-      'Q269' 'Q282' 'Q283' 'Q288')   then cardiac=1;
-    if &dx_varname in: ('Q200' 'Q201' 'Q202' 'Q203' 'Q204' 'Q205'
-      'Q208' 'Q213' 'Q218' 'Q219'
-      'Q225' 'Q234') then do; cardiac=1; progressive=1; end;
+      'Q223' 'Q226' 'Q228' 'Q229' 'Q230' 'Q23' 'Q232'
+      'Q233' 'Q238'
+      'Q24'
+      'Q251' 'Q252' 'Q253' 'Q254' 'Q255' 'Q256' 'Q257'
+      'Q261' 'Q265' 'Q269' 'Q282' 'Q283' 'Q288') or &dx_varname in ('Q21' 'Q22' 'Q26' 'Q250')  then cardiac=1;
     if &dx_varname in: ('Q300' 'Q301' 'Q308' 'Q310' 'Q311'
       'Q318' 'Q321' 'Q324' 'Q332' 'Q338'
       'Q339' 'Q34')   then pulresp=1;
@@ -659,7 +661,7 @@
       'Q988' 'Q992' 'Q998' 'Q999') then genetic=1;
     if &dx_varname in: ('Q8711' 'Q8781' 'Q8901' 'Q891' 'Q892' 'Q893'
       'Q894' 'Q913' 'Q917' 'Q928' 'Q934'
-      'Q9382' 'Q9388') then do; genetic=1; progressive=1; end;
+      'Q9382' 'Q9388') or &dx_varname in ('Q87' 'Q878') then do; genetic=1; progressive=1; end;
     * we want S06.309S but not S06.31AS ;
     if &dx_varname in: ('R4020' 'R402A' 'R403' 'R418' 'S06309' 'S1410' 'S1411' 'S1412'
       'S1413' 'S1415' 'S2410' 'S2411' 'S2413'
