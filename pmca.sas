@@ -571,7 +571,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
         'C910' 'C911' 'C913' 'C914' 'C916'
         'C919' 'C91Z' 'C92' 'C93' 'C940'
         'C942' 'C943' 'C948' 'C95' 'C96'
-        'D03' 'D45' 'D474' 'D47Z1' 'D48' 'T509' 'T66X' 'Z922')   then malign=1;
+        'D03' 'D45' 'D474' 'D47Z1' 'D48' 'T66XXXS' 'Z9221' 'Z923' 'Z926')   then malign=1;
     if &dx_varname in: ('D510' 'D511' 'D55' 'D565' 'D568'
       'D569' 'D5744' 'D5745' 'D58'
       'D5910' 'D5911' 'D5913' 'D5919'
@@ -589,7 +589,7 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
     if &dx_varname in: ('D704' 'D720' 'D763' 'D802' 'D803'
       'D804' 'D805' 'D808' 'D838' 'D839'
       'D841' 'D842' 'D849' 'D86' 'D890' 'D891'
-      'D892' 'D8984' 'D899') then immuno=1;
+      'D892' 'D8984' 'D899' 'Z9225') then immuno=1;
     if &dx_varname in: ('D5932' 'D700' 'D71' 'D761' 'D800' 'D801'
       'D810' 'D811' 'D812' 'D813' 'D814' 'D818' 'D819'
       'D831' 'D89811' 'D89813' 'E7981') then do; immuno=1; progressive=1; end;
@@ -917,7 +917,6 @@ libname oput "path to location of data";         * !!!  <---- 7) SET OUTPUT LOCA
     if &dx_varname in: ('Z9483') then do; endo=1; progressive=1; end;
   end; * <- icd-10 branch ;
 %mend classify_dx ;
-
 *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 PROCESS DATA
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
