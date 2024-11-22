@@ -1288,6 +1288,73 @@ Z91.A51                         Caregivers noncompliance with patients renal dia
 Z91.A58                         Caregivers noncompliance with patients renal dialysis for other reason
 Z91.A91                         Caregivers noncompliance with patients other medical treatment and regimen due to financial hardship
 Z91.A98                         Caregivers noncompliance with patients other medical treatment and regimen for other reason
+T66.XXXA                        Radiation sickness, unspecified, initial encounter
+T66.XXXD                        Radiation sickness, unspecified, subsequent encounter
+T50.9                           Poisoning by, adverse effect of and underdosing of other and unspecified drugs, medicaments and biological substances
+T50.90                          Poisoning by, adverse effect of and underdosing of unspecified drugs, medicaments and biological substances
+T50.901                         Poisoning by unspecified drugs, medicaments and biological substances, accidental (unintentional)
+T50.901A                        Poisoning by unspecified drugs, medicaments and biological substances, accidental (unintentional), initial encounter
+T50.901D                        Poisoning by unspecified drugs, medicaments and biological substances, accidental (unintentional), subsequent encounter
+T50.901S                        Poisoning by unspecified drugs, medicaments and biological substances, accidental (unintentional), sequela
+T50.902                         Poisoning by unspecified drugs, medicaments and biological substances, intentional self-harm
+T50.902A                        Poisoning by unspecified drugs, medicaments and biological substances, intentional self-harm, initial encounter
+T50.902D                        Poisoning by unspecified drugs, medicaments and biological substances, intentional self-harm, subsequent encounter
+T50.902S                        Poisoning by unspecified drugs, medicaments and biological substances, intentional self-harm, sequela
+T50.903                         Poisoning by unspecified drugs, medicaments and biological substances, assault
+T50.903A                        Poisoning by unspecified drugs, medicaments and biological substances, assault, initial encounter
+T50.903D                        Poisoning by unspecified drugs, medicaments and biological substances, assault, subsequent encounter
+T50.903S                        Poisoning by unspecified drugs, medicaments and biological substances, assault, sequela
+T50.904                         Poisoning by unspecified drugs, medicaments and biological substances, undetermined
+T50.904A                        Poisoning by unspecified drugs, medicaments and biological substances, undetermined, initial encounter
+T50.904D                        Poisoning by unspecified drugs, medicaments and biological substances, undetermined, subsequent encounter
+T50.904S                        Poisoning by unspecified drugs, medicaments and biological substances, undetermined, sequela
+T50.905                         Adverse effect of unspecified drugs, medicaments and biological substances
+T50.905A                        Adverse effect of unspecified drugs, medicaments and biological substances, initial encounter
+T50.905D                        Adverse effect of unspecified drugs, medicaments and biological substances, subsequent encounter
+T50.905S                        Adverse effect of unspecified drugs, medicaments and biological substances, sequela
+T50.906                         Underdosing of unspecified drugs, medicaments and biological substances
+T50.906A                        Underdosing of unspecified drugs, medicaments and biological substances, initial encounter
+T50.906D                        Underdosing of unspecified drugs, medicaments and biological substances, subsequent encounter
+T50.906S                        Underdosing of unspecified drugs, medicaments and biological substances, sequela
+T50.99                          Poisoning by, adverse effect of and underdosing of other drugs, medicaments and biological substances
+T50.991                         Poisoning by other drugs, medicaments and biological substances, accidental (unintentional)
+T50.991A                        Poisoning by other drugs, medicaments and biological substances, accidental (unintentional), initial encounter
+T50.991D                        Poisoning by other drugs, medicaments and biological substances, accidental (unintentional), subsequent encounter
+T50.991S                        Poisoning by other drugs, medicaments and biological substances, accidental (unintentional), sequela
+T50.992                         Poisoning by other drugs, medicaments and biological substances, intentional self-harm
+T50.992A                        Poisoning by other drugs, medicaments and biological substances, intentional self-harm, initial encounter
+T50.992D                        Poisoning by other drugs, medicaments and biological substances, intentional self-harm, subsequent encounter
+T50.992S                        Poisoning by other drugs, medicaments and biological substances, intentional self-harm, sequela
+T50.993                         Poisoning by other drugs, medicaments and biological substances, assault
+T50.993A                        Poisoning by other drugs, medicaments and biological substances, assault, initial encounter
+T50.993D                        Poisoning by other drugs, medicaments and biological substances, assault, subsequent encounter
+T50.993S                        Poisoning by other drugs, medicaments and biological substances, assault, sequela
+T50.994                         Poisoning by other drugs, medicaments and biological substances, undetermined
+T50.994A                        Poisoning by other drugs, medicaments and biological substances, undetermined, initial encounter
+T50.994D                        Poisoning by other drugs, medicaments and biological substances, undetermined, subsequent encounter
+T50.994S                        Poisoning by other drugs, medicaments and biological substances, undetermined, sequela
+T50.995                         Adverse effect of other drugs, medicaments and biological substances
+T50.995A                        Adverse effect of other drugs, medicaments and biological substances, initial encounter
+T50.995D                        Adverse effect of other drugs, medicaments and biological substances, subsequent encounter
+T50.995S                        Adverse effect of other drugs, medicaments and biological substances, sequela
+T50.996                         Underdosing of other drugs, medicaments and biological substances
+T50.996A                        Underdosing of other drugs, medicaments and biological substances, initial encounter
+T50.996D                        Underdosing of other drugs, medicaments and biological substances, subsequent encounter
+T50.996S                        Underdosing of other drugs, medicaments and biological substances, sequela
+Z92.0                           Personal history of contraception
+Z92.2                           Personal history of drug therapy
+Z92.22                          Personal history of monoclonal drug therapy
+Z92.23                          Personal history of estrogen therapy
+Z92.24                          Personal history of steroid therapy
+Z92.240                         Personal history of inhaled steroid therapy
+Z92.241                         Personal history of systemic steroid therapy
+Z92.29                          Personal history of other drug therapy
+Z92.4                           Personal history of surgery, not elsewhere classified
+Z92.8                           Personal history of other medical treatment
+Z92.81                          Personal history of extracorporeal membrane oxygenation (ECMO)
+Z92.83                          Personal history of failed moderate sedation
+Z92.84                          Personal history of unintended awareness under general anesthesia
+Z92.89                          Personal history of other medical treatment
 run ;
 
 * These are the new codes we are adding ;
@@ -1301,6 +1368,10 @@ data s.do_want ;
   dx_codetype = '10' ;
   infile datalines truncover ;
 datalines ;
+T66.XXXS  malignancy            n/a Radiation sickness, unspecified, sequela
+Z92.25    immunological         no  Personal history of immunosupression therapy
+Z92.3     malignancy            n/a Personal history of irradiation
+Z92.6     malignancy            n/a Personal history of chemotherapy for neoplastic disease
 C43.111   malignancy            n/a Malignant melanoma of right upper eyelid, including canthus
 C43.112   malignancy            n/a Malignant melanoma of right lower eyelid, including canthus
 C43.121   malignancy            n/a Malignant melanoma of left upper eyelid, including canthus
@@ -1942,8 +2013,6 @@ R47.02    neurological          no  Language disorder
 R48.0     neurological          no  Acquired Dyslexia
 R62.51    metabolic             no  Failure to thrive
 S06.309S  neurological          yes Late Effects of Intracranial Injury, Left Parietal Skull Fracture
-T50.901S  malignancy            n/a Late Effects of Chemotherapy
-T66.XXXS  malignancy            n/a Late Effects of Radiation
 Z86.73    neurological          yes History of CVA (cerebrovascular accident)
 Z87.730   craniofacial          no  History of corrected cleft lip and palate
 Z87.82    neurological          yes History of Multiple Concussions
@@ -2130,6 +2199,13 @@ proc sql ;
   select d.*
   from s.dont_want as d
     inner join (select dx from s.dont_want group by dx having count(*) > 1) as dd on d.dx = dd.dx
+  order by d.dx
+  ;
+
+  create table s.duped_do_wants as
+  select d.*
+  from s.do_want as d
+    inner join (select dx from s.do_want group by dx having count(*) > 1) as dd on d.dx = dd.dx
   order by d.dx
   ;
 
