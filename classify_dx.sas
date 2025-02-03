@@ -368,8 +368,8 @@
     if &dx_varname in: ('D5932' 'D700' 'D71' 'D761' 'D800' 'D801'
       'D810' 'D811' 'D812' 'D813' 'D814' 'D818' 'D819'
       'D831' 'D89811' 'D89813' 'E7981') then do; immuno=1; progressive=1; end;
-    if &dx_varname in: ('D820' 'D8982')   then genetic=1;
-    if &dx_varname =:'D821' then do; genetic=1; progressive=1; end;
+    if &dx_varname in: ('D820' 'D8982' 'G9342')   then genetic=1;
+    if &dx_varname in: ('D821' 'E8882') then do; genetic=1; progressive=1; end;
     if &dx_varname in: ('E018' 'E030' 'E031' 'E032' 'E034'
       'E038' 'E039' 'E04' 'E062' 'E063' 'E064' 'E065'
       'E069' 'E070' 'E071' 'E0789' 'E079' 'E08'
@@ -383,9 +383,9 @@
     if &dx_varname =: 'E312'   then malign=1;
     * we want E87.22 but not E872.2x ;
     if &dx_varname in: ('E40' 'E43' 'E440' 'E50' 'E52' 'E53' 'E54'
-        'E550' 'E643' 'E6601' 'E800' 'E8020'
-        'E8029' 'E805' 'E8722' 'E880' 'E888' 'E88A' 'E7982' 'E7989') or &dx_varname = 'E798'  then metab=1;
-    if &dx_varname in: ('E7527' 'E7528')   then neuro=1;
+        'E550' 'E643' 'E6601' 'E66813' 'E800' 'E8020'
+        'E8029' 'E805' 'E8722' 'E880' 'E88A' 'E8881' 'E7982' 'E7989') or &dx_varname = 'E798'  then metab=1;
+    if &dx_varname in: ('E7527' 'E7528' 'F982')   then neuro=1;
     if &dx_varname in: ('E700' 'E7021' 'E7029' 'E7040' 'E705'
       'E708' 'E710' 'E71120' 'E7119' 'E712'
       'E7131' 'E7141' 'E7142' 'E7144' 'E7150'
@@ -394,12 +394,12 @@
       'E7210' 'E7211' 'E7219' 'E7220' 'E7222'
       'E7223' 'E7229' 'E723' 'E728' 'E729' 'E7400'
       'E7401' 'E7404' 'E7405' 'E7409' 'E7421' 'E7439'
-      'E744' 'E748' 'E749' 'E7502' 'E7519' 'E7521'
+      'E744' 'E7481' 'E7489' 'E749' 'E7502' 'E7519' 'E7521'
       'E7522' 'E7523' 'E7524' 'E7525' 'E7526' 'E7529'
       'E754' 'E7601' 'E7603' 'E761' 'E76219'
       'E7622' 'E7629' 'E763' 'E770' 'E771'
       'E786' 'E7870' 'E7871' 'E7872' 'E788' 'E789'
-      'E791' 'E83' 'E85' 'E8843') then do; metab=1; progressive=1; end;
+      'E791' 'E83' 'E85' 'E8843' 'Z685') or &dx_varname = 'E668' then do; metab=1; progressive=1; end;
     if &dx_varname in: ('E84') then do; pulresp=1; progressive=1; end;
     if &dx_varname in: ('E890' 'E894' 'E895')   then endo=1;
     * we want F43.81 but not F43.89 ;
@@ -416,9 +416,9 @@
       'F840' 'F843' 'F845' 'F848' 'F849'
       'F88' 'F89' 'F90' 'F911' 'F912'
       'F913' 'F918' 'F919' 'F951' 'F952'
-      'F981' 'F98' 'F93' 'F809' 'G3184') or &dx_varname = 'F80'  then mh=1;
+      'F981' 'F989' 'F93' 'F809' 'G3184' 'R4185') or &dx_varname = 'F80'  then mh=1;
     if &dx_varname in: ('F200' 'F201' 'F202' 'F203' 'F205' 'F208' 'F25'
-      'F50') then do; mh=1; progressive=1; end;
+      ) then do; mh=1; progressive=1; end;
     if &dx_varname =: 'G90A' then cardiac = 1 ;
     if &dx_varname in: ('G7102') then musculo = 1 ;
     if &dx_varname in: ('G7103' 'G7100' 'G7101' 'G7109' 'G712') then do ; musculo = 1 ; progressive = 1 ; end ;
@@ -439,9 +439,9 @@
       'G802' 'G803' 'G804' 'G81' 'G822'
       'G825' 'G830' 'G831' 'G832' 'G833'
       'G834' 'G835' 'G8381' 'G8389' 'G839'
-      'G90B' 'G900' 'G904' 'G905' 'G908' 'G909'
-      'G910' 'G911' 'G930' 'G932' 'G9332' 'G9340' 'G9342' 'G9343' 'G9349' 'G9389' 'G939'
-      'G969' 'G990' )   then neuro=1;
+      'G90B' 'G900' 'G904' 'G905' 'G9089' 'G909'
+      'G910' 'G911' 'G930' 'G932' 'G9332' 'G9340' 'G9343' 'G9345' 'G9349' 'G9389' 'G939'
+      'G969' 'G990' ) or &dx_varname = 'G908'  then neuro=1;
     if &dx_varname in: ('F02' 'F03' 'F842' 'G09' 'G10' 'G111' 'G113'
       'G114' 'G115' 'G116' 'G118' 'G119' 'G12'
       'G14' 'G23' 'G241' 'G253' 'G2582' 'G3180' 'G3186'
@@ -471,13 +471,13 @@
       'H3543' 'H3545' 'H3546' 'H355' 'H357'
       'H3589' 'H368' 'H401' 'H402' 'H403'
       'H404' 'H405' 'H406' 'H408' 'H409' 'H42'
-      'H430' 'H432' 'H433' 'H4381' 'H4389'
+      'H430' 'H432' 'H433' 'H4381' 'H4389' 'H442'
       'H4430' 'H4440' 'H4450' 'H46' 'H4701'
       'H4703' 'H4709' 'H4714' 'H472' 'H4731'
       'H4732' 'H4739' 'H474' 'H475' 'H476'
       'H479' 'H490' 'H491' 'H492' 'H493'
       'H494' )   then opthal=1;
-    if &dx_varname in: ('H4981' ) then do; metab=1; progressive=1; end;
+    if &dx_varname in: ('H4981' 'F500' 'F502' 'F5081') then do; metab=1; progressive=1; end;
     * we want X but not H57.8A[1239] ;
     if &dx_varname in: ('H4988' 'H5000' 'H5005' 'H5006'
       'H5007' 'H5008' 'H5010' 'H5015' 'H5016'
@@ -531,12 +531,16 @@
       'K266' 'K267' 'K274' 'K275' 'K276'
       'K277' 'K284' 'K285' 'K286' 'K287'
       'K3184' 'K31A' 'K50' 'K510' 'K512' 'K513'
-      'K518' 'K519' 'K624' 'K6282' 'K632'
+      'K518' 'K519' 'K58' 'K624' 'K6282' 'K632'
       'K763' 'K7689' 'K769' 'K77' 'K811'
       'K823' 'K824' 'K828' 'K833'
       'K834' 'K835' 'K838' 'K861' 'K862'
       'K863' 'K868' 'K900' 'K901' 'K902'
       'K903' 'K908' 'K915')   then gastro=1;
+
+    if &dx_varname in ('K60312' 'K60313' 'K60322' 'K60323' 'K60412' 'K60413' 'K60422'
+                      'K60423' 'K60512' 'K60513' 'K60522' 'K60523') then gastro = 1 ;
+
     if &dx_varname in: ('K73' 'K74' 'K754' 'K761' 'K766'
       'K767' 'K8301') then do; gastro=1; progressive=1; end;
     if &dx_varname in: ('L100' 'L101' 'L102' 'L104' 'L109'
@@ -563,7 +567,7 @@
       'M438' 'M460' 'M471' 'M4781' 'M482'
       'M483' 'M489' 'M498' 'M51A' 'M500' 'M502'
       'M503' 'M5106' 'M513' 'M514' 'M519'
-      'M61' 'M625' 'M6289' 'M720' 'M722'
+      'M61' 'M625' 'M628' 'M6289' 'M720' 'M722'
       'M816' 'M818' 'M852' 'M863' 'M864'
       'M865' 'M866' 'M870' 'M88'
       'M890' 'M894' 'M897' 'M908'
@@ -591,7 +595,7 @@
     if &dx_varname in: ('Q00' 'Q01' 'Q02' 'Q041' 'Q042'
       'Q043' 'Q045' 'Q048' 'Q05' 'Q060'
       'Q061' 'Q062' 'Q063' 'Q064' 'Q068'
-      'Q0701' 'Q0703' 'Q078' 'Q079' 'Z86' 'Z878') then do; neuro=1; progressive=1; end;
+      'Q0701' 'Q0703' 'Q078' 'Q079' 'R4184' 'Z867' 'Z878') then do; neuro=1; progressive=1; end;
     if &dx_varname in: ('Q100' 'Q103' 'Q107' 'Q110' 'Q111'
       'Q112' 'Q130' 'Q131' 'Q132' 'Q133'
       'Q134' 'Q135' 'Q1381' 'Q1389' 'Q140'
@@ -652,18 +656,18 @@
     if &dx_varname in: ('Q820') then derm=1;
     if &dx_varname in: ('Q850' 'Q860' 'Q9352' 'R419' 'R4702' 'R480') then neuro=1;
     if &dx_varname in: ('Q8589' 'Q8785') then do ; neuro = 1; progressive = 1 ; end ;
-    if &dx_varname in: ('Q8581' 'Q8582' 'Q8583') then do ; malign = 1; progressive = 1 ; end ;
+    if &dx_varname in: ('Q8581' 'Q8582' 'Q8583' 'E340') then do ; malign = 1; progressive = 1 ; end ;
     if &dx_varname in: ('Q851' 'Q871' 'Q872' 'Q873'
-      'Q8740' 'Q875' 'Q8789' 'Q897' 'Q898'
+      'Q8740' 'Q875' 'Q8786' 'Q8789' 'Q897' 'Q898'
       'Q899' 'Q90' 'Q933' 'Q9351' 'Q9359' 'Q937' 'Q9381'
       'Q9389' 'Q96' 'Q970' 'Q971' 'Q972' 'Q978'
       'Q980' 'Q981' 'Q984' 'Q985' 'Q987'
       'Q988' 'Q992' 'Q998' 'Q999') then genetic=1;
     if &dx_varname in: ('Q8711' 'Q8781' 'Q8901' 'Q891' 'Q892' 'Q893'
       'Q894' 'Q913' 'Q917' 'Q928' 'Q934'
-      'Q9382' 'Q9388') or &dx_varname in ('Q87' 'Q878') then do; genetic=1; progressive=1; end;
+      'Q9382' 'Q9388' 'G4084' 'E7482') or &dx_varname in ('Q87' 'Q878') then do; genetic=1; progressive=1; end;
     * we want S06.309S but not S06.31AS ;
-    if &dx_varname in: ('R4020' 'R402A' 'R403' 'R418' 'S06309' 'S1410' 'S1411' 'S1412'
+    if &dx_varname in: ('R4020' 'R402A' 'R403' 'S06309' 'S1410' 'S1411' 'S1412'
       'S1413' 'S1415' 'S2410' 'S2411' 'S2413'
       'S2415' 'S3410' 'S3411' 'S3412' 'S3413'
       'S343') then do; neuro=1; progressive=1; end;
