@@ -51,7 +51,23 @@ libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
           having count(*) > 1) as d on r.dx = d.dx and r.dx_codetype = d.dx_codetype
     order by r.dx
     ;
+
+    * supplement with any wanted codes that dont appear in &_rcm_vdw_codebucket ;
+    create table supp_wanted as
+    select w.dx length = 12
+      , upcase(compress(w.dx, '.')) as dx_nodecimal length = 12
+      , w.dx_codetype
+      , 'Rita M-S' as code_source length = 12
+      , w.description as code_desc length = 300
+    from s.do_want as w
+      left join &outset as o on w.dx = o.dx and w.dx_codetype = o.dx_codetype
+    where o.dx is null
+    ;
+
   quit ;
+
+  proc append base = &outset data = supp_wanted ;
+  run ;
 
   * Found some dupes in the icd10 diags--differences in casing & description. Lets ditch those ;
   proc sort nodupkey data = &outset ;
