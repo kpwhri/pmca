@@ -1,0 +1,967 @@
+G93.42    genetic               no  megaloencephalic leukoencephalopathy with subcortical cysts
+T66.XXXS  malignancy            n/a Radiation sickness, unspecified, sequela
+Z92.25    immunological         no  Personal history of immunosupression therapy
+Z92.3     malignancy            n/a Personal history of irradiation
+Z92.6     malignancy            n/a Personal history of chemotherapy for neoplastic disease
+C43.111   malignancy            n/a Malignant melanoma of right upper eyelid, including canthus
+C43.112   malignancy            n/a Malignant melanoma of right lower eyelid, including canthus
+C43.121   malignancy            n/a Malignant melanoma of left upper eyelid, including canthus
+C43.122   malignancy            n/a Malignant melanoma of left lower eyelid, including canthus
+C44.1021  malignancy            n/a Unspecified malignant neoplasm of skin of right upper eyelid, including canthus
+C44.1022  malignancy            n/a Unspecified malignant neoplasm of skin of right lower eyelid, including canthus
+C44.1091  malignancy            n/a Unspecified malignant neoplasm of skin of left upper eyelid, including canthus
+C44.1092  malignancy            n/a Unspecified malignant neoplasm of skin of left lower eyelid, including canthus
+C44.1121  malignancy            n/a Basal cell carcinoma of skin of right upper eyelid, including canthus
+C44.1122  malignancy            n/a Basal cell carcinoma of skin of right lower eyelid, including canthus
+C44.1191  malignancy            n/a Basal cell carcinoma of skin of left upper eyelid, including canthus
+C44.1192  malignancy            n/a Basal cell carcinoma of skin of left lower eyelid, including canthus
+C44.1221  malignancy            n/a Squamous cell carcinoma of skin of right upper eyelid, including canthus
+C44.1222  malignancy            n/a Squamous cell carcinoma of skin of right lower eyelid, including canthus
+C44.1291  malignancy            n/a Squamous cell carcinoma of skin of left upper eyelid, including canthus
+C44.1292  malignancy            n/a Squamous cell carcinoma of skin of left lower eyelid, including canthus
+C44.131   malignancy            n/a Sebaceous cell carcinoma of skin of unspecified eyelid, including canthus
+C44.1321  malignancy            n/a Sebaceous cell carcinoma of skin of right upper eyelid, including canthus
+C44.1322  malignancy            n/a Sebaceous cell carcinoma of skin of right lower eyelid, including canthus
+C44.1391  malignancy            n/a Sebaceous cell carcinoma of skin of left upper eyelid, including canthus
+C44.1392  malignancy            n/a Sebaceous cell carcinoma of skin of left lower eyelid, including canthus
+C44.1921  malignancy            n/a Other specified malignant neoplasm of skin of right upper eyelid, including canthus
+C44.1922  malignancy            n/a Other specified malignant neoplasm of skin of right lower eyelid, including canthus
+C44.1991  malignancy            n/a Other specified malignant neoplasm of skin of left upper eyelid, including canthus
+C44.1992  malignancy            n/a Other specified malignant neoplasm of skin of left lower eyelid, including canthus
+C4A.11    malignancy            n/a Merkel cell carcinoma of right upper eyelid, including canthus
+C4A.12    malignancy            n/a Merkel cell carcinoma of right lower eyelid, including canthus
+C4A.21    malignancy            n/a Merkel cell carcinoma of left upper eyelid, including canthus
+C4A.22    malignancy            n/a Merkel cell carcinoma of left lower eyelid, including canthus
+C96.20    malignancy            n/a Malignant mast cell neoplasm, unspecified
+C96.21    malignancy            n/a Aggressive systemic mastocytosis
+C96.22    malignancy            n/a Mast cell sarcoma
+C96.29    malignancy            n/a Other malignant mast cell neoplasm
+D03.111   malignancy            n/a Melanoma in situ of right upper eyelid, including canthus
+D03.112   malignancy            n/a Melanoma in situ of right lower eyelid, including canthus
+D03.121   malignancy            n/a Melanoma in situ of left upper eyelid, including canthus
+D03.122   malignancy            n/a Melanoma in situ of left lower eyelid, including canthus
+D57.03    hematological         yes Hb-SS disease with cerebral vascular involvement
+D57.09    hematological         yes Hb-SS disease with crisis with other specified complication
+D57.213   hematological         yes Sickle-cell/Hb-C disease with cerebral vascular involvement
+D57.218   hematological         yes Sickle-cell/Hb-C disease with crisis with other specified complication
+D57.413   hematological         yes Sickle-cell thalassemia, unspecified, with cerebral vascular involvement
+D57.418   hematological         yes Sickle-cell thalassemia, unspecified, with crisis with other specified complication
+D57.42    hematological         yes Sickle-cell thalassemia betaZero without crisis
+D57.431   hematological         yes Sickle-cell thalassemia betaZero with acute chest syndrome
+D57.432   hematological         yes Sickle-cell thalassemia betaZero with splenic sequestration
+D57.433   hematological         yes Sickle-cell thalassemia betaZero with cerebral vascular involvement
+D57.438   hematological         yes Sickle-cell thalassemia betaZero with crisis with other specified complication
+D57.439   hematological         yes Sickle-cell thalassemia betaZero with crisis, unspecified
+D57.44    hematological         no  Sickle-cell thalassemia beta plus without crisis
+D57.451   hematological         no  Sickle-cell thalassemia beta plus with acute chest syndrome
+D57.452   hematological         no  Sickle-cell thalassemia beta plus with splenic sequestration
+D57.453   hematological         no  Sickle-cell thalassemia beta plus with cerebral vascular involvement
+D57.458   hematological         no  Sickle-cell thalassemia beta plus with crisis with other specified complication
+D57.459   hematological         no  Sickle-cell thalassemia beta plus with crisis, unspecified
+D57.813   hematological         yes Other sickle-cell disorders with cerebral vascular involvement
+D57.818   hematological         yes Other sickle-cell disorders with crisis with other specified complication
+D59.10    hematological         no  Autoimmune hemolytic anemia, unspecified
+D59.11    hematological         no  Warm autoimmune hemolytic anemia
+D59.13    hematological         no  Mixed type autoimmune hemolytic anemia
+D59.19    hematological         no  Other autoimmune hemolytic anemia
+D75.A     hematological         no  Glucose-6-phosphate dehydrogenase (G6PD) deficiency without anemia
+D81.30    immunological         yes Adenosine deaminase deficiency, unspecified
+D81.31    immunological         yes Severe combined immunodeficiency due to adenosine deaminase deficiency
+D81.32    immunological         yes Adenosine deaminase 2 deficiency
+D81.39    immunological         yes Other adenosine deaminase deficiency
+D84.1     immunological         no  Immunodeficiency due to conditions classified elsewhere
+D84.21    immunological         no  Immunodeficiency due to drugs
+D84.22    immunological         no  Immunodeficiency due to external causes
+D84.9     immunological         no  Other immunodeficiencies
+E11.10    endocrinological      no  Type 2 diabetes mellitus with ketoacidosis without coma
+E11.11    endocrinological      no  Type 2 diabetes mellitus with ketoacidosis with coma
+E70.81    metabolic             yes Aromatic L-amino acid decarboxylase deficiency
+E70.89    metabolic             yes Other disorders of aromatic amino-acid metabolism
+E72.81    metabolic             yes Disorders of gamma aminobutyric acid metabolism
+E72.89    metabolic             yes Other specified disorders of amino-acid metabolism
+E74.810   metabolic             yes Glucose transporter protein type 1 deficiency
+E74.818   metabolic             yes Other disorders of glucose transport
+E74.819   metabolic             yes Disorders of glucose transport, unspecified
+E74.89    metabolic             yes Other specified disorders of carbohydrate metabolism
+E75.26    metabolic             yes Sulfatase deficiency
+E85.81    metabolic             yes Light chain (AL) amyloidosis
+E85.82    metabolic             yes Wild-type transthyretin-related (ATTR) amyloidosis
+E85.89    metabolic             yes Other amyloidosis
+E88.02    metabolic             no  Plasminogen deficiency
+G11.10    neurological          yes Early-onset cerebellar ataxia, unspecified
+G11.11    neurological          yes Friedreich ataxia
+G11.19    neurological          yes Other early-onset cerebellar ataxia
+G12.23    neurological          yes Primary lateral sclerosis
+G12.24    neurological          yes Familial motor neuron disease
+G12.25    neurological          yes Progressive spinal muscle atrophy
+G40.42    neurological          no  Cyclin-Dependent Kinase-Like 5 Deficiency Disorder
+G40.833   neurological          yes Dravet syndrome, intractable, with status epilepticus
+G40.834   neurological          yes Dravet syndrome, intractable, without status epilepticus
+G71.00    musculoskeletal       yes Muscular dystrophy, unspecified
+G71.01    musculoskeletal       yes Duchenne or Becker muscular dystrophy
+G71.02    musculoskeletal       no  Facioscapulohumeral muscular dystrophy
+G71.09    musculoskeletal       yes Other specified muscular dystrophies
+G71.20    musculoskeletal       yes Congenital myopathy, unspecifed
+G71.21    musculoskeletal       yes Nemaline myopathy
+G71.220   musculoskeletal       yes X-linked myotubular myopathy
+G71.228   musculoskeletal       yes Other centronuclear myopathy
+G71.29    musculoskeletal       yes Other congenital myopathy
+H54.0X33  ophthalmological      no  Blindness right eye category 3, blindness left eye category 3
+H54.0X34  ophthalmological      no  Blindness right eye category 3, blindness left eye category 4
+H54.0X35  ophthalmological      no  Blindness right eye category 3, blindness left eye category 5
+H54.0X43  ophthalmological      no  Blindness right eye category 4, blindness left eye category 3
+H54.0X44  ophthalmological      no  Blindness right eye category 4, blindness left eye category 4
+H54.0X45  ophthalmological      no  Blindness right eye category 4, blindness left eye category 5
+H54.0X53  ophthalmological      no  Blindness right eye category 5, blindness left eye category 3
+H54.0X54  ophthalmological      no  Blindness right eye category 5, blindness left eye category 4
+H54.0X55  ophthalmological      no  Blindness right eye category 5, blindness left eye category 5
+H54.1131  ophthalmological      no  Blindness right eye category 3, low vision left eye category 1
+H54.1132  ophthalmological      no  Blindness right eye category 3, low vision left eye category 2
+H54.1141  ophthalmological      no  Blindness right eye category 4, low vision left eye category 1
+H54.1142  ophthalmological      no  Blindness right eye category 4, low vision left eye category 2
+H54.1151  ophthalmological      no  Blindness right eye category 5, low vision left eye category 1
+H54.1152  ophthalmological      no  Blindness right eye category 5, low vision left eye category 2
+H54.1213  ophthalmological      no  Low vision right eye category 1, blindness left eye category 3
+H54.1214  ophthalmological      no  Low vision right eye category 1, blindness left eye category 4
+H54.1215  ophthalmological      no  Low vision right eye category 1, blindness left eye category 5
+H54.1223  ophthalmological      no  Low vision right eye category 2, blindness left eye category 3
+H54.1224  ophthalmological      no  Low vision right eye category 2, blindness left eye category 4
+H54.1225  ophthalmological      no  Low vision right eye category 2, blindness left eye category 5
+H54.2X11  ophthalmological      no  Low vision right eye category 1, low vision left eye category 1
+H54.2X12  ophthalmological      no  Low vision right eye category 1, low vision left eye category 2
+H54.2X21  ophthalmological      no  Low vision right eye category 2, low vision left eye category 1
+H54.2X22  ophthalmological      no  Low vision right eye category 2, low vision left eye category 2
+H81.4     otologic              no  Vertigo of central origin
+I21.9     cardiac               yes Acute myocardial infarction, unspecified
+I21.A1    cardiac               yes Myocardial infarction type 2
+I21.A9    cardiac               yes Other myocardial infarction type
+I27.20    cardiac               yes Pulmonary hypertension, unspecified
+I27.21    cardiac               yes Secondary pulmonary arterial hypertension
+I27.22    cardiac               yes Pulmonary hypertension due to left heart disease
+I27.23    cardiac               yes Pulmonary hypertension due to lung diseases and hypoxia
+I27.24    cardiac               yes Chronic thromboembolic pulmonary hypertension
+I27.29    cardiac               yes Other secondary pulmonary hypertension
+I27.83    cardiac               yes Eisenmengers syndrome
+I48.11    cardiac               no  Longstanding persistent atrial fibrillation
+I48.19    cardiac               no  Other persistent atrial fibrillation
+I48.20    cardiac               no  Chronic atrial fibrillation, unspecified
+I48.21    cardiac               no  Permanent atrial fibrillation
+I50.810   cardiac               yes Right heart failure, unspecified
+I50.811   cardiac               yes Acute right heart failure
+I50.812   cardiac               yes Chronic right heart failure
+I50.813   cardiac               yes Acute on chronic right heart failure
+I50.814   cardiac               yes Right heart failure due to left heart failure
+I50.82    cardiac               yes Biventricular heart failure
+I50.83    cardiac               yes High output heart failure
+I50.84    cardiac               yes End stage heart failure
+I50.89    cardiac               yes Other heart failure
+I63.81    neurological          yes Other cerebral infarction due to occlusion or stenosis of small artery
+I63.89    neurological          yes Other cerebral infarction
+I82.551   cardiac               no  Chronic embolism and thrombosis of right peroneal vein
+I82.552   cardiac               no  Chronic embolism and thrombosis of left peroneal vein
+I82.553   cardiac               no  Chronic embolism and thrombosis of peroneal vein, bilateral
+I82.559   cardiac               no  Chronic embolism and thrombosis of unspecified peroneal vein
+I82.561   cardiac               no  Chronic embolism and thrombosis of right calf muscular vein
+I82.562   cardiac               no  Chronic embolism and thrombosis of left calf muscular vein
+I82.563   cardiac               no  Chronic embolism and thrombosis of calf muscular vein, bilateral
+I82.569   cardiac               no  Chronic embolism and thrombosis of unspecified calf muscular vein
+J84.170   pulmonary/respiratory yes Interstitial lung disease with progressive fibrotic phenotype in diseases classified elsewhere
+J84.178   pulmonary/respiratory yes Other interstitial pulmonary diseases with fibrosis in diseases classified elsewhere
+K74.00    gastrointestinal      yes Hepatic fibrosis, unspecified
+K74.01    gastrointestinal      yes Hepatic fibrosis, early fibrosis
+K74.02    gastrointestinal      yes Hepatic fibrosis, advanced fibrosis
+K83.01    gastrointestinal      yes Primary sclerosing cholangitis
+L89.006   dermatological        no  Pressure-induced deep tissue damage of unspecified elbow
+L89.016   dermatological        no  Pressure-induced deep tissue damage of right elbow
+L89.026   dermatological        no  Pressure-induced deep tissue damage of left elbow
+L89.116   dermatological        no  Pressure-induced deep tissue damage of right upper back
+L89.126   dermatological        no  Pressure-induced deep tissue damage of left upper back
+L89.136   dermatological        no  Pressure-induced deep tissue damage of right lower back
+L89.146   dermatological        no  Pressure-induced deep tissue damage of left lower back
+L89.156   dermatological        no  Pressure-induced deep tissue damage of sacral region
+L89.216   dermatological        no  Pressure-induced deep tissue damage of right hip
+L89.226   dermatological        no  Pressure-induced deep tissue damage of left hip
+L89.306   dermatological        no  Pressure-induced deep tissue damage of unspecified buttock
+L89.316   dermatological        no  Pressure-induced deep tissue damage of right buttock
+L89.326   dermatological        no  Pressure-induced deep tissue damage of left buttock
+L89.46    dermatological        no  Pressure-induced deep tissue damage of contiguous site of back, buttock and hip
+L89.506   dermatological        no  Pressure-induced deep tissue damage of unspecified ankle
+L89.516   dermatological        no  Pressure-induced deep tissue damage of right ankle
+L89.526   dermatological        no  Pressure-induced deep tissue damage of left ankle
+L89.606   dermatological        no  Pressure-induced deep tissue damage of unspecified heel
+L89.616   dermatological        no  Pressure-induced deep tissue damage of right heel
+L89.626   dermatological        no  Pressure-induced deep tissue damage of left heel
+L89.816   dermatological        no  Pressure-induced deep tissue damage of head
+L89.896   dermatological        no  Pressure-induced deep tissue damage of other site
+L97.105   dermatological        no  Non-pressure chronic ulcer of unspecified thigh with muscle involvement without evidence of necrosis
+L97.106   dermatological        no  Non-pressure chronic ulcer of unspecified thigh with bone involvement without evidence of necrosis
+L97.108   dermatological        no  Non-pressure chronic ulcer of unspecified thigh with other specified severity
+L97.115   dermatological        no  Non-pressure chronic ulcer of right thigh with muscle involvement without evidence of necrosis
+L97.116   dermatological        no  Non-pressure chronic ulcer of right thigh with bone involvement without evidence of necrosis
+L97.118   dermatological        no  Non-pressure chronic ulcer of right thigh with other specified severity
+L97.125   dermatological        no  Non-pressure chronic ulcer of left thigh with muscle involvement without evidence of necrosis
+L97.126   dermatological        no  Non-pressure chronic ulcer of left thigh with bone involvement without evidence of necrosis
+L97.128   dermatological        no  Non-pressure chronic ulcer of left thigh with other specified severity
+L97.205   dermatological        no  Non-pressure chronic ulcer of unspecified calf with muscle involvement without evidence of necrosis
+L97.206   dermatological        no  Non-pressure chronic ulcer of unspecified calf with bone involvement without evidence of necrosis
+L97.208   dermatological        no  Non-pressure chronic ulcer of unspecified calf with other specified severity
+L97.215   dermatological        no  Non-pressure chronic ulcer of right calf with muscle involvement without evidence of necrosis
+L97.216   dermatological        no  Non-pressure chronic ulcer of right calf with bone involvement without evidence of necrosis
+L97.218   dermatological        no  Non-pressure chronic ulcer of right calf with other specified severity
+L97.225   dermatological        no  Non-pressure chronic ulcer of left calf with muscle involvement without evidence of necrosis
+L97.226   dermatological        no  Non-pressure chronic ulcer of left calf with bone involvement without evidence of necrosis
+L97.228   dermatological        no  Non-pressure chronic ulcer of left calf with other specified severity
+L97.305   dermatological        no  Non-pressure chronic ulcer of unspecified ankle with muscle involvement without evidence of necrosis
+L97.306   dermatological        no  Non-pressure chronic ulcer of unspecified ankle with bone involvement without evidence of necrosis
+L97.308   dermatological        no  Non-pressure chronic ulcer of unspecified ankle with other specified severity
+L97.315   dermatological        no  Non-pressure chronic ulcer of right ankle with muscle involvement without evidence of necrosis
+L97.316   dermatological        no  Non-pressure chronic ulcer of right ankle with bone involvement without evidence of necrosis
+L97.318   dermatological        no  Non-pressure chronic ulcer of right ankle with other specified severity
+L97.325   dermatological        no  Non-pressure chronic ulcer of left ankle with muscle involvement without evidence of necrosis
+L97.326   dermatological        no  Non-pressure chronic ulcer of left ankle with bone involvement without evidence of necrosis
+L97.328   dermatological        no  Non-pressure chronic ulcer of left ankle with other specified severity
+L97.405   dermatological        no  Non-pressure chronic ulcer of unspecified heel and midfoot with muscle involvement without evidence of necrosis
+L97.406   dermatological        no  Non-pressure chronic ulcer of unspecified heel and midfoot with bone involvement without evidence of necrosis
+L97.408   dermatological        no  Non-pressure chronic ulcer of unspecified heel and midfoot with other specified severity
+L97.415   dermatological        no  Non-pressure chronic ulcer of right heel and midfoot with muscle involvement without evidence of necrosis
+L97.416   dermatological        no  Non-pressure chronic ulcer of right heel and midfoot with bone involvement without evidence of necrosis
+L97.418   dermatological        no  Non-pressure chronic ulcer of right heel and midfoot with other specified severity
+L97.425   dermatological        no  Non-pressure chronic ulcer of left heel and midfoot with muscle involvement without evidence of necrosis
+L97.426   dermatological        no  Non-pressure chronic ulcer of left heel and midfoot with bone involvement without evidence of necrosis
+L97.428   dermatological        no  Non-pressure chronic ulcer of left heel and midfoot with other specified severity
+L97.505   dermatological        no  Non-pressure chronic ulcer of other part of unspecified foot with muscle involvement without evidence of necrosis
+L97.506   dermatological        no  Non-pressure chronic ulcer of other part of unspecified foot with bone involvement without evidence of necrosis
+L97.508   dermatological        no  Non-pressure chronic ulcer of other part of unspecified foot with other specified severity
+L97.515   dermatological        no  Non-pressure chronic ulcer of other part of right foot with muscle involvement without evidence of necrosis
+L97.516   dermatological        no  Non-pressure chronic ulcer of other part of right foot with bone involvement without evidence of necrosis
+L97.518   dermatological        no  Non-pressure chronic ulcer of other part of right foot with other specified severity
+L97.525   dermatological        no  Non-pressure chronic ulcer of other part of left foot with muscle involvement without evidence of necrosis
+L97.526   dermatological        no  Non-pressure chronic ulcer of other part of left foot with bone involvement without evidence of necrosis
+L97.528   dermatological        no  Non-pressure chronic ulcer of other part of left foot with other specified severity
+L97.805   dermatological        no  Non-pressure chronic ulcer of other part of unspecified lower leg with muscle involvement without evidence of necrosis
+L97.806   dermatological        no  Non-pressure chronic ulcer of other part of unspecified lower leg with bone involvement without evidence of necrosis
+L97.808   dermatological        no  Non-pressure chronic ulcer of other part of unspecified lower leg with other specified severity
+L97.815   dermatological        no  Non-pressure chronic ulcer of other part of right lower leg with muscle involvement without evidence of necrosis
+L97.816   dermatological        no  Non-pressure chronic ulcer of other part of right lower leg with bone involvement without evidence of necrosis
+L97.818   dermatological        no  Non-pressure chronic ulcer of other part of right lower leg with other specified severity
+L97.825   dermatological        no  Non-pressure chronic ulcer of other part of left lower leg with muscle involvement without evidence of necrosis
+L97.826   dermatological        no  Non-pressure chronic ulcer of other part of left lower leg with bone involvement without evidence of necrosis
+L97.828   dermatological        no  Non-pressure chronic ulcer of other part of left lower leg with other specified severity
+L97.905   dermatological        no  Non-pressure chronic ulcer of unspecified part of unspecified lower leg with muscle involvement without evidence of necrosis
+L97.906   dermatological        no  Non-pressure chronic ulcer of unspecified part of unspecified lower leg with bone involvement without evidence of necrosis
+L97.908   dermatological        no  Non-pressure chronic ulcer of unspecified part of unspecified lower leg with other specified severity
+L97.915   dermatological        no  Non-pressure chronic ulcer of unspecified part of right lower leg with muscle involvement without evidence of necrosis
+L97.916   dermatological        no  Non-pressure chronic ulcer of unspecified part of right lower leg with bone involvement without evidence of necrosis
+L97.918   dermatological        no  Non-pressure chronic ulcer of unspecified part of right lower leg with other specified severity
+L97.925   dermatological        no  Non-pressure chronic ulcer of unspecified part of left lower leg with muscle involvement without evidence of necrosis
+L97.926   dermatological        no  Non-pressure chronic ulcer of unspecified part of left lower leg with bone involvement without evidence of necrosis
+L97.928   dermatological        no  Non-pressure chronic ulcer of unspecified part of left lower leg with other specified severity
+L98.415   dermatological        no  Non-pressure chronic ulcer of buttock with muscle involvement without evidence of necrosis
+L98.416   dermatological        no  Non-pressure chronic ulcer of buttock with bone involvement without evidence of necrosis
+L98.418   dermatological        no  Non-pressure chronic ulcer of buttock with other specified severity
+L98.425   dermatological        no  Non-pressure chronic ulcer of back with muscle involvement without evidence of necrosis
+L98.426   dermatological        no  Non-pressure chronic ulcer of back with bone involvement without evidence of necrosis
+L98.428   dermatological        no  Non-pressure chronic ulcer of back with other specified severity
+L98.495   dermatological        no  Non-pressure chronic ulcer of skin of other sites with muscle involvement without evidence of necrosis
+L98.496   dermatological        no  Non-pressure chronic ulcer of skin of other sites with bone involvement without evidence of necrosis
+L98.498   dermatological        no  Non-pressure chronic ulcer of skin of other sites with other specified severity
+M06.0A    immunological         no  Rheumatoid arthritis without rheumatoid factor, other specified site
+M06.8A    immunological         no  Other specified rheumatoid arthritis, other specified site
+M08.0A    immunological         no  Unspecified juvenile rheumatoid arthritis, other specified site
+M08.2A    immunological         no  Juvenile rheumatoid arthritis with systemic onset, other specified site
+M08.4A    immunological         no  Pauciarticular juvenile rheumatoid arthritis, other specified site
+M08.9A    immunological         no  Juvenile arthritis, unspecified, other specified site
+M24.19    musculoskeletal       no  Other articular cartilage disorders, other specified site
+M24.29    musculoskeletal       no  Disorder of ligament, other specified site
+M24.39    musculoskeletal       no  Pathological dislocation of other specified joint, not elsewhere classified
+M24.49    musculoskeletal       no  Recurrent dislocation, other specified joint
+M24.59    musculoskeletal       no  Contracture, other specified joint
+M24.69    musculoskeletal       no  Ankylosis, other specified joint
+M24.89    musculoskeletal       no  Other specific joint derangement of other specified joint, not elsewhere classified
+N02.A     renal                 yes Recurrent and persistent hematuria with C3 glomerulonephritis
+N03.A     renal                 yes Chronic nephritic syndrome with C3 glomerulonephritis
+N04.A     renal                 yes Nephrotic syndrome with C3 glomerulonephritis
+N05.A     renal                 yes Unspecified nephritic syndrome with C3 glomerulonephritis
+N18.30    renal                 yes Chronic kidney disease, stage 3 unspecified
+N18.31    renal                 yes Chronic kidney disease, stage 3a
+N18.32    renal                 yes Chronic kidney disease, stage 3b
+N35.811   renal                 no  Other urethral stricture, male, meatal
+N35.812   renal                 no  Other urethral bulbous stricture, male
+N35.813   renal                 no  Other membranous urethral stricture, male
+N35.814   renal                 no  Other anterior urethral stricture, male
+N35.816   renal                 no  Other urethral stricture, male, overlapping sites
+N35.819   renal                 no  Other urethral stricture, male, unspecified site
+N35.82    renal                 no  Other urethral stricture, female
+N35.911   renal                 no  Unspecified urethral stricture, male, meatal
+N35.912   renal                 no  Unspecified bulbous urethral stricture, male
+N35.913   renal                 no  Unspecified membranous urethral stricture, male
+N35.914   renal                 no  Unspecified anterior urethral stricture, male
+N35.916   renal                 no  Unspecified urethral stricture, male, overlapping sites
+N35.919   renal                 no  Unspecified urethral stricture, male, unspecified site
+N35.92    renal                 no  Unspecified urethral stricture, female
+P29.30    cardiac               no  Pulmonary hypertension of newborn
+P29.38    cardiac               no  Other persistent fetal circulation
+Q66.70    musculoskeletal       no  Congenital pes cavus, unspecified foot
+Q66.71    musculoskeletal       no  Congenital pes cavus, right foot
+Q66.72    musculoskeletal       no  Congenital pes cavus, left foot
+Q79.60    musculoskeletal       no  Ehlers-Danlos syndrome, unspecified
+Q79.61    musculoskeletal       no  Classical Ehlers-Danlos syndrome
+Q79.62    musculoskeletal       no  Hypermobile Ehlers-Danlos syndrome
+Q79.63    musculoskeletal       yes Vascular Ehlers-Danlos syndrome
+Q79.69    musculoskeletal       no  Other Ehlers-Danlos syndromes
+Q87.11    genetic               yes Prader-Willi syndrome
+Q87.19    genetic               no  Other congenital malformation syndromes predominantly associated with short stature
+Q93.51    genetic               no  Angelman syndrome
+Q93.59    genetic               no  Other deletions of part of a chromosome
+Q93.82    genetic               yes Williams syndrome
+C56.3     malignancy            yes Malignant neoplasm of bilateral ovaries
+C79.63    malignancy            yes Secondary malignant neoplasm of bilateral ovaries
+C84.7A    malignancy            yes Anaplastic large cell lymphoma, ALK-negative, breast
+D55.21    hematological         no  Anemia due to pyruvate kinase deficiency
+D55.29    hematological         no  Anemia due to other disorders of glycolytic enzymes
+E75.240   metabolic             yes Niemann-Pick disease type A
+E75.241   metabolic             yes Niemann-Pick disease type B
+E75.242   metabolic             yes Niemann-Pick disease type C
+E75.243   metabolic             yes Niemann-Pick disease type D
+E75.244   metabolic             yes Niemann-Pick disease type A/B
+F32.A     mental health         no  Depression, unspecified
+F78.A1    neurological          yes SYNGAP1-related intellectual disability
+F78.A9    neurological          yes Other genetic related intellectual disability
+K22.81    gastrointestinal      no  Esophageal polyp
+K22.82    gastrointestinal      no  Esophagogastric junction polyp
+K22.89    gastrointestinal      no  Other specified disease of esophagus
+K31.A0    gastrointestinal      yes Gastric intestinal metaplasia, unspecified
+K31.A11   gastrointestinal      yes Gastric intestinal metaplasia without dysplasia, involving the antrum
+K31.A12   gastrointestinal      yes Gastric intestinal metaplasia without dysplasia, involving the body (corpus)
+K31.A13   gastrointestinal      yes Gastric intestinal metaplasia without dysplasia, involving the fundus
+K31.A14   gastrointestinal      yes Gastric intestinal metaplasia without dysplasia, involving the cardia
+K31.A15   gastrointestinal      yes Gastric intestinal metaplasia without dysplasia, involving multiple sites
+K31.A19   gastrointestinal      yes Gastric intestinal metaplasia without dysplasia, unspecified site
+K31.A21   gastrointestinal      yes Gastric intestinal metaplasia with low grade dysplasia
+K31.A22   gastrointestinal      yes Gastric intestinal metaplasia with high grade dysplasia
+K31.A29   gastrointestinal      yes Gastric intestinal metaplasia with dysplasia, unspecified
+M31.10    immunological         yes Thrombotic microangiopathy, unspecified
+M31.11    immunological         yes Hematopoietic stem cell transplantation-associated thrombotic microangiopathy [HSCT-TMA]
+M31.19    immunological         yes Other thrombotic microangiopathy
+M35.01    immunological         no  Sjogren syndrome with keratoconjunctivitis
+M35.02    immunological         no  Sjogren syndrome with lung involvement
+M35.03    immunological         no  Sjogren syndrome with myopathy
+M35.04    immunological         no  Sjogren syndrome with tubulo-interstitial nephropathy
+M35.05    immunological         no  Sjogren syndrome with inflammatory arthritis
+M35.06    immunological         no  Sjogren syndrome with peripheral nervous system involvement
+M35.07    immunological         no  Sjogren syndrome with central nervous system involvement
+M35.08    immunological         no  Sjogren syndrome with gastrointestinal involvement
+M35.09    immunological         no  Sjogren syndrome with other organ involvement
+M35.0A    immunological         no  Sjogren syndrome with glomerular disease
+M35.0B    immunological         no  Sjogren syndrome with vasculitis
+M35.0C    immunological         no  Sjogren syndrome with dental involvement
+U09.9     immunological         no  Post COVID-19 condition, unspecified
+D59.32    immunological         yes Hereditary hemolytic-uremic syndrome
+D68.00    hematological         no  Von Willebrand disease, unspecified
+D68.01    hematological         no  Von Willebrand disease, type 1
+D68.020   hematological         no  Von Willebrand disease, type 2A
+D68.021   hematological         no  Von Willebrand disease, type 2B
+D68.022   hematological         no  Von Willebrand disease, type 2M
+D68.023   hematological         no  Von Willebrand disease, type 2N
+D68.029   hematological         no  Von Willebrand disease, type 2, unspecified
+D68.03    hematological         yes Von Willebrand disease, type 3
+D68.04    hematological         no  Acquired von Willebrand disease
+D68.09    hematological         no  Other von Willebrand disease
+D81.82    immunological         yes Activated Phosphoinositide 3-kinase Delta Syndrome [APDS]
+E34.30    endocrinological      no  Short stature due to endocrine disorder, unspecified
+E34.321   endocrinological      no  Primary insulin-like growth factor-1 (IGF-1) deficiency
+E34.322   endocrinological      no  Insulin-like growth factor-1 (IGF-1) resistance
+E34.328   endocrinological      no  Other genetic causes of short stature
+E34.329   endocrinological      no  Unspecified genetic causes of short stature
+E34.39    endocrinological      no  Other short stature due to endocrine disorder
+E87.22    metabolic             no  Chronic metabolic acidosis
+F02.811   neurological          yes Dementia in other diseases classified elsewhere, unspecified severity, with agitation
+F02.818   neurological          yes Dementia in other diseases classified elsewhere, unspecified severity, with other behavioral disturbance
+F02.82    neurological          yes Dementia in other diseases classified elsewhere, unspecified severity, with psychotic disturbance
+F02.83    neurological          yes Dementia in other diseases classified elsewhere, unspecified severity, with mood disturbance
+F02.84    neurological          yes Dementia in other diseases classified elsewhere, unspecified severity, with anxiety
+F02.A0    neurological          yes Dementia in other diseases classified elsewhere, mild, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety
+F02.A11   neurological          yes Dementia in other diseases classified elsewhere, mild, with agitation
+F02.A18   neurological          yes Dementia in other diseases classified elsewhere, mild, with other behavioral disturbance
+F02.A2    neurological          yes Dementia in other diseases classified elsewhere, mild, with psychotic disturbance
+F02.A3    neurological          yes Dementia in other diseases classified elsewhere, mild, with mood disturbance
+F02.A4    neurological          yes Dementia in other diseases classified elsewhere, mild, with anxiety
+F02.B0    neurological          yes Dementia in other diseases classified elsewhere, moderate, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety
+F02.B11   neurological          yes Dementia in other diseases classified elsewhere, moderate, with agitation
+F02.B18   neurological          yes Dementia in other diseases classified elsewhere, moderate, with other behavioral disturbance
+F02.B2    neurological          yes Dementia in other diseases classified elsewhere, moderate, with psychotic disturbance
+F02.B3    neurological          yes Dementia in other diseases classified elsewhere, moderate, with mood disturbance
+F02.B4    neurological          yes Dementia in other diseases classified elsewhere, moderate, with anxiety
+F02.C0    neurological          yes Dementia in other diseases classified elsewhere, severe, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety
+F02.C11   neurological          yes Dementia in other diseases classified elsewhere, severe, with agitation
+F02.C18   neurological          yes Dementia in other diseases classified elsewhere, severe, with other behavioral disturbance
+F02.C2    neurological          yes Dementia in other diseases classified elsewhere, severe, with psychotic disturbance
+F02.C3    neurological          yes Dementia in other diseases classified elsewhere, severe, with mood disturbance
+F02.C4    neurological          yes Dementia in other diseases classified elsewhere, severe, with anxiety
+F03.911   neurological          yes Unspecified dementia, unspecified severity, with agitation
+F03.918   neurological          yes Unspecified dementia, unspecified severity, with other behavioral disturbance
+F03.92    neurological          yes Unspecified dementia, unspecified severity, with psychotic disturbance
+F03.93    neurological          yes Unspecified dementia, unspecified severity, with mood disturbance
+F03.94    neurological          yes Unspecified dementia, unspecified severity, with anxiety
+F03.A0    neurological          yes Unspecified dementia, mild, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety
+F03.A11   neurological          yes Unspecified dementia, mild, with agitation
+F03.A18   neurological          yes Unspecified dementia, mild, with other behavioral disturbance
+F03.A2    neurological          yes Unspecified dementia, mild, with psychotic disturbance
+F03.A3    neurological          yes Unspecified dementia, mild, with mood disturbance
+F03.A4    neurological          yes Unspecified dementia, mild, with anxiety
+F03.B0    neurological          yes Unspecified dementia, moderate, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety
+F03.B11   neurological          yes Unspecified dementia, moderate, with agitation
+F03.B18   neurological          yes Unspecified dementia, moderate, with other behavioral disturbance
+F03.B2    neurological          yes Unspecified dementia, moderate, with psychotic disturbance
+F03.B3    neurological          yes Unspecified dementia, moderate, with mood disturbance
+F03.B4    neurological          yes Unspecified dementia, moderate, with anxiety
+F03.C0    neurological          yes Unspecified dementia, severe, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety
+F03.C11   neurological          yes Unspecified dementia, severe, with agitation
+F03.C18   neurological          yes Unspecified dementia, severe, with other behavioral disturbance
+F03.C2    neurological          yes Unspecified dementia, severe, with psychotic disturbance
+F03.C3    neurological          yes Unspecified dementia, severe, with mood disturbance
+F03.C4    neurological          yes Unspecified dementia, severe, with anxiety
+F06.70    neurological          no  Mild neurocognitive disorder due to known physiological condition without behavioral disturbance
+F06.71    neurological          no  Mild neurocognitive disorder due to known physiological condition with behavioral disturbance
+F43.81    mental health         no  Prolonged grief disorder
+G71.031   musculoskeletal       yes Autosomal dominant limb girdle muscular dystrophy
+G71.032   musculoskeletal       yes Autosomal recessive limb girdle muscular dystrophy due to calpain-3 dysfunction
+G71.033   musculoskeletal       yes Limb girdle muscular dystrophy due to dysferlin dysfunction
+G71.0340  musculoskeletal       yes Limb girdle muscular dystrophy due to sarcoglycan dysfunction, unspecified
+G71.0341  musculoskeletal       yes Limb girdle muscular dystrophy due to alpha sarcoglycan dysfunction
+G71.0342  musculoskeletal       yes Limb girdle muscular dystrophy due to beta sarcoglycan dysfunction
+G71.0349  musculoskeletal       yes Limb girdle muscular dystrophy due to other sarcoglycan dysfunction
+G71.035   musculoskeletal       yes Limb girdle muscular dystrophy due to anoctamin-5 dysfunction
+G71.038   musculoskeletal       yes Other limb girdle muscular dystrophy
+G71.039   musculoskeletal       yes Limb girdle muscular dystrophy, unspecified
+G90.A     cardiac               no  Postural orthostatic tachycardia syndrome [POTS]
+G93.32    neurological          no  Myalgic encephalomyelitis/chronic fatigue syndrome
+I34.89    cardiac               no  Other nonrheumatic mitral valve disorders
+I47.20    cardiac               no  Ventricular tachycardia, unspecified
+I47.21    cardiac               no  Torsades de pointes
+I47.29    cardiac               no  Other ventricular tachycardia
+I71.20    cardiac               no  Thoracic aortic aneurysm, without rupture, unspecified
+I71.21    cardiac               no  Aneurysm of the ascending aorta, without rupture
+I71.22    cardiac               no  Aneurysm of the aortic arch, without rupture
+I71.23    cardiac               no  Aneurysm of the descending thoracic aorta, without rupture
+I71.40    cardiac               no  Abdominal aortic aneurysm, without rupture, unspecified
+I71.41    cardiac               no  Pararenal abdominal aortic aneurysm, without rupture
+I71.42    cardiac               no  Juxtarenal abdominal aortic aneurysm, without rupture
+I71.43    cardiac               no  Infrarenal abdominal aortic aneurysm, without rupture
+I71.61    cardiac               no  Supraceliac aneurysm of the abdominal aorta, without rupture
+I71.62    cardiac               no  Paravisceral aneurysm of the abdominal aorta, without rupture
+I77.82    cardiac               no  Antineutrophilic cytoplasmic antibody [ANCA] vasculitis
+M51.A0    musculoskeletal       no  Intervertebral annulus fibrosus defect, lumbar region, unspecified size
+M51.A1    musculoskeletal       no  Intervertebral annulus fibrosus defect, small, lumbar region
+M51.A2    musculoskeletal       no  Intervertebral annulus fibrosus defect, large, lumbar region
+M51.A3    musculoskeletal       no  Intervertebral annulus fibrosus defect, lumbosacral region, unspecified size
+M51.A4    musculoskeletal       no  Intervertebral annulus fibrosus defect, small, lumbosacral region
+M51.A5    musculoskeletal       no  Intervertebral annulus fibrosus defect, large, lumbosacral region
+M62.5A0   musculoskeletal       no  Muscle wasting and atrophy, not elsewhere classified, back, cervical
+M62.5A1   musculoskeletal       no  Muscle wasting and atrophy, not elsewhere classified, back, thoracic
+M62.5A2   musculoskeletal       no  Muscle wasting and atrophy, not elsewhere classified, back, lumbosacral
+M62.5A9   musculoskeletal       no  Muscle wasting and atrophy, not elsewhere classified, back, unspecified level
+M93.024   musculoskeletal       no  Chronic slipped upper femoral epiphysis, stable (nontraumatic), bilateral hips
+N80.00    genitourinary         no  Endometriosis of the uterus, unspecified
+N80.01    genitourinary         no  Superficial endometriosis of the uterus
+N80.02    genitourinary         no  Deep endometriosis of the uterus
+N80.03    genitourinary         no  Adenomyosis of the uterus
+N80.101   genitourinary         no  Endometriosis of right ovary, unspecified depth
+N80.102   genitourinary         no  Endometriosis of left ovary, unspecified depth
+N80.103   genitourinary         no  Endometriosis of bilateral ovaries, unspecified depth
+N80.109   genitourinary         no  Endometriosis of ovary, unspecified side, unspecified depth
+N80.111   genitourinary         no  Superficial endometriosis of right ovary
+N80.112   genitourinary         no  Superficial endometriosis of left ovary
+N80.113   genitourinary         no  Superficial endometriosis of bilateral ovaries
+N80.119   genitourinary         no  Superficial endometriosis of ovary, unspecified ovary
+N80.121   genitourinary         no  Deep endometriosis of right ovary
+N80.122   genitourinary         no  Deep endometriosis of left ovary
+N80.123   genitourinary         no  Deep endometriosis of bilateral ovaries
+N80.129   genitourinary         no  Deep endometriosis of ovary, unspecified ovary
+N80.201   genitourinary         no  Endometriosis of right fallopian tube, unspecified depth
+N80.202   genitourinary         no  Endometriosis of left fallopian tube, unspecified depth
+N80.203   genitourinary         no  Endometriosis of bilateral fallopian tubes, unspecified depth
+N80.209   genitourinary         no  Endometriosis of unspecified fallopian tube, unspecified depth
+N80.211   genitourinary         no  Superficial endometriosis of right fallopian tube
+N80.212   genitourinary         no  Superficial endometriosis of left fallopian tube
+N80.213   genitourinary         no  Superficial endometriosis of bilateral fallopian tubes
+N80.219   genitourinary         no  Superficial endometriosis of unspecified fallopian tube
+N80.221   genitourinary         no  Deep endometriosis of right fallopian tube
+N80.222   genitourinary         no  Deep endometriosis of left fallopian tube
+N80.223   genitourinary         no  Deep endometriosis of bilateral fallopian tubes
+N80.229   genitourinary         no  Deep endometriosis of unspecified fallopian tube
+N80.30    genitourinary         no  Endometriosis of pelvic peritoneum, unspecified
+N80.311   genitourinary         no  Superficial endometriosis of the anterior cul-de-sac
+N80.312   genitourinary         no  Deep endometriosis of the anterior cul-de-sac
+N80.319   genitourinary         no  Endometriosis of the anterior cul-de-sac, unspecified depth
+N80.321   genitourinary         no  Superficial endometriosis of the posterior cul-de-sac
+N80.322   genitourinary         no  Deep endometriosis of the posterior cul-de-sac
+N80.329   genitourinary         no  Endometriosis of the posterior cul-de-sac, unspecified depth
+N80.331   genitourinary         no  Superficial endometriosis of the right pelvic sidewall
+N80.332   genitourinary         no  Superficial endometriosis of the left pelvic sidewall
+N80.333   genitourinary         no  Superficial endometriosis of bilateral pelvic sidewall
+N80.339   genitourinary         no  Superficial endometriosis of pelvic sidewall, unspecified side
+N80.341   genitourinary         no  Deep endometriosis of the right pelvic sidewall
+N80.342   genitourinary         no  Deep endometriosis of the left pelvic sidewall
+N80.343   genitourinary         no  Deep endometriosis of the bilateral pelvic sidewall
+N80.349   genitourinary         no  Deep endometriosis of the pelvic sidewall, unspecified side
+N80.351   genitourinary         no  Endometriosis of the right pelvic sidewall, unspecified depth
+N80.352   genitourinary         no  Endometriosis of the left pelvic sidewall, unspecified depth
+N80.353   genitourinary         no  Endometriosis of bilateral pelvic sidewall, unspecified depth
+N80.359   genitourinary         no  Endometriosis of pelvic sidewall, unspecified side, unspecified depth
+N80.361   genitourinary         no  Superficial endometriosis of the right pelvic brim
+N80.362   genitourinary         no  Superficial endometriosis of the left pelvic brim
+N80.363   genitourinary         no  Superficial endometriosis of bilateral pelvic brim
+N80.369   genitourinary         no  Superficial endometriosis of the pelvic brim, unspecified side
+N80.371   genitourinary         no  Deep endometriosis of the right pelvic brim
+N80.372   genitourinary         no  Deep endometriosis of the left pelvic brim
+N80.373   genitourinary         no  Deep endometriosis of bilateral pelvic brim
+N80.379   genitourinary         no  Deep endometriosis of the pelvic brim, unspecified side
+N80.381   genitourinary         no  Endometriosis of the right pelvic brim, unspecified depth
+N80.382   genitourinary         no  Endometriosis of the left pelvic brim, unspecified depth
+N80.383   genitourinary         no  Endometriosis of bilateral pelvic brim, unspecified depth
+N80.389   genitourinary         no  Endometriosis of the pelvic brim, unspecified side, unspecified depth
+N80.391   genitourinary         no  Superficial endometriosis of the pelvic peritoneum, other specified sites
+N80.392   genitourinary         no  Deep endometriosis of the pelvic peritoneum, other specified sites
+N80.399   genitourinary         no  Endometriosis of the pelvic peritoneum, other specified sites, unspecified depth
+N80.3A1   genitourinary         no  Superficial endometriosis of the right uterosacral ligament
+N80.3A2   genitourinary         no  Superficial endometriosis of the left uterosacral ligament
+N80.3A3   genitourinary         no  Superficial endometriosis of the bilateral uterosacral ligament(s)
+N80.3A9   genitourinary         no  Superficial endometriosis of the uterosacral ligament(s), unspecified side
+N80.3B1   genitourinary         no  Deep endometriosis of the right uterosacral ligament
+N80.3B2   genitourinary         no  Deep endometriosis of the left uterosacral ligament
+N80.3B3   genitourinary         no  Deep endometriosis of bilateral uterosacral ligament(s)
+N80.3B9   genitourinary         no  Deep endometriosis of the uterosacral ligament(s), unspecified side
+N80.3C1   genitourinary         no  Endometriosis of the right uterosacral ligament, unspecified depth
+N80.3C2   genitourinary         no  Endometriosis of the left uterosacral ligament, unspecified depth
+N80.3C3   genitourinary         no  Endometriosis of bilateral uterosacral ligament(s), unspecified depth
+N80.3C9   genitourinary         no  Endometriosis of the uterosacral ligament(s), unspecified side, unspecified depth
+N80.40    genitourinary         no  Endometriosis of rectovaginal septum, unspecified involvement of vagina
+N80.41    genitourinary         no  Endometriosis of rectovaginal septum without involvement of vagina
+N80.42    genitourinary         no  Endometriosis of rectovaginal septum with involvement of vagina
+N80.50    genitourinary         no  Endometriosis of intestine, unspecified
+N80.511   genitourinary         no  Superficial endometriosis of the rectum
+N80.512   genitourinary         no  Deep endometriosis of the rectum
+N80.519   genitourinary         no  Endometriosis of the rectum, unspecified depth
+N80.521   genitourinary         no  Superficial endometriosis of the sigmoid colon
+N80.522   genitourinary         no  Deep endometriosis of the sigmoid colon
+N80.529   genitourinary         no  Endometriosis of the sigmoid colon, unspecified depth
+N80.531   genitourinary         no  Superficial endometriosis of the cecum
+N80.532   genitourinary         no  Deep endometriosis of the cecum
+N80.539   genitourinary         no  Endometriosis of the cecum, unspecified depth
+N80.541   genitourinary         no  Superficial endometriosis of the appendix
+N80.542   genitourinary         no  Deep endometriosis of the appendix
+N80.549   genitourinary         no  Endometriosis of the appendix, unspecified depth
+N80.551   genitourinary         no  Superficial endometriosis of other parts of the colon
+N80.552   genitourinary         no  Deep endometriosis of other parts of the colon
+N80.559   genitourinary         no  Endometriosis of other parts of the colon, unspecified depth
+N80.561   genitourinary         no  Superficial endometriosis of the small intestine
+N80.562   genitourinary         no  Deep endometriosis of the small intestine
+N80.569   genitourinary         no  Endometriosis of the small intestine, unspecified depth
+N80.A0    genitourinary         no  Endometriosis of bladder, unspecified depth
+N80.A1    genitourinary         no  Superficial endometriosis of bladder
+N80.A2    genitourinary         no  Deep endometriosis of bladder
+N80.A41   genitourinary         no  Superficial endometriosis of right ureter
+N80.A42   genitourinary         no  Superficial endometriosis of left ureter
+N80.A43   genitourinary         no  Superficial endometriosis of bilateral ureters
+N80.A49   genitourinary         no  Superficial endometriosis of unspecified ureter
+N80.A51   genitourinary         no  Deep endometriosis of right ureter
+N80.A52   genitourinary         no  Deep endometriosis of left ureter
+N80.A53   genitourinary         no  Deep endometriosis of bilateral ureters
+N80.A59   genitourinary         no  Deep endometriosis of unspecified ureter
+N80.A61   genitourinary         no  Endometriosis of right ureter, unspecified depth
+N80.A62   genitourinary         no  Endometriosis of left ureter, unspecified depth
+N80.A63   genitourinary         no  Endometriosis of bilateral ureters, unspecified depth
+N80.A69   genitourinary         no  Endometriosis of unspecified ureter, unspecified depth
+N80.B1    genitourinary         no  Endometriosis of pleura
+N80.B2    genitourinary         no  Endometriosis of lung
+N80.B31   genitourinary         no  Superficial endometriosis of diaphragm
+N80.B32   genitourinary         no  Deep endometriosis of diaphragm
+N80.B39   genitourinary         no  Endometriosis of diaphragm, unspecified depth
+N80.B4    genitourinary         no  Endometriosis of the pericardial space
+N80.B5    genitourinary         no  Endometriosis of the mediastinal space
+N80.B6    genitourinary         no  Endometriosis of cardiothoracic space
+N80.C0    genitourinary         no  Endometriosis of the abdomen, unspecified
+N80.C10   genitourinary         no  Endometriosis of the anterior abdominal wall, subcutaneous tissue
+N80.C11   genitourinary         no  Endometriosis of the anterior abdominal wall, fascia and muscular layers
+N80.C19   genitourinary         no  Endometriosis of the anterior abdominal wall, unspecified depth
+N80.C2    genitourinary         no  Endometriosis of the umbilicus
+N80.C3    genitourinary         no  Endometriosis of the inguinal canal
+N80.C4    genitourinary         no  Endometriosis of extra-pelvic abdominal peritoneum
+N80.C9    genitourinary         no  Endometriosis of other site of abdomen
+N80.D0    genitourinary         no  Endometriosis of the pelvic nerves, unspecified
+N80.D1    genitourinary         no  Endometriosis of the sacral splanchnic nerves
+N80.D2    genitourinary         no  Endometriosis of the sacral nerve roots
+N80.D3    genitourinary         no  Endometriosis of the obturator nerve
+N80.D4    genitourinary         no  Endometriosis of the sciatic nerve
+N80.D5    genitourinary         no  Endometriosis of the pudendal nerve
+N80.D6    genitourinary         no  Endometriosis of the femoral nerve
+N80.D9    genitourinary         no  Endometriosis of other pelvic nerve
+N85.A     genitourinary         no  Isthmocele
+P28.32    pulmonary/respiratory no  Primary obstructive sleep apnea of newborn
+P28.42    pulmonary/respiratory no  Obstructive apnea of newborn
+P28.43    pulmonary/respiratory no  Mixed neonatal apnea of newborn
+Q21.10    cardiac               no  Atrial septal defect, unspecified
+Q21.11    cardiac               no  Secundum atrial septal defect
+Q21.12    cardiac               no  Patent foramen ovale
+Q21.13    cardiac               no  Coronary sinus atrial septal defect
+Q21.14    cardiac               no  Superior sinus venosus atrial septal defect
+Q21.15    cardiac               no  Inferior sinus venosus atrial septal defect
+Q21.16    cardiac               no  Sinus venosus atrial septal defect, unspecified
+Q21.19    cardiac               no  Other specified atrial septal defect
+Q21.20    cardiac               no  Atrioventricular septal defect, unspecified as to partial or complete
+Q21.21    cardiac               no  Partial atrioventricular septal defect
+Q21.22    cardiac               no  Transitional atrioventricular septal defect
+Q21.23    cardiac               no  Complete atrioventricular septal defect
+Q85.81    malignancy            yes PTEN tumor syndrome
+Q85.82    malignancy            yes Other Cowden syndrome
+Q85.83    malignancy            yes Von Hippel-Lindau syndrome
+Q85.89    neurological          yes Other phakomatoses, not elsewhere classified
+F34.8     mental health         no  Disruptive Mood Dysregulation Disorder
+F34.81    mental health         no  Disruptive mood dysregulation disorder
+F40.10    mental health         no  Social anxiety disorder
+F41.1     mental health         no  Generalized anxiety disorder (by history)
+F41.8     mental health         no  Mixed Anxiety and Depressive Disorder
+F41.9     mental health         no  Unspecified Anxiety Disorder
+F43.10    mental health         no  Posttraumatic Stress Disorder, Chronic
+F43.22    mental health         no  Adjustment disorder with anxiety
+F43.23    mental health         no  Adjustment Disorder, with Mixed Anxiety and Depressed Mood
+F64.2     mental health         no  Gender dysphoria in pediatric patient
+F80       mental health         no  Articulation disorder
+F80.2     neurological          no  Mixed receptive-expressive language disorder
+F80.4     neurological          no  Speech and language development delay due to hearing loss
+F80.9     mental health         no  Unspecified Communication Disorder
+F93.0     mental health         no  Separation Anxiety Disorder
+F98.9     mental health         no  Unspecified, Disruptive, Impulse Control, and Conduct Disorder
+G31.84    mental health         no  Mild Neurocognitive Disorder Due To Another Medical Condition
+G93.0     neurological          no  Arachnoid Cyst
+G93.40    neurological          yes Encephalopathy, Unspecified
+G93.49    neurological          yes Static Encephalopathy
+Q86.0     neurological          yes Fetal alcohol spectrum disorder: alcohol-related neurodevelopmental disorder (FASD:ARND)
+R41.844   neurological          yes Frontal lobe and executive function deficit
+R41.9     neurological          no  Neurocognitive Disorder associated with medical condition (myotonic dystrophy)
+R47.02    neurological          no  Language disorder
+R48.0     neurological          no  Acquired Dyslexia
+R62.51    metabolic             no  Failure to thrive
+S06.309S  neurological          yes Late Effects of Intracranial Injury, Left Parietal Skull Fracture
+Z86.73    neurological          yes History of CVA (cerebrovascular accident)
+Z87.730   craniofacial          no  History of corrected cleft lip and palate
+Z87.82    neurological          yes History of Multiple Concussions
+Z92.21    malignancy            n/a Status Post-Chemotherapy
+D13.91    gastrointestinal      no  Familial adenomatous polyposis
+D13.99    gastrointestinal      no  Benign neoplasm of ill-defined sites within the digestive system
+D48.1     malignancy            yes Neoplasm of uncertain behavior of connective and other soft tissue
+D48.110   malignancy            yes Desmoid tumor of head and neck
+D48.111   malignancy            yes Desmoid tumor of chest wall
+D48.112   malignancy            yes Desmoid tumor, intrathoracic
+D48.113   malignancy            yes Desmoid tumor of abdominal wall
+D48.114   malignancy            yes Desmoid tumor, intraabdominal
+D48.115   malignancy            yes Desmoid tumor of upper extremity and shoulder girdle
+D48.116   malignancy            yes Desmoid tumor of lower extremity and pelvic girdle
+D48.117   malignancy            yes Desmoid tumor of back
+D48.118   malignancy            yes Desmoid tumor of other site
+D48.119   malignancy            yes Desmoid tumor of unspecified site
+D48.19    malignancy            yes Other specified neoplasm of uncertain behavior of connective and other soft tissue
+D57.04    hematological         yes Hb-SS disease with dactylitis
+D57.214   hematological         yes Sickle-cell/Hb-C disease with dactylitis
+D57.414   hematological         yes Sickle-cell thalassemia, unspecified, with dactylitis
+D57.434   hematological         yes Sickle-cell thalassemia beta zero with dactylitis
+D57.454   hematological         yes Sickle-cell thalassemia beta plus with dactylitis
+D57.814   hematological         yes Other sickle-cell disorders with dactylitis
+D61.02    hematological         yes Shwachman-Diamond syndrome
+D89.84    immunological         yes IgG4-related disease
+E20.8     endocrinological      no  Other hypoparathyroidism
+E20.810   endocrinological      no  Autosomal dominant hypocalcemia
+E20.811   endocrinological      no  Secondary hypoparathyroidism in diseases classified elsewhere
+E20.812   endocrinological      no  Autoimmune hypoparathyroidism
+E20.818   endocrinological      no  Other specified hypoparathyroidism due to impaired parathyroid hormone secretion
+E20.819   endocrinological      no  Hypoparathyroidism due to impaired parathyroid hormone secretion, unspecified
+E20.89    endocrinological      no  Other specified hypoparathyroidism
+E74.05    metabolic             yes Lysosome-associated membrane protein 2 [LAMP2] deficiency
+E79.8     metabolic             yes Other disorders of purine and pyrimidine metabolism
+E79.82    metabolic             no  Hereditary xanthinuria
+E79.89    metabolic             yes Other specified disorders of purine and pyrimidine metabolism
+E88.43    metabolic             yes Disorders of mitochondrial tRNA synthetases
+E88.81    metabolic             no  Metabolic syndrome
+E88.810   metabolic             no  Metabolic syndrome
+E88.811   metabolic             no  Insulin resistance syndrome, Type A
+E88.818   metabolic             no  Other insulin resistance
+E88.819   metabolic             no  Insulin resistance, unspecified
+E79.81    immunological         yes Aicardi-Goutieres syndrome
+G37.81    immunological         no  Myelin oligodendrocyte glycoprotein antibody disease
+E88.A     metabolic             no  Wasting disease (syndrome) due to underlying condition
+G11.5     neurological          yes Hypomyelination - hypogonadotropic hypogonadism - hypodontia
+G11.6     neurological          yes Leukodystrophy with vanishing white matter disease
+G23.3     neurological          yes Hypomyelination with atrophy of the basal ganglia and cerebellum
+G31.80    neurological          yes Leukodystrophy, unspecified
+G31.86    neurological          yes Alexander disease
+G37.8     neurological          yes Other specified demyelinating diseases of central nervous system
+E75.27    neurological          yes Pelizaeus-Merzbacher disease
+E75.28    neurological          yes Canavan disease
+G37.89    neurological          yes Other specified demyelinating diseases of central nervous system
+G40.C01   neurological          yes Lafora progressive myoclonus epilepsy, not intractable, with status epilepticus
+G40.C09   neurological          yes Lafora progressive myoclonus epilepsy, not intractable, without status epilepticus
+G40.C11   neurological          yes Lafora progressive myoclonus epilepsy, intractable, with status epilepticus
+G40.C19   neurological          yes Lafora progressive myoclonus epilepsy, intractable, without status epilepticus
+G43.E01   neurological          no  Chronic migraine with aura, not intractable, with status migrainosus
+G43.E09   neurological          no  Chronic migraine with aura, not intractable, without status migrainosus
+G43.E11   neurological          no  Chronic migraine with aura, intractable, with status migrainosus
+G43.E19   neurological          no  Chronic migraine with aura, intractable, without status migrainosus
+G90.B     neurological          yes LMNB1-related autosomal dominant leukodystrophy
+G93.43    neurological          yes Leukoencephalopathy with calcifications and cysts
+H36.811   ophthalmological      no  Nonproliferative sickle-cell retinopathy, right eye
+H36.812   ophthalmological      no  Nonproliferative sickle-cell retinopathy, left eye
+H36.813   ophthalmological      no  Nonproliferative sickle-cell retinopathy, bilateral
+H36.819   ophthalmological      no  Nonproliferative sickle-cell retinopathy, unspecified eye
+H36.821   ophthalmological      no  Proliferative sickle-cell retinopathy, right eye
+H36.822   ophthalmological      no  Proliferative sickle-cell retinopathy, left eye
+H36.823   ophthalmological      no  Proliferative sickle-cell retinopathy, bilateral
+H36.829   ophthalmological      no  Proliferative sickle-cell retinopathy, unspecified eye
+H36.89    ophthalmological      no  Other retinal disorders in diseases classified elsewhere
+I1A.0     cardiac               no  Resistant hypertension
+I25.85    cardiac               yes Chronic coronary microvascular dysfunction
+I47.1     cardiac               no  Supraventricular tachycardia
+I47.10    cardiac               no  Supraventricular tachycardia, unspecified
+I47.11    cardiac               no  Inappropriate sinus tachycardia, so stated
+I47.19    cardiac               no  Other supraventricular tachycardia
+J4A.0     pulmonary/respiratory yes Restrictive allograft syndrome
+J4A.8     pulmonary/respiratory yes Other chronic lung allograft dysfunction
+J4A.9     pulmonary/respiratory yes Chronic lung allograft dysfunction, unspecified
+N02.B1    renal                 yes Recurrent and persistent immunoglobulin A nephropathy with glomerular lesion
+N02.B2    renal                 yes Recurrent and persistent immunoglobulin A nephropathy with focal and segmental glomerular lesion
+N02.B3    renal                 yes Recurrent and persistent immunoglobulin A nephropathy with diffuse membranoproliferative glomerulonephritis
+N02.B4    renal                 yes Recurrent and persistent immunoglobulin A nephropathy with diffuse membranous glomerulonephritis
+N02.B5    renal                 yes Recurrent and persistent immunoglobulin A nephropathy with diffuse mesangial proliferative glomerulonephritis
+N02.B6    renal                 yes Recurrent and persistent immunoglobulin A nephropathy with diffuse mesangiocapillary glomerulonephritis
+N02.B9    renal                 yes Other recurrent and persistent immunoglobulin A nephropathy
+N04.2     renal                 yes Nephrotic syndrome with diffuse membranous glomerulonephritis
+N04.20    renal                 yes Nephrotic syndrome with diffuse membranous glomerulonephritis, unspecified
+N04.21    renal                 yes Primary membranous nephropathy with nephrotic syndrome
+N04.22    renal                 yes Secondary membranous nephropathy with nephrotic syndrome
+N04.29    renal                 yes Other nephrotic syndrome with diffuse membranous glomerulonephritis
+N06.2     renal                 yes Isolated proteinuria with diffuse membranous glomerulonephritis
+N06.20    renal                 yes Isolated proteinuria with diffuse membranous glomerulonephritis, unspecified
+N06.21    renal                 yes Primary membranous nephropathy with isolated proteinuria
+N06.22    renal                 yes Secondary membranous nephropathy with isolated proteinuria
+N06.29    renal                 yes Other isolated proteinuria with diffuse membranous glomerulonephritis
+Q87.83    renal                 yes Bardet-Biedl syndrome
+Q87.84    renal                 yes Laurence-Moon syndrome
+K90.821   gastrointestinal      yes Short bowel syndrome with colon in continuity
+K90.822   gastrointestinal      yes Short bowel syndrome without colon in continuity
+K90.829   gastrointestinal      yes Short bowel syndrome, unspecified
+K90.83    gastrointestinal      yes Intestinal failure
+Q44.7     gastrointestinal      yes Other congenital malformations of liver
+Q44.70    gastrointestinal      yes Other congenital malformation of liver, unspecified
+Q44.71    gastrointestinal      yes Alagille syndrome
+Q44.79    gastrointestinal      yes Other congenital malformations of liver
+Q75.0     craniofacial          no  Craniosynostosis
+Q75.001   craniofacial          no  Craniosynostosis unspecified, unilateral
+Q75.002   craniofacial          no  Craniosynostosis unspecified, bilateral
+Q75.009   craniofacial          no  Craniosynostosis unspecified
+Q75.01    craniofacial          no  Sagittal craniosynostosis
+Q75.021   craniofacial          no  Coronal craniosynostosis unilateral
+Q75.022   craniofacial          no  Coronal craniosynostosis bilateral
+Q75.029   craniofacial          no  Coronal craniosynostosis unspecified
+Q75.03    craniofacial          no  Metopic craniosynostosis
+Q75.041   craniofacial          no  Lambdoid craniosynostosis, unilateral
+Q75.042   craniofacial          no  Lambdoid craniosynostosis, bilateral
+Q75.049   craniofacial          no  Lambdoid craniosynostosis, unspecified
+Q75.051   craniofacial          yes Cloverleaf skull
+Q75.052   craniofacial          no  Pansynostosis
+Q75.058   craniofacial          no  Other multi-suture craniosynostosis
+Q75.08    craniofacial          no  Other single-suture craniosynostosis
+Q87.85    neurological          yes MED13L syndrome
+Q93.52    neurological          no  Phelan-McDermid syndrome
+R40.2A    neurological          yes Nontraumatic coma due to underlying condition
+I42       cardiac               yes CARDIOMYOPATHY
+Q20       cardiac               yes CONGENITAL MALFORMATIONS OF CARDIAC CHAMBERS AND CNNECTIONS
+Q20.9     cardiac               yes CONGENITAL MALFORMATION OF CARDIAC CHAMBERS AND CONNECTIONS, UNSPECIFI
+Q21       cardiac               no  CONGENITAL MALFORMATIONS OF CARDIAC SEPTA
+Q22       cardiac               no  CONGENITAL MALFORMATIONS OF PULMONARY AND TRICUSPID VALVES
+Q22.6     cardiac               yes HYPOPLASTIC RIGHT HEART SYNDROME
+Q22.8     cardiac               yes OTHER CONGENITAL MALFORMATIONS OF TRICUSPID VALVE
+Q23       cardiac               no  CONGENITAL MALFORMATIONS OF AORTIC AND MITRAL VALVES
+Q24       cardiac               no  OTHER CONGENITAL MALFORMATIONS OF HEART
+Q24.0     cardiac               no  DEXTROCARDIA
+Q24.1     cardiac               yes LEVOCARDIA
+Q25       cardiac               yes CONGENITAL MALFORMATIONS OF GREAT ARTERIES
+Q25.0     cardiac               no  PATENT DUCTUS ARTERIOSUS
+Q25.8     cardiac               yes OTHER CONGENITAL MALFORMATIONS OF OTHER GREAT ARTERIES
+Q25.9     cardiac               yes CONGENITAL MALFORMATION OF GREAT ARTERIES, UNSPECIFIED
+Q26       cardiac               no  CONGENITAL MALFORMATION OF GREAT VEINS
+Q26.0     cardiac               yes CONGENITAL STENOSIS OF VENA CAVA
+Q26.1     cardiac               no  PERSISTENT LEFT SUPERIOR VENA CAVA
+Q26.2     cardiac               yes TOTAL ANOMALOUS PULMONARY VENOUS CONNECTION
+Q26.3     cardiac               yes PARTIAL ANOMALOUS PULMONARY VENOUS CONNECTION
+Q26.4     cardiac               yes ANOMALOUS PULMONARY VENOUS CONNECTION, UNSPECIFIED
+Q26.5     cardiac               no  ANOMALOUS PORTAL VENOUS CONNECTION
+Q26.6     cardiac               yes PORTAL VEIN-HEPATIC ARTERY FISTULA
+Q26.8     cardiac               yes OTHER CONGENITAL MALFORMATIONS OF GREAT VEINS
+Q87       genetic               yes OTHER SPECIFIED CONGENITAL MALFORMATION SYNDROMES AFFECTING MULTIPLE S
+Q87.8     genetic               yes OTHER SPECIFIED CONGENITAL MALFORMATION SYNDROMES, NOT ELSEWHERE CLASS
+Q87.82    cardiac               yes Arterial tortuosity syndrome
+C81.0A    malignancy            yes Nodular lymphocyte predominant Hodgkin lymphoma, in remission
+C81.1A    malignancy            yes Nodular sclerosis Hodgkin lymphoma, in remission
+C81.2A    malignancy            yes Mixed cellularity Hodgkin lymphoma, in remission
+C81.3A    malignancy            yes Lymphocyte depleted Hodgkin lymphoma, in remission
+C81.4A    malignancy            yes Lymphocyte-rich Hodgkin lymphoma, in remission
+C81.7A    malignancy            yes Other Hodgkin lymphoma, in remission
+C81.9A    malignancy            yes Hodgkin lymphoma, unspecified, in remission
+C82.0A    malignancy            yes Follicular lymphoma grade I, in remission
+C82.1A    malignancy            yes Follicular lymphoma grade II, in remission
+C82.2A    malignancy            yes Follicular lymphoma grade III, unspecified, in remission
+C82.3A    malignancy            yes Follicular lymphoma grade IIIa, in remission
+C82.4A    malignancy            yes Follicular lymphoma grade IIIb, in remission
+C82.5A    malignancy            yes Diffuse follicle center lymphoma, in remission
+C82.6A    malignancy            yes Cutaneous follicle center lymphoma, in remission
+C82.8A    malignancy            yes Other types of follicular lymphoma, in remission
+C82.9A    malignancy            yes Follicular lymphoma, unspecified, in remission
+C83.0A    malignancy            yes Small cell B-cell lymphoma, in remission
+C83.1A    malignancy            yes Mantle cell lymphoma, in remission
+C83.390   malignancy            yes Primary central nervous system lymphoma
+C83.398   malignancy            yes Diffuse large B-cell lymphoma of other extranodal and solid organ sites
+C83.3A    malignancy            yes Diffuse large B-cell lymphoma, in remission
+C83.5A    malignancy            yes Lymphoblastic (diffuse) lymphoma, in remission
+C83.7A    malignancy            yes Burkitt lymphoma, in remission
+C83.8A    malignancy            yes Other non-follicular lymphoma, in remission
+C83.9A    malignancy            yes Non-follicular (diffuse) lymphoma, unspecified, in remission
+C84.0A    malignancy            yes Mycosis fungoides, in remission
+C84.1A    malignancy            yes Sezary disease, in remission
+C84.4A    malignancy            yes  Peripheral T-cell lymphoma, not elsewhere classified, in remission
+C84.6A    malignancy            yes  Anaplastic large cell lymphoma, ALK-positive, in remission
+C84.7B    malignancy            yes  Anaplastic large cell lymphoma, ALK-negative, in remission
+C84.9A    malignancy            yes  Mature T/NK-cell lymphomas, unspecified, in remission
+C84.AA    malignancy            yes  Cutaneous T-cell lymphoma, unspecified, in remission
+C84.ZA    malignancy            yes  Other mature T/NK-cell lymphomas, in remission
+C85.1A    malignancy            yes  Unspecified B-cell lymphoma, in remission
+C85.2A    malignancy            yes  Mediastinal (thymic) large B-cell lymphoma, in remission
+C85.8A    malignancy            yes  Other specified types of non-Hodgkin lymphoma, in remission
+C85.9A    malignancy            yes  Non-Hodgkin lymphoma, unspecified, in remission
+C86.00    malignancy            yes  Extranodal NK/T-cell lymphoma, nasal type not having achieved remission
+C86.01    malignancy            yes  Extranodal NK/T-cell lymphoma, nasal type, in remission
+C86.10    malignancy            yes  Hepatosplenic T-cell lymphoma not having achieved remission
+C86.11    malignancy            yes  Hepatosplenic T-cell lymphoma, in remission
+C86.20    malignancy            yes  Enteropathy-type (intestinal) T-cell lymphoma not having achieved remission
+C86.21    malignancy            yes  Enteropathy-type (intestinal) T-cell lymphoma, in remission
+C86.30    malignancy            yes  Subcutaneous panniculitis-like T-cell lymphoma not having achieved remission
+C86.31    malignancy            yes  Subcutaneous panniculitis-like T-cell lymphoma, in remission
+C86.40    malignancy            yes  Blastic NK-cell lymphoma not having achieved remission
+C86.41    malignancy            yes  Blastic NK-cell lymphoma, in remission
+C86.50    malignancy            yes  Angioimmunoblastic T-cell lymphoma not having achieved remission
+C86.51    malignancy            yes  Angioimmunoblastic T-cell lymphoma, in remission
+C86.60    malignancy            yes  Primary cutaneous CD30-positive T-cell proliferations not having achieved remission
+C86.61    malignancy            yes  Primary cutaneous CD30-positive T-cell proliferations, in remission
+C88.00    malignancy            yes  Waldenstrom macroglobulinemia not having achieved remission
+C88.01    malignancy            yes  Waldenstrom macroglobulinemia, in remission
+C88.20    malignancy            yes  Heavy chain disease not having achieved remission
+C88.21    malignancy            yes  Heavy chain disease, in remission
+C88.30    malignancy            yes  Immunoproliferative small intestinal disease not having achieved remission
+C88.31    malignancy            yes  Immunoproliferative small intestinal disease, in remission
+C88.40    malignancy            yes  Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma] not having achieved remission
+C88.41    malignancy            yes  Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma], in remission
+C88.80    malignancy            yes  Other malignant immunoproliferative diseases not having achieved remission
+C88.81    malignancy            yes  Other malignant immunoproliferative diseases, in remission
+C88.90    malignancy            yes  Malignant immunoproliferative disease, unspecified not having achieved remission
+C88.91    malignancy            yes  Malignant immunoproliferative disease, unspecified, in remission
+D61.03    hematological         yes  Fanconi anemia
+E10.A0    endocrinological      no   Type 1 diabetes mellitus, presymptomatic, unspecified
+E10.A1    endocrinological      no   Type 1 diabetes mellitus, presymptomatic, Stage 1
+E10.A2    endocrinological      no   Type 1 diabetes mellitus, presymptomatic, Stage 2
+E34.00    malignancy            yes  Carcinoid syndrome, unspecified
+E34.01    malignancy            yes  Carcinoid heart syndrome
+E34.09    malignancy            yes  Other carcinoid syndrome
+E66.813   metabolic             no   Obesity, class 3
+E74.820   genetic               yes  slC13A5 Citrate Transporter Disorder
+E74.829   genetic               yes  other disorders of citrate metabolism
+E88.82    genetic               yes  obesity due to disruption of MC4R pathway
+F50.010   metabolic             yes  Anorexia nervosa, restricting type, mild
+F50.011   metabolic             yes  Anorexia nervosa, restricting type, moderate
+F50.012   metabolic             yes  Anorexia nervosa, restricting type, severe
+F50.013   metabolic             yes  Anorexia nervosa, restricting type, extreme
+F50.014   metabolic             yes  Anorexia nervosa, restricting type, in remission
+F50.019   metabolic             yes  Anorexia nervosa, restricting type, unspecified
+F50.020   metabolic             yes  Anorexia nervosa, binge eating/purging type, mild
+F50.021   metabolic             yes  Anorexia nervosa, binge eating/purging type, moderate
+F50.022   metabolic             yes  Anorexia nervosa, binge eating/purging type, severe
+F50.023   metabolic             yes  Anorexia nervosa, binge eating/purging type, extreme
+F50.024   metabolic             yes  Anorexia nervosa, binge eating/purging type, in remission
+F50.029   metabolic             yes  Anorexia nervosa, binge eating/purging type, unspecified
+F50.20    metabolic             yes  Bulimia nervosa, unspecified
+F50.21    metabolic             yes  Bulimia nervosa, mild
+F50.22    metabolic             yes  Bulimia nervosa, moderate
+F50.23    metabolic             yes  Bulimia nervosa, severe
+F50.24    metabolic             yes  Bulimia nervosa, extreme
+F50.25    metabolic             yes  Bulimia nervosa, in remission
+F50.810   metabolic             yes  Binge eating disorder, mild
+F50.811   metabolic             yes  Binge eating disorder, moderate
+F50.812   metabolic             yes  Binge eating disorder, severe
+F50.813   metabolic             yes  Binge eating disorder, extreme
+F50.814   metabolic             yes  Binge eating disorder, in remission
+F50.819   metabolic             yes  Binge eating disorder, unspecified
+G40.841   genetic               yes  kcNQ2-related epilepsy, not intractable, with status epilepticus
+G40.842   genetic               yes  kcNQ2-related epilepsy, not intractable, without status epilepticus
+G40.843   genetic               yes  kcNQ2-related epilepsy, intractable, with status epilepticus
+G40.844   genetic               yes  kcNQ2-related epilepsy, intractable, without status epilepticus
+G90.89    neurological          no   Other disorders of autonomic nervous system
+G93.45    neurological          no   Developmental and epileptic encephalopathy
+K60.312   gastrointestinal      no   Anal fistula, simple, persistent
+K60.313   gastrointestinal      no   Anal fistula, simple, recurrent
+K60.322   gastrointestinal      no   Anal fistula, complex, persistent
+K60.323   gastrointestinal      no   Anal fistula, complex, recurrent
+K60.412   gastrointestinal      no   Rectal fistula, simple, persistent
+K60.413   gastrointestinal      no   Rectal fistula, simple, recurrent
+K60.422   gastrointestinal      no   Rectal fistula, complex, persistent
+K60.423   gastrointestinal      no   Rectal fistula, complex, recurrent
+K60.512   gastrointestinal      no   Anorectal fistula, simple, persistent
+K60.513   gastrointestinal      no   Anorectal fistula, simple, recurrent
+K60.522   gastrointestinal      no   Anorectal fistula, complex, persistent
+K60.523   gastrointestinal      no   Anorectal fistula, complex, recurrent
+M51.360   musculoskeletal       no   Other intervertebral disc degeneration, lumbar region with discogenic back pain only
+M51.361   musculoskeletal       no   Other intervertebral disc degeneration, lumbar region with lower extremity pain only
+M51.362   musculoskeletal       no   Other intervertebral disc degeneration, lumbar region with discogenic back pain and lower extremity pain
+M51.369   musculoskeletal       no   Other intervertebral disc degeneration, lumbar region without mention of lumbar back pain or lower extremity pain
+M51.370   musculoskeletal       no   Other intervertebral disc degeneration, lumbosacral region with discogenic back pain only
+M51.371   musculoskeletal       no   Other intervertebral disc degeneration, lumbosacral region with lower extremity pain only
+M51.372   musculoskeletal       no   Other intervertebral disc degeneration, lumbosacral region with discogenic back pain and lower extremity pain
+M51.379   musculoskeletal       no   Other intervertebral disc degeneration, lumbosacral region without mention of lumbar back pain or lower extremity pain
+M62.85    musculoskeletal       no   Dysfunction of the multifidus muscles, lumbar region
+Q23.81    cardiac               no   Bicuspid aortic valve
+Q23.82    cardiac               no   Congenital mitral valve cleft leaflet
+Q23.88    cardiac               no   Other congenital malformations of aortic and mitral valves
+Q87.86    genetic               no   kleefstra syndrome
+R41.85    mental health         no   Anosognosia
+Z68.55    metabolic             yes  Body mass index [BMI] pediatric, 120% of the 95th percentile for age to less than 140% of the 95th percentile for age
+Z68.56    metabolic             yes  Body mass index [BMI] pediatric, greater than or equal to 140% of the 95th percentile for age
+C83.39    malignancy            yes  Diffuse large B-cell lymphoma, extranodal and solid organ sites
+C86.0     malignancy            yes  Extranodal NK/T-cell lymphoma, nasal type
+C86.1     malignancy            yes  Hepatosplenic T-cell lymphoma
+C86.2     malignancy            yes  Enteropathy-type (intestinal) T-cell lymphoma
+C86.3     malignancy            yes  Subcutaneous panniculitis-like T-cell lymphoma
+C86.4     malignancy            yes  Blastic NK-cell lymphoma
+C86.5     malignancy            yes  Angioimmunoblastic T-cell lymphoma
+C86.6     malignancy            yes  Primary cutaneous CD30-positive T-cell proliferations
+C88.0     malignancy            yes  Waldenstrom macroglobulinemia
+C88.2     malignancy            yes  Heavy chain disease
+C88.3     malignancy            yes  Immunoproliferative small intestinal disease
+C88.4     malignancy            yes  Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma]
+C88.8     malignancy            yes  Other malignant immunoproliferative diseases
+C88.9     malignancy            yes  Malignant immunoproliferative disease, unspecified
+E34.0     malignancy            yes  Carcinoid syndrome
+E66.8     metabolic             yes  Other obesity
+F50.01    metabolic             yes  Anorexia nervosa, restricting type
+F50.02    metabolic             yes  Anorexia nervosa, binge eating/purging type
+F50.2     metabolic             yes  Bulimia nervosa
+F50.81    metabolic             yes  Binge eating disorder
+F98.21    neurological          no   Rumination disorder of infancy and childhood
+G90.8     neurological          no   Other disorders of autonomic nervous system
+H44.2A3   ophthalmological      no   Degenerative myopia with choroidal neovascularization, bilateral eye
+H44.2B3   ophthalmological      no   Degenerative myopia with macular hole, bilateral eye
+H44.2C3   ophthalmological      no   Degenerative myopia with retinal detachment, bilateral eye
+H44.2D3   ophthalmological      no   Degenerative myopia with foveoschisis, bilateral eye
+H44.2E3   ophthalmological      no   Degenerative myopia with other maculopathy, bilateral eye
+K58.9     gastrointestinal      no   Irritable bowel syndrome, unspecified
+M51.36    musculoskeletal       no   Other intervertebral disc degeneration, lumbar region
+M51.37    musculoskeletal       no   Other intervertebral disc degeneration, lumbosacral region
+Q13.81    ophthalmological      no   Riegers anomaly
+Q23.8     cardiac               no   Other congenital malformations of aortic and mitral valves
+Z68.54    metabolic             yes  Body mass index [BMI] pediatric, greater than or equal to 95th percentile for age

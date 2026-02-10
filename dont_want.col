@@ -1,0 +1,1448 @@
+H57.1     ophthalmological      Ocular pain
+H57.10    ophthalmological      Ocular pain, unspecified eye
+H57.11    ophthalmological      Ocular pain, right eye
+H57.12    ophthalmological      Ocular pain, left eye
+H57.13    ophthalmological      Ocular pain, bilateral
+I82.2     cardiac               Embolism and thrombosis of vena cava and other thoracic veins
+I82.21    cardiac               Embolism and thrombosis of superior vena cava
+I82.22    cardiac               Embolism and thrombosis of inferior vena cava
+I82.29    cardiac               Embolism and thrombosis of other thoracic veins
+M24.4     musculoskeletal       Recurrent dislocation of joint
+M24.41    musculoskeletal       Recurrent dislocation, shoulder
+M24.42    musculoskeletal       Recurrent dislocation, elbow
+M24.43    musculoskeletal       Recurrent dislocation, wrist
+M24.44    musculoskeletal       Recurrent dislocation, hand and finger(s)
+M24.45    musculoskeletal       Recurrent dislocation, hip
+M24.46    musculoskeletal       Recurrent dislocation, knee
+M24.47    musculoskeletal       Recurrent dislocation, ankle, foot and toes
+D59.12    hematological         Cold autoimmune hemolytic anemia
+D89.831   immunological         Cytokine release syndrome, grade 1
+D89.832   immunological         Cytokine release syndrome, grade 2
+D89.833   immunological         Cytokine release syndrome, grade 3
+D89.834   immunological         Cytokine release syndrome, grade 4
+D89.835   immunological         Cytokine release syndrome, grade 5
+D89.839   immunological         Cytokine release syndrome, grade unspecified
+K83.0     gastrointestinal      Cholangitis
+K83.09    gastrointestinal      Other cholangitis
+M35.81    immunological         Multisystem inflammatory syndrome (MIS)
+U07.0     pulmonary/respiratory Vaping-related disorder
+U07.1     pulmonary/respiratory COVID-19
+D89.44    immunological         Hereditary alpha tryptasemia
+B37.31                          Acute candidiasis of vulva and vagina
+B37.32                          Chronic candidiasis of vulva and vagina
+D59.30                          Hemolytic-uremic syndrome, unspecified
+D59.31                          Infection-associated hemolytic-uremic syndrome
+D59.39                          Other hemolytic-uremic syndrome
+D75.821                         Non-immune heparin-induced thrombocytopenia
+D75.822                         Immune-mediated heparin-induced thrombocytopenia
+D75.828                         Other heparin-induced thrombocytopenia syndrome
+D75.829                         Heparin-induced thrombocytopenia, unspecified
+D75.84                          Other platelet-activating anti-PF4 disorders
+E34.31                          Constitutional short stature
+E87.20                          Acidosis, unspecified
+E87.21                          Acute metabolic acidosis
+E87.29                          Other acidosis
+F01.511                         Vascular dementia, unspecified severity, with agitation
+F01.518                         Vascular dementia, unspecified severity, with other behavioral disturbance
+F01.52                          Vascular dementia, unspecified severity, with psychotic disturbance
+F01.53                          Vascular dementia, unspecified severity, with mood disturbance
+F01.54                          Vascular dementia, unspecified severity, with anxiety
+F01.A0                          Vascular dementia, mild, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety
+F01.A11                         Vascular dementia, mild, with agitation
+F01.A18                         Vascular dementia, mild, with other behavioral disturbance
+F01.A2                          Vascular dementia, mild, with psychotic disturbance
+F01.A3                          Vascular dementia, mild, with mood disturbance
+F01.A4                          Vascular dementia, mild, with anxiety
+F01.B0                          Vascular dementia, moderate, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety
+F01.B11                         Vascular dementia, moderate, with agitation
+F01.B18                         Vascular dementia, moderate, with other behavioral disturbance
+F01.B2                          Vascular dementia, moderate, with psychotic disturbance
+F01.B3                          Vascular dementia, moderate, with mood disturbance
+F01.B4                          Vascular dementia, moderate, with anxiety
+F01.C0                          Vascular dementia, severe, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety
+F01.C11                         Vascular dementia, severe, with agitation
+F01.C18                         Vascular dementia, severe, with other behavioral disturbance
+F01.C2                          Vascular dementia, severe, with psychotic disturbance
+F01.C3                          Vascular dementia, severe, with mood disturbance
+F01.C4                          Vascular dementia, severe, with anxiety
+F10.90                          Alcohol use, unspecified, uncomplicated
+F10.91                          Alcohol use, unspecified, in remission
+F11.91                          Opioid use, unspecified, in remission
+F12.91                          Cannabis use, unspecified, in remission
+F13.91                          Sedative, hypnotic or anxiolytic use, unspecified, in remission
+F14.91                          Cocaine use, unspecified, in remission
+F15.91                          Other stimulant use, unspecified, in remission
+F16.91                          Hallucinogen use, unspecified, in remission
+F18.91                          Inhalant use, unspecified, in remission
+F19.91                          Other psychoactive substance use, unspecified, in remission
+F43.89                          Other reactions to severe stress
+G93.31                          Postviral fatigue syndrome
+G93.39                          Other post infection and related fatigue syndromes
+I20.2                           Refractory angina pectoris
+I25.112                         Atherosclerosic heart disease of native coronary artery with refractory angina pectoris
+I25.702                         Atherosclerosis of coronary artery bypass graft(s), unspecified, with refractory angina pectoris
+I25.712                         Atherosclerosis of autologous vein coronary artery bypass graft(s) with refractory angina pectoris
+I25.722                         Atherosclerosis of autologous artery coronary artery bypass graft(s) with refractory angina pectoris
+I25.732                         Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with refractory angina pectoris
+I25.752                         Atherosclerosis of native coronary artery of transplanted heart with refractory angina pectoris
+I25.762                         Atherosclerosis of bypass graft of coronary artery of transplanted heart with refractory angina pectoris
+I25.792                         Atherosclerosis of other coronary artery bypass graft(s) with refractory angina pectoris
+I31.31                          Malignant pericardial effusion in diseases classified elsewhere
+I31.39                          Other pericardial effusion (noninflammatory)
+I34.81                          Nonrheumatic mitral (valve) annulus calcification
+I71.010                         Dissection of ascending aorta
+I71.011                         Dissection of aortic arch
+I71.012                         Dissection of descending thoracic aorta
+I71.019                         Dissection of thoracic aorta, unspecified
+I71.10                          Thoracic aortic aneurysm, ruptured, unspecified
+I71.11                          Aneurysm of the ascending aorta, ruptured
+I71.12                          Aneurysm of the aortic arch, ruptured
+I71.13                          Aneurysm of the descending thoracic aorta, ruptured
+I71.30                          Abdominal aortic aneurysm, ruptured, unspecified
+I71.31                          Pararenal abdominal aortic aneurysm, ruptured
+I71.32                          Juxtarenal abdominal aortic aneurysm, ruptured
+I71.33                          Infrarenal abdominal aortic aneurysm, ruptured
+I71.50                          Thoracoabdominal aortic aneurysm, ruptured, unspecified
+I71.51                          Supraceliac aneurysm of the abdominal aorta, ruptured
+I71.52                          Paravisceral aneurysm of the abdominal aorta, ruptured
+I71.60                          Thoracoabdominal aortic aneurysm, without rupture, unspecified
+J95.87                          Transfusion-associated dyspnea (TAD)
+K76.82                          Hepatic encephalopathy
+M93.004                         Unspecified slipped upper femoral epiphysis (nontraumatic), bilateral hips
+M93.014                         Acute slipped upper femoral epiphysis, stable (nontraumatic), bilateral hips
+M93.034                         Acute on chronic slipped upper femoral epiphysis, stable (nontraumatic), bilateral hips
+M93.041                         Acute slipped upper femoral epiphysis, unstable (nontraumatic), right hip
+M93.042                         Acute slipped upper femoral epiphysis, unstable (nontraumatic), left hip
+M93.043                         Acute slipped upper femoral epiphysis, unstable (nontraumatic), unspecified hip
+M93.044                         Acute slipped upper femoral epiphysis, unstable (nontraumatic), bilateral hips
+M93.051                         Acute on chronic slipped upper femoral epiphysis, unstable (nontraumatic), right hip
+M93.052                         Acute on chronic slipped upper femoral epiphysis, unstable (nontraumatic), left hip
+M93.053                         Acute on chronic slipped upper femoral epiphysis, unstable (nontraumatic), unspecified hip
+M93.054                         Acute on chronic slipped upper femoral epiphysis, unstable (nontraumatic), bilateral hips
+M93.061                         Acute slipped upper femoral epiphysis, unspecified stability (nontraumatic), right hip
+M93.062                         Acute slipped upper femoral epiphysis, unspecified stability (nontraumatic), left hip
+M93.063                         Acute slipped upper femoral epiphysis, unspecified stability (nontraumatic), unspecified hip
+M93.064                         Acute slipped upper femoral epiphysis, unspecified stability (nontraumatic), bilateral hips
+M93.071                         Acute on chronic slipped upper femoral epiphysis, unspecified stability (nontraumatic), right hip
+M93.072                         Acute on chronic slipped upper femoral epiphysis, unspecified stability (nontraumatic), left hip
+M93.073                         Acute on chronic slipped upper femoral epiphysis, unspecified stability (nontraumatic), unspecified hip
+M93.074                         Acute on chronic slipped upper femoral epiphysis, unspecified stability (nontraumatic), bilateral hips
+M96.A1                          Fracture of sternum associated with chest compression and cardiopulmonary resuscitation
+M96.A2                          Fracture of one rib associated with chest compression and cardiopulmonary resuscitation
+M96.A3                          Multiple fractures of ribs associated with chest compression and cardiopulmonary resuscitation
+M96.A4                          Flail chest associated with chest compression and cardiopulmonary resuscitation
+M96.A9                          Other fracture associated with chest compression and cardiopulmonary resuscitation
+N14.11                          Contrast-induced nephropathy
+N14.19                          Nephropathy induced by other drugs, medicaments and biological substances
+N76.82                          Fournier disease of vagina and vulva
+O35.00X0                        Maternal care for (suspected) central nervous system malformation or damage in fetus, unspecified, not applicable or unspecified
+O35.00X1                        Maternal care for (suspected) central nervous system malformation or damage in fetus, unspecified, fetus 1
+O35.00X2                        Maternal care for (suspected) central nervous system malformation or damage in fetus, unspecified, fetus 2
+O35.00X3                        Maternal care for (suspected) central nervous system malformation or damage in fetus, unspecified, fetus 3
+O35.00X4                        Maternal care for (suspected) central nervous system malformation or damage in fetus, unspecified, fetus 4
+O35.00X5                        Maternal care for (suspected) central nervous system malformation or damage in fetus, unspecified, fetus 5
+O35.00X9                        Maternal care for (suspected) central nervous system malformation or damage in fetus, unspecified, other fetus
+O35.01X0                        Maternal care for (suspected) central nervous system malformation or damage in fetus, agenesis of the corpus callosum, not applicable or unspecified
+O35.01X1                        Maternal care for (suspected) central nervous system malformation or damage in fetus, agenesis of the corpus callosum, fetus 1
+O35.01X2                        Maternal care for (suspected) central nervous system malformation or damage in fetus, agenesis of the corpus callosum, fetus 2
+O35.01X3                        Maternal care for (suspected) central nervous system malformation or damage in fetus, agenesis of the corpus callosum, fetus 3
+O35.01X4                        Maternal care for (suspected) central nervous system malformation or damage in fetus, agenesis of the corpus callosum, fetus 4
+O35.01X5                        Maternal care for (suspected) central nervous system malformation or damage in fetus, agenesis of the corpus callosum, fetus 5
+O35.01X9                        Maternal care for (suspected) central nervous system malformation or damage in fetus, agenesis of the corpus callosum, other fetus
+O35.02X0                        Maternal care for (suspected) central nervous system malformation or damage in fetus, anencephaly, not applicable or unspecified
+O35.02X1                        Maternal care for (suspected) central nervous system malformation or damage in fetus, anencephaly, fetus 1
+O35.02X2                        Maternal care for (suspected) central nervous system malformation or damage in fetus, anencephaly, fetus 2
+O35.02X3                        Maternal care for (suspected) central nervous system malformation or damage in fetus, anencephaly, fetus 3
+O35.02X4                        Maternal care for (suspected) central nervous system malformation or damage in fetus, anencephaly, fetus 4
+O35.02X5                        Maternal care for (suspected) central nervous system malformation or damage in fetus, anencephaly, fetus 5
+O35.02X9                        Maternal care for (suspected) central nervous system malformation or damage in fetus, anencephaly, other fetus
+O35.03X0                        Maternal care for (suspected) central nervous system malformation or damage in fetus, choroid plexus cysts, not applicable or unspecified
+O35.03X1                        Maternal care for (suspected) central nervous system malformation or damage in fetus, choroid plexus cysts, fetus 1
+O35.03X2                        Maternal care for (suspected) central nervous system malformation or damage in fetus, choroid plexus cysts, fetus 2
+O35.03X3                        Maternal care for (suspected) central nervous system malformation or damage in fetus, choroid plexus cysts, fetus 3
+O35.03X4                        Maternal care for (suspected) central nervous system malformation or damage in fetus, choroid plexus cysts, fetus 4
+O35.03X5                        Maternal care for (suspected) central nervous system malformation or damage in fetus, choroid plexus cysts, fetus 5
+O35.03X9                        Maternal care for (suspected) central nervous system malformation or damage in fetus, choroid plexus cysts, other fetus
+O35.04X0                        Maternal care for (suspected) central nervous system malformation or damage in fetus, encephalocele, not applicable or unspecified
+O35.04X1                        Maternal care for (suspected) central nervous system malformation or damage in fetus, encephalocele, fetus 1
+O35.04X2                        Maternal care for (suspected) central nervous system malformation or damage in fetus, encephalocele, fetus 2
+O35.04X3                        Maternal care for (suspected) central nervous system malformation or damage in fetus, encephalocele, fetus 3
+O35.04X4                        Maternal care for (suspected) central nervous system malformation or damage in fetus, encephalocele, fetus 4
+O35.04X5                        Maternal care for (suspected) central nervous system malformation or damage in fetus, encephalocele, fetus 5
+O35.04X9                        Maternal care for (suspected) central nervous system malformation or damage in fetus, encephalocele, other fetus
+O35.05X0                        Maternal care for (suspected) central nervous system malformation or damage in fetus, holoprosencephaly, not applicable or unspecified
+O35.05X1                        Maternal care for (suspected) central nervous system malformation or damage in fetus, holoprosencephaly, fetus 1
+O35.05X2                        Maternal care for (suspected) central nervous system malformation or damage in fetus, holoprosencephaly, fetus 2
+O35.05X3                        Maternal care for (suspected) central nervous system malformation or damage in fetus, holoprosencephaly, fetus 3
+O35.05X4                        Maternal care for (suspected) central nervous system malformation or damage in fetus, holoprosencephaly, fetus 4
+O35.05X5                        Maternal care for (suspected) central nervous system malformation or damage in fetus, holoprosencephaly, fetus 5
+O35.05X9                        Maternal care for (suspected) central nervous system malformation or damage in fetus, holoprosencephaly, other fetus
+O35.06X0                        Maternal care for (suspected) central nervous system malformation or damage in fetus, hydrocephaly, not applicable or unspecified
+O35.06X1                        Maternal care for (suspected) central nervous system malformation or damage in fetus, hydrocephaly, fetus 1
+O35.06X2                        Maternal care for (suspected) central nervous system malformation or damage in fetus, hydrocephaly, fetus 2
+O35.06X3                        Maternal care for (suspected) central nervous system malformation or damage in fetus, hydrocephaly, fetus 3
+O35.06X4                        Maternal care for (suspected) central nervous system malformation or damage in fetus, hydrocephaly, fetus 4
+O35.06X5                        Maternal care for (suspected) central nervous system malformation or damage in fetus, hydrocephaly, fetus 5
+O35.06X9                        Maternal care for (suspected) central nervous system malformation or damage in fetus, hydrocephaly, other fetus
+O35.07X0                        Maternal care for (suspected) central nervous system malformation or damage in fetus, microcephaly, not applicable or unspecified
+O35.07X1                        Maternal care for (suspected) central nervous system malformation or damage in fetus, microcephaly, fetus 1
+O35.07X2                        Maternal care for (suspected) central nervous system malformation or damage in fetus, microcephaly, fetus 2
+O35.07X3                        Maternal care for (suspected) central nervous system malformation or damage in fetus, microcephaly, fetus 3
+O35.07X4                        Maternal care for (suspected) central nervous system malformation or damage in fetus, microcephaly, fetus 4
+O35.07X5                        Maternal care for (suspected) central nervous system malformation or damage in fetus, microcephaly, fetus 5
+O35.07X9                        Maternal care for (suspected) central nervous system malformation or damage in fetus, microcephaly, other fetus
+O35.08X0                        Maternal care for (suspected) central nervous system malformation or damage in fetus, spina bifida, not applicable or unspecified
+O35.08X1                        Maternal care for (suspected) central nervous system malformation or damage in fetus, spina bifida, fetus 1
+O35.08X2                        Maternal care for (suspected) central nervous system malformation or damage in fetus, spina bifida, fetus 2
+O35.08X3                        Maternal care for (suspected) central nervous system malformation or damage in fetus, spina bifida, fetus 3
+O35.08X4                        Maternal care for (suspected) central nervous system malformation or damage in fetus, spina bifida, fetus 4
+O35.08X5                        Maternal care for (suspected) central nervous system malformation or damage in fetus, spina bifida, fetus 5
+O35.08X9                        Maternal care for (suspected) central nervous system malformation or damage in fetus, spina bifida, other fetus
+O35.09X0                        Maternal care for (suspected) other central nervous system malformation or damage in fetus, not applicable or unspecified
+O35.09X1                        Maternal care for (suspected) other central nervous system malformation or damage in fetus, fetus 1
+O35.09X2                        Maternal care for (suspected) other central nervous system malformation or damage in fetus, fetus 2
+O35.09X3                        Maternal care for (suspected) other central nervous system malformation or damage in fetus, fetus 3
+O35.09X4                        Maternal care for (suspected) other central nervous system malformation or damage in fetus, fetus 4
+O35.09X5                        Maternal care for (suspected) other central nervous system malformation or damage in fetus, fetus 5
+O35.09X9                        Maternal care for (suspected) other central nervous system malformation or damage in fetus, other fetus
+O35.10X0                        Maternal care for (suspected) chromosomal abnormality in fetus, unspecified, not applicable or unspecified
+O35.10X1                        Maternal care for (suspected) chromosomal abnormality in fetus, unspecified, fetus 1
+O35.10X2                        Maternal care for (suspected) chromosomal abnormality in fetus, unspecified, fetus 2
+O35.10X3                        Maternal care for (suspected) chromosomal abnormality in fetus, unspecified, fetus 3
+O35.10X4                        Maternal care for (suspected) chromosomal abnormality in fetus, unspecified, fetus 4
+O35.10X5                        Maternal care for (suspected) chromosomal abnormality in fetus, unspecified, fetus 5
+O35.10X9                        Maternal care for (suspected) chromosomal abnormality in fetus, unspecified, other fetus
+O35.11X0                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 13, not applicable or unspecified
+O35.11X1                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 13, fetus 1
+O35.11X2                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 13, fetus 2
+O35.11X3                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 13, fetus 3
+O35.11X4                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 13, fetus 4
+O35.11X5                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 13, fetus 5
+O35.11X9                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 13, other fetus
+O35.12X0                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 18, not applicable or unspecified
+O35.12X1                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 18, fetus 1
+O35.12X2                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 18, fetus 2
+O35.12X3                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 18, fetus 3
+O35.12X4                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 18, fetus 4
+O35.12X5                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 18, fetus 5
+O35.12X9                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 18, other fetus
+O35.13X0                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 21, not applicable or unspecified
+O35.13X1                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 21, fetus 1
+O35.13X2                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 21, fetus 2
+O35.13X3                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 21, fetus 3
+O35.13X4                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 21, fetus 4
+O35.13X5                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 21, fetus 5
+O35.13X9                        Maternal care for (suspected) chromosomal abnormality in fetus, Trisomy 21, other fetus
+O35.14X0                        Maternal care for (suspected) chromosomal abnormality in fetus, Turner Syndrome, not applicable or unspecified
+O35.14X1                        Maternal care for (suspected) chromosomal abnormality in fetus, Turner Syndrome, fetus 1
+O35.14X2                        Maternal care for (suspected) chromosomal abnormality in fetus, Turner Syndrome, fetus 2
+O35.14X3                        Maternal care for (suspected) chromosomal abnormality in fetus, Turner Syndrome, fetus 3
+O35.14X4                        Maternal care for (suspected) chromosomal abnormality in fetus, Turner Syndrome, fetus 4
+O35.14X5                        Maternal care for (suspected) chromosomal abnormality in fetus, Turner Syndrome, fetus 5
+O35.14X9                        Maternal care for (suspected) chromosomal abnormality in fetus, Turner Syndrome, other fetus
+O35.15X0                        Maternal care for (suspected) chromosomal abnormality in fetus, sex chromosome abnormality, not applicable or unspecified
+O35.15X1                        Maternal care for (suspected) chromosomal abnormality in fetus, sex chromosome abnormality, fetus 1
+O35.15X2                        Maternal care for (suspected) chromosomal abnormality in fetus, sex chromosome abnormality, fetus 2
+O35.15X3                        Maternal care for (suspected) chromosomal abnormality in fetus, sex chromosome abnormality, fetus 3
+O35.15X4                        Maternal care for (suspected) chromosomal abnormality in fetus, sex chromosome abnormality, fetus 4
+O35.15X5                        Maternal care for (suspected) chromosomal abnormality in fetus, sex chromosome abnormality, fetus 5
+O35.15X9                        Maternal care for (suspected) chromosomal abnormality in fetus, sex chromosome abnormality, other fetus
+O35.19X0                        Maternal care for (suspected) chromosomal abnormality in fetus, other chromosomal abnormality, not applicable or unspecified
+O35.19X1                        Maternal care for (suspected) chromosomal abnormality in fetus, other chromosomal abnormality, fetus 1
+O35.19X2                        Maternal care for (suspected) chromosomal abnormality in fetus, other chromosomal abnormality, fetus 2
+O35.19X3                        Maternal care for (suspected) chromosomal abnormality in fetus, other chromosomal abnormality, fetus 3
+O35.19X4                        Maternal care for (suspected) chromosomal abnormality in fetus, other chromosomal abnormality, fetus 4
+O35.19X5                        Maternal care for (suspected) chromosomal abnormality in fetus, other chromosomal abnormality, fetus 5
+O35.19X9                        Maternal care for (suspected) chromosomal abnormality in fetus, other chromosomal abnormality, other fetus
+O35.AXX0                        Maternal care for other (suspected) fetal abnormality and damage, fetal facial anomalies, not applicable or unspecified
+O35.AXX1                        Maternal care for other (suspected) fetal abnormality and damage, fetal facial anomalies, fetus 1
+O35.AXX2                        Maternal care for other (suspected) fetal abnormality and damage, fetal facial anomalies, fetus 2
+O35.AXX3                        Maternal care for other (suspected) fetal abnormality and damage, fetal facial anomalies, fetus 3
+O35.AXX4                        Maternal care for other (suspected) fetal abnormality and damage, fetal facial anomalies, fetus 4
+O35.AXX5                        Maternal care for other (suspected) fetal abnormality and damage, fetal facial anomalies, fetus 5
+O35.AXX9                        Maternal care for other (suspected) fetal abnormality and damage, fetal facial anomalies, other fetus
+O35.BXX0                        Maternal care for other (suspected) fetal abnormality and damage, fetal cardiac anomalies, not applicable or unspecified
+O35.BXX1                        Maternal care for other (suspected) fetal abnormality and damage, fetal cardiac anomalies, fetus 1
+O35.BXX2                        Maternal care for other (suspected) fetal abnormality and damage, fetal cardiac anomalies, fetus 2
+O35.BXX3                        Maternal care for other (suspected) fetal abnormality and damage, fetal cardiac anomalies, fetus 3
+O35.BXX4                        Maternal care for other (suspected) fetal abnormality and damage, fetal cardiac anomalies, fetus 4
+O35.BXX5                        Maternal care for other (suspected) fetal abnormality and damage, fetal cardiac anomalies, fetus 5
+O35.BXX9                        Maternal care for other (suspected) fetal abnormality and damage, fetal cardiac anomalies, other fetus
+O35.CXX0                        Maternal care for other (suspected) fetal abnormality and damage, fetal pulmonary anomalies, not applicable or unspecified
+O35.CXX1                        Maternal care for other (suspected) fetal abnormality and damage, fetal pulmonary anomalies, fetus 1
+O35.CXX2                        Maternal care for other (suspected) fetal abnormality and damage, fetal pulmonary anomalies, fetus 2
+O35.CXX3                        Maternal care for other (suspected) fetal abnormality and damage, fetal pulmonary anomalies, fetus 3
+O35.CXX4                        Maternal care for other (suspected) fetal abnormality and damage, fetal pulmonary anomalies, fetus 4
+O35.CXX5                        Maternal care for other (suspected) fetal abnormality and damage, fetal pulmonary anomalies, fetus 5
+O35.CXX9                        Maternal care for other (suspected) fetal abnormality and damage, fetal pulmonary anomalies, other fetus
+O35.DXX0                        Maternal care for other (suspected) fetal abnormality and damage, fetal gastrointestinal anomalies, not applicable or unspecified
+O35.DXX1                        Maternal care for other (suspected) fetal abnormality and damage, fetal gastrointestinal anomalies, fetus 1
+O35.DXX2                        Maternal care for other (suspected) fetal abnormality and damage, fetal gastrointestinal anomalies, fetus 2
+O35.DXX3                        Maternal care for other (suspected) fetal abnormality and damage, fetal gastrointestinal anomalies, fetus 3
+O35.DXX4                        Maternal care for other (suspected) fetal abnormality and damage, fetal gastrointestinal anomalies, fetus 4
+O35.DXX5                        Maternal care for other (suspected) fetal abnormality and damage, fetal gastrointestinal anomalies, fetus 5
+O35.DXX9                        Maternal care for other (suspected) fetal abnormality and damage, fetal gastrointestinal anomalies, other fetus
+O35.EXX0                        Maternal care for other (suspected) fetal abnormality and damage, fetal genitourinary anomalies, not applicable or unspecified
+O35.EXX1                        Maternal care for other (suspected) fetal abnormality and damage, fetal genitourinary anomalies, fetus 1
+O35.EXX2                        Maternal care for other (suspected) fetal abnormality and damage, fetal genitourinary anomalies, fetus 2
+O35.EXX3                        Maternal care for other (suspected) fetal abnormality and damage, fetal genitourinary anomalies, fetus 3
+O35.EXX4                        Maternal care for other (suspected) fetal abnormality and damage, fetal genitourinary anomalies, fetus 4
+O35.EXX5                        Maternal care for other (suspected) fetal abnormality and damage, fetal genitourinary anomalies, fetus 5
+O35.EXX9                        Maternal care for other (suspected) fetal abnormality and damage, fetal genitourinary anomalies, other fetus
+O35.FXX0                        Maternal care for other (suspected) fetal abnormality and damage, fetal musculoskeletal anomalies of trunk, not applicable or unspecified
+O35.FXX1                        Maternal care for other (suspected) fetal abnormality and damage, fetal musculoskeletal anomalies of trunk, fetus 1
+O35.FXX2                        Maternal care for other (suspected) fetal abnormality and damage, fetal musculoskeletal anomalies of trunk, fetus 2
+O35.FXX3                        Maternal care for other (suspected) fetal abnormality and damage, fetal musculoskeletal anomalies of trunk, fetus 3
+O35.FXX4                        Maternal care for other (suspected) fetal abnormality and damage, fetal musculoskeletal anomalies of trunk, fetus 4
+O35.FXX5                        Maternal care for other (suspected) fetal abnormality and damage, fetal musculoskeletal anomalies of trunk, fetus 5
+O35.FXX9                        Maternal care for other (suspected) fetal abnormality and damage, fetal musculoskeletal anomalies of trunk, other fetus
+O35.GXX0                        Maternal care for other (suspected) fetal abnormality and damage, fetal upper extremities anomalies, not applicable or unspecified
+O35.GXX1                        Maternal care for other (suspected) fetal abnormality and damage, fetal upper extremities anomalies, fetus 1
+O35.GXX2                        Maternal care for other (suspected) fetal abnormality and damage, fetal upper extremities anomalies, fetus 2
+O35.GXX3                        Maternal care for other (suspected) fetal abnormality and damage, fetal upper extremities anomalies, fetus 3
+O35.GXX4                        Maternal care for other (suspected) fetal abnormality and damage, fetal upper extremities anomalies, fetus 4
+O35.GXX5                        Maternal care for other (suspected) fetal abnormality and damage, fetal upper extremities anomalies, fetus 5
+O35.GXX9                        Maternal care for other (suspected) fetal abnormality and damage, fetal upper extremities anomalies, other fetus
+O35.HXX0                        Maternal care for other (suspected) fetal abnormality and damage, fetal lower extremities anomalies, not applicable or unspecified
+O35.HXX1                        Maternal care for other (suspected) fetal abnormality and damage, fetal lower extremities anomalies, fetus 1
+O35.HXX2                        Maternal care for other (suspected) fetal abnormality and damage, fetal lower extremities anomalies, fetus 2
+O35.HXX3                        Maternal care for other (suspected) fetal abnormality and damage, fetal lower extremities anomalies, fetus 3
+O35.HXX4                        Maternal care for other (suspected) fetal abnormality and damage, fetal lower extremities anomalies, fetus 4
+O35.HXX5                        Maternal care for other (suspected) fetal abnormality and damage, fetal lower extremities anomalies, fetus 5
+O35.HXX9                        Maternal care for other (suspected) fetal abnormality and damage, fetal lower extremities anomalies, other fetus
+P28.30                          Primary sleep apnea of newborn, unspecified
+P28.31                          Primary central sleep apnea of newborn
+P28.33                          Primary mixed sleep apnea of newborn
+P28.39                          Other primary sleep apnea of newborn
+P28.40                          Unspecified apnea of newborn
+P28.41                          Central neonatal apnea of newborn
+P28.49                          Other apnea of newborn
+S06.0XAA                        Concussion with loss of consciousness status unknown, initial encounter
+S06.0XAD                        Concussion with loss of consciousness status unknown, subsequent encounter
+S06.0XAS                        Concussion with loss of consciousness status unknown, sequela
+S06.1XAA                        Traumatic cerebral edema with loss of consciousness status unknown, initial encounter
+S06.1XAD                        Traumatic cerebral edema with loss of consciousness status unknown, subsequent encounter
+S06.1XAS                        Traumatic cerebral edema with loss of consciousness status unknown, sequela
+S06.2XAA                        Diffuse traumatic brain injury with loss of consciousness status unknown, initial encounter
+S06.2XAD                        Diffuse traumatic brain injury with loss of consciousness status unknown, subsequent encounter
+S06.2XAS                        Diffuse traumatic brain injury with loss of consciousness status unknown, sequela
+S06.30AA                        Unspecified focal traumatic brain injury with loss of consciousness status unknown, initial encounter
+S06.30AD                        Unspecified focal traumatic brain injury with loss of consciousness status unknown, subsequent encounter
+S06.30AS                        Unspecified focal traumatic brain injury with loss of consciousness status unknown, sequela
+S06.31AA                        Contusion and laceration of right cerebrum with loss of consciousness status unknown, initial encounter
+S06.31AD                        Contusion and laceration of right cerebrum with loss of consciousness status unknown, subsequent encounter
+S06.31AS                        Contusion and laceration of right cerebrum with loss of consciousness status unknown, sequela
+S06.32AA                        Contusion and laceration of left cerebrum with loss of consciousness status unknown, initial encounter
+S06.32AD                        Contusion and laceration of left cerebrum with loss of consciousness status unknown, subsequent encounter
+S06.32AS                        Contusion and laceration of left cerebrum with loss of consciousness status unknown, sequela
+S06.33AA                        Contusion and laceration of cerebrum, unspecified, with loss of consciousness status unknown, initial encounter
+S06.33AD                        Contusion and laceration of cerebrum, unspecified, with loss of consciousness status unknown, subsequent encounter
+S06.33AS                        Contusion and laceration of cerebrum, unspecified, with loss of consciousness status unknown, sequela
+S06.34AA                        Traumatic hemorrhage of right cerebrum with loss of consciousness status unknown, initial encounter
+S06.34AD                        Traumatic hemorrhage of right cerebrum with loss of consciousness status unknown, subsequent encounter
+S06.34AS                        Traumatic hemorrhage of right cerebrum with loss of consciousness status unknown, sequela
+S06.35AA                        Traumatic hemorrhage of left cerebrum with loss of consciousness status unknown, initial encounter
+S06.35AD                        Traumatic hemorrhage of left cerebrum with loss of consciousness status unknown, subsequent encounter
+S06.35AS                        Traumatic hemorrhage of left cerebrum with loss of consciousness status unknown, sequela
+S06.36AA                        Traumatic hemorrhage of cerebrum, unspecified, with loss of consciousness status unknown, initial encounter
+S06.36AD                        Traumatic hemorrhage of cerebrum, unspecified, with loss of consciousness status unknown, subsequent encounter
+S06.36AS                        Traumatic hemorrhage of cerebrum, unspecified, with loss of consciousness status unknown, sequela
+S06.37AA                        Contusion, laceration, and hemorrhage of cerebellum with loss of consciousness status unknown, initial encounter
+S06.37AD                        Contusion, laceration, and hemorrhage of cerebellum with loss of consciousness status unknown, subsequent encounter
+S06.37AS                        Contusion, laceration, and hemorrhage of cerebellum with loss of consciousness status unknown, sequela
+S06.38AA                        Contusion, laceration, and hemorrhage of brainstem with loss of consciousness status unknown, initial encounter
+S06.38AD                        Contusion, laceration, and hemorrhage of brainstem with loss of consciousness status unknown, subsequent encounter
+S06.38AS                        Contusion, laceration, and hemorrhage of brainstem with loss of consciousness status unknown, sequela
+S06.4XAA                        Epidural hemorrhage with loss of consciousness status unknown, initial encounter
+S06.4XAD                        Epidural hemorrhage with loss of consciousness status unknown, subsequent encounter
+S06.4XAS                        Epidural hemorrhage with loss of consciousness status unknown, sequela
+S06.5XAA                        Traumatic subdural hemorrhage with loss of consciousness status unknown, initial encounter
+S06.5XAD                        Traumatic subdural hemorrhage with loss of consciousness status unknown, subsequent encounter
+S06.5XAS                        Traumatic subdural hemorrhage with loss of consciousness status unknown, sequela
+S06.6XAA                        Traumatic subarachnoid hemorrhage with loss of consciousness status unknown, initial encounter
+S06.6XAD                        Traumatic subarachnoid hemorrhage with loss of consciousness status unknown, subsequent encounter
+S06.6XAS                        Traumatic subarachnoid hemorrhage with loss of consciousness status unknown, sequela
+S06.81AA                        Injury of right internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness status unknown, initial encounter
+S06.81AD                        Injury of right internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness status unknown, subsequent encounter
+S06.81AS                        Injury of right internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness status unknown, sequela
+S06.82AA                        Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness status unknown, initial encounter
+S06.82AD                        Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness status unknown, subsequent encounter
+S06.82AS                        Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness status unknown, sequela
+S06.89AA                        Other specified intracranial injury with loss of consciousness status unknown, initial encounter
+S06.89AD                        Other specified intracranial injury with loss of consciousness status unknown, subsequent encounter
+S06.89AS                        Other specified intracranial injury with loss of consciousness status unknown, sequela
+S06.8A0A                        Primary blast injury of brain, not elsewhere classified without loss of consciousness, initial encounter
+S06.8A0D                        Primary blast injury of brain, not elsewhere classified without loss of consciousness, subsequent encounter
+S06.8A0S                        Primary blast injury of brain, not elsewhere classified without loss of consciousness, sequela
+S06.8A1A                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of 30 minutes or less, initial encounter
+S06.8A1D                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of 30 minutes or less, subsequent encounter
+S06.8A1S                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of 30 minutes or less, sequela
+S06.8A2A                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of 31 minutes to 59 minutes, initial encounter
+S06.8A2D                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of 31 minutes to 59 minutes, subsequent encounter
+S06.8A2S                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of 31 minutes to 59 minutes, sequela
+S06.8A3A                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of 1 hour to 5 hours 59 minutes, initial encounter
+S06.8A3D                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of 1 hour to 5 hours 59 minutes, subsequent encounter
+S06.8A3S                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of 1 hour to 5 hours 59 minutes, sequela
+S06.8A4A                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of 6 hours to 24 hours, initial encounter
+S06.8A4D                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of 6 hours to 24 hours, subsequent encounter
+S06.8A4S                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of 6 hours to 24 hours, sequela
+S06.8A5A                        Primary blast injury of brain, not elsewhere classified with loss of consciousness greater than 24 hours with return to pre-existing conscious level, initial encounter
+S06.8A5D                        Primary blast injury of brain, not elsewhere classified with loss of consciousness greater than 24 hours with return to pre-existing conscious level, subsequent encounter
+S06.8A5S                        Primary blast injury of brain, not elsewhere classified with loss of consciousness greater than 24 hours with return to pre-existing conscious level, sequela
+S06.8A6A                        Primary blast injury of brain, not elsewhere classified with loss of consciousness greater than 24 hours without return to pre-existing conscious level with patient surviving, initial encounter
+S06.8A6D                        Primary blast injury of brain, not elsewhere classified with loss of consciousness greater than 24 hours without return to pre-existing conscious level with patient surviving, subsequent encounter
+S06.8A6S                        Primary blast injury of brain, not elsewhere classified with loss of consciousness greater than 24 hours without return to pre-existing conscious level with patient surviving, sequela
+S06.8A7A                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of any duration with death due to brain injury prior to regaining consciousness, initial encounter
+S06.8A8A                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of any duration with death due to other cause prior to regaining consciousness, initial encounter
+S06.8A9A                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of unspecified duration, initial encounter
+S06.8A9D                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of unspecified duration, subsequent encounter
+S06.8A9S                        Primary blast injury of brain, not elsewhere classified with loss of consciousness of unspecified duration, sequela
+S06.8AAA                        Primary blast injury of brain, not elsewhere classified with loss of consciousness status unknown, initial encounter
+S06.8AAD                        Primary blast injury of brain, not elsewhere classified with loss of consciousness status unknown, subsequent encounter
+S06.8AAS                        Primary blast injury of brain, not elsewhere classified with loss of consciousness status unknown, sequela
+S06.9XAA                        Unspecified intracranial injury with loss of consciousness status unknown, initial encounter
+S06.9XAD                        Unspecified intracranial injury with loss of consciousness status unknown, subsequent encounter
+S06.9XAS                        Unspecified intracranial injury with loss of consciousness status unknown, sequela
+T43.651A                        Poisoning by methamphetamines accidental (unintentional), initial encounter
+T43.651D                        Poisoning by methamphetamines accidental (unintentional), subsequent encounter
+T43.651S                        Poisoning by methamphetamines accidental (unintentional), sequela
+T43.652A                        Poisoning by methamphetamines intentional self-harm, initial encounter
+T43.652D                        Poisoning by methamphetamines intentional self-harm, subsequent encounter
+T43.652S                        Poisoning by methamphetamines intentional self-harm, sequela
+T43.653A                        Poisoning by methamphetamines, assault, initial encounter
+T43.653D                        Poisoning by methamphetamines, assault, subsequent encounter
+T43.653S                        Poisoning by methamphetamines, assault, sequela
+T43.654A                        Poisoning by methamphetamines, undetermined, initial encounter
+T43.654D                        Poisoning by methamphetamines, undetermined, subsequent encounter
+T43.654S                        Poisoning by methamphetamines, undetermined, sequela
+T43.655A                        Adverse effect of methamphetamines, initial encounter
+T43.655D                        Adverse effect of methamphetamines, subsequent encounter
+T43.655S                        Adverse effect of methamphetamines, sequela
+T43.656A                        Underdosing of methamphetamines, initial encounter
+T43.656D                        Underdosing of methamphetamines, subsequent encounter
+T43.656S                        Underdosing of methamphetamines, sequela
+V20.01XA                        Electric (assisted) bicycle driver injured in collision with pedestrian or animal in nontraffic accident, initial encounter
+V20.01XD                        Electric (assisted) bicycle driver injured in collision with pedestrian or animal in nontraffic accident, subsequent encounter
+V20.01XS                        Electric (assisted) bicycle driver injured in collision with pedestrian or animal in nontraffic accident, sequela
+V20.09XA                        Other motorcycle driver injured in collision with pedestrian or animal in nontraffic accident, initial encounter
+V20.09XD                        Other motorcycle driver injured in collision with pedestrian or animal in nontraffic accident, subsequent encounter
+V20.09XS                        Other motorcycle driver injured in collision with pedestrian or animal in nontraffic accident, sequela
+V20.11XA                        Electric (assisted) bicycle passenger injured in collision with pedestrian or animal in nontraffic accident, initial encounter
+V20.11XD                        Electric (assisted) bicycle passenger injured in collision with pedestrian or animal in nontraffic accident, subsequent encounter
+V20.11XS                        Electric (assisted) bicycle passenger injured in collision with pedestrian or animal in nontraffic accident, sequela
+V20.19XA                        Other motorcycle passenger injured in collision with pedestrian or animal in nontraffic accident, initial encounter
+V20.19XD                        Other motorcycle passenger injured in collision with pedestrian or animal in nontraffic accident, subsequent encounter
+V20.19XS                        Other motorcycle passenger injured in collision with pedestrian or animal in nontraffic accident, sequela
+V20.21XA                        Unspecified electric (assisted) bicycle rider injured in collision with pedestrian or animal in nontraffic accident, initial encounter
+V20.21XD                        Unspecified electric (assisted) bicycle rider injured in collision with pedestrian or animal in nontraffic accident, subsequent encounter
+V20.21XS                        Unspecified electric (assisted) bicycle rider injured in collision with pedestrian or animal in nontraffic accident, sequela
+V20.29XA                        Unspecified rider of other motorcycle injured in collision with pedestrian or animal in nontraffic accident, initial encounter
+V20.29XD                        Unspecified rider of other motorcycle injured in collision with pedestrian or animal in nontraffic accident, subsequent encounter
+V20.29XS                        Unspecified rider of other motorcycle injured in collision with pedestrian or animal in nontraffic accident, sequela
+V20.31XA                        Person boarding or alighting an electric (assisted) bicycle injured in collision with pedestrian or animal, initial encounter
+V20.31XD                        Person boarding or alighting an electric (assisted) bicycle injured in collision with pedestrian or animal, subsequent encounter
+V20.31XS                        Person boarding or alighting an electric (assisted) bicycle injured in collision with pedestrian or animal, sequela
+V20.39XA                        Person boarding or alighting other motorcycle injured in collision with pedestrian or animal, initial encounter
+V20.39XD                        Person boarding or alighting other motorcycle injured in collision with pedestrian or animal, subsequent encounter
+V20.39XS                        Person boarding or alighting other motorcycle injured in collision with pedestrian or animal, sequela
+V20.41XA                        Electric (assisted) bicycle driver injured in collision with pedestrian or animal in traffic accident, initial encounter
+V20.41XD                        Electric (assisted) bicycle driver injured in collision with pedestrian or animal in traffic accident, subsequent encounter
+V20.41XS                        Electric (assisted) bicycle driver injured in collision with pedestrian or animal in traffic accident, sequela
+V20.49XA                        Other motorcycle driver injured in collision with pedestrian or animal in traffic accident, initial encounter
+V20.49XD                        Other motorcycle driver injured in collision with pedestrian or animal in traffic accident, subsequent encounter
+V20.49XS                        Other motorcycle driver injured in collision with pedestrian or animal in traffic accident, sequela
+V20.51XA                        Electric (assisted) bicycle passenger injured in collision with pedestrian or animal in traffic accident, initial encounter
+V20.51XD                        Electric (assisted) bicycle passenger injured in collision with pedestrian or animal in traffic accident, subsequent encounter
+V20.51XS                        Electric (assisted) bicycle passenger injured in collision with pedestrian or animal in traffic accident, sequela
+V20.59XA                        Other motorcycle passenger injured in collision with pedestrian or animal in traffic accident, initial encounter
+V20.59XD                        Other motorcycle passenger injured in collision with pedestrian or animal in traffic accident, subsequent encounter
+V20.59XS                        Other motorcycle passenger injured in collision with pedestrian or animal in traffic accident, sequela
+V20.91XA                        Unspecified electric (assisted) bicycle rider injured in collision with pedestrian or animal in traffic accident, initial encounter
+V20.91XD                        Unspecified electric (assisted) bicycle rider injured in collision with pedestrian or animal in traffic accident, subsequent encounter
+V20.91XS                        Unspecified electric (assisted) bicycle rider injured in collision with pedestrian or animal in traffic accident, sequela
+V20.99XA                        Unspecified rider of other motorcycle injured in collision with pedestrian or animal in traffic accident, initial encounter
+V20.99XD                        Unspecified rider of other motorcycle injured in collision with pedestrian or animal in traffic accident, subsequent encounter
+V20.99XS                        Unspecified rider of other motorcycle injured in collision with pedestrian or animal in traffic accident, sequela
+V21.01XA                        Electric (assisted) bicycle driver injured in collision with pedal cycle in nontraffic accident, initial encounter
+V21.01XD                        Electric (assisted) bicycle driver injured in collision with pedal cycle in nontraffic accident, subsequent encounter
+V21.01XS                        Electric (assisted) bicycle driver injured in collision with pedal cycle in nontraffic accident, sequela
+V21.09XA                        Other motorcycle driver injured in collision with pedal cycle in nontraffic accident, initial encounter
+V21.09XD                        Other motorcycle driver injured in collision with pedal cycle in nontraffic accident, subsequent encounter
+V21.09XS                        Other motorcycle driver injured in collision with pedal cycle in nontraffic accident, sequela
+V21.11XA                        Electric (assisted) bicycle passenger injured in collision with pedal cycle in nontraffic accident, initial encounter
+V21.11XD                        Electric (assisted) bicycle passenger injured in collision with pedal cycle in nontraffic accident, subsequent encounter
+V21.11XS                        Electric (assisted) bicycle passenger injured in collision with pedal cycle in nontraffic accident, sequela
+V21.19XA                        Other motorcycle passenger injured in collision with pedal cycle in nontraffic accident, initial encounter
+V21.19XD                        Other motorcycle passenger injured in collision with pedal cycle in nontraffic accident, subsequent encounter
+V21.19XS                        Other motorcycle passenger injured in collision with pedal cycle in nontraffic accident, sequela
+V21.21XA                        Unspecified electric (assisted) bicycle rider injured in collision with pedal cycle in nontraffic accident, initial encounter
+V21.21XD                        Unspecified electric (assisted) bicycle rider injured in collision with pedal cycle in nontraffic accident, subsequent encounter
+V21.21XS                        Unspecified electric (assisted) bicycle rider injured in collision with pedal cycle in nontraffic accident, sequela
+V21.29XA                        Unspecified rider of other motorcycle injured in collision with pedal cycle in nontraffic accident, initial encounter
+V21.29XD                        Unspecified rider of other motorcycle injured in collision with pedal cycle in nontraffic accident, subsequent encounter
+V21.29XS                        Unspecified rider of other motorcycle injured in collision with pedal cycle in nontraffic accident, sequela
+V21.31XA                        Person boarding or alighting an electric (assisted) bicycle injured in collision with pedal cycle, initial encounter
+V21.31XD                        Person boarding or alighting an electric (assisted) bicycle injured in collision with pedal cycle, subsequent encounter
+V21.31XS                        Person boarding or alighting an electric (assisted) bicycle injured in collision with pedal cycle, sequela
+V21.39XA                        Person boarding or alighting other motorcycle injured in collision with pedal cycle, initial encounter
+V21.39XD                        Person boarding or alighting other motorcycle injured in collision with pedal cycle, subsequent encounter
+V21.39XS                        Person boarding or alighting other motorcycle injured in collision with pedal cycle, sequela
+V21.41XA                        Electric (assisted) bicycle driver injured in collision with pedal cycle in traffic accident, initial encounter
+V21.41XD                        Electric (assisted) bicycle driver injured in collision with pedal cycle in traffic accident, subsequent encounter
+V21.41XS                        Electric (assisted) bicycle driver injured in collision with pedal cycle in traffic accident, sequela
+V21.49XA                        Other motorcycle driver injured in collision with pedal cycle in traffic accident, initial encounter
+V21.49XD                        Other motorcycle driver injured in collision with pedal cycle in traffic accident, subsequent encounter
+V21.49XS                        Other motorcycle driver injured in collision with pedal cycle in traffic accident, sequela
+V21.51XA                        Electric (assisted) bicycle passenger injured in collision with pedal cycle in traffic accident, initial encounter
+V21.51XD                        Electric (assisted) bicycle passenger injured in collision with pedal cycle in traffic accident, subsequent encounter
+V21.51XS                        Electric (assisted) bicycle passenger injured in collision with pedal cycle in traffic accident, sequela
+V21.59XA                        Other motorcycle passenger injured in collision with pedal cycle in traffic accident, initial encounter
+V21.59XD                        Other motorcycle passenger injured in collision with pedal cycle in traffic accident, subsequent encounter
+V21.59XS                        Other motorcycle passenger injured in collision with pedal cycle in traffic accident, sequela
+V21.91XA                        Unspecified electric (assisted) bicycle rider injured in collision with pedal cycle in traffic accident, initial encounter
+V21.91XD                        Unspecified electric (assisted) bicycle rider injured in collision with pedal cycle in traffic accident, subsequent encounter
+V21.91XS                        Unspecified electric (assisted) bicycle rider injured in collision with pedal cycle in traffic accident, sequela
+V21.99XA                        Unspecified rider of other motorcycle injured in collision with pedal cycle in traffic accident, initial encounter
+V21.99XD                        Unspecified rider of other motorcycle injured in collision with pedal cycle in traffic accident, subsequent encounter
+V21.99XS                        Unspecified rider of other motorcycle injured in collision with pedal cycle in traffic accident, sequela
+V22.01XA                        Electric (assisted) bicycle driver injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, initial encounter
+V22.01XD                        Electric (assisted) bicycle driver injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, subsequent encounter
+V22.01XS                        Electric (assisted) bicycle driver injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, sequela
+V22.09XA                        Other motorcycle driver injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, initial encounter
+V22.09XD                        Other motorcycle driver injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, subsequent encounter
+V22.09XS                        Other motorcycle driver injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, sequela
+V22.11XA                        Electric (assisted) bicycle passenger injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, initial encounter
+V22.11XD                        Electric (assisted) bicycle passenger injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, subsequent encounter
+V22.11XS                        Electric (assisted) bicycle passenger injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, sequela
+V22.19XA                        Other motorcycle passenger injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, initial encounter
+V22.19XD                        Other motorcycle passenger injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, subsequent encounter
+V22.19XS                        Other motorcycle passenger injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, sequela
+V22.21XA                        Unspecified electric (assisted) bicycle rider injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, initial encounter
+V22.21XD                        Unspecified electric (assisted) bicycle rider injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, subsequent encounter
+V22.21XS                        Unspecified electric (assisted) bicycle rider injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, sequela
+V22.29XA                        Unspecified rider of other motorcycle injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, initial encounter
+V22.29XD                        Unspecified rider of other motorcycle injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, subsequent encounter
+V22.29XS                        Unspecified rider of other motorcycle injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, sequela
+V22.31XA                        Person boarding or alighting an electric (assisted) bicycle injured in collision with two- or three-wheeled motor vehicle, initial encounter
+V22.31XD                        Person boarding or alighting an electric (assisted) bicycle injured in collision with two- or three-wheeled motor vehicle, subsequent encounter
+V22.31XS                        Person boarding or alighting an electric (assisted) bicycle injured in collision with two- or three-wheeled motor vehicle, sequela
+V22.39XA                        Person boarding or alighting other motorcycle injured in collision with two- or three-wheeled motor vehicle, initial encounter
+V22.39XD                        Person boarding or alighting other motorcycle injured in collision with two- or three-wheeled motor vehicle, subsequent encounter
+V22.39XS                        Person boarding or alighting other motorcycle injured in collision with two- or three-wheeled motor vehicle, sequela
+V22.41XA                        Electric (assisted) bicycle driver injured in collision with two- or three-wheeled motor vehicle in traffic accident, initial encounter
+V22.41XD                        Electric (assisted) bicycle driver injured in collision with two- or three-wheeled motor vehicle in traffic accident, subsequent encounter
+V22.41XS                        Electric (assisted) bicycle driver injured in collision with two- or three-wheeled motor vehicle in traffic accident, sequela
+V22.49XA                        Other motorcycle driver injured in collision with two- or three-wheeled motor vehicle in traffic accident, initial encounter
+V22.49XD                        Other motorcycle driver injured in collision with two- or three-wheeled motor vehicle in traffic accident, subsequent encounter
+V22.49XS                        Other motorcycle driver injured in collision with two- or three-wheeled motor vehicle in traffic accident, sequela
+V22.51XA                        Electric (assisted) bicycle passenger injured in collision with two- or three-wheeled motor vehicle in traffic accident, initial encounter
+V22.51XD                        Electric (assisted) bicycle passenger injured in collision with two- or three-wheeled motor vehicle in traffic accident, subsequent encounter
+V22.51XS                        Electric (assisted) bicycle passenger injured in collision with two- or three-wheeled motor vehicle in traffic accident, sequela
+V22.59XA                        Other motorcycle passenger injured in collision with two- or three-wheeled motor vehicle in traffic accident, initial encounter
+V22.59XD                        Other motorcycle passenger injured in collision with two- or three-wheeled motor vehicle in traffic accident, subsequent encounter
+V22.59XS                        Other motorcycle passenger injured in collision with two- or three-wheeled motor vehicle in traffic accident, sequela
+V22.91XA                        Unspecified electric (assisted) bicycle rider injured in collision with two- or three-wheeled motor vehicle in traffic accident, initial encounter
+V22.91XD                        Unspecified electric (assisted) bicycle rider injured in collision with two- or three-wheeled motor vehicle in traffic accident, subsequent encounter
+V22.91XS                        Unspecified electric (assisted) bicycle rider injured in collision with two- or three-wheeled motor vehicle in traffic accident, sequela
+V22.99XA                        Unspecified rider of other motorcycle injured in collision with two- or three-wheeled motor vehicle in traffic accident, initial encounter
+V22.99XD                        Unspecified rider of other motorcycle injured in collision with two- or three-wheeled motor vehicle in traffic accident, subsequent encounter
+V22.99XS                        Unspecified rider of other motorcycle injured in collision with two- or three-wheeled motor vehicle in traffic accident, sequela
+V23.01XA                        Electric (assisted) bicycle driver injured in collision with car, pick-up truck or van in nontraffic accident, initial encounter
+V23.01XD                        Electric (assisted) bicycle driver injured in collision with car, pick-up truck or van in nontraffic accident, subsequent encounter
+V23.01XS                        Electric (assisted) bicycle driver injured in collision with car, pick-up truck or van in nontraffic accident, sequela
+V23.09XA                        Other motorcycle driver injured in collision with car, pick-up truck or van in nontraffic accident, initial encounter
+V23.09XD                        Other motorcycle driver injured in collision with car, pick-up truck or van in nontraffic accident, subsequent encounter
+V23.09XS                        Other motorcycle driver injured in collision with car, pick-up truck or van in nontraffic accident, sequela
+V23.11XA                        Electric (assisted) bicycle passenger injured in collision with car, pick-up truck or van in nontraffic accident, initial encounter
+V23.11XD                        Electric (assisted) bicycle passenger injured in collision with car, pick-up truck or van in nontraffic accident, subsequent encounter
+V23.11XS                        Electric (assisted) bicycle passenger injured in collision with car, pick-up truck or van in nontraffic accident, sequela
+V23.19XA                        Other motorcycle passenger injured in collision with car, pick-up truck or van in nontraffic accident, initial encounter
+V23.19XD                        Other motorcycle passenger injured in collision with car, pick-up truck or van in nontraffic accident, subsequent encounter
+V23.19XS                        Other motorcycle passenger injured in collision with car, pick-up truck or van in nontraffic accident, sequela
+V23.21XA                        Unspecified electric (assisted) bicycle rider injured in collision with car, pick-up truck or van in nontraffic accident, initial encounter
+V23.21XD                        Unspecified electric (assisted) bicycle rider injured in collision with car, pick-up truck or van in nontraffic accident, subsequent encounter
+V23.21XS                        Unspecified electric (assisted) bicycle rider injured in collision with car, pick-up truck or van in nontraffic accident, sequela
+V23.29XA                        Unspecified rider of other motorcycle injured in collision with car, pick-up truck or van in nontraffic accident, initial encounter
+V23.29XD                        Unspecified rider of other motorcycle injured in collision with car, pick-up truck or van in nontraffic accident, subsequent encounter
+V23.29XS                        Unspecified rider of other motorcycle injured in collision with car, pick-up truck or van in nontraffic accident, sequela
+V23.31XA                        Person boarding or alighting an electric (assisted) bicycle injured in collision with car, pick-up truck or van, initial encounter
+V23.31XD                        Person boarding or alighting an electric (assisted) bicycle injured in collision with car, pick-up truck or van, subsequent encounter
+V23.31XS                        Person boarding or alighting an electric (assisted) bicycle injured in collision with car, pick-up truck or van, sequela
+V23.39XA                        Person boarding or alighting other motorcycle injured in collision with car, pick-up truck or van, initial encounter
+V23.39XD                        Person boarding or alighting other motorcycle injured in collision with car, pick-up truck or van, subsequent encounter
+V23.39XS                        Person boarding or alighting other motorcycle injured in collision with car, pick-up truck or van, sequela
+V23.41XA                        Electric (assisted) bicycle driver injured in collision with car, pick-up truck or van in traffic accident, initial encounter
+V23.41XD                        Electric (assisted) bicycle driver injured in collision with car, pick-up truck or van in traffic accident, subsequent encounter
+V23.41XS                        Electric (assisted) bicycle driver injured in collision with car, pick-up truck or van in traffic accident, sequela
+V23.49XA                        Other motorcycle driver injured in collision with car, pick-up truck or van in traffic accident, initial encounter
+V23.49XD                        Other motorcycle driver injured in collision with car, pick-up truck or van in traffic accident, subsequent encounter
+V23.49XS                        Other motorcycle driver injured in collision with car, pick-up truck or van in traffic accident, sequela
+V23.51XA                        Electric (assisted) bicycle passenger injured in collision with car, pick-up truck or van in traffic accident, initial encounter
+V23.51XD                        Electric (assisted) bicycle passenger injured in collision with car, pick-up truck or van in traffic accident, subsequent encounter
+V23.51XS                        Electric (assisted) bicycle passenger injured in collision with car, pick-up truck or van in traffic accident, sequela
+V23.59XA                        Other motorcycle passenger injured in collision with car, pick-up truck or van in traffic accident, initial encounter
+V23.59XD                        Other motorcycle passenger injured in collision with car, pick-up truck or van in traffic accident, subsequent encounter
+V23.59XS                        Other motorcycle passenger injured in collision with car, pick-up truck or van in traffic accident, sequela
+V23.91XA                        Unspecified electric (assisted) bicycle rider injured in collision with car, pick-up truck or van in traffic accident, initial encounter
+V23.91XD                        Unspecified electric (assisted) bicycle rider injured in collision with car, pick-up truck or van in traffic accident, subsequent encounter
+V23.91XS                        Unspecified electric (assisted) bicycle rider injured in collision with car, pick-up truck or van in traffic accident, sequela
+V23.99XA                        Unspecified rider of other motorcycle injured in collision with car, pick-up truck or van in traffic accident, initial encounter
+V23.99XD                        Unspecified rider of other motorcycle injured in collision with car, pick-up truck or van in traffic accident, subsequent encounter
+V23.99XS                        Unspecified rider of other motorcycle injured in collision with car, pick-up truck or van in traffic accident, sequela
+V24.01XA                        Electric (assisted) bicycle driver injured in collision with heavy transport vehicle or bus in nontraffic accident, initial encounter
+V24.01XD                        Electric (assisted) bicycle driver injured in collision with heavy transport vehicle or bus in nontraffic accident, subsequent encounter
+V24.01XS                        Electric (assisted) bicycle driver injured in collision with heavy transport vehicle or bus in nontraffic accident, sequela
+V24.09XA                        Other motorcycle driver injured in collision with heavy transport vehicle or bus in nontraffic accident, initial encounter
+V24.09XD                        Other motorcycle driver injured in collision with heavy transport vehicle or bus in nontraffic accident, subsequent encounter
+V24.09XS                        Other motorcycle driver injured in collision with heavy transport vehicle or bus in nontraffic accident, sequela
+V24.11XA                        Electric (assisted) bicycle passenger injured in collision with heavy transport vehicle or bus in nontraffic accident, initial encounter
+V24.11XD                        Electric (assisted) bicycle passenger injured in collision with heavy transport vehicle or bus in nontraffic accident, subsequent encounter
+V24.11XS                        Electric (assisted) bicycle passenger injured in collision with heavy transport vehicle or bus in nontraffic accident, sequela
+V24.19XA                        Other motorcycle passenger injured in collision with heavy transport vehicle or bus in nontraffic accident, initial encounter
+V24.19XD                        Other motorcycle passenger injured in collision with heavy transport vehicle or bus in nontraffic accident, subsequent encounter
+V24.19XS                        Other motorcycle passenger injured in collision with heavy transport vehicle or bus in nontraffic accident, sequela
+V24.21XA                        Unspecified electric (assisted) bicycle rider injured in collision with heavy transport vehicle or bus in nontraffic accident, initial encounter
+V24.21XD                        Unspecified electric (assisted) bicycle rider injured in collision with heavy transport vehicle or bus in nontraffic accident, subsequent encounter
+V24.21XS                        Unspecified electric (assisted) bicycle rider injured in collision with heavy transport vehicle or bus in nontraffic accident, sequela
+V24.29XA                        Unspecified rider of other motorcycle injured in collision with heavy transport vehicle or bus in nontraffic accident, initial encounter
+V24.29XD                        Unspecified rider of other motorcycle injured in collision with heavy transport vehicle or bus in nontraffic accident, subsequent encounter
+V24.29XS                        Unspecified rider of other motorcycle injured in collision with heavy transport vehicle or bus in nontraffic accident, sequela
+V24.31XA                        Person boarding or alighting an electric (assisted) bicycle injured in collision with heavy transport vehicle or bus, initial encounter
+V24.31XD                        Person boarding or alighting an electric (assisted) bicycle injured in collision with heavy transport vehicle or bus, subsequent encounter
+V24.31XS                        Person boarding or alighting an electric (assisted) bicycle injured in collision with heavy transport vehicle or bus, sequela
+V24.39XA                        Person boarding or alighting other motorcycle injured in collision with heavy transport vehicle or bus, initial encounter
+V24.39XD                        Person boarding or alighting other motorcycle injured in collision with heavy transport vehicle or bus, subsequent encounter
+V24.39XS                        Person boarding or alighting other motorcycle injured in collision with heavy transport vehicle or bus, sequela
+V24.41XA                        Electric (assisted) bicycle driver injured in collision with heavy transport vehicle or bus in traffic accident, initial encounter
+V24.41XD                        Electric (assisted) bicycle driver injured in collision with heavy transport vehicle or bus in traffic accident, subsequent encounter
+V24.41XS                        Electric (assisted) bicycle driver injured in collision with heavy transport vehicle or bus in traffic accident, sequela
+V24.49XA                        Other motorcycle driver injured in collision with heavy transport vehicle or bus in traffic accident, initial encounter
+V24.49XD                        Other motorcycle driver injured in collision with heavy transport vehicle or bus in traffic accident, subsequent encounter
+V24.49XS                        Other motorcycle driver injured in collision with heavy transport vehicle or bus in traffic accident, sequela
+V24.51XA                        Electric (assisted) bicycle passenger injured in collision with heavy transport vehicle or bus in traffic accident, initial encounter
+V24.51XD                        Electric (assisted) bicycle passenger injured in collision with heavy transport vehicle or bus in traffic accident, subsequent encounter
+V24.51XS                        Electric (assisted) bicycle passenger injured in collision with heavy transport vehicle or bus in traffic accident, sequela
+V24.59XA                        Other motorcycle passenger injured in collision with heavy transport vehicle or bus in traffic accident, initial encounter
+V24.59XD                        Other motorcycle passenger injured in collision with heavy transport vehicle or bus in traffic accident, subsequent encounter
+V24.59XS                        Other motorcycle passenger injured in collision with heavy transport vehicle or bus in traffic accident, sequela
+V24.91XA                        Unspecified electric (assisted) bicycle rider injured in collision with heavy transport vehicle or bus in traffic accident, initial encounter
+V24.91XD                        Unspecified electric (assisted) bicycle rider injured in collision with heavy transport vehicle or bus in traffic accident, subsequent encounter
+V24.91XS                        Unspecified electric (assisted) bicycle rider injured in collision with heavy transport vehicle or bus in traffic accident, sequela
+V24.99XA                        Unspecified rider of other motorcycle injured in collision with heavy transport vehicle or bus in traffic accident, initial encounter
+V24.99XD                        Unspecified rider of other motorcycle injured in collision with heavy transport vehicle or bus in traffic accident, subsequent encounter
+V24.99XS                        Unspecified rider of other motorcycle injured in collision with heavy transport vehicle or bus in traffic accident, sequela
+V25.01XA                        Electric (assisted) bicycle driver injured in collision with railway train or railway vehicle in nontraffic accident, initial encounter
+V25.01XD                        Electric (assisted) bicycle driver injured in collision with railway train or railway vehicle in nontraffic accident, subsequent encounter
+V25.01XS                        Electric (assisted) bicycle driver injured in collision with railway train or railway vehicle in nontraffic accident, sequela
+V25.09XA                        Other motorcycle driver injured in collision with railway train or railway vehicle in nontraffic accident, initial encounter
+V25.09XD                        Other motorcycle driver injured in collision with railway train or railway vehicle in nontraffic accident, subsequent encounter
+V25.09XS                        Other motorcycle driver injured in collision with railway train or railway vehicle in nontraffic accident, sequela
+V25.11XA                        Electric (assisted) bicycle passenger injured in collision with railway train or railway vehicle in nontraffic accident, initial encounter
+V25.11XD                        Electric (assisted) bicycle passenger injured in collision with railway train or railway vehicle in nontraffic accident, subsequent encounter
+V25.11XS                        Electric (assisted) bicycle passenger injured in collision with railway train or railway vehicle in nontraffic accident, sequela
+V25.19XA                        Other motorcycle passenger injured in collision with railway train or railway vehicle in nontraffic accident, initial encounter
+V25.19XD                        Other motorcycle passenger injured in collision with railway train or railway vehicle in nontraffic accident, subsequent encounter
+V25.19XS                        Other motorcycle passenger injured in collision with railway train or railway vehicle in nontraffic accident, sequela
+V25.21XA                        Unspecified electric (assisted) bicycle rider injured in collision with railway train or railway vehicle in nontraffic accident, initial encounter
+V25.21XD                        Unspecified electric (assisted) bicycle rider injured in collision with railway train or railway vehicle in nontraffic accident, subsequent encounter
+V25.21XS                        Unspecified electric (assisted) bicycle rider injured in collision with railway train or railway vehicle in nontraffic accident, sequela
+V25.29XA                        Unspecified rider of other motorcycle injured in collision with railway train or railway vehicle in nontraffic accident, initial encounter
+V25.29XD                        Unspecified rider of other motorcycle injured in collision with railway train or railway vehicle in nontraffic accident, subsequent encounter
+V25.29XS                        Unspecified rider of other motorcycle injured in collision with railway train or railway vehicle in nontraffic accident, sequela
+V25.31XA                        Person boarding or alighting an electric (assisted) bicycle injured in collision with railway train or railway vehicle, initial encounter
+V25.31XD                        Person boarding or alighting an electric (assisted) bicycle injured in collision with railway train or railway vehicle, subsequent encounter
+V25.31XS                        Person boarding or alighting an electric (assisted) bicycle injured in collision with railway train or railway vehicle, sequela
+V25.39XA                        Person boarding or alighting other motorcycle injured in collision with railway train or railway vehicle, initial encounter
+V25.39XD                        Person boarding or alighting other motorcycle injured in collision with railway train or railway vehicle, subsequent encounter
+V25.39XS                        Person boarding or alighting other motorcycle injured in collision with railway train or railway vehicle, sequela
+V25.41XA                        Electric (assisted) bicycle driver injured in collision with railway train or railway vehicle in traffic accident, initial encounter
+V25.41XD                        Electric (assisted) bicycle driver injured in collision with railway train or railway vehicle in traffic accident, subsequent encounter
+V25.41XS                        Electric (assisted) bicycle driver injured in collision with railway train or railway vehicle in traffic accident, sequela
+V25.49XA                        Other motorcycle driver injured in collision with railway train or railway vehicle in traffic accident, initial encounter
+V25.49XD                        Other motorcycle driver injured in collision with railway train or railway vehicle in traffic accident, subsequent encounter
+V25.49XS                        Other motorcycle driver injured in collision with railway train or railway vehicle in traffic accident, sequela
+V25.51XA                        Electric (assisted) bicycle passenger injured in collision with railway train or railway vehicle in traffic accident, initial encounter
+V25.51XD                        Electric (assisted) bicycle passenger injured in collision with railway train or railway vehicle in traffic accident, subsequent encounter
+V25.51XS                        Electric (assisted) bicycle passenger injured in collision with railway train or railway vehicle in traffic accident, sequela
+V25.59XA                        Other motorcycle passenger injured in collision with railway train or railway vehicle in traffic accident, initial encounter
+V25.59XD                        Other motorcycle passenger injured in collision with railway train or railway vehicle in traffic accident, subsequent encounter
+V25.59XS                        Other motorcycle passenger injured in collision with railway train or railway vehicle in traffic accident, sequela
+V25.91XA                        Unspecified electric (assisted) bicycle rider injured in collision with railway train or railway vehicle in traffic accident, initial encounter
+V25.91XD                        Unspecified electric (assisted) bicycle rider injured in collision with railway train or railway vehicle in traffic accident, subsequent encounter
+V25.91XS                        Unspecified electric (assisted) bicycle rider injured in collision with railway train or railway vehicle in traffic accident, sequela
+V25.99XA                        Unspecified rider of other motorcycle injured in collision with railway train or railway vehicle in traffic accident, initial encounter
+V25.99XD                        Unspecified rider of other motorcycle injured in collision with railway train or railway vehicle in traffic accident, subsequent encounter
+V25.99XS                        Unspecified rider of other motorcycle injured in collision with railway train or railway vehicle in traffic accident, sequela
+V26.01XA                        Electric (assisted) bicycle driver injured in collision with other nonmotor vehicle in nontraffic accident, initial encounter
+V26.01XD                        Electric (assisted) bicycle driver injured in collision with other nonmotor vehicle in nontraffic accident, subsequent encounter
+V26.01XS                        Electric (assisted) bicycle driver injured in collision with other nonmotor vehicle in nontraffic accident, sequela
+V26.09XA                        Other motorcycle driver injured in collision with other nonmotor vehicle in nontraffic accident, initial encounter
+V26.09XD                        Other motorcycle driver injured in collision with other nonmotor vehicle in nontraffic accident, subsequent encounter
+V26.09XS                        Other motorcycle driver injured in collision with other nonmotor vehicle in nontraffic accident, sequela
+V26.11XA                        Electric (assisted) bicycle passenger injured in collision with other nonmotor vehicle in nontraffic accident, initial encounter
+V26.11XD                        Electric (assisted) bicycle passenger injured in collision with other nonmotor vehicle in nontraffic accident, subsequent encounter
+V26.11XS                        Electric (assisted) bicycle passenger injured in collision with other nonmotor vehicle in nontraffic accident, sequela
+V26.19XA                        Other motorcycle passenger injured in collision with other nonmotor vehicle in nontraffic accident, initial encounter
+V26.19XD                        Other motorcycle passenger injured in collision with other nonmotor vehicle in nontraffic accident, subsequent encounter
+V26.19XS                        Other motorcycle passenger injured in collision with other nonmotor vehicle in nontraffic accident, sequela
+V26.21XA                        Unspecified electric (assisted) bicycle rider injured in collision with other nonmotor vehicle in nontraffic accident, initial encounter
+V26.21XD                        Unspecified electric (assisted) bicycle rider injured in collision with other nonmotor vehicle in nontraffic accident, subsequent encounter
+V26.21XS                        Unspecified electric (assisted) bicycle rider injured in collision with other nonmotor vehicle in nontraffic accident, sequela
+V26.29XA                        Unspecified rider of other motorcycle injured in collision with other nonmotor vehicle in nontraffic accident, initial encounter
+V26.29XD                        Unspecified rider of other motorcycle injured in collision with other nonmotor vehicle in nontraffic accident, subsequent encounter
+V26.29XS                        Unspecified rider of other motorcycle injured in collision with other nonmotor vehicle in nontraffic accident, sequela
+V26.31XA                        Person boarding or alighting an electric (assisted) bicycle injured in collision with other nonmotor vehicle, initial encounter
+V26.31XD                        Person boarding or alighting an electric (assisted) bicycle injured in collision with other nonmotor vehicle, subsequent encounter
+V26.31XS                        Person boarding or alighting an electric (assisted) bicycle injured in collision with other nonmotor vehicle, sequela
+V26.39XA                        Person boarding or alighting other motorcycle injured in collision with other nonmotor vehicle, initial encounter
+V26.39XD                        Person boarding or alighting other motorcycle injured in collision with other nonmotor vehicle, subsequent encounter
+V26.39XS                        Person boarding or alighting other motorcycle injured in collision with other nonmotor vehicle, sequela
+V26.41XA                        Electric (assisted) bicycle driver injured in collision with other nonmotor vehicle in traffic accident, initial encounter
+V26.41XD                        Electric (assisted) bicycle driver injured in collision with other nonmotor vehicle in traffic accident, subsequent encounter
+V26.41XS                        Electric (assisted) bicycle driver injured in collision with other nonmotor vehicle in traffic accident, sequela
+V26.49XA                        Other motorcycle driver injured in collision with other nonmotor vehicle in traffic accident, initial encounter
+V26.49XD                        Other motorcycle driver injured in collision with other nonmotor vehicle in traffic accident, subsequent encounter
+V26.49XS                        Other motorcycle driver injured in collision with other nonmotor vehicle in traffic accident, sequela
+V26.51XA                        Electric (assisted) bicycle passenger injured in collision with other nonmotor vehicle in traffic accident, initial encounter
+V26.51XD                        Electric (assisted) bicycle passenger injured in collision with other nonmotor vehicle in traffic accident, subsequent encounter
+V26.51XS                        Electric (assisted) bicycle passenger injured in collision with other nonmotor vehicle in traffic accident, sequela
+V26.59XA                        Other motorcycle passenger injured in collision with other nonmotor vehicle in traffic accident, initial encounter
+V26.59XD                        Other motorcycle passenger injured in collision with other nonmotor vehicle in traffic accident, subsequent encounter
+V26.59XS                        Other motorcycle passenger injured in collision with other nonmotor vehicle in traffic accident, sequela
+V26.91XA                        Unspecified electric (assisted) bicycle rider injured in collision with other nonmotor vehicle in traffic accident, initial encounter
+V26.91XD                        Unspecified electric (assisted) bicycle rider injured in collision with other nonmotor vehicle in traffic accident, subsequent encounter
+V26.91XS                        Unspecified electric (assisted) bicycle rider injured in collision with other nonmotor vehicle in traffic accident, sequela
+V26.99XA                        Unspecified rider of other motorcycle injured in collision with other nonmotor vehicle in traffic accident, initial encounter
+V26.99XD                        Unspecified rider of other motorcycle injured in collision with other nonmotor vehicle in traffic accident, subsequent encounter
+V26.99XS                        Unspecified rider of other motorcycle injured in collision with other nonmotor vehicle in traffic accident, sequela
+V27.01XA                        Electric (assisted) bicycle driver injured in collision with fixed or stationary object in nontraffic accident, initial encounter
+V27.01XD                        Electric (assisted) bicycle driver injured in collision with fixed or stationary object in nontraffic accident, subsequent encounter
+V27.01XS                        Electric (assisted) bicycle driver injured in collision with fixed or stationary object in nontraffic accident, sequela
+V27.09XA                        Other motorcycle driver injured in collision with fixed or stationary object in nontraffic accident, initial encounter
+V27.09XD                        Other motorcycle driver injured in collision with fixed or stationary object in nontraffic accident, subsequent encounter
+V27.09XS                        Other motorcycle driver injured in collision with fixed or stationary object in nontraffic accident, sequela
+V27.11XA                        Electric (assisted) bicycle passenger injured in collision with fixed or stationary object in nontraffic accident, initial encounter
+V27.11XD                        Electric (assisted) bicycle passenger injured in collision with fixed or stationary object in nontraffic accident, subsequent encounter
+V27.11XS                        Electric (assisted) bicycle passenger injured in collision with fixed or stationary object in nontraffic accident, sequela
+V27.19XA                        Other motorcycle passenger injured in collision with fixed or stationary object in nontraffic accident, initial encounter
+V27.19XD                        Other motorcycle passenger injured in collision with fixed or stationary object in nontraffic accident, subsequent encounter
+V27.19XS                        Other motorcycle passenger injured in collision with fixed or stationary object in nontraffic accident, sequela
+V27.21XA                        Unspecified electric (assisted) bicycle rider injured in collision with fixed or stationary object in nontraffic accident, initial encounter
+V27.21XD                        Unspecified electric (assisted) bicycle rider injured in collision with fixed or stationary object in nontraffic accident, subsequent encounter
+V27.21XS                        Unspecified electric (assisted) bicycle rider injured in collision with fixed or stationary object in nontraffic accident, sequela
+V27.29XA                        Unspecified rider of other motorcycle injured in collision with fixed or stationary object in nontraffic accident, initial encounter
+V27.29XD                        Unspecified rider of other motorcycle injured in collision with fixed or stationary object in nontraffic accident, subsequent encounter
+V27.29XS                        Unspecified rider of other motorcycle injured in collision with fixed or stationary object in nontraffic accident, sequela
+V27.31XA                        Person boarding or alighting an electric (assisted) bicycle injured in collision with fixed or stationary object, initial encounter
+V27.31XD                        Person boarding or alighting an electric (assisted) bicycle injured in collision with fixed or stationary object, subsequent encounter
+V27.31XS                        Person boarding or alighting an electric (assisted) bicycle injured in collision with fixed or stationary object, sequela
+V27.39XA                        Person boarding or alighting other motorcycle injured in collision with fixed or stationary object, initial encounter
+V27.39XD                        Person boarding or alighting other motorcycle injured in collision with fixed or stationary object, subsequent encounter
+V27.39XS                        Person boarding or alighting other motorcycle injured in collision with fixed or stationary object, sequela
+V27.41XA                        Electric (assisted) bicycle driver injured in collision with fixed or stationary object in traffic accident, initial encounter
+V27.41XD                        Electric (assisted) bicycle driver injured in collision with fixed or stationary object in traffic accident, subsequent encounter
+V27.41XS                        Electric (assisted) bicycle driver injured in collision with fixed or stationary object in traffic accident, sequela
+V27.49XA                        Other motorcycle driver injured in collision with fixed or stationary object in traffic accident, initial encounter
+V27.49XD                        Other motorcycle driver injured in collision with fixed or stationary object in traffic accident, subsequent encounter
+V27.49XS                        Other motorcycle driver injured in collision with fixed or stationary object in traffic accident, sequela
+V27.51XA                        Electric (assisted) bicycle passenger injured in collision with fixed or stationary object in traffic accident, initial encounter
+V27.51XD                        Electric (assisted) bicycle passenger injured in collision with fixed or stationary object in traffic accident, subsequent encounter
+V27.51XS                        Electric (assisted) bicycle passenger injured in collision with fixed or stationary object in traffic accident, sequela
+V27.59XA                        Other motorcycle passenger injured in collision with fixed or stationary object in traffic accident, initial encounter
+V27.59XD                        Other motorcycle passenger injured in collision with fixed or stationary object in traffic accident, subsequent encounter
+V27.59XS                        Other motorcycle passenger injured in collision with fixed or stationary object in traffic accident, sequela
+V27.91XA                        Unspecified electric (assisted) bicycle rider injured in collision with fixed or stationary object in traffic accident, initial encounter
+V27.91XD                        Unspecified electric (assisted) bicycle rider injured in collision with fixed or stationary object in traffic accident, subsequent encounter
+V27.91XS                        Unspecified electric (assisted) bicycle rider injured in collision with fixed or stationary object in traffic accident, sequela
+V27.99XA                        Unspecified rider of other motorcycle injured in collision with fixed or stationary object in traffic accident, initial encounter
+V27.99XD                        Unspecified rider of other motorcycle injured in collision with fixed or stationary object in traffic accident, subsequent encounter
+V27.99XS                        Unspecified rider of other motorcycle injured in collision with fixed or stationary object in traffic accident, sequela
+V28.01XA                        Electric (assisted) bicycle driver injured in noncollision transport accident in nontraffic accident, initial encounter
+V28.01XD                        Electric (assisted) bicycle driver injured in noncollision transport accident in nontraffic accident, subsequent encounter
+V28.01XS                        Electric (assisted) bicycle driver injured in noncollision transport accident in nontraffic accident, sequela
+V28.09XA                        Other motorcycle driver injured in noncollision transport accident in nontraffic accident, initial encounter
+V28.09XD                        Other motorcycle driver injured in noncollision transport accident in nontraffic accident, subsequent encounter
+V28.09XS                        Other motorcycle driver injured in noncollision transport accident in nontraffic accident, sequela
+V28.11XA                        Electric (assisted) bicycle passenger injured in noncollision transport accident in nontraffic accident, initial encounter
+V28.11XD                        Electric (assisted) bicycle passenger injured in noncollision transport accident in nontraffic accident, subsequent encounter
+V28.11XS                        Electric (assisted) bicycle passenger injured in noncollision transport accident in nontraffic accident, sequela
+V28.19XA                        Other motorcycle passenger injured in noncollision transport accident in nontraffic accident, initial encounter
+V28.19XD                        Other motorcycle passenger injured in noncollision transport accident in nontraffic accident, subsequent encounter
+V28.19XS                        Other motorcycle passenger injured in noncollision transport accident in nontraffic accident, sequela
+V28.21XA                        Unspecified electric (assisted) bicycle rider injured in noncollision transport accident in nontraffic accident, initial encounter
+V28.21XD                        Unspecified electric (assisted) bicycle rider injured in noncollision transport accident in nontraffic accident, subsequent encounter
+V28.21XS                        Unspecified electric (assisted) bicycle rider injured in noncollision transport accident in nontraffic accident, sequela
+V28.29XA                        Unspecified rider of other motorcycle injured in noncollision transport accident in nontraffic accident, initial encounter
+V28.29XD                        Unspecified rider of other motorcycle injured in noncollision transport accident in nontraffic accident, subsequent encounter
+V28.29XS                        Unspecified rider of other motorcycle injured in noncollision transport accident in nontraffic accident, sequela
+V28.31XA                        Person boarding or alighting an electric (assisted) bicycle injured in noncollision transport accident, initial encounter
+V28.31XD                        Person boarding or alighting an electric (assisted) bicycle injured in noncollision transport accident, subsequent encounter
+V28.31XS                        Person boarding or alighting an electric (assisted) bicycle injured in noncollision transport accident, sequela
+V28.39XA                        Person boarding or alighting other motorcycle injured in noncollision transport accident, initial encounter
+V28.39XD                        Person boarding or alighting other motorcycle injured in noncollision transport accident, subsequent encounter
+V28.39XS                        Person boarding or alighting other motorcycle injured in noncollision transport accident, sequela
+V28.41XA                        Electric (assisted) bicycle driver injured in noncollision transport accident in traffic accident, initial encounter
+V28.41XD                        Electric (assisted) bicycle driver injured in noncollision transport accident in traffic accident, subsequent encounter
+V28.41XS                        Electric (assisted) bicycle driver injured in noncollision transport accident in traffic accident, sequela
+V28.49XA                        Other motorcycle driver injured in noncollision transport accident in traffic accident, initial encounter
+V28.49XD                        Other motorcycle driver injured in noncollision transport accident in traffic accident, subsequent encounter
+V28.49XS                        Other motorcycle driver injured in noncollision transport accident in traffic accident, sequela
+V28.51XA                        Electric (assisted) bicycle passenger injured in noncollision transport accident in traffic accident, initial encounter
+V28.51XD                        Electric (assisted) bicycle passenger injured in noncollision transport accident in traffic accident, subsequent encounter
+V28.51XS                        Electric (assisted) bicycle passenger injured in noncollision transport accident in traffic accident, sequela
+V28.59XA                        Other motorcycle passenger injured in noncollision transport accident in traffic accident, initial encounter
+V28.59XD                        Other motorcycle passenger injured in noncollision transport accident in traffic accident, subsequent encounter
+V28.59XS                        Other motorcycle passenger injured in noncollision transport accident in traffic accident, sequela
+V28.91XA                        Unspecified electric (assisted) bicycle rider injured in noncollision transport accident in traffic accident, initial encounter
+V28.91XD                        Unspecified electric (assisted) bicycle rider injured in noncollision transport accident in traffic accident, subsequent encounter
+V28.91XS                        Unspecified electric (assisted) bicycle rider injured in noncollision transport accident in traffic accident, sequela
+V28.99XA                        Unspecified rider of other motorcycle injured in noncollision transport accident in traffic accident, initial encounter
+V28.99XD                        Unspecified rider of other motorcycle injured in noncollision transport accident in traffic accident, subsequent encounter
+V28.99XS                        Unspecified rider of other motorcycle injured in noncollision transport accident in traffic accident, sequela
+V29.001A                        Electric (assisted) bicycle driver injured in collision with unspecified motor vehicles in nontraffic accident, initial encounter
+V29.001D                        Electric (assisted) bicycle driver injured in collision with unspecified motor vehicles in nontraffic accident, subsequent encounter
+V29.001S                        Electric (assisted) bicycle driver injured in collision with unspecified motor vehicles in nontraffic accident, sequela
+V29.008A                        Other motorcycle driver injured in collision with unspecified motor vehicles in nontraffic accident, initial encounter
+V29.008D                        Other motorcycle driver injured in collision with unspecified motor vehicles in nontraffic accident, subsequent encounter
+V29.008S                        Other motorcycle driver injured in collision with unspecified motor vehicles in nontraffic accident, sequela
+V29.091A                        Electric (assisted) bicycle driver injured in collision with other motor vehicles in nontraffic accident, initial encounter
+V29.091D                        Electric (assisted) bicycle driver injured in collision with other motor vehicles in nontraffic accident, subsequent encounter
+V29.091S                        Electric (assisted) bicycle driver injured in collision with other motor vehicles in nontraffic accident, sequela
+V29.098A                        Other motorcycle driver injured in collision with other motor vehicles in nontraffic accident, initial encounter
+V29.098D                        Other motorcycle driver injured in collision with other motor vehicles in nontraffic accident, subsequent encounter
+V29.098S                        Other motorcycle driver injured in collision with other motor vehicles in nontraffic accident, sequela
+V29.101A                        Electric (assisted) bicycle passenger injured in collision with unspecified motor vehicles in nontraffic accident, initial encounter
+V29.101D                        Electric (assisted) bicycle passenger injured in collision with unspecified motor vehicles in nontraffic accident, subsequent encounter
+V29.101S                        Electric (assisted) bicycle passenger injured in collision with unspecified motor vehicles in nontraffic accident, sequela
+V29.108A                        Other motorcycle passenger injured in collision with unspecified motor vehicles in nontraffic accident, initial encounter
+V29.108D                        Other motorcycle passenger injured in collision with unspecified motor vehicles in nontraffic accident, subsequent encounter
+V29.108S                        Other motorcycle passenger injured in collision with unspecified motor vehicles in nontraffic accident, sequela
+V29.191A                        Electric (assisted) bicycle passenger injured in collision with other motor vehicles in nontraffic accident, initial encounter
+V29.191D                        Electric (assisted) bicycle passenger injured in collision with other motor vehicles in nontraffic accident, subsequent encounter
+V29.191S                        Electric (assisted) bicycle passenger injured in collision with other motor vehicles in nontraffic accident, sequela
+V29.198A                        Other motorcycle passenger injured in collision with other motor vehicles in nontraffic accident, initial encounter
+V29.198D                        Other motorcycle passenger injured in collision with other motor vehicles in nontraffic accident, subsequent encounter
+V29.198S                        Other motorcycle passenger injured in collision with other motor vehicles in nontraffic accident, sequela
+V29.201A                        Unspecified electric (assisted) bicycle rider injured in collision with unspecified motor vehicles in nontraffic accident, initial encounter
+V29.201D                        Unspecified electric (assisted) bicycle rider injured in collision with unspecified motor vehicles in nontraffic accident, subsequent encounter
+V29.201S                        Unspecified electric (assisted) bicycle rider injured in collision with unspecified motor vehicles in nontraffic accident, sequela
+V29.208A                        Unspecified rider of other motorcycle injured in collision with unspecified motor vehicles in nontraffic accident, initial encounter
+V29.208D                        Unspecified rider of other motorcycle injured in collision with unspecified motor vehicles in nontraffic accident, subsequent encounter
+V29.208S                        Unspecified rider of other motorcycle injured in collision with unspecified motor vehicles in nontraffic accident, sequela
+V29.291A                        Unspecified electric (assisted) bicycle rider injured in collision with other motor vehicles in nontraffic accident, initial encounter
+V29.291D                        Unspecified electric (assisted) bicycle rider injured in collision with other motor vehicles in nontraffic accident, subsequent encounter
+V29.291S                        Unspecified electric (assisted) bicycle rider injured in collision with other motor vehicles in nontraffic accident, sequela
+V29.298A                        Unspecified rider of other motorcycle injured in collision with other motor vehicles in nontraffic accident, initial encounter
+V29.298D                        Unspecified rider of other motorcycle injured in collision with other motor vehicles in nontraffic accident, subsequent encounter
+V29.298S                        Unspecified rider of other motorcycle injured in collision with other motor vehicles in nontraffic accident, sequela
+V29.31XA                        Electric (assisted) bicycle (driver) (passenger) injured in unspecified nontraffic accident, initial encounter
+V29.31XD                        Electric (assisted) bicycle (driver) (passenger) injured in unspecified nontraffic accident, subsequent encounter
+V29.31XS                        Electric (assisted) bicycle (driver) (passenger) injured in unspecified nontraffic accident, sequela
+V29.39XA                        Other motorcycle (driver) (passenger) injured in unspecified nontraffic accident, initial encounter
+V29.39XD                        Other motorcycle (driver) (passenger) injured in unspecified nontraffic accident, subsequent encounter
+V29.39XS                        Other motorcycle (driver) (passenger) injured in unspecified nontraffic accident, sequela
+V29.401A                        Electric (assisted) bicycle driver injured in collision with unspecified motor vehicles in traffic accident, initial encounter
+V29.401D                        Electric (assisted) bicycle driver injured in collision with unspecified motor vehicles in traffic accident, subsequent encounter
+V29.401S                        Electric (assisted) bicycle driver injured in collision with unspecified motor vehicles in traffic accident, sequela
+V29.408A                        Other motorcycle driver injured in collision with unspecified motor vehicles in traffic accident, initial encounter
+V29.408D                        Other motorcycle driver injured in collision with unspecified motor vehicles in traffic accident, subsequent encounter
+V29.408S                        Other motorcycle driver injured in collision with unspecified motor vehicles in traffic accident, sequela
+V29.491A                        Electric (assisted) bicycle driver injured in collision with other motor vehicles in traffic accident, initial encounter
+V29.491D                        Electric (assisted) bicycle driver injured in collision with other motor vehicles in traffic accident, subsequent encounter
+V29.491S                        Electric (assisted) bicycle driver injured in collision with other motor vehicles in traffic accident, sequela
+V29.498A                        Other motorcycle driver injured in collision with other motor vehicles in traffic accident, initial encounter
+V29.498D                        Other motorcycle driver injured in collision with other motor vehicles in traffic accident, subsequent encounter
+V29.498S                        Other motorcycle driver injured in collision with other motor vehicles in traffic accident, sequela
+V29.501A                        Electric (assisted) bicycle passenger injured in collision with unspecified motor vehicles in traffic accident, initial encounter
+V29.501D                        Electric (assisted) bicycle passenger injured in collision with unspecified motor vehicles in traffic accident, subsequent encounter
+V29.501S                        Electric (assisted) bicycle passenger injured in collision with unspecified motor vehicles in traffic accident, sequela
+V29.508A                        Other motorcycle passenger injured in collision with unspecified motor vehicles in traffic accident, initial encounter
+V29.508D                        Other motorcycle passenger injured in collision with unspecified motor vehicles in traffic accident, subsequent encounter
+V29.508S                        Other motorcycle passenger injured in collision with unspecified motor vehicles in traffic accident, sequela
+V29.591A                        Electric (assisted) bicycle passenger injured in collision with other motor vehicles in traffic accident, initial encounter
+V29.591D                        Electric (assisted) bicycle passenger injured in collision with other motor vehicles in traffic accident, subsequent encounter
+V29.591S                        Electric (assisted) bicycle passenger injured in collision with other motor vehicles in traffic accident, sequela
+V29.598A                        Other motorcycle passenger injured in collision with other motor vehicles in traffic accident, initial encounter
+V29.598D                        Other motorcycle passenger injured in collision with other motor vehicles in traffic accident, subsequent encounter
+V29.598S                        Other motorcycle passenger injured in collision with other motor vehicles in traffic accident, sequela
+V29.601A                        Unspecified electric (assisted) bicycle rider injured in collision with unspecified motor vehicles in traffic accident, initial encounter
+V29.601D                        Unspecified electric (assisted) bicycle rider injured in collision with unspecified motor vehicles in traffic accident, subsequent encounter
+V29.601S                        Unspecified electric (assisted) bicycle rider injured in collision with unspecified motor vehicles in traffic accident, sequela
+V29.608A                        Unspecified rider of other motorcycle injured in collision with unspecified motor vehicles in traffic accident, initial encounter
+V29.608D                        Unspecified rider of other motorcycle injured in collision with unspecified motor vehicles in traffic accident, subsequent encounter
+V29.608S                        Unspecified rider of other motorcycle injured in collision with unspecified motor vehicles in traffic accident, sequela
+V29.691A                        Unspecified electric (assisted) bicycle rider injured in collision with other motor vehicles in traffic accident, initial encounter
+V29.691D                        Unspecified electric (assisted) bicycle rider injured in collision with other motor vehicles in traffic accident, subsequent encounter
+V29.691S                        Unspecified electric (assisted) bicycle rider injured in collision with other motor vehicles in traffic accident, sequela
+V29.698A                        Unspecified rider of other motorcycle injured in collision with other motor vehicles in traffic accident, initial encounter
+V29.698D                        Unspecified rider of other motorcycle injured in collision with other motor vehicles in traffic accident, subsequent encounter
+V29.698S                        Unspecified rider of other motorcycle injured in collision with other motor vehicles in traffic accident, sequela
+V29.811A                        Electric (assisted) bicycle rider (driver) (passenger) injured in transport accident with military vehicle, initial encounter
+V29.811D                        Electric (assisted) bicycle rider (driver) (passenger) injured in transport accident with military vehicle, subsequent encounter
+V29.811S                        Electric (assisted) bicycle rider (driver) (passenger) injured in transport accident with military vehicle, sequela
+V29.818A                        Rider (driver) (passenger) of other motorcycle injured in transport accident with military vehicle, initial encounter
+V29.818D                        Rider (driver) (passenger) of other motorcycle injured in transport accident with military vehicle, subsequent encounter
+V29.818S                        Rider (driver) (passenger) of other motorcycle injured in transport accident with military vehicle, sequela
+V29.881A                        Electric (assisted) bicycle rider (driver) (passenger) injured in other specified transport accidents, initial encounter
+V29.881D                        Electric (assisted) bicycle rider (driver) (passenger) injured in other specified transport accidents, subsequent encounter
+V29.881S                        Electric (assisted) bicycle rider (driver) (passenger) injured in other specified transport accidents, sequela
+V29.888A                        Rider (driver) (passenger) of other motorcycle injured in other specified transport accidents, initial encounter
+V29.888D                        Rider (driver) (passenger) of other motorcycle injured in other specified transport accidents, subsequent encounter
+V29.888S                        Rider (driver) (passenger) of other motorcycle injured in other specified transport accidents, sequela
+V29.91XA                        Electric (assisted) bicycle rider (driver) (passenger) injured in unspecified traffic accident, initial encounter
+V29.91XD                        Electric (assisted) bicycle rider (driver) (passenger) injured in unspecified traffic accident, subsequent encounter
+V29.91XS                        Electric (assisted) bicycle rider (driver) (passenger) injured in unspecified traffic accident, sequela
+V29.99XA                        Rider (driver) (passenger) of other motorcycle injured in unspecified traffic accident, initial encounter
+V29.99XD                        Rider (driver) (passenger) of other motorcycle injured in unspecified traffic accident, subsequent encounter
+V29.99XS                        Rider (driver) (passenger) of other motorcycle injured in unspecified traffic accident, sequela
+W23.2XXA                        Caught, crushed, jammed or pinched between a moving and stationary object, initial encounter
+W23.2XXD                        Caught, crushed, jammed or pinched between a moving and stationary object, subsequent encounter
+W23.2XXS                        Caught, crushed, jammed or pinched between a moving and stationary object, sequela
+Z03.83                          Encounter for observation for suspected conditions related to home physiologic monitoring device ruled out
+Z59.82                          Transportation insecurity
+Z59.86                          Financial insecurity
+Z59.87                          Material hardship
+Z71.87                          Encounter for pediatric-to-adult transition counseling
+Z71.88                          Encounter for counseling for socioeconomic factors
+Z72.823                         Risk of suffocation (smothering) under another while sleeping
+Z79.60                          Long term (current) use of unspecified immunomodulators and immunosuppressants
+Z79.61                          Long term (current) use of immunomodulator
+Z79.620                         Long term (current) use of immunosuppressive biologic
+Z79.621                         Long term (current) use of calcineurin inhibitor
+Z79.622                         Long term (current) use of Janus kinase inhibitor
+Z79.623                         Long term (current) use of mammalian target of rapamycin (mTOR) inhibitor
+Z79.624                         Long term (current) use of inhibitors of nucleotide synthesis
+Z79.630                         Long term (current) use of alkylating agent
+Z79.631                         Long term (current) use of antimetabolite agent
+Z79.632                         Long term (current) use of antitumor antibiotic
+Z79.633                         Long term (current) use of mitotic inhibitor
+Z79.634                         Long term (current) use of topoisomerase inhibitor
+Z79.64                          Long term (current) use of myelosuppressive agent
+Z79.69                          Long term (current) use of other immunomodulators and immunosuppressants
+Z79.85                          Long-term (current) use of injectable non-insulin antidiabetic drugs
+Z87.61                          Personal history of (corrected) necrotizing enterocolitis of newborn
+Z87.68                          Personal history of other (corrected) conditions arising in the perinatal period
+Z87.731                         Personal history of (corrected) tracheoesophageal fistula or atresia
+Z87.732                         Personal history of (corrected) persistent cloaca or cloacal malformations
+Z87.760                         Personal history of (corrected) congenital diaphragmatic hernia or other congenital diaphragm malformations
+Z87.761                         Personal history of (corrected) gastroschisis
+Z87.762                         Personal history of (corrected) prune belly malformation
+Z87.763                         Personal history of other (corrected) congenital abdominal wall malformations
+Z87.768                         Personal history of other specified (corrected) congenital malformations of integument, limbs and musculoskeletal system
+Z91.110                         Patients noncompliance with dietary regimen due to financial hardship
+Z91.118                         Patients noncompliance with dietary regimen for other reason
+Z91.119                         Patients noncompliance with dietary regimen due to unspecified reason
+Z91.190                         Patients noncompliance with other medical treatment and regimen due to financial hardship
+Z91.198                         Patients noncompliance with other medical treatment and regimen for other reason
+Z91.199                         Patients noncompliance with other medical treatment and regimen due to unspecified reason
+Z91.A10                         Caregivers noncompliance with patients dietary regimen due to financial hardship
+Z91.A18                         Caregivers noncompliance with patients dietary regimen for other reason
+Z91.A20                         Caregivers intentional underdosing of patients medication regimen due to financial hardship
+Z91.A28                         Caregivers intentional underdosing of medication regimen for other reason
+Z91.A3                          Caregivers unintentional underdosing of patients medication regimen
+Z91.A4                          Caregivers other noncompliance with patients medication regimen
+Z91.A5                          Caregivers noncompliance with patients renal dialysis
+Z91.A9                          Caregivers noncompliance with patients other medical treatment and regimen
+F43.11                          Post-Traumatic Stress Disorder, Acute
+G43.001                         Migraine Without Aura and With Status Migrainosus, Not Intractable
+P07.03                          Extremely low birth weight
+P07.1                           Low Birth Weight
+P07.25                          Extreme prematurity, 26 completed weeks
+P07.30                          History of prematurity
+V61.20                          Parent-Child Relational Problem
+V61.8                           Sibling Relational Problem
+Z62.810                         History of physical abuse in childhood
+Z62.812                         Personal history of neglect in early childhood
+A41.54                          Sepsis due to Acinetobacter baumannii
+B96.83                          Acinetobacter baumannii as the cause of diseases classified elsewhere
+D13.9                           Benign neoplasm of ill-defined sites within the digestive system
+G20                             Parkinsons disease
+H36                             Retinal disorders in diseases classified elsewhere
+G20.A1                          Parkinsons disease without dyskinesia, without mention of fluctuations
+G20.A2                          Parkinsons disease without dyskinesia, with fluctuations
+G20.B1                          Parkinsons disease with dyskinesia, without mention of fluctuations
+G20.B2                          Parkinsons disease with dyskinesia, with fluctuations
+G20.C                           Parkinsonism, unspecified
+G93.44                          Adult-onset leukodystrophy with axonal spheroids
+H50.621                         Inferior oblique muscle entrapment, right eye
+H50.622                         Inferior oblique muscle entrapment, left eye
+H50.629                         Inferior oblique muscle entrapment, unspecified eye
+H50.631                         Inferior rectus muscle entrapment, right eye
+H50.632                         Inferior rectus muscle entrapment, left eye
+H50.639                         Inferior rectus muscle entrapment, unspecified eye
+H50.641                         Lateral rectus muscle entrapment, right eye
+H50.642                         Lateral rectus muscle entrapment, left eye
+H50.649                         Lateral rectus muscle entrapment, unspecified eye
+H50.651                         Medial rectus muscle entrapment, right eye
+H50.652                         Medial rectus muscle entrapment, left eye
+H50.659                         Medial rectus muscle entrapment, unspecified eye
+H50.661                         Superior oblique muscle entrapment, right eye
+H50.662                         Superior oblique muscle entrapment, left eye
+H50.669                         Superior oblique muscle entrapment, unspecified eye
+H50.671                         Superior rectus muscle entrapment, right eye
+H50.672                         Superior rectus muscle entrapment, left eye
+H50.679                         Superior rectus muscle entrapment, unspecified eye
+H50.681                         Extraocular muscle entrapment, unspecified, right eye
+H50.682                         Extraocular muscle entrapment, unspecified, left eye
+H50.689                         Extraocular muscle entrapment, unspecified, unspecified eye
+H57.8A1                         Foreign body sensation, right eye
+H57.8A2                         Foreign body sensation, left eye
+H57.8A3                         Foreign body sensation, bilateral eyes
+H57.8A9                         Foreign body sensation, unspecified eye
+I20.8                           Other forms of angina pectoris
+I20.81                          Angina pectoris with coronary microvascular dysfunction
+I20.89                          Other forms of angina pectoris
+I21.B                           Myocardial infarction with coronary microvascular dysfunction
+I24.8                           Other forms of acute ischemic heart disease
+I24.81                          Acute coronary microvascular dysfunction
+I24.89                          Other forms of acute ischemic heart disease
+J15.6                           Pneumonia due to other Gram-negative bacteria
+J15.61                          Pneumonia due to Acinetobacter baumannii
+J15.69                          Pneumonia due to other Gram-negative bacteria
+J44.81                          Bronchiolitis obliterans and bronchiolitis obliterans syndrome
+J44.89                          Other specified chronic obstructive pulmonary disease
+K35.20                          Acute appendicitis with generalized peritonitis, without abscess
+K35.200                         Acute appendicitis with generalized peritonitis, without perforation or abscess
+K35.201                         Acute appendicitis with generalized peritonitis, with perforation, without abscess
+K35.209                         Acute appendicitis with generalized peritonitis, without abscess, unspecified as to perforation
+K35.21                          Acute appendicitis with generalized peritonitis, with abscess
+K35.210                         Acute appendicitis with generalized peritonitis, without perforation, with abscess
+K35.211                         Acute appendicitis with generalized peritonitis, with perforation and abscess
+K35.219                         Acute appendicitis with generalized peritonitis, with abscess, unspecified as to perforation
+K63.8211                        Small intestinal bacterial overgrowth, hydrogen-subtype
+K63.8212                        Small intestinal bacterial overgrowth, hydrogen sulfide-subtype
+K63.8219                        Small intestinal bacterial overgrowth, unspecified
+K63.822                         Small intestinal fungal overgrowth
+K63.829                         Intestinal methanogen overgrowth, unspecified
+K68.2                           Retroperitoneal fibrosis
+K68.3                           Retroperitoneal hematoma
+M80.0B1A                        Age-related osteoporosis with current pathological fracture, right pelvis, initial encounter for fracture
+M80.0B1D                        Age-related osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with routine healing
+M80.0B1G                        Age-related osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with delayed healing
+M80.0B1K                        Age-related osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with nonunion
+M80.0B1P                        Age-related osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with malunion
+M80.0B1S                        Age-related osteoporosis with current pathological fracture, right pelvis, sequela
+M80.0B2A                        Age-related osteoporosis with current pathological fracture, left pelvis, initial encounter for fracture
+M80.0B2D                        Age-related osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with routine healing
+M80.0B2G                        Age-related osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with delayed healing
+M80.0B2K                        Age-related osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with nonunion
+M80.0B2P                        Age-related osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with malunion
+M80.0B2S                        Age-related osteoporosis with current pathological fracture, left pelvis, sequela
+M80.0B9A                        Age-related osteoporosis with current pathological fracture, unspecified pelvis, initial encounter for fracture
+M80.0B9D                        Age-related osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with routine healing
+M80.0B9G                        Age-related osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with delayed healing
+M80.0B9K                        Age-related osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with nonunion
+M80.0B9P                        Age-related osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with malunion
+M80.0B9S                        Age-related osteoporosis with current pathological fracture, unspecified pelvis, sequela
+M80.8B1A                        Other osteoporosis with current pathological fracture, right pelvis, initial encounter for fracture
+M80.8B1D                        Other osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with routine healing
+M80.8B1G                        Other osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with delayed healing
+M80.8B1K                        Other osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with nonunion
+M80.8B1P                        Other osteoporosis with current pathological fracture, right pelvis, subsequent encounter for fracture with malunion
+M80.8B1S                        Other osteoporosis with current pathological fracture, right pelvis, sequela
+M80.8B2A                        Other osteoporosis with current pathological fracture, left pelvis, initial encounter for fracture
+M80.8B2D                        Other osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with routine healing
+M80.8B2G                        Other osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with delayed healing
+M80.8B2K                        Other osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with nonunion
+M80.8B2P                        Other osteoporosis with current pathological fracture, left pelvis, subsequent encounter for fracture with malunion
+M80.8B2S                        Other osteoporosis with current pathological fracture, left pelvis, sequela
+M80.8B9A                        Other osteoporosis with current pathological fracture, unspecified pelvis, initial encounter for fracture
+M80.8B9D                        Other osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with routine healing
+M80.8B9G                        Other osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with delayed healing
+M80.8B9K                        Other osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with nonunion
+M80.8B9P                        Other osteoporosis with current pathological fracture, unspecified pelvis, subsequent encounter for fracture with malunion
+M80.8B9S                        Other osteoporosis with current pathological fracture, unspecified pelvis, sequela
+O26.641                         Intrahepatic cholestasis of pregnancy, first trimester
+O26.642                         Intrahepatic cholestasis of pregnancy, second trimester
+O26.643                         Intrahepatic cholestasis of pregnancy, third trimester
+O26.649                         Intrahepatic cholestasis of pregnancy, unspecified trimester
+O90.4                           Postpartum acute kidney failure
+O90.41                          Hepatorenal syndrome following labor and delivery
+O90.49                          Other postpartum acute kidney failure
+R09.A0                          Foreign body sensation, unspecified
+R09.A1                          Foreign body sensation, nose
+R09.A2                          Foreign body sensation, throat
+R09.A9                          Foreign body sensation, other site
+R92.30                          Dense breasts, unspecified
+R92.311                         Mammographic fatty tissue density, right breast
+R92.312                         Mammographic fatty tissue density, left breast
+R92.313                         Mammographic fatty tissue density, bilateral breasts
+R92.321                         Mammographic fibroglandular density, right breast
+R92.322                         Mammographic fibroglandular density, left breast
+R92.323                         Mammographic fibroglandular density, bilateral breasts
+R92.331                         Mammographic heterogeneous density, right breast
+R92.332                         Mammographic heterogeneous density, left breast
+R92.333                         Mammographic heterogeneous density, bilateral breasts
+R92.341                         Mammographic extreme density, right breast
+R92.342                         Mammographic extreme density, left breast
+R92.343                         Mammographic extreme density, bilateral breasts
+T56.821A                        Toxic effect of gadolinium, accidental (unintentional), initial encounter
+T56.821D                        Toxic effect of gadolinium, accidental (unintentional), subsequent encounter
+T56.821S                        Toxic effect of gadolinium, accidental (unintentional), sequela
+T56.822A                        Toxic effect of gadolinium, intentional self-harm, initial encounter
+T56.822D                        Toxic effect of gadolinium, intentional self-harm, subsequent encounter
+T56.822S                        Toxic effect of gadolinium, intentional self-harm, sequela
+T56.823A                        Toxic effect of gadolinium, assault, initial encounter
+T56.823D                        Toxic effect of gadolinium, assault, subsequent encounter
+T56.823S                        Toxic effect of gadolinium, assault, sequela
+T56.824A                        Toxic effect of gadolinium, undetermined, initial encounter
+T56.824D                        Toxic effect of gadolinium, undetermined, subsequent encounter
+T56.824S                        Toxic effect of gadolinium, undetermined, sequela
+W44.8XXA                        Other foreign body entering into or through a natural orifice, initial encounter
+W44.8XXD                        Other foreign body entering into or through a natural orifice, subsequent encounter
+W44.8XXS                        Other foreign body entering into or through a natural orifice, sequela
+W44.9XXA                        Unspecified foreign body entering into or through a natural orifice, initial encounter
+W44.9XXD                        Unspecified foreign body entering into or through a natural orifice, subsequent encounter
+W44.9XXS                        Unspecified foreign body entering into or through a natural orifice, sequela
+W44.A0XA                        Battery unspecified, entering into or through a natural orifice, initial encounter
+W44.A0XD                        Battery unspecified, entering into or through a natural orifice, subsequent encounter
+W44.A0XS                        Battery unspecified, entering into or through a natural orifice, sequela
+W44.A1XA                        Button battery entering into or through a natural orifice, initial encounter
+W44.A1XD                        Button battery entering into or through a natural orifice, subsequent encounter
+W44.A1XS                        Button battery entering into or through a natural orifice, sequela
+W44.A9XA                        Other batteries entering into or through a natural orifice, initial encounter
+W44.A9XD                        Other batteries entering into or through a natural orifice, subsequent encounter
+W44.A9XS                        Other batteries entering into or through a natural orifice, sequela
+W44.B0XA                        Plastic object unspecified, entering into or through a natural orifice, initial encounter
+W44.B0XD                        Plastic object unspecified, entering into or through a natural orifice, subsequent encounter
+W44.B0XS                        Plastic object unspecified, entering into or through a natural orifice, sequela
+W44.B1XA                        Plastic bead entering into or through a natural orifice, initial encounter
+W44.B1XD                        Plastic bead entering into or through a natural orifice, subsequent encounter
+W44.B1XS                        Plastic bead entering into or through a natural orifice, sequela
+W44.B2XA                        Plastic coin entering into or through a natural orifice, initial encounter
+W44.B2XD                        Plastic coin entering into or through a natural orifice, subsequent encounter
+W44.B2XS                        Plastic coin entering into or through a natural orifice, sequela
+W44.B3XA                        Plastic toy and toy part entering into or through a natural orifice, initial encounter
+W44.B3XD                        Plastic toy and toy part entering into or through a natural orifice, subsequent encounter
+W44.B3XS                        Plastic toy and toy part entering into or through a natural orifice, sequela
+W44.B4XA                        Plastic jewelry entering into or through a natural orifice, initial encounter
+W44.B4XD                        Plastic jewelry entering into or through a natural orifice, subsequent encounter
+W44.B4XS                        Plastic jewelry entering into or through a natural orifice, sequela
+W44.B5XA                        Plastic bottle entering into or through a natural orifice, initial encounter
+W44.B5XD                        Plastic bottle entering into or through a natural orifice, subsequent encounter
+W44.B5XS                        Plastic bottle entering into or through a natural orifice, sequela
+W44.B9XA                        Other plastic object entering into or through a natural orifice, initial encounter
+W44.B9XD                        Other plastic object entering into or through a natural orifice, subsequent encounter
+W44.B9XS                        Other plastic object entering into or through a natural orifice, sequela
+W44.C0XA                        Glass unspecified, entering into or through a natural orifice, initial encounter
+W44.C0XD                        Glass unspecified, entering into or through a natural orifice, subsequent encounter
+W44.C0XS                        Glass unspecified, entering into or through a natural orifice, sequela
+W44.C1XA                        Sharp glass entering into or through a natural orifice, initial encounter
+W44.C1XD                        Sharp glass entering into or through a natural orifice, subsequent encounter
+W44.C1XS                        Sharp glass entering into or through a natural orifice, sequela
+W44.C2XA                        Intact glass entering into or through a natural orifice, initial encounter
+W44.C2XD                        Intact glass entering into or through a natural orifice, subsequent encounter
+W44.C2XS                        Intact glass entering into or through a natural orifice, sequela
+W44.D0XA                        Magnetic metal object unspecified, entering into or through a natural orifice, initial encounter
+W44.D0XD                        Magnetic metal object unspecified, entering into or through a natural orifice, subsequent encounter
+W44.D0XS                        Magnetic metal object unspecified, entering into or through a natural orifice, sequela
+W44.D1XA                        Magnetic metal bead entering into or through a natural orifice, initial encounter
+W44.D1XD                        Magnetic metal bead entering into or through a natural orifice, subsequent encounter
+W44.D1XS                        Magnetic metal bead entering into or through a natural orifice, sequela
+W44.D2XA                        Magnetic metal coin entering into or through a natural orifice, initial encounter
+W44.D2XD                        Magnetic metal coin entering into or through a natural orifice, subsequent encounter
+W44.D2XS                        Magnetic metal coin entering into or through a natural orifice, sequela
+W44.D3XA                        Magnetic metal toy entering into or through a natural orifice, initial encounter
+W44.D3XD                        Magnetic metal toy entering into or through a natural orifice, subsequent encounter
+W44.D3XS                        Magnetic metal toy entering into or through a natural orifice, sequela
+W44.D4XA                        Magnetic metal jewelry entering into or through a natural orifice, initial encounter
+W44.D4XD                        Magnetic metal jewelry entering into or through a natural orifice, subsequent encounter
+W44.D4XS                        Magnetic metal jewelry entering into or through a natural orifice, sequela
+W44.D9XA                        Other magnetic metal objects entering into or through a natural orifice, initial encounter
+W44.D9XD                        Other magnetic metal objects entering into or through a natural orifice, subsequent encounter
+W44.D9XS                        Other magnetic metal objects entering into or through a natural orifice, sequela
+W44.E0XA                        Non-magnetic metal object unspecified, entering into or through a natural orifice, initial encounter
+W44.E0XD                        Non-magnetic metal object unspecified, entering into or through a natural orifice, subsequent encounter
+W44.E0XS                        Non-magnetic metal object unspecified, entering into or through a natural orifice, sequela
+W44.E1XA                        Non-magnetic metal bead entering into or through a natural orifice, initial encounter
+W44.E1XD                        Non-magnetic metal bead entering into or through a natural orifice, subsequent encounter
+W44.E1XS                        Non-magnetic metal bead entering into or through a natural orifice, sequela
+W44.E2XA                        Non-magnetic metal coin entering into or through a natural orifice, initial encounter
+W44.E2XD                        Non-magnetic metal coin entering into or through a natural orifice, subsequent encounter
+W44.E2XS                        Non-magnetic metal coin entering into or through a natural orifice, sequela
+W44.E3XA                        Non-magnetic metal toy entering into or through a natural orifice, initial encounter
+W44.E3XD                        Non-magnetic metal toy entering into or through a natural orifice, subsequent encounter
+W44.E3XS                        Non-magnetic metal toy entering into or through a natural orifice, sequela
+W44.E4XA                        Non-magnetic metal jewelry entering into or through a natural orifice, initial encounter
+W44.E4XD                        Non-magnetic metal jewelry entering into or through a natural orifice, subsequent encounter
+W44.E4XS                        Non-magnetic metal jewelry entering into or through a natural orifice, sequela
+W44.E9XA                        Other non-magnetic metal objects entering into or through a natural orifice, initial encounter
+W44.E9XD                        Other non-magnetic metal objects entering into or through a natural orifice, subsequent encounter
+W44.E9XS                        Other non-magnetic metal objects entering into or through a natural orifice, sequela
+W44.F0XA                        Objects of natural or organic material unspecified, entering into or through a natural orifice, initial encounter
+W44.F0XD                        Objects of natural or organic material unspecified, entering into or through a natural orifice, subsequent encounter
+W44.F0XS                        Objects of natural or organic material unspecified, entering into or through a natural orifice, sequela
+W44.F1XA                        Bezoar entering into or through a natural orifice, initial encounter
+W44.F1XD                        Bezoar entering into or through a natural orifice, subsequent encounter
+W44.F1XS                        Bezoar entering into or through a natural orifice, sequela
+W44.F2XA                        Rubber band entering into or through a natural orifice, initial encounter
+W44.F2XD                        Rubber band entering into or through a natural orifice, subsequent encounter
+W44.F2XS                        Rubber band entering into or through a natural orifice, sequela
+W44.F3XA                        Food entering into or through a natural orifice, initial encounter
+W44.F3XD                        Food entering into or through a natural orifice, subsequent encounter
+W44.F3XS                        Food entering into or through a natural orifice, sequela
+W44.F4XA                        Insect entering into or through a natural orifice, initial encounter
+W44.F4XD                        Insect entering into or through a natural orifice, subsequent encounter
+W44.F4XS                        Insect entering into or through a natural orifice, sequela
+W44.F9XA                        Other object of natural or organic material, entering into or through a natural orifice, initial encounter
+W44.F9XD                        Other object of natural or organic material, entering into or through a natural orifice, subsequent encounter
+W44.F9XS                        Other object of natural or organic material, entering into or through a natural orifice, sequela
+W44.G0XA                        Other non-organic objects unspecified, entering into or through a natural orifice, initial encounter
+W44.G0XD                        Other non-organic objects unspecified, entering into or through a natural orifice, subsequent encounter
+W44.G0XS                        Other non-organic objects unspecified, entering into or through a natural orifice, sequela
+W44.G1XA                        Audio device entering into or through a natural orifice, initial encounter
+W44.G1XD                        Audio device entering into or through a natural orifice, subsequent encounter
+W44.G1XS                        Audio device entering into or through a natural orifice, sequela
+W44.G2XA                        Combination metal and plastic toy and toy part entering into or through natural orifice, initial encounter
+W44.G2XD                        Combination metal and plastic toy and toy part entering into or through natural orifice, subsequent encounter
+W44.G2XS                        Combination metal and plastic toy and toy part entering into or through natural orifice, sequela
+W44.G3XA                        Combination metal and plastic jewelry entering into or through a natural orifice, initial encounter
+W44.G3XD                        Combination metal and plastic jewelry entering into or through a natural orifice, subsequent encounter
+W44.G3XS                        Combination metal and plastic jewelry entering into or through a natural orifice, sequela
+W44.G9XA                        Other non-organic objects entering into or through a natural orifice, initial encounter
+W44.G9XD                        Other non-organic objects entering into or through a natural orifice, subsequent encounter
+W44.G9XS                        Other non-organic objects entering into or through a natural orifice, sequela
+W44.H0XA                        Other sharp object unspecified, entering into or through a natural orifice, initial encounter
+W44.H0XD                        Other sharp object unspecified, entering into or through a natural orifice, subsequent encounter
+W44.H0XS                        Other sharp object unspecified, entering into or through a natural orifice, sequela
+W44.H1XA                        Needle entering into or through a natural orifice, initial encounter
+W44.H1XD                        Needle entering into or through a natural orifice, subsequent encounter
+W44.H1XS                        Needle entering into or through a natural orifice, sequela
+W44.H2XA                        Knife, sword or dagger entering into or through a natural orifice, initial encounter
+W44.H2XD                        Knife, sword or dagger entering into or through a natural orifice, subsequent encounter
+W44.H2XS                        Knife, sword or dagger entering into or through a natural orifice, sequela
+Z02.84                          Encounter for child welfare exam
+Z05.8                           Observation and evaluation of newborn for other specified suspected condition ruled out
+Z05.81                          Observation and evaluation of newborn for suspected condition related to home physiologic monitoring device ruled out
+Z05.89                          Observation and evaluation of newborn for other specified suspected condition ruled out
+Z16.13                          Resistance to carbapenem
+Z22.340                         Carrier of carbapenem-resistant Acinetobacter baumannii
+Z22.341                         Carrier of carbapenem-sensitive Acinetobacter baumannii
+Z22.349                         Carrier of Acinetobacter baumannii, unspecified
+Z22.350                         Carrier of carbapenem-resistant Enterobacterales
+Z22.358                         Carrier of other Enterobacterales
+Z22.359                         Carrier of Enterobacterales, unspecified
+Z29.8                           Encounter for other specified prophylactic measures
+Z29.81                          Encounter for HIV pre-exposure prophylaxis
+Z29.89                          Encounter for other specified prophylactic measures
+Z62.23                          Child in custody of non-parental relative
+Z62.24                          Child in custody of non-relative guardian
+Z62.823                         Parent-step child conflict
+Z62.831                         Non-parental relative-child conflict
+Z62.832                         Non-relative guardian-child conflict
+Z62.833                         Group home staff-child conflict
+Z62.892                         Runaway [from current living environment]
+Z83.71                          Family history of colonic polyps
+Z83.710                         Family history of adenomatous and serrated polyps
+Z83.711                         Family history of hyperplastic colon polyps
+Z83.718                         Other family history of colon polyps
+Z83.719                         Family history of colon polyps, unspecified
+Z91.85                          Personal history of military service
+Z91.A41                         Caregivers other noncompliance with patients medication regimen due to financial hardship
+Z91.A48                         Caregivers other noncompliance with patients medication regimen for other reason
+Z91.A51                         Caregivers noncompliance with patients renal dialysis due to financial hardship
+Z91.A58                         Caregivers noncompliance with patients renal dialysis for other reason
+Z91.A91                         Caregivers noncompliance with patients other medical treatment and regimen due to financial hardship
+Z91.A98                         Caregivers noncompliance with patients other medical treatment and regimen for other reason
+T66.XXXA                        Radiation sickness, unspecified, initial encounter
+T66.XXXD                        Radiation sickness, unspecified, subsequent encounter
+T50.9                           Poisoning by, adverse effect of and underdosing of other and unspecified drugs, medicaments and biological substances
+T50.90                          Poisoning by, adverse effect of and underdosing of unspecified drugs, medicaments and biological substances
+T50.901                         Poisoning by unspecified drugs, medicaments and biological substances, accidental (unintentional)
+T50.901A                        Poisoning by unspecified drugs, medicaments and biological substances, accidental (unintentional), initial encounter
+T50.901D                        Poisoning by unspecified drugs, medicaments and biological substances, accidental (unintentional), subsequent encounter
+T50.901S                        Poisoning by unspecified drugs, medicaments and biological substances, accidental (unintentional), sequela
+T50.902                         Poisoning by unspecified drugs, medicaments and biological substances, intentional self-harm
+T50.902A                        Poisoning by unspecified drugs, medicaments and biological substances, intentional self-harm, initial encounter
+T50.902D                        Poisoning by unspecified drugs, medicaments and biological substances, intentional self-harm, subsequent encounter
+T50.902S                        Poisoning by unspecified drugs, medicaments and biological substances, intentional self-harm, sequela
+T50.903                         Poisoning by unspecified drugs, medicaments and biological substances, assault
+T50.903A                        Poisoning by unspecified drugs, medicaments and biological substances, assault, initial encounter
+T50.903D                        Poisoning by unspecified drugs, medicaments and biological substances, assault, subsequent encounter
+T50.903S                        Poisoning by unspecified drugs, medicaments and biological substances, assault, sequela
+T50.904                         Poisoning by unspecified drugs, medicaments and biological substances, undetermined
+T50.904A                        Poisoning by unspecified drugs, medicaments and biological substances, undetermined, initial encounter
+T50.904D                        Poisoning by unspecified drugs, medicaments and biological substances, undetermined, subsequent encounter
+T50.904S                        Poisoning by unspecified drugs, medicaments and biological substances, undetermined, sequela
+T50.905                         Adverse effect of unspecified drugs, medicaments and biological substances
+T50.905A                        Adverse effect of unspecified drugs, medicaments and biological substances, initial encounter
+T50.905D                        Adverse effect of unspecified drugs, medicaments and biological substances, subsequent encounter
+T50.905S                        Adverse effect of unspecified drugs, medicaments and biological substances, sequela
+T50.906                         Underdosing of unspecified drugs, medicaments and biological substances
+T50.906A                        Underdosing of unspecified drugs, medicaments and biological substances, initial encounter
+T50.906D                        Underdosing of unspecified drugs, medicaments and biological substances, subsequent encounter
+T50.906S                        Underdosing of unspecified drugs, medicaments and biological substances, sequela
+T50.99                          Poisoning by, adverse effect of and underdosing of other drugs, medicaments and biological substances
+T50.991                         Poisoning by other drugs, medicaments and biological substances, accidental (unintentional)
+T50.991A                        Poisoning by other drugs, medicaments and biological substances, accidental (unintentional), initial encounter
+T50.991D                        Poisoning by other drugs, medicaments and biological substances, accidental (unintentional), subsequent encounter
+T50.991S                        Poisoning by other drugs, medicaments and biological substances, accidental (unintentional), sequela
+T50.992                         Poisoning by other drugs, medicaments and biological substances, intentional self-harm
+T50.992A                        Poisoning by other drugs, medicaments and biological substances, intentional self-harm, initial encounter
+T50.992D                        Poisoning by other drugs, medicaments and biological substances, intentional self-harm, subsequent encounter
+T50.992S                        Poisoning by other drugs, medicaments and biological substances, intentional self-harm, sequela
+T50.993                         Poisoning by other drugs, medicaments and biological substances, assault
+T50.993A                        Poisoning by other drugs, medicaments and biological substances, assault, initial encounter
+T50.993D                        Poisoning by other drugs, medicaments and biological substances, assault, subsequent encounter
+T50.993S                        Poisoning by other drugs, medicaments and biological substances, assault, sequela
+T50.994                         Poisoning by other drugs, medicaments and biological substances, undetermined
+T50.994A                        Poisoning by other drugs, medicaments and biological substances, undetermined, initial encounter
+T50.994D                        Poisoning by other drugs, medicaments and biological substances, undetermined, subsequent encounter
+T50.994S                        Poisoning by other drugs, medicaments and biological substances, undetermined, sequela
+T50.995                         Adverse effect of other drugs, medicaments and biological substances
+T50.995A                        Adverse effect of other drugs, medicaments and biological substances, initial encounter
+T50.995D                        Adverse effect of other drugs, medicaments and biological substances, subsequent encounter
+T50.995S                        Adverse effect of other drugs, medicaments and biological substances, sequela
+T50.996                         Underdosing of other drugs, medicaments and biological substances
+T50.996A                        Underdosing of other drugs, medicaments and biological substances, initial encounter
+T50.996D                        Underdosing of other drugs, medicaments and biological substances, subsequent encounter
+T50.996S                        Underdosing of other drugs, medicaments and biological substances, sequela
+Z92.0                           Personal history of contraception
+Z92.2                           Personal history of drug therapy
+Z92.22                          Personal history of monoclonal drug therapy
+Z92.23                          Personal history of estrogen therapy
+Z92.24                          Personal history of steroid therapy
+Z92.240                         Personal history of inhaled steroid therapy
+Z92.241                         Personal history of systemic steroid therapy
+Z92.29                          Personal history of other drug therapy
+Z92.4                           Personal history of surgery, not elsewhere classified
+Z92.8                           Personal history of other medical treatment
+Z92.81                          Personal history of extracorporeal membrane oxygenation (ECMO)
+Z92.83                          Personal history of failed moderate sedation
+Z92.84                          Personal history of unintended awareness under general anesthesia
+Z92.89                          Personal history of other medical treatment
+E16.A1                          Hypoglycemia level 1
+E16.A2                          Hypoglycemia level 2
+E16.A3                          Hypoglycemia level 3
+E66.811                         Obesity, class 1
+E66.812                         Obesity, class 2
+E66.89                          Other obesity not elsewhere classified
+F50.83                          Pica in adults
+F50.84                          Rumination disorder in adults
+G90.81                          Serotonin syndrome
+I26.03                          Cement embolism of pulmonary artery with acute cor pulmonale
+I26.04                          Fat embolism of pulmonary artery with acute cor pulmonale
+I26.95                          Cement embolism of pulmonary artery without acute cor pulmonale
+I26.96                          Fat embolism of pulmonary artery without acute cor pulmonale
+J34.8200                        Internal nasal valve collapse, unspecified
+J34.8201                        Internal nasal valve collapse, static
+J34.8202                        Internal nasal valve collapse, dynamic
+J34.8210                        External nasal valve collapse, unspecified
+J34.8211                        External nasal valve collapse, static
+J34.8212                        External nasal valve collapse, dynamic
+J34.829                         Nasal valve collapse, unspecified
+K60.30                          Anal fistula, unspecified
+K60.311                         Anal fistula, simple, initial
+K60.319                         Anal fistula, simple, unspecified
+K60.321                         Anal fistula, complex, initial
+K60.329                         Anal fistula, complex, unspecified
+K60.40                          Rectal fistula, unspecified
+K60.411                         Rectal fistula, simple, initial
+K60.419                         Rectal fistula, simple, unspecified
+K60.421                         Rectal fistula, complex, initial
+K60.429                         Rectal fistula, complex, unspecified
+K60.50                          Anorectal fistula, unspecified
+K60.511                         Anorectal fistula, simple, initial
+K60.519                         Anorectal fistula, simple, unspecified
+K60.521                         Anorectal fistula, complex, initial
+K60.529                         Anorectal fistula, complex, unspecified
+L29.81                          Cholestatic pruritus
+L29.89                          Other pruritus
+L66.10                          Lichen planopilaris, unspecified
+L66.11                          Classic lichen planopilaris
+L66.12                          Frontal fibrosing alopecia
+L66.19                          Other lichen planopilaris
+L66.81                          Central centrifugal cicatricial alopecia
+L66.89                          Other cicatricial alopecia
+M65.90                          Unspecified synovitis and tenosynovitis, unspecified site
+M65.911                         Unspecified synovitis and tenosynovitis, right shoulder
+M65.912                         Unspecified synovitis and tenosynovitis, left shoulder
+M65.919                         Unspecified synovitis and tenosynovitis, unspecified shoulder
+M65.921                         Unspecified synovitis and tenosynovitis, right upper arm
+M65.922                         Unspecified synovitis and tenosynovitis, left upper arm
+M65.929                         Unspecified synovitis and tenosynovitis, unspecified upper arm
+M65.931                         Unspecified synovitis and tenosynovitis, right forearm
+M65.932                         Unspecified synovitis and tenosynovitis, left forearm
+M65.939                         Unspecified synovitis and tenosynovitis, unspecified forearm
+M65.941                         Unspecified synovitis and tenosynovitis, right hand
+M65.942                         Unspecified synovitis and tenosynovitis, left hand
+M65.949                         Unspecified synovitis and tenosynovitis, unspecified hand
+M65.951                         Unspecified synovitis and tenosynovitis, right thigh
+M65.952                         Unspecified synovitis and tenosynovitis, left thigh
+M65.959                         Unspecified synovitis and tenosynovitis, unspecified thigh
+M65.961                         Unspecified synovitis and tenosynovitis, right lower leg
+M65.962                         Unspecified synovitis and tenosynovitis, left lower leg
+M65.969                         Unspecified synovitis and tenosynovitis, unspecified lower leg
+M65.971                         Unspecified synovitis and tenosynovitis, right ankle and foot
+M65.972                         Unspecified synovitis and tenosynovitis, left ankle and foot
+M65.979                         Unspecified synovitis and tenosynovitis, unspecified ankle and foot
+M65.98                          Unspecified synovitis and tenosynovitis, other site
+M65.99                          Unspecified synovitis and tenosynovitis, multiple sites
+T45.AX1A                        Poisoning by immune checkpoint inhibitors and immunostimulant drugs, accidental (unintentional), initial encounter
+T45.AX1D                        Poisoning by immune checkpoint inhibitors and immunostimulant drugs, accidental (unintentional), subsequent encounter
+T45.AX1S                        Poisoning by immune checkpoint inhibitors and immunostimulant drugs, accidental (unintentional), sequela
+T45.AX2A                        Poisoning by immune checkpoint inhibitors and immunostimulant drugs, intentional self-harm, initial encounter
+T45.AX2D                        Poisoning by immune checkpoint inhibitors and immunostimulant drugs, intentional self-harm, subsequent encounter
+T45.AX2S                        Poisoning by immune checkpoint inhibitors and immunostimulant drugs, intentional self-harm, sequela
+T45.AX3A                        Poisoning by immune checkpoint inhibitors and immunostimulant drugs, assault, initial encounter
+T45.AX3D                        Poisoning by immune checkpoint inhibitors and immunostimulant drugs, assault, subsequent encounter
+T45.AX3S                        Poisoning by immune checkpoint inhibitors and immunostimulant drugs, assault, sequela
+T45.AX4A                        Poisoning by immune checkpoint inhibitors and immunostimulant drugs, undetermined, initial encounter
+T45.AX4D                        Poisoning by immune checkpoint inhibitors and immunostimulant drugs, undetermined, subsequent encounter
+T45.AX4S                        Poisoning by immune checkpoint inhibitors and immunostimulant drugs, undetermined, sequela
+T45.AX5A                        Adverse effect of immune checkpoint inhibitors and immunostimulant drugs, initial encounter
+T45.AX5D                        Adverse effect of immune checkpoint inhibitors and immunostimulant drugs, subsequent encounter
+T45.AX5S                        Adverse effect of immune checkpoint inhibitors and immunostimulant drugs, sequela
+T45.AX6A                        Underdosing of immune checkpoint inhibitors and immunostimulant drugs, initial encounter
+T45.AX6D                        Underdosing of immune checkpoint inhibitors and immunostimulant drugs, subsequent encounter
+T45.AX6S                        Underdosing of immune checkpoint inhibitors and immunostimulant drugs, sequela
+T81.320A                        Disruption or dehiscence of gastrointestinal tract anastomosis, repair, or closure, initial encounter
+T81.320D                        Disruption or dehiscence of gastrointestinal tract anastomosis, repair, or closure, subsequent encounter
+T81.320S                        Disruption or dehiscence of gastrointestinal tract anastomosis, repair, or closure, sequela
+T81.321A                        Disruption or dehiscence of closure of internal operation (surgical) wound of abdominal wall muscle or fascia, initial encounter
+T81.321D                        Disruption or dehiscence of closure of internal operation (surgical) wound of abdominal wall muscle or fascia, subsequent encounter
+T81.321S                        Disruption or dehiscence of closure of internal operation (surgical) wound of abdominal wall muscle or fascia, sequela
+T81.328A                        Disruption or dehiscence of closure of other specified internal operation (surgical) wound, initial encounter
+T81.328D                        Disruption or dehiscence of closure of other specified internal operation (surgical) wound, subsequent encounter
+T81.328S                        Disruption or dehiscence of closure of other specified internal operation (surgical) wound, sequela
+T81.329A                        Deep disruption or dehiscence of operation wound, unspecified, initial encounter
+T81.329D                        Deep disruption or dehiscence of operation wound, unspecified, subsequent encounter
+T81.329S                        Deep disruption or dehiscence of operation wound, unspecified, sequela
+Z15.1                           Genetic susceptibility to epilepsy and neurodevelopmental disorders
+Z15.2                           Genetic susceptibility to obesity
+Z17.21                          Progesterone receptor positive status
+Z17.22                          Progesterone receptor negative status
+Z17.31                          Human epidermal growth factor receptor 2 positive status
+Z17.32                          Human epidermal growth factor receptor 2 negative status
+Z17.410                         Hormone receptor positive with human epidermal growth factor receptor 2 positive status
+Z17.411                         Hormone receptor positive with human epidermal growth factor receptor 2 negative status
+Z17.420                         Hormone receptor negative with human epidermal growth factor receptor 2 positive status
+Z17.421                         Hormone receptor negative with human epidermal growth factor receptor 2 negative status
+Z51.A                           Encounter for sepsis aftercare
+Z59.71                          Insufficient health insurance coverage
+Z59.72                          Insufficient welfare support
+Z67.A1                          Duffy null
+Z67.A2                          Duffy a positive
+Z67.A3                          Duffy b positive
+Z67.A4                          Duffy a and b positive
+Z83.72                          Family history of familial adenomatous polyposis
+Z86.0100                        Personal history of colon polyps, unspecified
+Z86.0101                        Personal history of adenomatous and serrated colon polyps
+Z86.0102                        Personal history of hyperplastic colon polyps
+Z86.0109                        Personal history of other colon polyps
+Z92.26                          Personal history of immune checkpoint inhibitor therapy
+K60.3                           Anal fistula
+K60.4                           Rectal fistula
+K60.5                           Anorectal fistula
+L29.8                           Other pruritus
+L66.1                           Lichen planopilaris
+L66.8                           Other cicatricial alopecia
+M65.9                           Synovitis and tenosynovitis, unspecified
+T81.32XA                        Disruption of internal operation (surgical) wound, not elsewhere classified, initial encounter
+T81.32XD                        Disruption of internal operation (surgical) wound, not elsewhere classified, subsequent encounter
+T81.32XS                        Disruption of internal operation (surgical) wound, not elsewhere classified, sequela
+Z59.7                           Insufficient social insurance and welfare support
+Z86.010                         Personal history of colonic polyps
+A77.41                          Ehrlichiosis chaffeensis [E. chaffeensis]
+I26.93                          Single subsegmental thrombotic pulmonary embolism without acute cor pulmonale
+I26.94                          Multiple subsegmental thrombotic pulmonary emboli without acute cor pulmonale
