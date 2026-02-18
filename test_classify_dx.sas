@@ -33,18 +33,6 @@ ods listing close ;
 libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
 %include "&root\classify_dx.sas" ;
 
-data gnu ;
-  ** infile "\\server\share\my_data.txt" ;
-  input
-    @1    ndc         $char11.
-    @12   drug_name   $char40.
-  ;
-  infile datalines truncover ;
-datalines ;
-blah
-run ;
-
-
 * These are diagnoses that currently get flagged for inclusion, but should not. ;
 * Also, diags that were considered for adding, but decided against. ;
 data s.dont_want ;
@@ -57,7 +45,7 @@ data s.dont_want ;
   dx_codetype = '10' ;
 run ;
 
-* These are the new codes we are adding ;
+* These are the new codes we are adding (a cumulative list) ;
 data s.do_want ;
   infile "&root\do_want.col" truncover ;
   input
@@ -154,6 +142,11 @@ quit ;
                       , pulresp
                       , renal)
       ;
+      if num_systems > 1 then do ;
+        put "ERROR: Found a dx code in &dset that has more than one body system assigned!" ;
+        put dx_nodecimal= body_system= num_systems= ;
+        _error_ + 1 ;
+      end ;
       if num_systems > 0 then output ;
   run ;
 %mend do_it ;

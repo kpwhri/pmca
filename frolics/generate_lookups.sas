@@ -126,6 +126,11 @@ libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
                     , pulresp
                     , renal)
     ;
+    if num_systems > 1 then do ;
+      put "ERROR: Found a dx code in &inset that has more than one body system assigned!" ;
+      put dx_nodecimal= body_system= num_systems= ;
+      _error_ + 1 ;
+    end ;
     if num_systems > 0 then output ;
   run ;
 

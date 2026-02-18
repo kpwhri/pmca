@@ -447,12 +447,13 @@
       'G14' 'G23' 'G241' 'G253' 'G2582' 'G3180' 'G3186'
       'G319' 'G320'
       'G3281' 'G35' 'G360' 'G370' 'G375'
-      'G379' 'G4081' 'G4083' 'G601'
+      'G379' 'G4081' 'G4083' 'G4084' 'G601'
       'G7111' 'G7112' 'G7113' 'G800' 'G808'
       'G809' 'G901' 'G931' 'G950' 'G9519'
       'G9589' 'G959' 'G992'  )
         OR &dx_varname in ('G378' 'G3789')
         then do; neuro=1; progressive=1; end;
+    if &dx_varname in ( 'G4084',  'G40841',  'G40842') then progressive = . ;
     if &dx_varname in: ('G4730' 'G4731' 'G4733' 'G4734' 'G4736'
       'G4737' 'G4739' )   then pulresp=1;
     if &dx_varname in: ('G4735' ) then do; pulresp=1; progressive=1; end;
@@ -665,7 +666,7 @@
       'Q988' 'Q992' 'Q998' 'Q999') then genetic=1;
     if &dx_varname in: ('Q8711' 'Q8781' 'Q8901' 'Q891' 'Q892' 'Q893'
       'Q894' 'Q913' 'Q917' 'Q928' 'Q934'
-      'Q9382' 'Q9388' 'G4084' 'E7482') or &dx_varname in ('Q87' 'Q878') then do; genetic=1; progressive=1; end;
+      'Q9382' 'Q9388' 'E7482') or &dx_varname in ('Q87' 'Q878') then do; genetic=1; progressive=1; end;
     * we want S06.309S but not S06.31AS ;
     if &dx_varname in: ('R4020' 'R402A' 'R403' 'S06309' 'S1410' 'S1411' 'S1412'
       'S1413' 'S1415' 'S2410' 'S2411' 'S2413'
