@@ -591,12 +591,12 @@
     * We want P2842 and 3 but not P28.4 0, 1 and 9 ;
     if &dx_varname in: ('P270' 'P271' 'P278' 'P2832' 'P2842' 'P2843')   then pulresp=1;
     if &dx_varname in: ('P293')   then cardiac=1;
-    if &dx_varname in: ('Q030' 'Q031' 'Q038' 'Q0702')   then neuro=1;
+    if &dx_varname in: ('Q030' 'Q031' 'Q038' 'Q0702' 'Z87820' 'F801')   then neuro=1;
     * We want z878 but not  Z87.[67] ;
     if &dx_varname in: ('Q00' 'Q01' 'Q02' 'Q041' 'Q042'
       'Q043' 'Q045' 'Q048' 'Q05' 'Q060'
       'Q061' 'Q062' 'Q063' 'Q064' 'Q068'
-      'Q0701' 'Q0703' 'Q078' 'Q079' 'R4184' 'Z867' 'Z878') then do; neuro=1; progressive=1; end;
+      'Q0701' 'Q0703' 'Q078' 'Q079' 'R4184') then do; neuro=1; progressive=1; end;
     if &dx_varname in: ('Q100' 'Q103' 'Q107' 'Q110' 'Q111'
       'Q112' 'Q130' 'Q131' 'Q132' 'Q133'
       'Q134' 'Q135' 'Q1381' 'Q1389' 'Q140'

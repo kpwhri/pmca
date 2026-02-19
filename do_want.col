@@ -644,9 +644,7 @@ R47.02    neurological          no  Language disorder
 R48.0     neurological          no  Acquired Dyslexia
 R62.51    metabolic             no  Failure to thrive
 S06.309S  neurological          yes Late Effects of Intracranial Injury, Left Parietal Skull Fracture
-Z86.73    neurological          yes History of CVA (cerebrovascular accident)
 Z87.730   craniofacial          no  History of corrected cleft lip and palate
-Z87.82    neurological          yes History of Multiple Concussions
 Z92.21    malignancy            n/a Status Post-Chemotherapy
 D13.91    gastrointestinal      no  Familial adenomatous polyposis
 D13.99    gastrointestinal      no  Benign neoplasm of ill-defined sites within the digestive system
@@ -966,3 +964,5 @@ M51.37    musculoskeletal       no   Other intervertebral disc degeneration, lum
 Q13.81    ophthalmological      no   Riegers anomaly
 Q23.8     cardiac               no   Other congenital malformations of aortic and mitral valves
 Z68.54    metabolic             yes  Body mass index [BMI] pediatric, greater than or equal to 95th percentile for age
+F80.1     neurological          no   Expressive language disorder
+Z87.820   neurological          no   PERSONAL HISTORY OF TRAUMATIC BRAIN INJURY
