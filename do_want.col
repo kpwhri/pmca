@@ -132,9 +132,6 @@ H54.2X12  ophthalmological      no  Low vision right eye category 1, low vision 
 H54.2X21  ophthalmological      no  Low vision right eye category 2, low vision left eye category 1
 H54.2X22  ophthalmological      no  Low vision right eye category 2, low vision left eye category 2
 H81.4     otologic              no  Vertigo of central origin
-I21.9     cardiac               yes Acute myocardial infarction, unspecified
-I21.A1    cardiac               yes Myocardial infarction type 2
-I21.A9    cardiac               yes Other myocardial infarction type
 I27.20    cardiac               yes Pulmonary hypertension, unspecified
 I27.21    cardiac               yes Secondary pulmonary arterial hypertension
 I27.22    cardiac               yes Pulmonary hypertension due to left heart disease
@@ -285,20 +282,20 @@ N05.A     renal                 yes Unspecified nephritic syndrome with C3 glome
 N18.30    renal                 yes Chronic kidney disease, stage 3 unspecified
 N18.31    renal                 yes Chronic kidney disease, stage 3a
 N18.32    renal                 yes Chronic kidney disease, stage 3b
-N35.811   renal                 no  Other urethral stricture, male, meatal
-N35.812   renal                 no  Other urethral bulbous stricture, male
-N35.813   renal                 no  Other membranous urethral stricture, male
-N35.814   renal                 no  Other anterior urethral stricture, male
-N35.816   renal                 no  Other urethral stricture, male, overlapping sites
-N35.819   renal                 no  Other urethral stricture, male, unspecified site
-N35.82    renal                 no  Other urethral stricture, female
-N35.911   renal                 no  Unspecified urethral stricture, male, meatal
-N35.912   renal                 no  Unspecified bulbous urethral stricture, male
-N35.913   renal                 no  Unspecified membranous urethral stricture, male
-N35.914   renal                 no  Unspecified anterior urethral stricture, male
-N35.916   renal                 no  Unspecified urethral stricture, male, overlapping sites
-N35.919   renal                 no  Unspecified urethral stricture, male, unspecified site
-N35.92    renal                 no  Unspecified urethral stricture, female
+N35.811   genitourinary         no  Other urethral stricture, male, meatal
+N35.812   genitourinary         no  Other urethral bulbous stricture, male
+N35.813   genitourinary         no  Other membranous urethral stricture, male
+N35.814   genitourinary         no  Other anterior urethral stricture, male
+N35.816   genitourinary         no  Other urethral stricture, male, overlapping sites
+N35.819   genitourinary         no  Other urethral stricture, male, unspecified site
+N35.82    genitourinary         no  Other urethral stricture, female
+N35.911   genitourinary         no  Unspecified urethral stricture, male, meatal
+N35.912   genitourinary         no  Unspecified bulbous urethral stricture, male
+N35.913   genitourinary         no  Unspecified membranous urethral stricture, male
+N35.914   genitourinary         no  Unspecified anterior urethral stricture, male
+N35.916   genitourinary         no  Unspecified urethral stricture, male, overlapping sites
+N35.919   genitourinary         no  Unspecified urethral stricture, male, unspecified site
+N35.92    genitourinary         no  Unspecified urethral stricture, female
 P29.30    cardiac               no  Pulmonary hypertension of newborn
 P29.38    cardiac               no  Other persistent fetal circulation
 Q66.70    musculoskeletal       no  Congenital pes cavus, unspecified foot
@@ -896,7 +893,7 @@ F50.812   metabolic             yes  Binge eating disorder, severe
 F50.813   metabolic             yes  Binge eating disorder, extreme
 F50.814   metabolic             yes  Binge eating disorder, in remission
 F50.819   metabolic             yes  Binge eating disorder, unspecified
-G40.84    neurological          new  kcNQ2-related epilepsy
+G40.84    neurological          yes  kcNQ2-related epilepsy
 G40.841   neurological          no   kcNQ2-related epilepsy, not intractable, with status epilepticus
 G40.842   neurological          no   kcNQ2-related epilepsy, not intractable, without status epilepticus
 G40.843   neurological          yes  kcNQ2-related epilepsy, intractable, with status epilepticus

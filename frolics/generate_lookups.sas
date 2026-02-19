@@ -22,27 +22,46 @@ options
   noovp
   nosqlremerge
   extendobscounter = no
+  mprint
+  mlogic
 ;
+
 %include "\\ghcmaster.ghc.org\ghri\Warehouse\management\Workspace\pardre1\pmca\classify_dx.sas" ;
 
 libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
 
 
 %macro get_raw(outset = ) ;
-  %include "&GHRIDW_ROOT/Sasdata/CRN_VDW/lib/StdVars.sas" ;
+
+  %let td_goo = server            = "&td_prod"
+                user              = "&nuid@LDAP"
+                password          = "&cspassword"
+                schema            = "&nuid"
+                connection        = global
+                mode              = teradata
+  ;
 
   proc sql ;
-    * w/out distinct n=113,202. Same with distinct. ;
+    connect to teradata as td (&td_goo) ;
     create table &outset as
-    select upcase(code) as dx length = 12
-      , upcase(compress(code, '.')) as dx_nodecimal length = 12
-      , case code_type when 'ICD10CM' then '10' when 'ICD9CM' then '09' else '??' end as dx_codetype
-      , code_source length = 12 format = $12. informat = $12.
-      , code_desc length = 300 format = $300. informat = $300.
-    from &_rcm_vdw_codebucket
-    where code_type in ('ICD10CM', 'ICD9CM')
-    order by code, code_type
-    ;
+    select upcase(dx) as dx length = 12
+      , upcase(dx_nodecimal) as dx_nodecimal length = 12
+      , dx_codetype length = 2
+      , 'rcm+emprcl' as code_source length = 12 format = $12. informat = $12.
+      , dx_desc as code_desc length = 300
+    from connection to td
+    (
+      select r.dx
+        , r.dx_codetype
+        , r.num_dx
+        , r.dx_nodecimal
+        , coalesce(r.dx_desc, e.descr, 'zah?') as dx_desc
+      from kpwhri_rdw.drop_me_dx_rcm as r
+        left join dw_prsn_v.v_dim_diagnosis as e on r.dx_nodecimal = e.diagnosis_code
+                                                    and e.icd_version_nbr = r.dx_codetype
+                                                    and e.edw_current_record_ind = 'Y'
+    ) ;
+
     create table s.duped_dx_codes as
     select r.*
     from &outset as r INNER JOIN
@@ -136,6 +155,14 @@ libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
 
 %mend generate_lookup ;
 
+/*
+  using just RCM:
+    icd-09:  4,511
+    icd-10: 10,151
+  RCM + empirical:
+    icd-09:  5,138
+    icd-10: 10,198
+*/
 
 %get_raw(outset = s.raw_dx_codes) ;
 

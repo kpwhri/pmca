@@ -508,7 +508,7 @@
     * we want I71.61 & I71.62 but not I71.60 ;
     if &dx_varname in: ('I712' 'I714' 'I7161' 'I7162') then cardiac = 1 ;
     * We want I21.9, I21.A[19] but not I21.B, I24.8* ;
-    if &dx_varname in: ('I110' 'I200' 'I219' 'I21A'
+    if &dx_varname in: ('I110' 'I200'
       'I2510' 'I252' 'I253' 'I254' 'I255'
       'I258' 'I259' 'I270' 'I271' 'I272'
       'I278' 'I279' 'I280' 'I281' 'I288' 'I289'
@@ -577,11 +577,11 @@
     if &dx_varname in: ('N08' 'N13' 'N1372' 'N251'
       'N2889' 'N312' 'N318' 'N319' 'N320'
       'N321' 'N322' 'N3501' 'N35028' 'N351'
-      'N358' 'N359' 'N360' 'N361' 'N362'
+      'N360' 'N361' 'N362'
       'N364' 'N365' 'N368' 'N37' 'N3942'
       'N3945' 'N3946' 'N39490' 'N39498')   then renal=1;
     if &dx_varname in: ('N02' 'N03' 'N04' 'N05' 'N06' 'N18' 'N19' 'Q8783' 'Q8784') then do; renal=1; progressive=1; end;
-    if &dx_varname in: ('N500' 'N80' 'N810' 'N811' 'N812'
+    if &dx_varname in: ('N358' 'N359' 'N500' 'N80' 'N810' 'N811' 'N812'
       'N813' 'N814' 'N815' 'N816' 'N8181'
       'N8182' 'N8183' 'N8184' 'N8189' 'N819'
       'N820' 'N821' 'N824' 'N825' 'N828'
