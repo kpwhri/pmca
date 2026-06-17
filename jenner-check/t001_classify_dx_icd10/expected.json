@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-06-17T12:39:53.246070+00:00",
+  "_captured_run_id": "r_019ed597034579819b6f3b6f02c44282",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: FORMAT bodsys defined (20 ranges).",
+    "NOTE: Read 16 rows from DATALINES.",
+    "NOTE: Wrote classified (16 rows, 29 columns).",
+    "NOTE: PROC PRINT completed: 16 observations printed, 7 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

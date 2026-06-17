@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_classify_dx_icd9",
+  "source_file": "classify_dx.sas",
+  "source_blob_sha": "d1285de1801213c4c695ec0267ad9415e48ec292",
+  "source_commit": "0534b6faba56a79376d2ba5fd070eb01dc155719",
+  "tier": "real_data",
+  "notes": "Caller for the ICD-9 branch (dx_codetype=09) of the %classify_dx macro. The 16 diagnosis codes are real ICD-9 codes taken directly from the macro's if-then lists (e.g. 0103->pulresp, 0420->immuno/progressive, 2500->endo, 4100->cardiac/progressive, 7490->cranio, V08->immuno). Each is classified into exactly one body system matching the system its if-then assignment specifies. Uses DATALINES so no external file is needed."
+}

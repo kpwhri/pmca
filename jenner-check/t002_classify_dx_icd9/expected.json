@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-06-17T12:22:39.508640+00:00",
+  "_captured_run_id": "r_019ed58825e67ad29e2d41a84acf4442",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: FORMAT bodsys defined (20 ranges).",
+    "NOTE: Wrote icd9_codes (16 rows, 2 columns).",
+    "NOTE: Wrote classified (16 rows, 26 columns).",
+    "NOTE: PROC PRINT completed: 16 observations printed, 6 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
