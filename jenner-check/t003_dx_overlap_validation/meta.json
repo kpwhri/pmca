@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_dx_overlap_validation",
+  "source_file": "test_classify_dx.sas",
+  "source_blob_sha": "52361ee93da87c4f8b7c0af8b30385fe98def627",
+  "source_commit": "0534b6faba56a79376d2ba5fd070eb01dc155719",
+  "tier": "real_data",
+  "notes": "Reproduces the PROC SQL data-integrity block from test_classify_dx.sas: duplicate-code detection in the keep list, out-of-vocabulary body-system detection against allowed_bodysys, and forbidden keep/drop overlap detection. Runs on real rows sampled from do_want.col (10) and dont_want.col (8), inlined as DATALINES. External libname s and absolute root path replaced; strip() added on the $char21. body-system field before the IN lookup. All three checks report 0 on this clean sample."
+}

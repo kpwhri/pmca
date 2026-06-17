@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_classify_dx_icd10",
+  "source_file": "classify_dx.sas",
+  "source_blob_sha": "d1285de1801213c4c695ec0267ad9415e48ec292",
+  "source_commit": "0534b6faba56a79376d2ba5fd070eb01dc155719",
+  "tier": "real_data",
+  "notes": "Caller for the %classify_dx macro (classify_dx.sas) on 16 real ICD-10 codes sampled one-per-body-system from do_want.col, inlined as DATALINES. Mirrors the do_it pattern in test_classify_dx.sas: strip decimals, classify, derive body_system via bodsys. format, count systems. Each code lands in exactly one body system matching its do_want bs_wanted (num_systems=1 for all 16)."
+}

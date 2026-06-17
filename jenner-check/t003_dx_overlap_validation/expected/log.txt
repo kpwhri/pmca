@@ -1,0 +1,32 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA do_want
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote do_want (10 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA dont_want
+
+NOTE: Processing inline DATALINES (8 lines)
+
+NOTE: Read 8 rows from DATALINES.
+NOTE: Wrote dont_want (8 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table duped_do_wants created.
+NOTE: Table bad_body_sys created.
+NOTE: Table forbidden_overlap created.
+NOTE: PROC SQL statement used.
+NOTE: Option TITLE changed to Keep-list sample distribution by body system.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_bs_wanted.spec.json
+NOTE: PROC FREQ statement used.

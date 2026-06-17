@@ -1,0 +1,36 @@
+                                         PMCA classify_dx ICD-9 classification                                          
+
+
+    dx  dx_nodecimal            body_system  prog  num_systems        expected_system
+------  ------------  ---------------------  ----  -----------  ---------------------
+0103    0103          pulmonary/respiratory  .               1  pulmonary/respiratory
+0420    0420          immunological          yes             1  immunological
+1359    1359          immunological          .               1  immunological
+1629    1629          malignancy             .               1  malignancy
+2500    2500          endocrinological       .               1  endocrinological
+2770    2770          pulmonary/respiratory  yes             1  pulmonary/respiratory
+2810    2810          hematological          .               1  hematological
+2950    2950          mental health          yes             1  mental health
+3430    3430          neurological           .               1  neurological
+4100    4100          cardiac                yes             1  cardiac
+4240    4240          cardiac                .               1  cardiac
+4930    4930          pulmonary/respiratory  .               1  pulmonary/respiratory
+5810    5810          renal                  .               1  renal
+7100    7100          immunological          yes             1  immunological
+7490    7490          craniofacial           .               1  craniofacial
+V08     V08           immunological          .               1  immunological
+
+                                                   The FREQ Procedure
+
+body_system              Frequency
+-----------------------------------
+cardiac                          2
+craniofacial                     1
+endocrinological                 1
+hematological                    1
+immunological                    4
+malignancy                       1
+mental health                    1
+neurological                     1
+pulmonary/respiratory            3
+renal                            1

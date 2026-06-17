@@ -1,0 +1,25 @@
+duped_keep_codes
+----------------
+               0
+bad_body_systems
+----------------
+               0
+forbidden_overlaps
+------------------
+                 0
+                                      Keep-list sample distribution by body system                                      
+
+                                                   The FREQ Procedure
+
+bs_wanted                Frequency
+-----------------------------------
+cardiac                          1
+gastrointestinal                 1
+genetic                          1
+genitourinary                    1
+hematological                    1
+immunological                    1
+malignancy                       1
+metabolic                        1
+neurological                     1
+renal                            1

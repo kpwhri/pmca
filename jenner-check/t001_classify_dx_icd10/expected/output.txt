@@ -1,0 +1,27 @@
+                            PMCA classify_dx ICD-10 classification of sampled do_want codes                             
+
+
+      dx  dx_nodecimal            body_system  prog  num_systems              bs_wanted  prog_wanted
+--------  ------------  ---------------------  ----  -----------  ---------------------  -----------
+G93.42    G9342         genetic                .               1  genetic                no
+T66.XXXS  T66XXXS       malignancy             .               1  malignancy             n/a
+Z92.25    Z9225         immunological          .               1  immunological          no
+D57.03    D5703         hematological          yes             1  hematological          yes
+E11.10    E1110         endocrinological       .               1  endocrinological       no
+E70.81    E7081         metabolic              yes             1  metabolic              yes
+G11.10    G1110         neurological           yes             1  neurological           yes
+G71.00    G7100         musculoskeletal        yes             1  musculoskeletal        yes
+H81.4     H814          otologic               .               1  otologic               no
+I27.20    I2720         cardiac                yes             1  cardiac                yes
+J84.170   J84170        pulmonary/respiratory  yes             1  pulmonary/respiratory  yes
+K74.00    K7400         gastrointestinal       yes             1  gastrointestinal       yes
+N02.A     N02A          renal                  yes             1  renal                  yes
+N35.811   N35811        genitourinary          .               1  genitourinary          no
+F32.A     F32A          mental health          .               1  mental health          no
+Z87.730   Z87730        craniofacial           .               1  craniofacial           no
+
+                                                   The FREQ Procedure
+
+num_systems    Frequency    Percent
+------------------------------------
+1                     16    100.00

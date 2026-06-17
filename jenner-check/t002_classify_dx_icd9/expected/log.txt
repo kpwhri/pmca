@@ -1,0 +1,32 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT bodsys defined (20 ranges).
+NOTE: FORMAT bin defined (3 ranges).
+NOTE: DATA icd9_codes
+
+NOTE: Processing inline DATALINES (16 lines)
+
+NOTE: Read 16 rows from DATALINES.
+NOTE: Wrote icd9_codes (16 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA classified
+
+
+NOTE: Read 16 rows from icd9_codes.
+NOTE: Wrote classified (16 rows, 26 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to PMCA classify_dx ICD-9 classification.
+NOTE: PROC PRINT data=classified
+
+NOTE: PROC PRINT completed: 16 observations printed, 6 variables
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_body_system.spec.json
+NOTE: PROC FREQ statement used.
