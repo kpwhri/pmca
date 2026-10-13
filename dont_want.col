@@ -1494,3 +1494,6 @@ H57.89                          OTHER SPECIFIED DISORDERS OF EYE AND ADNEXA
 I21.9     cardiac               Acute myocardial infarction, unspecified
 I21.A1    cardiac               Myocardial infarction type 2
 I21.A9    cardiac               Other myocardial infarction type
+Z68.51                          BMI less than 5th percentile for age
+Z68.52                          BMI 5th percentile to less than 85th percentile, i.e. healthy weight
+Z68.53                          BMI 85th to less than 95th percentile

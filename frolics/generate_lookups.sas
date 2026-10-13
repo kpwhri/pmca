@@ -34,7 +34,7 @@ libname s "\\home.ghc.org\home$\pardre1\workingdata\pmca" ;
 %macro get_raw(outset = ) ;
 
   %let td_goo = server            = "&td_prod"
-                user              = "&nuid@LDAP"
+                user              = "&nuid@KRB5"
                 password          = "&cspassword"
                 schema            = "&nuid"
                 connection        = global

@@ -399,7 +399,7 @@
       'E754' 'E7601' 'E7603' 'E761' 'E76219'
       'E7622' 'E7629' 'E763' 'E770' 'E771'
       'E786' 'E7870' 'E7871' 'E7872' 'E788' 'E789'
-      'E791' 'E83' 'E85' 'E8843' 'Z685') or &dx_varname = 'E668' then do; metab=1; progressive=1; end;
+      'E791' 'E83' 'E85' 'E8843' 'Z6854' 'Z6855' 'Z6856') or &dx_varname = 'E668' then do; metab=1; progressive=1; end;
     if &dx_varname in: ('E84') then do; pulresp=1; progressive=1; end;
     if &dx_varname in: ('E890' 'E894' 'E895')   then endo=1;
     * we want F43.81 but not F43.89 ;
